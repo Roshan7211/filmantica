@@ -1,5 +1,7 @@
 import { search } from "@/lib/movies";
+import { searchDiscovery, discoveryPopulated } from "@/lib/discovery";
 import MovieCard from "@/components/MovieCard";
+import DiscoveryCard from "@/components/DiscoveryCard";
 
 type Props = { searchParams: Promise<{ q?: string }> };
 
@@ -10,23 +12,46 @@ export async function generateMetadata({ searchParams }: Props) {
 
 export default async function SearchPage({ searchParams }: Props) {
   const { q = "" } = await searchParams;
-  const results = await search(q);
+
+  // Our own catalogue leads — those are free and watchable here.
+  const [ours, elsewhere, hasDiscovery] = await Promise.all([
+    search(q), searchDiscovery(q), discoveryPopulated(),
+  ]);
+
+  const ourTitles = new Set(ours.map((m) => m.title.toLowerCase()));
+  const others = elsewhere.filter((t) => !ourTitles.has(t.title.toLowerCase())).slice(0, 15);
 
   return (
     <>
       <h1 className="display mb-1 text-3xl">Search</h1>
       <p className="mb-8 text-sm text-muted">
-        {q ? `${results.length} result${results.length === 1 ? "" : "s"} for “${q}”` : "Type a title, director or genre."}
+        {q ? `Results for “${q}”` : "Type a title, director or genre."}
       </p>
-      {results.length > 0 && (
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
-          {results.map((m) => <MovieCard key={m.id} movie={m} />)}
-        </div>
+
+      {ours.length > 0 && (
+        <section className="mb-12">
+          <h2 className="display mb-1 text-xl">Watch free here</h2>
+          <p className="mb-4 text-xs text-muted">{ours.length} in our catalogue</p>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+            {ours.map((m) => <MovieCard key={m.id} movie={m} />)}
+          </div>
+        </section>
       )}
-      {q && results.length === 0 && (
+
+      {others.length > 0 && (
+        <section>
+          <h2 className="display mb-1 text-xl">Where to watch elsewhere</h2>
+          <p className="mb-4 text-xs text-muted">Not in our catalogue — see licensed options</p>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+            {others.map((t) => <DiscoveryCard key={t.id} title={t} />)}
+          </div>
+        </section>
+      )}
+
+      {q && !ours.length && !others.length && (
         <p className="rounded border border-edge bg-ink-2 p-6 text-sm text-muted">
-          Nothing matched. The catalogue covers public-domain and openly licensed cinema —
-          recent studio releases will not appear here.
+          Nothing matched.{" "}
+          {!hasDiscovery && "Run the discovery import to search current releases too."}
         </p>
       )}
     </>

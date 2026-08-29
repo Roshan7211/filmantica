@@ -1,0 +1,4472 @@
+[
+  {
+    "id": "watchmode:11092874",
+    "slug": "facing-el-chapo-11092874",
+    "title": "Facing El Chapo",
+    "year": 2026,
+    "releaseDate": "2026-08-21",
+    "plot": "Two law-enforcement officers face the final hours of a dangerous shift after crossing a ruthless cartel boss. As pressure mounts, they must survive an increasingly perilous situation while confronting the consequences of standing in the way of powerful criminal forces.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/alpf5v4UqSFawPmG9RX03Or4BDk.jpg",
+    "genres": [
+      "Crime",
+      "Action",
+      "Thriller"
+    ],
+    "runtime": 91,
+    "rating": 6.9,
+    "provider": "watchmode",
+    "sourceId": "11092874",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/82048151",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:16.515Z"
+  },
+  {
+    "id": "watchmode:11019936",
+    "slug": "the-last-sunrise-11019936",
+    "title": "The Last Sunrise",
+    "year": 2026,
+    "releaseDate": "2026-08-26",
+    "plot": "A college student with a chronic illness travels to Mallorca with her mother for the summer. After falling for a local, she starts embracing the present, but worsening health and family secrets threaten the life and connections she has discovered.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/pego3yEZ5SuGvRjESKAguL4Wu7M.jpg",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "runtime": 107,
+    "rating": 7.3,
+    "provider": "watchmode",
+    "sourceId": "11019936",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.7d0961d9-a70a-433a-a211-b8c592f49452",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:17.198Z"
+  },
+  {
+    "id": "watchmode:1855581",
+    "slug": "obsession-1855581",
+    "title": "Obsession",
+    "year": 2025,
+    "releaseDate": "2026-05-13",
+    "plot": "A hopeless romantic uses a mysterious wish-granting trinket to win his longtime crush’s heart. When the wish comes true, the relationship takes a sinister turn, trapping both of them in an increasingly unsettling nightmare where desire, control, and free will collide.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "runtime": 109,
+    "rating": 8,
+    "provider": "watchmode",
+    "sourceId": "1855581",
+    "options": {
+      "free": [],
+      "stream": [],
+      "rent": [
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.744991dc-8b35-4ceb-b982-0bcdd8b133eb",
+          "price": 119,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/obsession/umc.cmc.5n9tcj7azek0g9igds7ybcc0s?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A6785582726",
+          "price": 149,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/obsession/umc.cmc.5n9tcj7azek0g9igds7ybcc0s?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A6785582726",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:17.916Z"
+  },
+  {
+    "id": "watchmode:1589918",
+    "slug": "spider-man-no-way-home-1589918",
+    "title": "Spider-Man: No Way Home",
+    "year": 2021,
+    "releaseDate": "2021-12-15",
+    "plot": "After a young superhero’s secret identity is exposed, his ordinary life becomes impossible to separate from his dangerous responsibilities. Seeking magical help to restore privacy, he triggers a crisis that brings powerful threats into his world and forces him to reconsider what being a hero truly demands.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtime": 148,
+    "rating": 8.3,
+    "provider": "watchmode",
+    "sourceId": "1589918",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Sony LIV",
+          "url": "https://www.sonyliv.com/movies/spider-man-no-way-home-1000224331",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1271661204",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/watch-spider-man-no-way-home-full-hd-movie-online-on-zee5/0-0-1z5129922",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/spider-man-no-way-home/umc.cmc.2qf7xc5hds0m5jgx4roago580?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1648448746",
+          "price": 99,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.53065791-4335-46ce-bc1b-5c5ebbb21073",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/spider-man-no-way-home/umc.cmc.2qf7xc5hds0m5jgx4roago580?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1648448746",
+          "price": 299,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:18.767Z"
+  },
+  {
+    "id": "watchmode:1840434",
+    "slug": "minions-monsters-1840434",
+    "title": "Minions & Monsters",
+    "year": 2026,
+    "releaseDate": "2026-06-24",
+    "plot": "A group of mischievous yellow stars rises from struggling filmmakers to Hollywood sensations, only to lose their success when movies change. After discovering an ancient spell and unleashing a monster, they must work together to stop the growing chaos and protect the world from their cinematic misadventure.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/nz7i42yhLIJ4ve9JKgM6NthoLHO.jpg",
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "runtime": 90,
+    "rating": 6.6,
+    "provider": "watchmode",
+    "sourceId": "1840434",
+    "options": {
+      "free": [],
+      "stream": [],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/minions--monsters/umc.cmc.32e1ob3wfgxzlephbejpyvycu?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A6796561136",
+          "price": 399,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.b8fc9ae6-5477-420f-ba4c-1f79b14071e0",
+          "price": 299,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/minions--monsters/umc.cmc.32e1ob3wfgxzlephbejpyvycu?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A6796561136",
+          "price": 799,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:19.568Z"
+  },
+  {
+    "id": "watchmode:1818690",
+    "slug": "the-last-house-1818690",
+    "title": "The Last House",
+    "year": 2026,
+    "releaseDate": "2026-08-06",
+    "plot": "A family becomes trapped inside their home and must rely on one another as supplies run low. With an ominous threat keeping them confined, tensions rise and survival depends on cooperation, resilience, and difficult choices.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/6JU7E8Vv2M11egkctWVOScxWR75.jpg",
+    "genres": [
+      "Horror",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "runtime": 110,
+    "rating": 5.4,
+    "provider": "watchmode",
+    "sourceId": "1818690",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81914143",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:20.197Z"
+  },
+  {
+    "id": "watchmode:1826919",
+    "slug": "disclosure-day-1826919",
+    "title": "Disclosure Day",
+    "year": 2026,
+    "releaseDate": "2026-06-10",
+    "plot": "A cybersecurity expert becomes a whistleblower after uncovering evidence of hidden alien secrets, forcing him to flee a powerful corporation. A meteorologist experiencing disturbing phenomena joins him, and together they race to reveal proof of life beyond human understanding while navigating a dangerous conspiracy.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/AnJ8IQJI23hNpYXVNaythu061Ru.jpg",
+    "genres": [
+      "Science Fiction",
+      "Thriller"
+    ],
+    "runtime": 146,
+    "rating": 6.6,
+    "provider": "watchmode",
+    "sourceId": "1826919",
+    "options": {
+      "free": [],
+      "stream": [],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/disclosure-day/umc.cmc.1i56xrk36gdembwgd2qfll4qi?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A6791439406",
+          "price": 499,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.56bf57bc-6f3b-4cec-9d30-6ab7b71f977b",
+          "price": 399,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/disclosure-day/umc.cmc.1i56xrk36gdembwgd2qfll4qi?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A6791439406",
+          "price": 799,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:21.082Z"
+  },
+  {
+    "id": "watchmode:1908308",
+    "slug": "backrooms-1908308",
+    "title": "Backrooms",
+    "year": 2026,
+    "releaseDate": "2026-05-27",
+    "plot": "A strange doorway appears in the basement of a furniture showroom.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg",
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Science Fiction"
+    ],
+    "runtime": 111,
+    "rating": 7,
+    "provider": "watchmode",
+    "sourceId": "1908308",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Sony LIV",
+          "url": "https://www.sonyliv.com/movies/backrooms-1590016435%20-%20valid%20missing%20offer",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:21.713Z"
+  },
+  {
+    "id": "watchmode:1950233",
+    "slug": "the-whisper-man-1950233",
+    "title": "The Whisper Man",
+    "year": 2026,
+    "releaseDate": "2026-08-27",
+    "plot": "When his young son vanishes, a widower enlists help from his estranged father, a retired detective who put away the serial killer now linked to the case.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "runtime": 114,
+    "rating": 6.1,
+    "provider": "watchmode",
+    "sourceId": "1950233",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81278442",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:22.335Z"
+  },
+  {
+    "id": "watchmode:1873959",
+    "slug": "colony-1873959",
+    "title": "Colony",
+    "year": 2026,
+    "releaseDate": "2026-05-21",
+    "plot": "A scientist is caught in a bloody nightmare when a rapidly mutating virus spreads during a biotech conference, prompting authorities to seal the facility. Trapped inside with a small group of survivors, the scientist must fight to stay alive as the infected undergo horrific transformations.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/tN799oUR0f1gUKDYdMNrDaY7I51.jpg",
+    "genres": [
+      "Action",
+      "Horror",
+      "Science Fiction"
+    ],
+    "runtime": 123,
+    "rating": 6.7,
+    "provider": "watchmode",
+    "sourceId": "1873959",
+    "options": {
+      "free": [],
+      "stream": [],
+      "rent": [
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.3c1f5309-fd7a-4c32-89f3-f60f5a2f4694",
+          "price": 119,
+          "format": "HD"
+        }
+      ],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:22.967Z"
+  },
+  {
+    "id": "watchmode:1700278",
+    "slug": "war-of-the-worlds-1700278",
+    "title": "War of the Worlds",
+    "year": 2025,
+    "releaseDate": "2025-07-29",
+    "plot": "A government threat analyst monitors potential dangers through a mass surveillance system when an attack by an unknown entity disrupts everything. As the crisis unfolds, he begins questioning whether officials are concealing vital information from him and the public.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/yvirUYrva23IudARHn3mMGVxWqM.jpg",
+    "genres": [
+      "Science Fiction",
+      "Thriller"
+    ],
+    "runtime": 91,
+    "rating": 2.7,
+    "provider": "watchmode",
+    "sourceId": "1700278",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.35516acc-91d6-4b38-a5e1-5a4c573d85ed",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:23.679Z"
+  },
+  {
+    "id": "watchmode:1611652",
+    "slug": "project-hail-mary-1611652",
+    "title": "Project Hail Mary",
+    "year": 2026,
+    "releaseDate": "2026-03-15",
+    "plot": "A science teacher wakes aboard a spaceship light-years from Earth with no memory of his identity or mission. As his memories return, he learns that a mysterious substance is threatening the Sun and must use his scientific knowledge, ingenuity, and unconventional ideas to help prevent a global catastrophe.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
+    "genres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "runtime": 157,
+    "rating": 8.4,
+    "provider": "watchmode",
+    "sourceId": "1611652",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.414eb1af-ee27-476c-bc46-bedd48595f59",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/project-hail-mary/umc.cmc.7jxdlxvz304lj3iwhtrhbe8fv?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1880810604",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.414eb1af-ee27-476c-bc46-bedd48595f59",
+          "price": 119,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/project-hail-mary/umc.cmc.7jxdlxvz304lj3iwhtrhbe8fv?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1880810604",
+          "price": 399,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:24.689Z"
+  },
+  {
+    "id": "watchmode:1861369",
+    "slug": "supergirl-1861369",
+    "title": "Supergirl",
+    "year": 2026,
+    "releaseDate": "2026-06-24",
+    "plot": "A troubled superhero leaves Earth and wanders the galaxy, where she reluctantly joins a young warrior seeking revenge against a ruthless enemy. Their mission becomes even more urgent when the hero’s beloved dog is poisoned, sending the unlikely pair across the stars in search of justice and a cure.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/1QCWdqzTfh2x9UylVpspIU6QTuM.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtime": 108,
+    "rating": 6,
+    "provider": "watchmode",
+    "sourceId": "1861369",
+    "options": {
+      "free": [],
+      "stream": [],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/supergirl/umc.cmc.bhqdsegwk4o7onebji0y578y?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1896841142",
+          "price": 499,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4f6e133e-8305-472a-9af9-6666412563ec",
+          "price": 499,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/supergirl/umc.cmc.bhqdsegwk4o7onebji0y578y?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1896841142",
+          "price": 799,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:25.695Z"
+  },
+  {
+    "id": "watchmode:138100",
+    "slug": "avengers-infinity-war-138100",
+    "title": "Avengers: Infinity War",
+    "year": 2018,
+    "releaseDate": "2018-04-25",
+    "plot": "The Avengers and their allies face a powerful intergalactic despot determined to gather six ancient artifacts and impose his will on all reality. As heroes from across the universe unite, their biggest challenge yet tests their strength, teamwork, and willingness to make difficult choices.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ],
+    "runtime": 149,
+    "rating": 8.5,
+    "provider": "watchmode",
+    "sourceId": "138100",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1660010677",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/avengers-infinity-war",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:26.451Z"
+  },
+  {
+    "id": "watchmode:1248513",
+    "slug": "masters-of-the-universe-1248513",
+    "title": "Masters of the Universe",
+    "year": 2026,
+    "releaseDate": "2026-06-03",
+    "plot": "After 15 years apart, a powerful sword leads a young man back to Eternia, where he finds his home devastated by a ruthless tyrant. To protect his family and restore his world, he must join trusted allies, uncover his true potential, and become the hero Eternia needs.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/oRuyGUHdoaQxWP3SDfafGkStxTC.jpg",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Science Fiction"
+    ],
+    "runtime": 141,
+    "rating": 6.6,
+    "provider": "watchmode",
+    "sourceId": "1248513",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.b114d3d0-114d-4873-ba9f-71d446cc9fd2",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:27.130Z"
+  },
+  {
+    "id": "watchmode:1837124",
+    "slug": "demon-slayer-kimetsu-no-yaiba-infinity-castle-1837124",
+    "title": "Demon Slayer: Kimetsu No Yaiba Infinity Castle",
+    "year": 2025,
+    "releaseDate": "2025-07-18",
+    "plot": "A young demon hunter and his allies are pulled into a shifting fortress, where they confront powerful demons in a desperate struggle. As the conflict intensifies, the group faces terrifying battles and painful memories while the long-awaited final confrontation draws closer.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
+    "genres": [
+      "Animation",
+      "Action",
+      "Fantasy"
+    ],
+    "runtime": 156,
+    "rating": 8.6,
+    "provider": "watchmode",
+    "sourceId": "1837124",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Crunchyroll Premium",
+          "url": "https://www.crunchyroll.com/watch/GMEE00351144FRFR",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Crunchyroll Premium (Via Prime) Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1f9d10ff-a04b-4970-8e61-dbd73845c086",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:27.832Z"
+  },
+  {
+    "id": "watchmode:1637385",
+    "slug": "greenland-2-migration-1637385",
+    "title": "Greenland 2: Migration",
+    "year": 2026,
+    "releaseDate": "2026-01-07",
+    "plot": "After surviving the comet’s devastation inside a Greenland bunker, a family leaves relative safety behind. They cross the ruined landscape of Europe, facing dangerous conditions and uncertain encounters as they search for a place where humanity might begin again.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg",
+    "genres": [
+      "Adventure",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "runtime": 98,
+    "rating": 5.4,
+    "provider": "watchmode",
+    "sourceId": "1637385",
+    "options": {
+      "free": [],
+      "stream": [],
+      "rent": [
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f93e7a38-1395-4770-8e0e-12f0225825c1",
+          "price": 119,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/greenland-2-migration/umc.cmc.1ged2augqqvydram1rwo21ubi?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A6779817174",
+          "price": 149,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/greenland-2-migration/umc.cmc.1ged2augqqvydram1rwo21ubi?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A6779817174",
+          "price": 199,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:28.639Z"
+  },
+  {
+    "id": "watchmode:1684276",
+    "slug": "avatar-aang-the-last-airbender-1684276",
+    "title": "Avatar Aang: The Last Airbender",
+    "year": 2026,
+    "releaseDate": "2026-07-24",
+    "plot": "Years after a legendary conflict, the world’s last airbender discovers an ancient power that could preserve his disappearing culture. Joined by friends, he travels across the globe to find it before dangerous forces claim it, threatening a fragile peace built through enormous sacrifice.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/3sgnSfNT27Bx5O5ukr7B26mhEQq.jpg",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "runtime": 99,
+    "rating": 8,
+    "provider": "watchmode",
+    "sourceId": "1684276",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.5e42bcf1-8d2c-41cd-a3b6-f1e248c42049",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:29.385Z"
+  },
+  {
+    "id": "watchmode:138019",
+    "slug": "avatar-fire-and-ash-138019",
+    "title": "Avatar: Fire and Ash",
+    "year": 2025,
+    "releaseDate": "2025-12-17",
+    "plot": "After a devastating war and a painful family loss, a former human soldier and his partner face a new danger on Pandora: a violent Na’vi tribe shaped by fire and hardship. As their family struggles to survive, the conflict tests their bonds, beliefs, and hopes for the planet’s future.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Fantasy"
+    ],
+    "runtime": 198,
+    "rating": 7.4,
+    "provider": "watchmode",
+    "sourceId": "138019",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/movies/avatar-fire-and-ash/1271432166",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:30.018Z"
+  },
+  {
+    "id": "watchmode:1357316",
+    "slug": "spider-man-homecoming-1357316",
+    "title": "Spider-Man: Homecoming",
+    "year": 2017,
+    "releaseDate": "2017-07-05",
+    "plot": "After joining a major superhero battle, a teenage hero tries to balance school, friendships, and everyday life with stopping crime in Queens. Eager to prove himself, he faces a dangerous new threat while learning that being a hero requires more than advanced technology and thrilling adventures.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtime": 133,
+    "rating": 7.6,
+    "provider": "watchmode",
+    "sourceId": "1357316",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/80166369",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.b8ae7ac5-df1a-918c-02be-56fea135a055",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/spider-man-homecoming-2",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1271667616",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/watch-spider-man-homecoming-2017-full-hd-movie-online-on-zee5/0-0-1z5210710",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/spider-man-homecoming/umc.cmc.2sbgqu6gpbevxnjjhfd4ahuvn?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1275267966",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.b8ae7ac5-df1a-918c-02be-56fea135a055",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/spider-man-homecoming/umc.cmc.2sbgqu6gpbevxnjjhfd4ahuvn?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1275267966",
+          "price": 199,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:31.021Z"
+  },
+  {
+    "id": "watchmode:1418767",
+    "slug": "the-shawshank-redemption-1418767",
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "releaseDate": "1994-09-23",
+    "plot": "A banker imprisoned for the murders of his wife and her lover begins a new life inside Shawshank prison. As he uses his accounting skills to navigate the institution, he forms a meaningful friendship with an older inmate and becomes admired for his integrity, resilience, and enduring hope.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "runtime": 142,
+    "rating": 9.5,
+    "provider": "watchmode",
+    "sourceId": "1418767",
+    "options": {
+      "free": [],
+      "stream": [],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-shawshank-redemption/umc.cmc.459n4f98t82t8ommdoa7ebnny?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A282875479",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.20b4c3cf-b703-aebb-41bd-0dc683f8c0c8",
+          "price": 119,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-shawshank-redemption/umc.cmc.459n4f98t82t8ommdoa7ebnny?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A282875479",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:31.960Z"
+  },
+  {
+    "id": "watchmode:11033760",
+    "slug": "pyaar-prema-kalyanam-11033760",
+    "title": "Pyaar Prema Kalyanam",
+    "year": 2026,
+    "releaseDate": "2026-08-21",
+    "plot": "When a bride refuses to leave her family home after marriage, her husband must find out if he can adjust to life under his in-laws' roof.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/AjaNAeMXOrK9n0YqGqX0Lz5qxYu.jpg",
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "runtime": 127,
+    "rating": 7.2,
+    "provider": "watchmode",
+    "sourceId": "11033760",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/82146074",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:32.616Z"
+  },
+  {
+    "id": "watchmode:1702492",
+    "slug": "michael-1702492",
+    "title": "Michael",
+    "year": 2026,
+    "releaseDate": "2026-04-22",
+    "plot": "A gifted young performer rises from a demanding family environment to become a globally celebrated entertainer. The story follows his early musical success, life away from the stage, creative ambitions, personal struggles, and landmark performances as he pursues an extraordinary career.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/2AvgnCwCakNiJqWZqaQhdGjWNey.jpg",
+    "genres": [
+      "Music",
+      "Drama"
+    ],
+    "runtime": 128,
+    "rating": 7.6,
+    "provider": "watchmode",
+    "sourceId": "1702492",
+    "options": {
+      "free": [],
+      "stream": [],
+      "rent": [
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.e550f717-08ac-4492-b350-e06b87c1ad05",
+          "price": 119,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/michael/umc.cmc.655k6wal020m8folvcy526dff?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1896819034",
+          "price": 149,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/michael/umc.cmc.655k6wal020m8folvcy526dff?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1896819034",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:33.492Z"
+  },
+  {
+    "id": "watchmode:1543522",
+    "slug": "spider-man-across-the-spider-verse-1543522",
+    "title": "Spider-Man: Across the Spider-Verse",
+    "year": 2023,
+    "releaseDate": "2023-05-31",
+    "plot": "After reconnecting with a close friend, a Brooklyn teenager with spider-like abilities is pulled into a sprawling multiverse of heroes. When the protectors disagree over how to confront a dangerous new threat, he must challenge their rules and fight to protect the people he loves.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtime": 140,
+    "rating": 8.6,
+    "provider": "watchmode",
+    "sourceId": "1543522",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81594921",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/spider-man-across-the-spider-verse/umc.cmc.2zphwshxw2ejh2znevhod0u01?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1688506685",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/spider-man-across-the-spider-verse/0-0-1z5407501",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.7a5ee336-1492-4170-bc14-94a83749b0d3",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/spider-man-across-the-spider-verse/umc.cmc.2zphwshxw2ejh2znevhod0u01?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1688506685",
+          "price": 199,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:34.401Z"
+  },
+  {
+    "id": "watchmode:1377874",
+    "slug": "the-avengers-1377874",
+    "title": "The Avengers",
+    "year": 2012,
+    "releaseDate": "2012-04-25",
+    "plot": "When a powerful enemy threatens global security, an international peacekeeping agency assembles a team of extraordinary heroes. As these very different personalities struggle to work together, they must overcome their conflicts and unite to protect the world from disaster.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "runtime": 143,
+    "rating": 8.2,
+    "provider": "watchmode",
+    "sourceId": "1377874",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1660000015",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/marvels-the-avengers",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:35.190Z"
+  },
+  {
+    "id": "watchmode:11123837",
+    "slug": "desire-11123837",
+    "title": "Desire",
+    "year": 2026,
+    "releaseDate": "2026-05-07",
+    "plot": "A wealthy woman whose family life appears perfect becomes consumed by dissatisfaction after a young swimming coach enters her world. Their secret relationship fuels desire and jealousy, while tensions between a mother and daughter create a dangerous emotional triangle that threatens the stability she has built.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/3bEqHqeaQlFykaLQ7N4gDkIvL5w.jpg",
+    "genres": [
+      "Mystery",
+      "Drama"
+    ],
+    "runtime": 97,
+    "rating": 4.6,
+    "provider": "watchmode",
+    "sourceId": "11123837",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81984117",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:35.823Z"
+  },
+  {
+    "id": "watchmode:1785478",
+    "slug": "zootopia-2-1785478",
+    "title": "Zootopia 2",
+    "year": 2025,
+    "releaseDate": "2025-11-26",
+    "plot": "After solving a major case, two rookie police partners follow a twisting mystery when a snake’s arrival unsettles the animal metropolis. Going undercover in unfamiliar parts of the city, they uncover hidden tensions while their partnership faces its toughest test yet.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Mystery",
+      "Family"
+    ],
+    "runtime": 108,
+    "rating": 7.5,
+    "provider": "watchmode",
+    "sourceId": "1785478",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/movies/zootopia-2/1271418481",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:36.490Z"
+  },
+  {
+    "id": "watchmode:1450054",
+    "slug": "avengers-endgame-1450054",
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "releaseDate": "2019-04-24",
+    "plot": "After a devastating defeat leaves the universe in ruins, the remaining heroes struggle with loss and uncertainty. As they reunite for one final mission to restore what was taken, they face enormous risks, difficult choices, and the consequences of trying to set things right.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
+    "genres": [
+      "Adventure",
+      "Science Fiction",
+      "Action"
+    ],
+    "runtime": 181,
+    "rating": 8.5,
+    "provider": "watchmode",
+    "sourceId": "1450054",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1260013556",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/avengers-endgame",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:37.202Z"
+  },
+  {
+    "id": "watchmode:1885279",
+    "slug": "the-super-mario-galaxy-movie-1885279",
+    "title": "The Super Mario Galaxy Movie",
+    "year": 2026,
+    "releaseDate": "2026-04-01",
+    "plot": "After stopping a previous attempt to force a royal marriage, two adventurous brothers face a new threat from a determined young heir seeking to free his imprisoned father and restore their family legacy. Joined by familiar and new companions, they journey across the stars to stop the crusade.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+    "genres": [
+      "Family",
+      "Comedy",
+      "Adventure",
+      "Fantasy",
+      "Animation"
+    ],
+    "runtime": 98,
+    "rating": 6.5,
+    "provider": "watchmode",
+    "sourceId": "1885279",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/movies/the-super-mario-galaxy-movie/1271669415",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.aba48057-3e47-49fe-88ed-eedfefaab8d0",
+          "price": 119,
+          "format": "4K"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-super-mario-galaxy-movie/umc.cmc.48lrb0v87osrqj3679ifs8py6?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1886872394",
+          "price": 149,
+          "format": "4K"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-super-mario-galaxy-movie/umc.cmc.48lrb0v87osrqj3679ifs8py6?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1886872394",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:38.086Z"
+  },
+  {
+    "id": "watchmode:1184713",
+    "slug": "interstellar-1184713",
+    "title": "Interstellar",
+    "year": 2014,
+    "releaseDate": "2014-11-05",
+    "plot": "As Earth’s food supply collapses, a former pilot joins a group of explorers searching for a new home beyond a newly discovered wormhole. Their mission combines perilous space travel, complex cosmic phenomena, and a deeply personal struggle to protect humanity’s future while separated from family.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Science Fiction"
+    ],
+    "runtime": 169,
+    "rating": 8.6,
+    "provider": "watchmode",
+    "sourceId": "1184713",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1971000531",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.91c15743-d78a-4667-9b48-fbd8ed9cacbc",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/interstellar/umc.cmc.1vrwat5k1ucm5k42q97ioqyq3?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A965491522",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.91c15743-d78a-4667-9b48-fbd8ed9cacbc",
+          "price": 119,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/interstellar/umc.cmc.1vrwat5k1ucm5k42q97ioqyq3?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A965491522",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:39.111Z"
+  },
+  {
+    "id": "watchmode:1357304",
+    "slug": "spider-man-1357304",
+    "title": "Spider-Man",
+    "year": 2002,
+    "releaseDate": "2002-05-01",
+    "plot": "After a genetically altered spider bite gives a shy high school student extraordinary abilities, he begins discovering what it means to become a hero. As he navigates newfound powers, personal responsibility, and danger threatening his city, he faces a formidable enemy while trying to protect the people he cares about.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/nXdAh5vUwERL4WGVMaee8RoDEAS.jpg",
+    "genres": [
+      "Action",
+      "Science Fiction"
+    ],
+    "runtime": 121,
+    "rating": 7.3,
+    "provider": "watchmode",
+    "sourceId": "1357304",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.16a9f6fd-c82a-d83d-6bfc-0265e317f307",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Sony LIV",
+          "url": "https://www.sonyliv.com/movies/spider-man-1000007752",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1271668105",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/watch-spider-man-full-hd-movie-online-on-zee5/0-0-1z5206574",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/spider-man/umc.cmc.5phzpxxmktrfukrvil304pg8e?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1100532201",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.16a9f6fd-c82a-d83d-6bfc-0265e317f307",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/spider-man/umc.cmc.5phzpxxmktrfukrvil304pg8e?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1100532201",
+          "price": 199,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:40.026Z"
+  },
+  {
+    "id": "watchmode:1972561",
+    "slug": "raakaasa-1972561",
+    "title": "Raakaasa",
+    "year": 2026,
+    "releaseDate": "2026-04-03",
+    "plot": "After a decade away, a returning expatriate comes home seeking romance and unknowingly awakens an ancient darkness feared by the village. As danger grows, love takes a deadly turn, forcing him to confront a threat that puts lives at risk.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/x7zwiuC1HTw5XGZ5JrOwF9uFqRy.jpg",
+    "genres": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "runtime": 130,
+    "rating": 6.5,
+    "provider": "watchmode",
+    "sourceId": "1972561",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/82180278",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:40.850Z"
+  },
+  {
+    "id": "watchmode:1816442",
+    "slug": "the-furious-1816442",
+    "title": "The Furious",
+    "year": 2025,
+    "releaseDate": "2026-06-10",
+    "plot": "When a criminal network kidnaps a father’s daughter and corrupt police refuse to help, he begins a desperate search on his own. A determined journalist, whose wife has also vanished, joins him, and together they fight through a dangerous underworld driven by grief, anger, and the need to bring their loved ones home.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/zP19YO60jwEsfKd5Qf1UvA5uJu8.jpg",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "runtime": 114,
+    "rating": 7.4,
+    "provider": "watchmode",
+    "sourceId": "1816442",
+    "options": {
+      "free": [],
+      "stream": [],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-furious/umc.cmc.51d3i71sc63kchr5xi4q35vtf?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1896874962",
+          "price": 149,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f895364b-2e6c-4ed3-9063-7c66cd79d4c2",
+          "price": 149,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-furious/umc.cmc.51d3i71sc63kchr5xi4q35vtf?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1896874962",
+          "price": 699,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:41.795Z"
+  },
+  {
+    "id": "watchmode:1240560",
+    "slug": "mad-max-fury-road-1240560",
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "releaseDate": "2015-05-13",
+    "plot": "In a harsh post-apocalyptic wasteland, a solitary survivor joins forces with a determined rebel and a group of women fleeing a tyrannical ruler. Pursued across the desert by violent gangs, they fight to survive while searching for a safer future.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtime": 121,
+    "rating": 8,
+    "provider": "watchmode",
+    "sourceId": "1240560",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1971000538",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.0c9da1a1-af0f-41d7-be82-0bb2fd6e7f32",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/mad-max-fury-road",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/mad-max-fury-road/umc.cmc.6xerenwn1999cjd2y6421r2ex?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A990549112",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.0c9da1a1-af0f-41d7-be82-0bb2fd6e7f32",
+          "price": 119,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/mad-max-fury-road/umc.cmc.6xerenwn1999cjd2y6421r2ex?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A990549112",
+          "price": 299,
+          "format": "4K"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:42.555Z"
+  },
+  {
+    "id": "watchmode:1386160",
+    "slug": "the-dark-knight-1386160",
+    "title": "The Dark Knight",
+    "year": 2008,
+    "releaseDate": "2008-07-16",
+    "plot": "Batman joins forces with a police lieutenant and a determined public official to dismantle Gotham’s criminal organizations. Their progress is threatened when a rising criminal mastermind unleashes a campaign of chaos, forcing Batman to confront difficult choices about justice, fear, and the limits of heroism.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "runtime": 152,
+    "rating": 9.2,
+    "provider": "watchmode",
+    "sourceId": "1386160",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4aa9f68b-5e9d-1955-a451-d4d0087ef56c",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1971000395",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-dark-knight/umc.cmc.1uf4c3neuc9yxhnjv7t4rd5wa?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A606743816",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4aa9f68b-5e9d-1955-a451-d4d0087ef56c",
+          "price": 119,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-dark-knight/umc.cmc.1uf4c3neuc9yxhnjv7t4rd5wa?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A606743816",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:43.444Z"
+  },
+  {
+    "id": "watchmode:1823183",
+    "slug": "shelter-1823183",
+    "title": "Shelter",
+    "year": 2026,
+    "releaseDate": "2026-01-28",
+    "plot": "A man living alone on a remote island rescues a young girl during a violent storm. When the rescue exposes his hidden past, he must leave his secluded life and protect her from dangerous forces closing in.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "runtime": 107,
+    "rating": 6.3,
+    "provider": "watchmode",
+    "sourceId": "1823183",
+    "options": {
+      "free": [],
+      "stream": [],
+      "rent": [
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.af2a8f9d-a133-4070-af30-6983413718f1",
+          "price": 119,
+          "format": "SD"
+        }
+      ],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:44.133Z"
+  },
+  {
+    "id": "watchmode:1394258",
+    "slug": "the-godfather-1394258",
+    "title": "The Godfather",
+    "year": 1972,
+    "releaseDate": "1972-03-14",
+    "plot": "A powerful crime family faces growing threats as its aging patriarch barely survives an attack. His youngest son, initially distant from the family business, becomes involved in protecting his loved ones and is drawn into a violent struggle for control.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "runtime": 175,
+    "rating": 9,
+    "provider": "watchmode",
+    "sourceId": "1394258",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1271413394",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-godfather/umc.cmc.3ew9fykdnpfaq9t2jq5da011c?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A534906082",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.468f8466-d958-4e43-82bd-4375149d48a8",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-godfather/umc.cmc.3ew9fykdnpfaq9t2jq5da011c?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A534906082",
+          "price": 199,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:45.048Z"
+  },
+  {
+    "id": "watchmode:1830382",
+    "slug": "the-sheep-detectives-1830382",
+    "title": "The Sheep Detectives",
+    "year": 2026,
+    "releaseDate": "2026-04-30",
+    "plot": "A shepherd reads detective novels to his sheep each night, never suspecting they understand every word. When a mysterious incident disrupts life on the farm, the flock follows clues, studies human suspects, and uses its unusual perspective to investigate what happened.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/mGWOmj2jHFol3kOGNv1EhbSDDE1.jpg",
+    "genres": [
+      "Comedy",
+      "Family",
+      "Mystery"
+    ],
+    "runtime": 109,
+    "rating": 7.6,
+    "provider": "watchmode",
+    "sourceId": "1830382",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.c78b3cef-7f5d-4cc9-907c-455e713d1649",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:45.863Z"
+  },
+  {
+    "id": "watchmode:1357314",
+    "slug": "spider-man-far-from-home-1357314",
+    "title": "Spider-Man: Far from Home",
+    "year": 2019,
+    "releaseDate": "2019-06-28",
+    "plot": "A teenager and his classmates head to Europe for a summer trip, but their plans change when a senior agent asks him to investigate mysterious creatures linked to natural disasters across the continent. As the danger grows, he must balance superhero responsibilities with school, friendship, and first love.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtime": 129,
+    "rating": 7.5,
+    "provider": "watchmode",
+    "sourceId": "1357314",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.bab5dba3-e2d0-4ce8-d520-961b4db0be7a",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81055822",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "Sony LIV",
+          "url": "https://www.sonyliv.com/movies/spider-man-far-from-home-1000214938",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1271663449",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/spider-man-far-from-home-2",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/watch-spider-man-far-from-home-2019-full-hd-movie-online-on-zee5/0-0-1z5210758",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/spider-man-far-from-home/umc.cmc.1xnsjqmhn8a93iy2vgj36w3d1?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1478072903",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.bab5dba3-e2d0-4ce8-d520-961b4db0be7a",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/spider-man-far-from-home/umc.cmc.1xnsjqmhn8a93iy2vgj36w3d1?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1478072903",
+          "price": 199,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:46.913Z"
+  },
+  {
+    "id": "watchmode:1182444",
+    "slug": "inception-1182444",
+    "title": "Inception",
+    "year": 2010,
+    "releaseDate": "2010-07-15",
+    "plot": "A skilled thief who infiltrates dreams to steal secrets is offered a chance to return to his former life by completing an almost impossible job: planting an idea in someone’s subconscious. To succeed, he assembles a team and navigates increasingly complex layers of dreams.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
+    "genres": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "runtime": 148,
+    "rating": 9,
+    "provider": "watchmode",
+    "sourceId": "1182444",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.04a9f72c-f9c8-c4d1-f97b-6d7ad986a51f",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1971000530",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/inception/umc.cmc.6loas01ow0w4lkatxxloz7a6e?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A528188765",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.04a9f72c-f9c8-c4d1-f97b-6d7ad986a51f",
+          "price": 119,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/inception/umc.cmc.6loas01ow0w4lkatxxloz7a6e?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A528188765",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:47.908Z"
+  },
+  {
+    "id": "watchmode:1994067",
+    "slug": "the-devil-s-mouth-1994067",
+    "title": "The Devil's Mouth",
+    "year": 2026,
+    "releaseDate": "2026-07-29",
+    "plot": "A group of college friends on an adventure in Thailand becomes trapped in submerged caves with a dangerous predator. As oxygen runs low, tensions and past conflicts intensify, forcing them to work together in a desperate fight to survive.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/lH8k9uCWYn2b2gsYleqYBDPbWa8.jpg",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "runtime": 106,
+    "rating": 4.6,
+    "provider": "watchmode",
+    "sourceId": "1994067",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.e705922a-9076-4f3b-8f1b-2dd584621479",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:48.558Z"
+  },
+  {
+    "id": "watchmode:1892965",
+    "slug": "hoppers-1892965",
+    "title": "Hoppers",
+    "year": 2026,
+    "releaseDate": "2026-03-04",
+    "plot": "A determined animal lover discovers technology that can place human consciousness into lifelike robotic animals. Using it to understand wildlife from the inside, she becomes involved in a struggle to protect a threatened natural habitat from an expanding road project.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Science Fiction"
+    ],
+    "runtime": 104,
+    "rating": 7.4,
+    "provider": "watchmode",
+    "sourceId": "1892965",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1271432167",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:49.362Z"
+  },
+  {
+    "id": "watchmode:1662726",
+    "slug": "mortal-kombat-ii-1662726",
+    "title": "Mortal Kombat II",
+    "year": 2026,
+    "releaseDate": "2026-05-06",
+    "plot": "A group of battle-hardened champions, joined by a reluctant movie star, must confront a ruthless conqueror whose rule threatens Earthrealm and its defenders. Their dangerous mission leads to a brutal fantasy showdown filled with rivalries, powerful fighters, and no-holds-barred combat.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Adventure"
+    ],
+    "runtime": 116,
+    "rating": 6.5,
+    "provider": "watchmode",
+    "sourceId": "1662726",
+    "options": {
+      "free": [],
+      "stream": [],
+      "rent": [
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f6d06ad2-96ae-4fbb-85e5-1aa4867928aa",
+          "price": 149,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/mortal-kombat-ii/umc.cmc.1450gnnq7lxnn3lg6dyp362a9?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1893722349",
+          "price": 149,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/mortal-kombat-ii/umc.cmc.1450gnnq7lxnn3lg6dyp362a9?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1893722349",
+          "price": 699,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:50.263Z"
+  },
+  {
+    "id": "watchmode:138099",
+    "slug": "avengers-age-of-ultron-138099",
+    "title": "Avengers: Age of Ultron",
+    "year": 2015,
+    "releaseDate": "2015-04-22",
+    "plot": "When an attempt to create a peacekeeping program goes wrong, a team of powerful heroes faces a dangerous artificial intelligence determined to threaten the planet. As the crisis grows, the heroes must overcome tensions, form uneasy alliances, and confront a global challenge together.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtime": 141,
+    "rating": 7.5,
+    "provider": "watchmode",
+    "sourceId": "138099",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1260018315",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:51.082Z"
+  },
+  {
+    "id": "watchmode:1376729",
+    "slug": "the-amazing-spider-man-1376729",
+    "title": "The Amazing Spider-Man",
+    "year": 2012,
+    "releaseDate": "2012-06-23",
+    "plot": "A lonely high-school student investigating his family’s past is transformed by a mysterious spider bite. As he learns to control his new abilities, he balances romance, personal loss, and the growing threat posed by a scientist’s dangerous experiment.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/jexoNYnPd6vVrmygwF6QZmWPFdu.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtime": 136,
+    "rating": 7.2,
+    "provider": "watchmode",
+    "sourceId": "1376729",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1ea9f6b8-151d-5fe1-5f3b-c897b6dd14cf",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1271644420",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Sony LIV",
+          "url": "https://www.sonyliv.com/movies/the-amazing-spider-man-1000052376",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/70208599",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/watch-the-amazing-spider-man-full-hd-movie-online-on-zee5/0-0-1z5210148",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-amazing-spider-man/umc.cmc.1jielpphrkfkqh3zfll0un7iz?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1092938178",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1ea9f6b8-151d-5fe1-5f3b-c897b6dd14cf",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-amazing-spider-man/umc.cmc.1jielpphrkfkqh3zfll0un7iz?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1092938178",
+          "price": 199,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:51.993Z"
+  },
+  {
+    "id": "watchmode:1832369",
+    "slug": "lee-cronin-s-the-mummy-1832369",
+    "title": "Lee Cronin's The Mummy",
+    "year": 2026,
+    "releaseDate": "2026-04-15",
+    "plot": "After a young girl vanishes into the desert, her devastated family spends years living with the loss. When she unexpectedly returns, their hoped-for reunion becomes a terrifying struggle as unsettling signs suggest she may not be the same child who disappeared.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/1q308iixueCU4pFtSYugNOevtNx.jpg",
+    "genres": [
+      "Horror",
+      "Mystery"
+    ],
+    "runtime": 133,
+    "rating": 6.3,
+    "provider": "watchmode",
+    "sourceId": "1832369",
+    "options": {
+      "free": [],
+      "stream": [],
+      "rent": [
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.81361948-a9aa-42d4-9d9f-ccd57b940873",
+          "price": 99,
+          "format": "HD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/lee-cronins-the-mummy/umc.cmc.5yihefnmcou7yldcgaa20hqqm?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1888796253",
+          "price": 149,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/lee-cronins-the-mummy/umc.cmc.5yihefnmcou7yldcgaa20hqqm?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1888796253",
+          "price": 699,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:53.085Z"
+  },
+  {
+    "id": "watchmode:1593277",
+    "slug": "the-fantastic-four-first-steps-1593277",
+    "title": "The Fantastic Four: First Steps",
+    "year": 2025,
+    "releaseDate": "2025-07-23",
+    "plot": "In a vibrant retro-futuristic world, a super-powered family balances public heroism with the demands of an expanding family. When a mysterious herald warns that a ravenous space god threatens Earth, the team must confront an impossible choice while searching for a way to protect both their loved ones and humanity.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/nf5qaSEvyYSNeFH0YhSs5EsBLX9.jpg",
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
+    "runtime": 115,
+    "rating": 7,
+    "provider": "watchmode",
+    "sourceId": "1593277",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/movies/the-fantastic-four-first-steps/1271406275",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:53.907Z"
+  },
+  {
+    "id": "watchmode:1357317",
+    "slug": "spider-man-into-the-spider-verse-1357317",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "releaseDate": "2018-12-06",
+    "plot": "A Brooklyn teenager struggling with school, family, and his place in the world is bitten by a radioactive spider and gains extraordinary powers. When a dangerous experiment disrupts reality, spider-powered heroes from other dimensions arrive, forcing him to confront his fears and discover what it truly means to become a hero.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtime": 117,
+    "rating": 8.6,
+    "provider": "watchmode",
+    "sourceId": "1357317",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8cb3d0d2-8276-69ba-e66b-f200871aacf7",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Sony LIV",
+          "url": "https://www.sonyliv.com/movies/spider-man-into-the-spider-verse-1090427051",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/spider-man-into-the-spider-verse-1",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1271668892",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/watch-spider-man-into-the-spider-verse-full-hd-movie-online-on-zee5/0-0-1z5210769",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/spider-man-into-the-spider-verse/umc.cmc.4a2ypxddplsdsahwxrc5fkz4x?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1454080844",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8cb3d0d2-8276-69ba-e66b-f200871aacf7",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/spider-man-into-the-spider-verse/umc.cmc.4a2ypxddplsdsahwxrc5fkz4x?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1454080844",
+          "price": 199,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:54.871Z"
+  },
+  {
+    "id": "watchmode:1709598",
+    "slug": "freakier-friday-1709598",
+    "title": "Freakier Friday",
+    "year": 2025,
+    "releaseDate": "2025-08-06",
+    "plot": "Years after a mother and daughter’s first identity crisis, a new generation faces the challenges of blending two families. When multiple family members become caught up in another body-swapping adventure, they must navigate unfamiliar lives while trying to restore order and strengthen their relationships.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/9wV65OmsjLAqBfDnYTkMPutXH8j.jpg",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Family"
+    ],
+    "runtime": 110,
+    "rating": 6.4,
+    "provider": "watchmode",
+    "sourceId": "1709598",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/movies/freakier-friday/1271399248",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:55.669Z"
+  },
+  {
+    "id": "watchmode:1406847",
+    "slug": "the-matrix-1406847",
+    "title": "The Matrix",
+    "year": 1999,
+    "releaseDate": "1999-03-31",
+    "plot": "In a dystopian future, a computer hacker discovers that everyday reality may be an elaborate digital illusion controlled by powerful machines. After joining underground rebels, he must learn the rules of this hidden world and decide how far he is willing to go to help free humanity.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
+    "genres": [
+      "Action",
+      "Science Fiction"
+    ],
+    "runtime": 136,
+    "rating": 8.5,
+    "provider": "watchmode",
+    "sourceId": "1406847",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1971000620",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.dea9f6b7-e0a0-38c9-7467-d6079c6fb4f0",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/matrix/umc.cmc.af8k9kcq9r1s1qmmdxpq4itn?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A271469518",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.dea9f6b7-e0a0-38c9-7467-d6079c6fb4f0",
+          "price": 119,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/matrix/umc.cmc.af8k9kcq9r1s1qmmdxpq4itn?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A271469518",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:56.612Z"
+  },
+  {
+    "id": "watchmode:1159480",
+    "slug": "harry-potter-and-the-sorcerer-s-stone-1159480",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "year": 2001,
+    "releaseDate": "2001-11-16",
+    "plot": "An orphaned boy living with unkind relatives discovers on his eleventh birthday that he is a powerful wizard. Sent to a magical boarding school, he makes close friends, learns to control his abilities, and begins investigating the mystery surrounding his parents and a dangerous figure from the past.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "runtime": 152,
+    "rating": 7.9,
+    "provider": "watchmode",
+    "sourceId": "1159480",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1971000398",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/harry-potter-and-the-philosophers-stone/umc.cmc.55wxtmrughu40phd8lgr6qejr?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A271469503",
+          "price": 129,
+          "format": "4K"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/harry-potter-and-the-philosophers-stone/umc.cmc.55wxtmrughu40phd8lgr6qejr?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A271469503",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:57.598Z"
+  },
+  {
+    "id": "watchmode:11098919",
+    "slug": "the-debt-collector-11098919",
+    "title": "The Debt Collector",
+    "year": 2026,
+    "releaseDate": "2026-07-20",
+    "plot": "Haunted by past mistakes and facing a terminal diagnosis, a former debt collector returns to the criminal underworld. There, he takes on a violent organization while trying to protect the people caught in its path.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/qADBUb5ybrkRVGZEFF8Z4RuOwys.jpg",
+    "genres": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ],
+    "runtime": 134,
+    "rating": 5.8,
+    "provider": "watchmode",
+    "sourceId": "11098919",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81786017",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:58.209Z"
+  },
+  {
+    "id": "watchmode:1884698",
+    "slug": "predator-badlands-1884698",
+    "title": "Predator: Badlands",
+    "year": 2025,
+    "releaseDate": "2025-11-05",
+    "plot": "Cast out by his clan, a young Predator travels to a deadly planet to face a seemingly unbeatable creature. Along the way, he reluctantly teams up with a damaged android and a native creature, confronting dangerous wildlife, family expectations, and the limits of surviving alone.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/pHpq9yNUIo6aDoCXEBzjSolywgz.jpg",
+    "genres": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "runtime": 107,
+    "rating": 7.4,
+    "provider": "watchmode",
+    "sourceId": "1884698",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/movies/predator-badlands/1271435435",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:36:59.105Z"
+  },
+  {
+    "id": "watchmode:1653815",
+    "slug": "insidious-the-red-door-1653815",
+    "title": "Insidious: The Red Door",
+    "year": 2023,
+    "releaseDate": "2023-07-05",
+    "plot": "A father and his college-aged son try to repair their strained relationship while disturbing memories and supernatural visions return. As they confront a sinister red door and the dangers beyond it, both must face their family's troubled past and the forces connected to it.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/d07phJqCx6z5wILDYqkyraorDPi.jpg",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "runtime": 107,
+    "rating": 5.7,
+    "provider": "watchmode",
+    "sourceId": "1653815",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81691510",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/insidious-the-red-door/0-0-1z5414567",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/insidious-the-red-door/umc.cmc.5ann4nuwcyhypmd0ppap6ax0y?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1694104718",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.b212e04c-cb7a-4e79-8382-c0cec081fe44",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/insidious-the-red-door/umc.cmc.5ann4nuwcyhypmd0ppap6ax0y?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1694104718",
+          "price": 199,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:36:59.992Z"
+  },
+  {
+    "id": "watchmode:1643798",
+    "slug": "oppenheimer-1643798",
+    "title": "Oppenheimer",
+    "year": 2023,
+    "releaseDate": "2023-07-19",
+    "plot": "During World War II, a brilliant physicist leads a secret team of scientists in developing the atomic bomb. As the project transforms global history, he faces the personal, political, and moral consequences of helping create a weapon whose power may be impossible to control.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "runtime": 181,
+    "rating": 8.3,
+    "provider": "watchmode",
+    "sourceId": "1643798",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1971011128",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/watch-oppenheimer-full-hd-movie-on-rent-online-on-zee5/0-0-1z5465540",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/oppenheimer/umc.cmc.5gylew9icuhfiifdv3oxwxen8?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1713826378",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.0653d989-0412-4e01-b466-f657bf48121e",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/oppenheimer/umc.cmc.5gylew9icuhfiifdv3oxwxen8?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1713826378",
+          "price": 399,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:00.907Z"
+  },
+  {
+    "id": "watchmode:1901214",
+    "slug": "swapped-1901214",
+    "title": "Swapped",
+    "year": 2026,
+    "releaseDate": "2026-05-01",
+    "plot": "A small woodland creature and a majestic bird, natural enemies in their valley, magically swap places and begin an adventure to return to normal. Along the way, they discover a serious threat that could endanger their species and the entire valley they call home.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Family",
+      "Fantasy"
+    ],
+    "runtime": 102,
+    "rating": 7.5,
+    "provider": "watchmode",
+    "sourceId": "1901214",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81749852",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:01.932Z"
+  },
+  {
+    "id": "watchmode:1784103",
+    "slug": "jurassic-world-rebirth-1784103",
+    "title": "Jurassic World: Rebirth",
+    "year": 2025,
+    "releaseDate": "2025-06-23",
+    "plot": "Five years after the previous adventure, a covert team travels to an isolated island to collect genetic material from three enormous dinosaurs. Their mission becomes more dangerous when they encounter a stranded family and uncover a disturbing secret hidden there for decades.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/1RICxzeoNCAO5NpcRMIgg1XT6fm.jpg",
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
+    "runtime": 134,
+    "rating": 6,
+    "provider": "watchmode",
+    "sourceId": "1784103",
+    "options": {
+      "free": [],
+      "stream": [],
+      "rent": [
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.52f45616-4e52-4cc1-b9ba-268259f916b7",
+          "price": 119,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/jurassic-world-rebirth/umc.cmc.70puysxqi6jvumt17hpngqjbb?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1830438062",
+          "price": 129,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/jurassic-world-rebirth/umc.cmc.70puysxqi6jvumt17hpngqjbb?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1830438062",
+          "price": 449,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:02.667Z"
+  },
+  {
+    "id": "watchmode:1738880",
+    "slug": "the-wrecking-crew-1738880",
+    "title": "The Wrecking Crew",
+    "year": 2026,
+    "releaseDate": "2026-01-28",
+    "plot": "After their estranged father dies under mysterious circumstances, two half-brothers reunite in Hawaii to seek answers. A hot-headed detective and a disciplined military man must put aside their differences as their investigation uncovers buried family secrets and a conspiracy that threatens their loved ones and local communities.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/gbVwHl4YPSq6BcC92TQpe7qUTh6.jpg",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime",
+      "Mystery"
+    ],
+    "runtime": 125,
+    "rating": 6.6,
+    "provider": "watchmode",
+    "sourceId": "1738880",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.542e5c48-8f6b-46ec-b27c-10c49f154f61",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:03.467Z"
+  },
+  {
+    "id": "watchmode:166939",
+    "slug": "captain-america-civil-war-166939",
+    "title": "Captain America: Civil War",
+    "year": 2016,
+    "releaseDate": "2016-04-27",
+    "plot": "After devastating battles raise questions about accountability, governments seek authority over superhuman missions. The proposal divides the Avengers, with one faction supporting official oversight and another defending independence, while a fugitive linked to a founding hero’s past intensifies the conflict between former allies.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg",
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ],
+    "runtime": 147,
+    "rating": 7.9,
+    "provider": "watchmode",
+    "sourceId": "166939",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1260016768",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:04.211Z"
+  },
+  {
+    "id": "watchmode:1376730",
+    "slug": "the-amazing-spider-man-2-1376730",
+    "title": "The Amazing Spider-Man 2",
+    "year": 2014,
+    "releaseDate": "2014-04-16",
+    "plot": "A young superhero balances protecting the city with his complicated relationship and the promise to keep his distance. His life becomes more difficult when a powerful new villain appears, an old friend returns, and clues about his family raise fresh questions about the past.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/dGjoPttcbKR5VWg1jQuNFB247KL.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtime": 141,
+    "rating": 6.7,
+    "provider": "watchmode",
+    "sourceId": "1376730",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.aea9f774-1745-1035-3a21-2564dfd57ba3",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1271644422",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Sony LIV",
+          "url": "https://www.sonyliv.com/movies/the-amazing-spider-man-2-1000052312",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/70293702",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/watch-the-amazing-spider-man-2-full-hd-movie-online-on-zee5/0-0-1z5210153",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-amazing-spider-man-2/umc.cmc.66rooktnzrc8dnl6k671mxn5z?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1269581443",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.aea9f774-1745-1035-3a21-2564dfd57ba3",
+          "price": 99,
+          "format": "HD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-amazing-spider-man-2/umc.cmc.66rooktnzrc8dnl6k671mxn5z?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1269581443",
+          "price": 199,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:05.231Z"
+  },
+  {
+    "id": "watchmode:1404363",
+    "slug": "the-lord-of-the-rings-the-return-of-the-king-1404363",
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "releaseDate": "2003-12-17",
+    "plot": "As armies gather for a decisive war, a reluctant heir must unite the forces of good while a brave hobbit and his loyal companion undertake a perilous journey into the enemy’s land. Their mission offers the only hope of destroying a powerful ring and saving their world.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "runtime": 201,
+    "rating": 8.8,
+    "provider": "watchmode",
+    "sourceId": "1404363",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1971000532",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/60004484",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/the-lord-of-the-rings-the-return-of-the-king",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-lord-of-the-rings-the-return-of-the-king/umc.cmc.57s6i23z9ry0zsgwwc2mxjqi6?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A297709333",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.91d91081-a2e1-4004-af7d-4efb31e99e27",
+          "price": 119,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-lord-of-the-rings-the-return-of-the-king/umc.cmc.57s6i23z9ry0zsgwwc2mxjqi6?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A297709333",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:06.437Z"
+  },
+  {
+    "id": "watchmode:1357311",
+    "slug": "spider-man-3-1357311",
+    "title": "Spider-Man 3",
+    "year": 2007,
+    "releaseDate": "2007-05-01",
+    "plot": "A celebrated superhero faces several dangerous threats, including a shape-shifting criminal and a rival who becomes linked to a powerful alien organism. As the hero’s abilities and behavior change, he must also navigate strained friendships, romantic complications, and difficult choices about revenge and forgiveness.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/sJMTTGjtjvrMZ7G0oP9D13wNUum.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtime": 139,
+    "rating": 6.2,
+    "provider": "watchmode",
+    "sourceId": "1357311",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1aa9f6b4-bc8f-9ae9-fedf-83fb7aa58c40",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Sony LIV",
+          "url": "https://www.sonyliv.com/movies/spider-man-3-1000007753",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/spider-man-3-2",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1271670452",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Sony Pictures Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1aa9f6b4-bc8f-9ae9-fedf-83fb7aa58c40",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/watch-spider-man-3-full-hd-movie-online-on-zee5/0-0-1z5206606",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/spider-man-3/umc.cmc.6b5zczyf59sfnocdpbah8ve7t?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1274317735",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1aa9f6b4-bc8f-9ae9-fedf-83fb7aa58c40",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/spider-man-3/umc.cmc.6b5zczyf59sfnocdpbah8ve7t?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1274317735",
+          "price": 199,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:07.460Z"
+  },
+  {
+    "id": "watchmode:138018",
+    "slug": "avatar-the-way-of-water-138018",
+    "title": "Avatar: The Way of Water",
+    "year": 2022,
+    "releaseDate": "2022-12-14",
+    "plot": "More than a decade after the earlier conflict, a family living on Pandora faces renewed danger and leaves its forest home in search of safety. Among a reef-dwelling community, they must adapt to unfamiliar customs and environments while protecting one another from threats that follow them.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtime": 192,
+    "rating": 7.7,
+    "provider": "watchmode",
+    "sourceId": "138018",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/movies/avatar-the-way-of-water/1260142021",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/avatar-the-way-of-water",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:08.470Z"
+  },
+  {
+    "id": "watchmode:1707657",
+    "slug": "in-the-grey-1707657",
+    "title": "In the Grey",
+    "year": 2026,
+    "releaseDate": "2026-05-13",
+    "plot": "A covert team of elite operatives emerges from the shadows to recover a billion-dollar fortune stolen by a ruthless despot. Their seemingly impossible heist becomes a deadly contest of strategy, deception, and survival, demanding meticulous preparation before the operation erupts into relentless action.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/dQgIcW6Th08kMRf2HBoYWoFE6OD.jpg",
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "runtime": 97,
+    "rating": 6.5,
+    "provider": "watchmode",
+    "sourceId": "1707657",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.e0ba14ef-0991-41aa-bfe2-e2dfe2291ab4",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:09.150Z"
+  },
+  {
+    "id": "watchmode:1749638",
+    "slug": "the-wild-robot-1749638",
+    "title": "The Wild Robot",
+    "year": 2024,
+    "releaseDate": "2024-09-12",
+    "plot": "After a shipwreck, an intelligent robot is stranded on an uninhabited island. As the robot learns to survive among wary animals, it forms an unexpected bond with an orphaned baby goose and discovers new responsibilities, challenges, and connections in the natural world.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg",
+    "genres": [
+      "Family",
+      "Animation",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "runtime": 102,
+    "rating": 8.3,
+    "provider": "watchmode",
+    "sourceId": "1749638",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/movies/the-wild-robot/1271392372",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81915938",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/the-wild-robot",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-wild-robot/umc.cmc.3vk9rngh0rrmpnyhv2qwzm582?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1766853428",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.21ee1ac6-e382-43f4-8939-0e76f98b6664",
+          "price": 99,
+          "format": "SD"
+        },
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/the-wild-robot/0-0-1z5662720",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-wild-robot/umc.cmc.3vk9rngh0rrmpnyhv2qwzm582?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1766853428",
+          "price": 399,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:10.224Z"
+  },
+  {
+    "id": "watchmode:178503",
+    "slug": "coco-178503",
+    "title": "Coco",
+    "year": 2017,
+    "releaseDate": "2017-10-27",
+    "plot": "Despite his family’s ban on music, a young boy dreams of becoming a musician. A mysterious chain of events transports him to the colorful Land of the Dead, where he teams up with a charming trickster to uncover the truth about his family’s history and find his way home.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/6Ryitt95xrO8KXuqRGm1fUuNwqF.jpg",
+    "genres": [
+      "Family",
+      "Animation",
+      "Music",
+      "Adventure"
+    ],
+    "runtime": 105,
+    "rating": 8.5,
+    "provider": "watchmode",
+    "sourceId": "178503",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1660010633",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/coco",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:10.977Z"
+  },
+  {
+    "id": "watchmode:1295258",
+    "slug": "parasite-1295258",
+    "title": "Parasite",
+    "year": 2019,
+    "releaseDate": "2019-05-30",
+    "plot": "An unemployed family sees a chance to improve their lives by entering the household of a wealthy family through a series of carefully arranged jobs. Their scheme initially brings opportunity and comedy, but growing complications place both families in an increasingly tense situation.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "genres": [
+      "Comedy",
+      "Thriller",
+      "Drama"
+    ],
+    "runtime": 133,
+    "rating": 8.6,
+    "provider": "watchmode",
+    "sourceId": "1295258",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/parasite-hindi",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:11.910Z"
+  },
+  {
+    "id": "watchmode:1685606",
+    "slug": "thunderbolts-1685606",
+    "title": "Thunderbolts*",
+    "year": 2025,
+    "releaseDate": "2025-04-30",
+    "plot": "After being trapped in a deadly situation, a group of troubled outcasts must work together on a dangerous mission. As tensions rise, they confront painful memories, personal struggles, and the difficult question of whether they can become something more than their pasts.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg",
+    "genres": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "runtime": 127,
+    "rating": 7.3,
+    "provider": "watchmode",
+    "sourceId": "1685606",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/1271337437",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:12.686Z"
+  },
+  {
+    "id": "watchmode:1386163",
+    "slug": "the-dark-knight-rises-1386163",
+    "title": "The Dark Knight Rises",
+    "year": 2012,
+    "releaseDate": "2012-07-17",
+    "plot": "Years after a disgraced masked vigilante disappears, a powerful terrorist leader and a mysterious cat burglar threaten a city struggling to preserve its fragile peace. Forced back into action, the wounded hero must confront his limits, rally unexpected allies, and protect the people who once turned against him.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "runtime": 165,
+    "rating": 8.3,
+    "provider": "watchmode",
+    "sourceId": "1386163",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2eb2f316-ed27-a548-448f-5a090b007709",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1971000392",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-dark-knight-rises/umc.cmc.4chkhft26y3bhfxrtfjemtp2c?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A571289522",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2eb2f316-ed27-a548-448f-5a090b007709",
+          "price": 119,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-dark-knight-rises/umc.cmc.4chkhft26y3bhfxrtfjemtp2c?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A571289522",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:13.808Z"
+  },
+  {
+    "id": "watchmode:1186051",
+    "slug": "iron-man-1186051",
+    "title": "Iron Man",
+    "year": 2008,
+    "releaseDate": "2008-04-30",
+    "plot": "After being captured in Afghanistan, a billionaire weapons engineer is forced to build a powerful device for his captors. The experience changes his perspective, leading him to create a high-tech suit of armor and use his abilities to confront dangerous forces.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
+    "genres": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "runtime": 126,
+    "rating": 8.1,
+    "provider": "watchmode",
+    "sourceId": "1186051",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1660000038",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:14.526Z"
+  },
+  {
+    "id": "watchmode:1184167",
+    "slug": "insidious-chapter-3-1184167",
+    "title": "Insidious: Chapter 3",
+    "year": 2015,
+    "releaseDate": "2015-05-28",
+    "plot": "Before the Lambert family haunting, a retired psychic reluctantly agrees to help a teenage girl who hopes to contact her dead mother. When a dangerous supernatural entity targets the girl, the psychic must confront her own fears and return to the spirit world.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/iDdGfdNvY1EX0uDdA4Ru77fwMfc.jpg",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "runtime": 97,
+    "rating": 6,
+    "provider": "watchmode",
+    "sourceId": "1184167",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/insidious-chapter-3",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/insidious-chapter-3/umc.cmc.1xjippk4lq4gffsxyucnn5b5b?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1023994260",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.0aa9f732-6115-fdb9-6764-c9fed90226ea",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/insidious-chapter-3/umc.cmc.1xjippk4lq4gffsxyucnn5b5b?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1023994260",
+          "price": 199,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:15.286Z"
+  },
+  {
+    "id": "watchmode:1404362",
+    "slug": "the-lord-of-the-rings-the-fellowship-of-the-ring-1404362",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "releaseDate": "2001-12-18",
+    "plot": "A young hobbit inherits a mysterious ring and must leave his peaceful home to keep it from a powerful evil force. Joined by a diverse fellowship of companions, he begins a perilous journey across Middle-earth toward the only place where the ring can be destroyed.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "runtime": 179,
+    "rating": 8.7,
+    "provider": "watchmode",
+    "sourceId": "1404362",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1971000578",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/60004480",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/the-lord-of-the-rings-the-fellowship-of-the-ring",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-lord-of-the-rings-the-fellowship-of-the-ring/umc.cmc.29au6l8rcr4g5zhuwcx0euri1?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A291360661",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.84a9f6d5-bc3f-73a3-e41f-a82b4ff83e67",
+          "price": 119,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-lord-of-the-rings-the-fellowship-of-the-ring/umc.cmc.29au6l8rcr4g5zhuwcx0euri1?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A291360661",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:16.297Z"
+  },
+  {
+    "id": "watchmode:1184168",
+    "slug": "insidious-the-last-key-1184168",
+    "title": "Insidious: The Last Key",
+    "year": 2018,
+    "releaseDate": "2018-01-03",
+    "plot": "A paranormal investigator and her team travel to a small New Mexico town to examine a reported haunting. The case becomes deeply personal when she discovers that the home at its center was once her family’s house, forcing her to confront a frightening chapter from her past.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/6c9ti2JcR3dHyR3qFXoZqVMx0SH.jpg",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "runtime": 103,
+    "rating": 5.9,
+    "provider": "watchmode",
+    "sourceId": "1184168",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Sony LIV",
+          "url": "https://www.sonyliv.com/movies/insidious-the-last-key-1000214645",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/insidious-the-last-key/umc.cmc.4gosbjb9erx6np1zvn684pfv5?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1354311403",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.d4b02450-3abd-2645-24f9-fc5dc08c8db4",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/insidious-the-last-key/umc.cmc.4gosbjb9erx6np1zvn684pfv5?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1354311403",
+          "price": 199,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:17.012Z"
+  },
+  {
+    "id": "watchmode:11089038",
+    "slug": "a-child-of-my-own-11089038",
+    "title": "A Child of My Own",
+    "year": 2026,
+    "releaseDate": "2026-07-30",
+    "plot": "Desperate for a baby and pressured by family and society, a woman pretends to be pregnant. Her deception draws her into a dangerous crime, forcing her to navigate mounting pressure, difficult choices, and the consequences of trying to fulfill expectations that may not be her own.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/4ALVUEb2PCIFDNCD88xTFJFCJ3q.jpg",
+    "genres": [
+      "Documentary"
+    ],
+    "runtime": 96,
+    "rating": 6.2,
+    "provider": "watchmode",
+    "sourceId": "11089038",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81712344",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:17.700Z"
+  },
+  {
+    "id": "watchmode:1805677",
+    "slug": "war-machine-1805677",
+    "title": "War Machine",
+    "year": 2026,
+    "releaseDate": "2026-02-12",
+    "plot": "During his final mission in Army Ranger training, a combat engineer takes charge of a struggling unit as they face a giant otherworldly killing machine. Forced to rely on endurance, quick thinking, and teamwork, he leads the group through a brutal fight for survival.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/rFhKkXhk7ClU03jQ5rHIApJDwev.jpg",
+    "genres": [
+      "Action",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "runtime": 110,
+    "rating": 6.5,
+    "provider": "watchmode",
+    "sourceId": "1805677",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81768525",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:18.705Z"
+  },
+  {
+    "id": "watchmode:1437213",
+    "slug": "top-gun-maverick-1437213",
+    "title": "Top Gun: Maverick",
+    "year": 2022,
+    "releaseDate": "2022-05-21",
+    "plot": "After decades as a celebrated Navy pilot, a veteran instructor is called back to train a new group of elite aviators for an exceptionally dangerous mission. As the team prepares, he must confront his past while earning the trust of pilots whose lives depend on his guidance.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/n0YuM4f5lvGAP6MAW2kBIzugXnc.jpg",
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "runtime": 131,
+    "rating": 8.4,
+    "provider": "watchmode",
+    "sourceId": "1437213",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1271399288",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.a8c482a4-39a8-4009-91ad-080630b5a6d7",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/top-gun-maverick/umc.cmc.670544bajp6s4pysx4rvctczz?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1622175422",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.a8c482a4-39a8-4009-91ad-080630b5a6d7",
+          "price": 99,
+          "format": "SD"
+        },
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/top-gun-maverick/0-0-1z5754713",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/top-gun-maverick/umc.cmc.670544bajp6s4pysx4rvctczz?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1622175422",
+          "price": 699,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:19.748Z"
+  },
+  {
+    "id": "watchmode:1703330",
+    "slug": "superman-1703330",
+    "title": "Superman",
+    "year": 2025,
+    "releaseDate": "2025-07-09",
+    "plot": "A journalist in Metropolis balances his life as a powerful alien hero with the human upbringing that shaped his values. As he faces a world marked by political tension, public distrust, and powerful opponents, he must decide how to remain hopeful while protecting the people around him.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
+    "runtime": 130,
+    "rating": 7.2,
+    "provider": "watchmode",
+    "sourceId": "1703330",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/movies/superman/1271509950",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.72e041dc-573e-4d1d-87a0-c79ddb7004bd",
+          "price": 119,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/superman/umc.cmc.21bcbvncmlxz9o7gtxlxfe771?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1821672911",
+          "price": 149,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/superman/umc.cmc.21bcbvncmlxz9o7gtxlxfe771?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1821672911",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:20.770Z"
+  },
+  {
+    "id": "watchmode:1566628",
+    "slug": "mission-impossible-the-final-reckoning-1566628",
+    "title": "Mission: Impossible - The Final Reckoning",
+    "year": 2025,
+    "releaseDate": "2025-05-17",
+    "plot": "A veteran operative and his team race to stop a terrifying artificial intelligence that has infiltrated intelligence networks worldwide. Hunted by governments and a mysterious figure from the past, they seek the means to shut it down before it changes the world forever.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/iKPsC9EFUafRP9SrUznI61getVP.jpg",
+    "genres": [
+      "Action",
+      "Thriller",
+      "Adventure"
+    ],
+    "runtime": 170,
+    "rating": 7.3,
+    "provider": "watchmode",
+    "sourceId": "1566628",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.7a22d728-9f8a-4c44-b0bb-cabcc82db284",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/mission-impossible---the-final-reckoning/umc.cmc.492oh9izvznxkfxk934zdz941?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1833215346",
+          "price": 149,
+          "format": "SD"
+        },
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/mission-impossible-the-final-reckoning/0-0-1z5808240",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.7a22d728-9f8a-4c44-b0bb-cabcc82db284",
+          "price": 119,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/mission-impossible---the-final-reckoning/umc.cmc.492oh9izvznxkfxk934zdz941?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1833215346",
+          "price": 699,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:21.811Z"
+  },
+  {
+    "id": "watchmode:1438466",
+    "slug": "toy-story-1438466",
+    "title": "Toy Story",
+    "year": 1995,
+    "releaseDate": "1995-11-22",
+    "plot": "A beloved cowboy toy faces an unexpected challenge when a flashy space-themed newcomer becomes the favorite in a child’s room. After rivalry separates them from their owner, the two must work together through a lively adventure, learning about friendship, loyalty, and accepting change.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+    "genres": [
+      "Family",
+      "Comedy",
+      "Animation",
+      "Adventure"
+    ],
+    "runtime": 81,
+    "rating": 8.4,
+    "provider": "watchmode",
+    "sourceId": "1438466",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1660010197",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/toy-story",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:22.562Z"
+  },
+  {
+    "id": "watchmode:1310542",
+    "slug": "pulp-fiction-1310542",
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "releaseDate": "1994-09-10",
+    "plot": "Several criminals, a gangster’s restless companion, and a boxer whose career is fading become connected through a series of dangerous, darkly comic episodes. Told in a playful, out-of-order structure, the film follows their tense encounters, unexpected complications, and sharply observed conversations across Los Angeles.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Comedy"
+    ],
+    "runtime": 154,
+    "rating": 8.9,
+    "provider": "watchmode",
+    "sourceId": "1310542",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.a391bb9d-4315-4b8a-a835-2a3159eeac73",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/pulp-fiction/umc.cmc.1hfvw2p79f9qdeydow8nmrn7t?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1524319178",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.a391bb9d-4315-4b8a-a835-2a3159eeac73",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/pulp-fiction/umc.cmc.1hfvw2p79f9qdeydow8nmrn7t?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1524319178",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:23.536Z"
+  },
+  {
+    "id": "watchmode:1374079",
+    "slug": "terminator-2-judgment-day-1374079",
+    "title": "Terminator 2: Judgment Day",
+    "year": 1991,
+    "releaseDate": "1991-07-03",
+    "plot": "A reprogrammed cyborg travels back in time to protect a young boy from an advanced shape-shifting machine sent to kill him. Joined by the boy’s determined mother, they race to prevent a future nuclear catastrophe while confronting questions about fate, humanity, and whether the future can be changed.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg",
+    "genres": [
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "runtime": 137,
+    "rating": 8.5,
+    "provider": "watchmode",
+    "sourceId": "1374079",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4a560bbd-84e3-410f-8d7b-de4617258f4d",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4a560bbd-84e3-410f-8d7b-de4617258f4d",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:24.610Z"
+  },
+  {
+    "id": "watchmode:1868996",
+    "slug": "the-housemaid-1868996",
+    "title": "The Housemaid",
+    "year": 2025,
+    "releaseDate": "2025-12-18",
+    "plot": "Trying to rebuild her life, a woman accepts a live-in housemaid position with a wealthy family. The dream opportunity soon becomes a tense maze of suspicion, attraction, and hidden power, as troubling behavior inside the seemingly perfect home makes her question whom she can trust.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "runtime": 131,
+    "rating": 6.9,
+    "provider": "watchmode",
+    "sourceId": "1868996",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.6177c992-4757-4e50-9586-17f9b263b11f",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.6177c992-4757-4e50-9586-17f9b263b11f",
+          "price": 149,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-housemaid/umc.cmc.2bgvquebzqyqdnlpt2ojhdjrv?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1860214325",
+          "price": 129,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-housemaid/umc.cmc.2bgvquebzqyqdnlpt2ojhdjrv?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1860214325",
+          "price": 699,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:25.534Z"
+  },
+  {
+    "id": "watchmode:1560295",
+    "slug": "doctor-strange-in-the-multiverse-of-madness-1560295",
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "year": 2022,
+    "releaseDate": "2022-05-04",
+    "plot": "A sorcerer and his mystical allies travel through dangerous alternate realities after a young woman with extraordinary powers becomes a target. As the boundaries between universes grow more unstable, they face a mysterious adversary and confront the risks of unleashing the multiverse.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/ddJcSKbcp4rKZTmuyWaMhuwcfMz.jpg",
+    "genres": [
+      "Fantasy",
+      "Action",
+      "Adventure"
+    ],
+    "runtime": 126,
+    "rating": 7,
+    "provider": "watchmode",
+    "sourceId": "1560295",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1260103761",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:26.299Z"
+  },
+  {
+    "id": "watchmode:1652190",
+    "slug": "venom-the-last-dance-1652190",
+    "title": "Venom: The Last Dance",
+    "year": 2024,
+    "releaseDate": "2024-10-22",
+    "plot": "A fugitive and his alien symbiote partner are pursued by human forces and deadly creatures from another world. As their enemies close in and a powerful threat endangers more than their own survival, the pair must confront difficult choices while trying to stay together.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/vGXptEdgZIhPg3cGlc7e8sNPC2e.jpg",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "runtime": 109,
+    "rating": 6.2,
+    "provider": "watchmode",
+    "sourceId": "1652190",
+    "options": {
+      "free": [],
+      "stream": [],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/venom-the-last-dance/umc.cmc.44fxgzrhffbmf97cm03y6xaix?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1772119771",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.82d9b8b5-4823-463f-a8fe-10b5107f85b5",
+          "price": 99,
+          "format": "SD"
+        },
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/venom-the-last-dance/0-0-1z5670185",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/venom-the-last-dance/umc.cmc.44fxgzrhffbmf97cm03y6xaix?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1772119771",
+          "price": 399,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:27.343Z"
+  },
+  {
+    "id": "watchmode:1428374",
+    "slug": "the-wolf-of-wall-street-1428374",
+    "title": "The Wolf of Wall Street",
+    "year": 2013,
+    "releaseDate": "2013-12-25",
+    "plot": "A New York stockbroker builds a fortune through securities fraud, lavish spending, and reckless ambition while federal investigators close in. Based on an autobiography, the film follows his rise through a world of corruption, excess, and increasingly dangerous choices.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Comedy"
+    ],
+    "runtime": 180,
+    "rating": 8.1,
+    "provider": "watchmode",
+    "sourceId": "1428374",
+    "options": {
+      "free": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1271542892",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "stream": [],
+      "rent": [
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.88ea1c8c-e35f-4c7d-b32f-edb2fb961efc",
+          "price": 75,
+          "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-wolf-of-wall-street/umc.cmc.2tmr7hr6xnw1buspmujtvb9ep?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1435013025",
+          "price": 129,
+          "format": "HD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-wolf-of-wall-street/umc.cmc.2tmr7hr6xnw1buspmujtvb9ep?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1435013025",
+          "price": 199,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:28.261Z"
+  },
+  {
+    "id": "watchmode:1159475",
+    "slug": "harry-potter-and-the-deathly-hallows-part-2-1159475",
+    "title": "Harry Potter and the Deathly Hallows: Part 2",
+    "year": 2011,
+    "releaseDate": "2011-07-12",
+    "plot": "Harry, Ron and Hermione race to destroy the remaining magical objects sustaining Voldemort’s power while the wizarding world faces its greatest threat. Their search leads them back to Hogwarts, where friends and defenders prepare for a dangerous confrontation that will test their courage, loyalty and determination.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/c54HpQmuwXjHq2C9wmoACjxoom3.jpg",
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "runtime": 130,
+    "rating": 8.3,
+    "provider": "watchmode",
+    "sourceId": "1159475",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1971000407",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/harry-potter-and-the-deathly-hallows-part-2/umc.cmc.4a5c366ol33jmntkgz0vwkwhg?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A455832983",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.534a160f-f33c-43c3-81a7-14925fb031bb",
+          "price": 119,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/harry-potter-and-the-deathly-hallows-part-2/umc.cmc.4a5c366ol33jmntkgz0vwkwhg?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A455832983",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:29.223Z"
+  },
+  {
+    "id": "watchmode:1827938",
+    "slug": "goat-1827938",
+    "title": "GOAT",
+    "year": 2026,
+    "releaseDate": "2026-02-11",
+    "plot": "A small goat with big dreams gets a rare chance to join the professional roarball league, a fast, full-contact sport dominated by larger, tougher animals. Facing skepticism from his new teammates and the pressure of competing at the highest level, he must prove that determination and teamwork can matter more than size.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "runtime": 100,
+    "rating": 6.8,
+    "provider": "watchmode",
+    "sourceId": "1827938",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/82710848",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.5ba8df96-80f1-49bf-af00-f861d23eb08a",
+          "price": 119,
+          "format": "4K"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/goat/umc.cmc.28bpljt75wyzb07vusickkrnz?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1871603610",
+          "price": 149,
+          "format": "4K"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/goat/umc.cmc.28bpljt75wyzb07vusickkrnz?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1871603610",
+          "price": 399,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:29.923Z"
+  },
+  {
+    "id": "watchmode:1441335",
+    "slug": "troy-1441335",
+    "title": "Troy",
+    "year": 2004,
+    "releaseDate": "2004-05-13",
+    "plot": "A Trojan prince’s romance with a Spartan queen sparks a devastating conflict between two powerful kingdoms. As a vast Greek army sails toward Troy, warriors, rulers, and families are drawn into a brutal struggle shaped by love, ambition, pride, and the pursuit of lasting glory.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/a07wLy4ONfpsjnBqMwhlWTJTcm.jpg",
+    "genres": [
+      "War",
+      "Action",
+      "History"
+    ],
+    "runtime": 163,
+    "rating": 7.4,
+    "provider": "watchmode",
+    "sourceId": "1441335",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.88a9f6e5-33ec-9d9f-2189-9c53d13abe19",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:30.807Z"
+  },
+  {
+    "id": "watchmode:1398669",
+    "slug": "the-incredible-hulk-1398669",
+    "title": "The Incredible Hulk",
+    "year": 2008,
+    "releaseDate": "2008-06-12",
+    "plot": "A scientist on the run searches for a cure to the uncontrollable force of rage inside him. When military forces pursue him and seek to exploit his abilities, he returns to civilization and faces a dangerous new opponent.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/gKzYx79y0AQTL4UAk1cBQJ3nvrm.jpg",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "runtime": 114,
+    "rating": 6.5,
+    "provider": "watchmode",
+    "sourceId": "1398669",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1000046231",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/the-incredible-hulk",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:31.624Z"
+  },
+  {
+    "id": "watchmode:1184166",
+    "slug": "insidious-chapter-2-1184166",
+    "title": "Insidious: Chapter 2",
+    "year": 2013,
+    "releaseDate": "2013-09-12",
+    "plot": "After a disturbing encounter leaves the Lambert family facing continued supernatural danger, they search for answers about a childhood connection to the spirit world. As unsettling events spread between the past and present, the family and their allies work to understand the forces threatening them.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/w5JjiB3O1CLDXbTJe1QpU5RHmlU.jpg",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "runtime": 106,
+    "rating": 6.5,
+    "provider": "watchmode",
+    "sourceId": "1184166",
+    "options": {
+      "free": [],
+      "stream": [],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/insidious-chapter-2/umc.cmc.6nwnyfxojggw45cv3u8aa2pg?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A757640409",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.08ae6606-f537-c2a4-002c-5b17f7254ad7",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/insidious-chapter-2/umc.cmc.6nwnyfxojggw45cv3u8aa2pg?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A757640409",
+          "price": 199,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:32.395Z"
+  },
+  {
+    "id": "watchmode:1159473",
+    "slug": "harry-potter-and-the-chamber-of-secrets-1159473",
+    "title": "Harry Potter and the Chamber of Secrets",
+    "year": 2002,
+    "releaseDate": "2002-11-13",
+    "plot": "During a young wizard’s second year at a magical school, a house-elf delivers a troubling warning before mysterious attacks spread through the halls. With students in danger and an ancient secret threatening the school, the young wizard and two close friends must follow clues, face frightening creatures, and rely on courage and magic.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg",
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "runtime": 161,
+    "rating": 7.7,
+    "provider": "watchmode",
+    "sourceId": "1159473",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1971000409",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/harry-potter-and-the-chamber-of-secrets/umc.cmc.69sq804vqp3dy39oxiajnr3ux?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A272931585",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.cca9f676-f728-62fb-c3ed-910fb3c49262",
+          "price": 119,
+          "format": "SD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/harry-potter-and-the-chamber-of-secrets/umc.cmc.69sq804vqp3dy39oxiajnr3ux?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A272931585",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:33.383Z"
+  },
+  {
+    "id": "watchmode:1434738",
+    "slug": "titanic-1434738",
+    "title": "Titanic",
+    "year": 1997,
+    "releaseDate": "1997-12-18",
+    "plot": "Decades after the Titanic’s voyage, an elderly woman recalls boarding the ship as a young woman with her mother and fiancé. Her life changes when she meets a free-spirited passenger from a very different social class, as romance unfolds against the looming danger surrounding the ship’s first and final voyage.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "runtime": 194,
+    "rating": 7.8,
+    "provider": "watchmode",
+    "sourceId": "1434738",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1770001166",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:34.082Z"
+  },
+  {
+    "id": "watchmode:1335706",
+    "slug": "schindler-s-list-1335706",
+    "title": "Schindler's List",
+    "year": 1993,
+    "releaseDate": "1993-12-15",
+    "plot": "During World War II, a wealthy businessman opens a factory in occupied Poland, initially seeking profit through wartime connections. As persecution intensifies, he gradually risks his fortune and safety to protect Jewish workers from Nazi brutality and deportation.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "runtime": 195,
+    "rating": 9.1,
+    "provider": "watchmode",
+    "sourceId": "1335706",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1271413509",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.e62610ba-f9e9-4635-b0f6-6e0b0b8a9624",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/schindler-s-list/0-0-1z5493253",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.e62610ba-f9e9-4635-b0f6-6e0b0b8a9624",
+          "price": 99,
+          "format": "HD"
+        }
+      ],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:34.958Z"
+  },
+  {
+    "id": "watchmode:1132806",
+    "slug": "fight-club-1132806",
+    "title": "Fight Club",
+    "year": 1999,
+    "releaseDate": "1999-10-15",
+    "plot": "An insomniac office worker meets a charismatic soap salesman who offers a radical escape from consumer culture. Together, they create an underground fighting group that spreads rapidly, drawing in frustrated men and pushing their rebellion toward increasingly dangerous consequences.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "runtime": 139,
+    "rating": 8.7,
+    "provider": "watchmode",
+    "sourceId": "1132806",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/26004747",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:35.665Z"
+  },
+  {
+    "id": "watchmode:1422901",
+    "slug": "the-terminator-1422901",
+    "title": "The Terminator",
+    "year": 1984,
+    "releaseDate": "1984-10-26",
+    "plot": "In a bleak future ruled by machines, a nearly unstoppable cyborg is sent back to 1984 to hunt a young woman whose unborn child could change humanity’s fate. A battle-scarred soldier follows from the future to protect her, forcing them into a desperate fight for survival.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+    "genres": [
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "runtime": 108,
+    "rating": 8,
+    "provider": "watchmode",
+    "sourceId": "1422901",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "MGM+ (Via Amazon Prime)",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ba010cb3-ea27-4c85-888b-f843380d9b55",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ba010cb3-ea27-4c85-888b-f843380d9b55",
+          "price": 119,
+          "format": "SD"
+        }
+      ],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:36.648Z"
+  },
+  {
+    "id": "watchmode:1584304",
+    "slug": "thor-love-and-thunder-1584304",
+    "title": "Thor: Love and Thunder",
+    "year": 2022,
+    "releaseDate": "2022-07-06",
+    "plot": "A retired thunder god is drawn back into action when a cosmic killer targets the gods. Joined by a powerful former partner, a warrior king, and a rock-like ally, he races across the universe to rescue captured children, confront the threat, and rediscover his purpose.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg",
+    "genres": [
+      "Fantasy",
+      "Action",
+      "Comedy"
+    ],
+    "runtime": 119,
+    "rating": 6.3,
+    "provider": "watchmode",
+    "sourceId": "1584304",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1260110008",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:37.421Z"
+  },
+  {
+    "id": "watchmode:1644435",
+    "slug": "dune-part-two-1644435",
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "releaseDate": "2024-02-27",
+    "plot": "A young nobleman joins the desert-dwelling Fremen on Arrakis, seeking revenge against those who destroyed his family. As he grows closer to a fierce warrior and becomes a possible leader, he must weigh personal love against a dangerous vision of the future.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg",
+    "genres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "runtime": 167,
+    "rating": 8.5,
+    "provider": "watchmode",
+    "sourceId": "1644435",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81602836",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/dune-part-two/umc.cmc.363aycnv6vy9qgekvew6fveb9?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1725365997",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.9392c069-96f9-421b-ac7a-275308e1327a",
+          "price": 119,
+          "format": "HD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/dune-part-two/umc.cmc.363aycnv6vy9qgekvew6fveb9?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1725365997",
+          "price": 499,
+          "format": "SD"
+        }
+      ]
+    },
+    "updatedAt": "2026-08-29T19:37:38.382Z"
+  },
+  {
+    "id": "watchmode:1893263",
+    "slug": "kpop-demon-hunters-1893263",
+    "title": "KPop Demon Hunters",
+    "year": 2025,
+    "releaseDate": "2025-06-20",
+    "plot": "Three K-pop superstars fill stadiums by day and secretly protect their fans from supernatural threats. Balancing demanding pop careers with dangerous battles, the performers must work together as a team while facing challenges that test their courage, friendship, and sense of self.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
+    "genres": [
+      "Fantasy",
+      "Music",
+      "Comedy",
+      "Animation"
+    ],
+    "runtime": 96,
+    "rating": 7.6,
+    "provider": "watchmode",
+    "sourceId": "1893263",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81498621",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:39.201Z"
+  },
+  {
+    "id": "watchmode:1397223",
+    "slug": "the-hobbit-the-battle-of-the-five-armies-1397223",
+    "title": "The Hobbit: The Battle of the Five Armies",
+    "year": 2014,
+    "releaseDate": "2014-12-10",
+    "plot": "After a dragon attacks a lakeside town, a hobbit and a company of dwarves defend a mountain of treasure claimed by rival men and elves. As a vast orc army approaches, old disputes must give way to an uneasy alliance in a battle that could determine the fate of the wider world.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/xT98tLqatZPQApyRmlPL12LtiWp.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "runtime": 144,
+    "rating": 7.5,
+    "provider": "watchmode",
+    "sourceId": "1397223",
+    "options": {
+      "free": [],
+      "stream": [],
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-hobbit-the-battle-of-the-five-armies/umc.cmc.75r81cmpvfyfmylysshch0mef?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A942696468",
+          "price": 129,
+          "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f6bafecb-8985-daee-c5e1-709855e9a2a0",
+          "price": 119,
+          "format": "4K"
+        }
+      ],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:39.960Z"
+  },
+  {
+    "id": "watchmode:138014",
+    "slug": "avatar-138014",
+    "title": "Avatar",
+    "year": 2009,
+    "releaseDate": "2009-12-16",
+    "plot": "In the 22nd century, a paraplegic Marine travels to Pandora for a mission involving an alien civilization. As he explores the moon and grows closer to its inhabitants, he faces a difficult choice between obeying orders and protecting their home.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/gKY6q7SjCkAU6FqvqWybDYgUKIF.jpg",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "runtime": 162,
+    "rating": 8,
+    "provider": "watchmode",
+    "sourceId": "138014",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1770000948",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-29T19:37:40.998Z"
+  }
+]

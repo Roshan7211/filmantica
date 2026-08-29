@@ -27,7 +27,8 @@ export default async function Home() {
             <p className="mb-2 text-xs uppercase tracking-[0.2em] text-brass">Featured</p>
             <h1 className="display text-4xl leading-tight sm:text-5xl">{hero.title}</h1>
             <p className="mt-2 text-sm text-muted">
-              {hero.year} · {hero.director} · {hero.duration && `${Math.round(hero.duration / 60)} min`}
+              {[hero.year, hero.director, hero.duration && `${Math.round(hero.duration / 60)} min`]
+                .filter(Boolean).join(" · ")}
             </p>
             <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-cream/85">{hero.description}</p>
             <div className="mt-6 flex flex-wrap gap-3">

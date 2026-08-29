@@ -18,6 +18,9 @@ export type Movie = {
   source: string; // "internetarchive" | "filmmaker" | ...
   sourceId: string;
   sourceUrl: string;
+  /** Source collections. Kept so the curated-collection signal survives into
+   *  re-adjudication; without it a stored record cannot be re-judged safely. */
+  collections: string[];
   videoUrl: string | null;
   downloadUrl: string | null;
 

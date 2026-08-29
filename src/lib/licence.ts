@@ -30,11 +30,12 @@ const verdict = (
   shareAlike = false,
 ): LicenceVerdict => ({ action, normalised, reason, requiresAttribution, shareAlike });
 
-/** Licences permitting commercial use. NonCommercial variants are absent by design:
- *  ad revenue makes this a commercial service. */
+/** Licences permitting commercial use — actual RIGHTS GRANTS by a rights holder.
+ *
+ *  NonCommercial variants are absent by design: ad revenue makes this commercial.
+ *  Public Domain Mark is absent too, and that is deliberate — see PD_MARK below. */
 const ALLOWED: { pattern: RegExp; name: string; attribution: boolean; shareAlike: boolean }[] = [
   { pattern: /creativecommons\.org\/publicdomain\/zero/i, name: "CC0", attribution: false, shareAlike: false },
-  { pattern: /creativecommons\.org\/publicdomain\/mark/i, name: "Public Domain Mark", attribution: false, shareAlike: false },
   { pattern: /creativecommons\.org\/licenses\/by\/\d/i, name: "CC BY", attribution: true, shareAlike: false },
   { pattern: /creativecommons\.org\/licenses\/by-sa\//i, name: "CC BY-SA", attribution: true, shareAlike: true },
   { pattern: /creativecommons\.org\/licenses\/by-nd\//i, name: "CC BY-ND", attribution: true, shareAlike: false },
@@ -42,6 +43,18 @@ const ALLOWED: { pattern: RegExp; name: string; attribution: boolean; shareAlike
 
 /** Must be tested before the plain CC BY pattern, since "by-nc" contains "by". */
 const NONCOMMERCIAL = /creativecommons\.org\/licenses\/by-nc/i;
+
+/** Public Domain Mark is NOT a licence. It is a label anyone can apply to assert a
+ *  work is already out of copyright, and on the Internet Archive it is uploader-set
+ *  and unverified. Treating it as a grant published 281 home videos and vlogs as
+ *  "public domain films". It routes to review, never to publish. */
+const PD_MARK = /creativecommons\.org\/publicdomain\/mark/i;
+
+/** Creative Commons' pre-2010 Public Domain Dedication, retired in favour of CC0.
+ *  A real dedication by a rights holder, but the old URL carries no version and is
+ *  often applied loosely on legacy uploads — so it earns review, never auto-publish.
+ *  Previously it matched nothing and such titles were dropped outright. */
+const LEGACY_PD_DEDICATION = /creativecommons\.org\/licenses\/publicdomain/i;
 
 /** IA collections curated as public-domain film. Membership is a reason to review,
  *  never a reason to publish — collection curation is not a rights clearance. */
@@ -87,13 +100,21 @@ export function evaluateLicence(input: {
   // 3. Plausible but unproven. Held for a human.
   const inCurated = collections.some((c) => REVIEWABLE_COLLECTIONS.has(c));
   const claimsPD = /public\s*domain/i.test(status) || /public\s*domain/i.test(rights);
+  const markedPD = url ? PD_MARK.test(url) : false;
+  const legacyPD = url ? LEGACY_PD_DEDICATION.test(url) : false;
 
-  if (inCurated || claimsPD) {
+  if (markedPD || legacyPD || inCurated || claimsPD) {
     const why = [
+      markedPD && "Public Domain Mark is an uploader assertion, not a rights grant",
+      legacyPD && "legacy CC Public Domain Dedication (pre-CC0) — real but unversioned",
       inCurated && `member of curated collection (${collections.filter((c) => REVIEWABLE_COLLECTIONS.has(c)).join(", ")})`,
       claimsPD && "metadata asserts public domain",
     ].filter(Boolean).join("; ");
-    return verdict("review", "Unverified — needs review", `Held for manual rights review: ${why}`);
+    return verdict("review",
+      markedPD ? "Public Domain Mark (unverified)"
+      : legacyPD ? "Legacy CC Public Domain Dedication"
+      : "Unverified — needs review",
+      `Held for manual rights review: ${why}`);
   }
 
   // 4. No usable signal.

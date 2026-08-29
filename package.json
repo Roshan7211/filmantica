@@ -10,8 +10,16 @@
     "import": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/import.mjs",
     "import:dry": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/import.mjs --dry --rows 50 --pages 1",
     "seed": "node scripts/seed.mjs",
-    "review": "node scripts/review.mjs",
-    "test:import": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-import.mjs"
+    "review": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/review.mjs",
+    "test:import": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-import.mjs",
+    "import:discovery": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --env-file-if-exists=.env.local scripts/import-discovery.mjs",
+    "probe:watchmode": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --env-file-if-exists=.env.local scripts/import-discovery.mjs --probe",
+    "probe:regions": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --env-file-if-exists=.env.local scripts/import-discovery.mjs --regions --limit 15",
+    "test:quality": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-quality.mjs",
+    "test:triage": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-triage.mjs",
+    "readjudicate": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/readjudicate.mjs",
+    "test:policy": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-policy.mjs",
+    "test:film": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-is-film.mjs"
   },
   "dependencies": {
     "next": "16.3.3",

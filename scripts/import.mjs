@@ -14,6 +14,9 @@
  */
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { evaluateLicence, attributionFor } from "../src/lib/licence.ts";
+import { assessQuality, meetsPublishBar, uniqueSlug, cleanTitle, parseRuntime, splitGenres, safeDescription } from "../src/lib/quality.ts";
+import { checkContentPolicy } from "../src/lib/content-policy.ts";
+import { looksLikeFilm } from "../src/lib/is-film.ts";
 
 const args = process.argv.slice(2);
 const flag = (n, d) => { const i = args.indexOf(`--${n}`); return i === -1 ? d : args[i + 1]; };
@@ -36,11 +39,17 @@ const UA = "Filmantica/0.1 (catalogue importer; contact: hello@filmantica.com)";
 const STRATEGIES = {
   cc: {
     label: "Openly licensed film (auto-publish candidates)",
-    q: 'mediatype:(movies) AND licenseurl:(*creativecommons*) AND -licenseurl:(*by-nc*)',
+    // Scoped to film collections. Without this, mediatype:(movies) returns every
+    // moving image on the Archive — vlogs, screen recordings, phone clips — which
+    // is exactly how home videos got published as public-domain cinema.
+    q: 'mediatype:(movies) AND licenseurl:(*creativecommons*) AND -licenseurl:(*by-nc*)'
+       + ' AND collection:(feature_films OR silent_films OR film_noir OR sci_fi_horror'
+       + ' OR classic_cartoons OR more_animation OR prelinger OR short_films)',
   },
   curated: {
     label: "Curated public-domain collections (review candidates)",
-    q: 'mediatype:(movies) AND collection:(feature_films OR silent_films OR film_noir OR sci_fi_horror)',
+    q: 'mediatype:(movies) AND collection:(feature_films OR silent_films OR film_noir'
+       + ' OR sci_fi_horror OR classic_cartoons OR prelinger)',
   },
 };
 
@@ -144,36 +153,88 @@ for (const [name, strat] of Object.entries(STRATEGIES)) {
         tally.rejected++; note(`reject: ${v.normalised}`); rejectedCache.add(doc.identifier); continue;
       }
 
+      // A licence cannot tell a film from a camera roll. These can.
+      const candidate = {
+        title: cleanTitle(first(md.title)),
+        description: safeDescription((first(md.description) ?? "").replace(/<[^>]+>/g, "")),
+        year: Number(first(md.year)) || Number(doc.year) || null,
+      };
+
+      // WHITELIST FIRST: is this cinema at all? Every other filter here is a
+      // blacklist, which only ever catches junk already seen. This admits nothing
+      // without positive evidence — curated collection membership above all.
+      const filmCheck = looksLikeFilm({
+        sourceId: doc.identifier,
+        collections: [md.collection ?? doc.collection].flat().filter(Boolean).map(String),
+        genres: splitGenres(md.subject),
+        runtime: parseRuntime(first(md.runtime) ?? first(md.length)),
+      });
+      if (!filmCheck.isFilm) {
+        tally.rejected++; note(`not a film: ${filmCheck.reason}`);
+        rejectedCache.add(doc.identifier); continue;
+      }
+
+      // Content policy: a valid licence is no reason to host propaganda.
+      const policy = checkContentPolicy({
+        title: candidate.title,
+        creator: first(md.creator),
+        description: candidate.description,
+        genres: splitGenres(md.subject),
+      });
+      if (!policy.allowed) {
+        tally.rejected++; note(policy.reason); rejectedCache.add(doc.identifier); continue;
+      }
+
+      // Tier 1: not a film at all -> dropped, never queued.
+      const quality = assessQuality(candidate);
+      if (!quality.ok) {
+        tally.rejected++;
+        note(`reject: ${quality.reasons[0]}`);
+        rejectedCache.add(doc.identifier);
+        continue;
+      }
+
+      // Tier 2: the published bar. Falling short downgrades to review — a sparse
+      // record can still be a good page once a person confirms it.
+      const bar = meetsPublishBar(candidate);
+      if (v.action === "publish" && !bar.ok) {
+        v.action = "review";
+        // Overwrite the reason too: the licence verdict's text says the licence
+        // passed, which is misleading once the record is queued for metadata.
+        v.reason = `licence is fine, but below the published bar: ${bar.reasons.join("; ")}`;
+        v.normalised = `${v.normalised} (below publish bar)`;
+      }
+
       const videoUrl = pickVideo(meta?.files ?? [], doc.identifier);
       if (!videoUrl) {
         tally.noVideo++; note("reject: no browser-playable file"); rejectedCache.add(doc.identifier); continue;
       }
 
-      const title = first(md.title) ?? doc.identifier;
+      const title = cleanTitle(first(md.title)) || doc.identifier;
       const creator = first(md.creator);
       const sourceUrl = `https://archive.org/details/${doc.identifier}`;
       const now = new Date().toISOString();
       const publish = v.action === "publish";
 
-      let slug = slugify(title) || doc.identifier;
-      if (slugs.has(slug)) slug = `${slug}-${doc.identifier.slice(0, 8).toLowerCase()}`;
-      slugs.add(slug);
+      const slug = uniqueSlug(slugify(title), slugs, doc.identifier.slice(0, 12).toLowerCase());
 
       out.push({
         id: slug,
         title, slug,
-        description: (first(md.description) ?? "").replace(/<[^>]+>/g, "").trim().slice(0, 1200),
+        description: safeDescription((first(md.description) ?? "").replace(/<[^>]+>/g, "")).slice(0, 1200),
         year: Number(first(md.year)) || Number(doc.year) || null,
-        duration: Number(first(md.runtime)) || null,
+        duration: parseRuntime(first(md.runtime) ?? first(md.length))
+                  ?? parseRuntime((meta?.files ?? []).find((f) => f.name === videoUrl.split("/").pop())?.length),
         language: first(md.language),
         director: first(md.director) ?? null,
         cast: [md.cast].flat().filter(Boolean),
-        genres: [md.subject].flat().filter(Boolean).slice(0, 6),
+        genres: splitGenres(md.subject),
         posterUrl: `https://archive.org/services/img/${doc.identifier}`,
         backdropUrl: null,
         source: "internetarchive",
         sourceId: doc.identifier,
         sourceUrl,
+        collections: [md.collection ?? doc.collection].flat().filter(Boolean).map(String),
         videoUrl,
         downloadUrl: videoUrl,
         license: v.normalised,
