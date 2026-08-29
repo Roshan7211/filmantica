@@ -27,15 +27,16 @@ export default async function WatchPage({ params }: Params) {
 
       <div className="overflow-hidden rounded-md border border-edge bg-black">
         {movie.videoUrl ? (
-          /* Archive.org serves progressive MP4, which plays natively. A future
-             self-hosted HLS ladder would swap this for hls.js. */
+          /* Served through our own /api/stream proxy rather than linking straight
+             to archive.org: some ISPs block that host at the TLS layer, so a direct
+             link leaves the player spinning for those viewers. */
           <video
             controls
             preload="metadata"
             poster={movie.posterUrl ?? undefined}
             className="aspect-video w-full bg-black"
           >
-            <source src={movie.videoUrl} type="video/mp4" />
+            <source src={`/api/stream/${movie.slug}`} type="video/mp4" />
             Your browser cannot play this file.
           </video>
         ) : (
@@ -52,7 +53,8 @@ export default async function WatchPage({ params }: Params) {
       <div className="mt-4 flex flex-wrap items-center gap-4 text-xs text-muted">
         <span>Licence: {movie.license}</span>
         {movie.downloadUrl && (
-          <a href={movie.downloadUrl} download className="text-brass hover:underline">Download this film</a>
+          <a href={`/api/stream/${movie.slug}`} download={`${movie.slug}.mp4`}
+             className="text-brass hover:underline">Download this film</a>
         )}
       </div>
     </>
