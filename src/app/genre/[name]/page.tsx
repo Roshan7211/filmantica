@@ -1,25 +1,25 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { discoveryByGenre, discoveryGenres } from "@/lib/discovery";
+import { discoveryByGenre, discoveryGenres, genreSlug, genreDisplayName } from "@/lib/discovery";
 import DiscoveryCard from "@/components/DiscoveryCard";
 
 type Params = { params: Promise<{ name: string }> };
 
 export async function generateStaticParams() {
-  return (await discoveryGenres()).map((g) => ({ name: g.name.toLowerCase() }));
+  return (await discoveryGenres()).map((g) => ({ name: genreSlug(g.name) }));
 }
 
 export async function generateMetadata({ params }: Params) {
   const { name } = await params;
-  const genre = decodeURIComponent(name);
-  const title = `${genre[0]?.toUpperCase()}${genre.slice(1)} movies — where to watch`;
+  const genre = (await genreDisplayName(name)) ?? decodeURIComponent(name);
+  const title = `${genre} movies — where to watch`;
   return { title, description: `Every legal way to stream, rent or buy ${genre} films.` };
 }
 
 export default async function GenrePage({ params }: Params) {
   const { name } = await params;
-  const genre = decodeURIComponent(name);
-  const titles = await discoveryByGenre(genre);
+  const genre = (await genreDisplayName(name)) ?? decodeURIComponent(name);
+  const titles = await discoveryByGenre(name);
   if (!titles.length) notFound();
 
   return (

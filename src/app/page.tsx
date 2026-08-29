@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { allDiscovery, discoveryGenres, discoveryByGenre, discoveryPopulated, hasAnyOption } from "@/lib/discovery";
+import { allDiscovery, discoveryGenres, discoveryByGenre, discoveryPopulated, hasAnyOption, genreSlug } from "@/lib/discovery";
 import { allMovies } from "@/lib/movies";
 import DiscoveryCard from "@/components/DiscoveryCard";
 import DiscoveryEmpty from "@/components/DiscoveryEmpty";
@@ -79,7 +79,7 @@ export default async function Home() {
         <section key={genre} className="mb-12">
           <div className="mb-4 flex items-baseline justify-between">
             <h2 className="display text-xl">{genre}</h2>
-            <Link href={`/genre/${encodeURIComponent(genre.toLowerCase())}`}
+            <Link href={`/genre/${genreSlug(genre)}`}
               className="text-xs text-muted transition hover:text-brass">See all →</Link>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">

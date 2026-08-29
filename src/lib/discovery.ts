@@ -51,11 +51,26 @@ export async function discoveryGenres(): Promise<{ name: string; count: number }
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 }
 
-export async function discoveryByGenre(genre: string): Promise<DiscoveryTitle[]> {
-  const g = genre.toLowerCase();
+/** "Science Fiction" -> "science-fiction". A literal space in a URL encodes as
+ *  %20, which is legal but reads badly when shared and splits link equity. */
+export const genreSlug = (name: string) =>
+  name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+export async function discoveryByGenre(slugOrName: string): Promise<DiscoveryTitle[]> {
+  const wanted = genreSlug(slugOrName);
   return (await load())
-    .filter((t) => t.genres.some((x) => x.toLowerCase() === g))
+    .filter((t) => t.genres.some((x) => genreSlug(x) === wanted))
     .sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
+}
+
+/** Display name for a genre slug, so pages show "Science Fiction" not "science-fiction". */
+export async function genreDisplayName(slug: string): Promise<string | null> {
+  const wanted = genreSlug(slug);
+  for (const t of await load()) {
+    const hit = t.genres.find((g) => genreSlug(g) === wanted);
+    if (hit) return hit;
+  }
+  return null;
 }
 
 /** Newest first — what the homepage leads with. */

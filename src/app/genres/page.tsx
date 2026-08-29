@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { discoveryGenres } from "@/lib/discovery";
+import { discoveryGenres, genreSlug } from "@/lib/discovery";
 import { allGenres as freeGenres } from "@/lib/movies";
 
 export const metadata: Metadata = {
@@ -18,7 +18,7 @@ export default async function GenresPage() {
 
       <div className="flex flex-wrap gap-3">
         {genres.map((g) => (
-          <Link key={g.name} href={`/genre/${encodeURIComponent(g.name.toLowerCase())}`}
+          <Link key={g.name} href={`/genre/${genreSlug(g.name)}`}
             className="rounded border border-edge bg-ink-2 px-4 py-2 text-sm transition hover:border-brass/60">
             {g.name} <span className="text-muted">({g.count})</span>
           </Link>
