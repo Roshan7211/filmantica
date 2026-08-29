@@ -19,7 +19,8 @@
     "test:triage": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-triage.mjs",
     "readjudicate": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/readjudicate.mjs",
     "test:policy": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-policy.mjs",
-    "test:film": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-is-film.mjs"
+    "test:film": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-is-film.mjs",
+    "test:site": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-site.mjs"
   },
   "dependencies": {
     "next": "16.3.3",
