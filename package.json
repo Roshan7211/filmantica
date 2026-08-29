@@ -6,12 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "import": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/import.mjs",
+    "import:dry": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/import.mjs --dry --rows 50 --pages 1",
+    "seed": "node scripts/seed.mjs",
+    "review": "node scripts/review.mjs",
+    "test:import": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-import.mjs"
   },
   "dependencies": {
     "next": "16.3.3",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "server-only": "^0.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
