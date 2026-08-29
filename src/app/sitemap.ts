@@ -1,16 +1,23 @@
 import type { MetadataRoute } from "next";
 import { allMovies, allGenres } from "@/lib/movies";
-import { allDiscovery } from "@/lib/discovery";
+import { allDiscovery, discoveryGenres } from "@/lib/discovery";
 import { SITE } from "@/lib/site";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [movies, genres, discovery] = await Promise.all([allMovies(), allGenres(), allDiscovery()]);
+  const [movies, genres, discovery, dGenres] = await Promise.all([
+    allMovies(), allGenres(), allDiscovery(), discoveryGenres(),
+  ]);
 
   return [
     { url: SITE.url, changeFrequency: "daily", priority: 1 },
     { url: `${SITE.url}/movies`, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE.url}/genres`, changeFrequency: "weekly", priority: 0.6 },
     { url: `${SITE.url}/discover`, changeFrequency: "daily", priority: 0.9 },
+    ...dGenres.map((g) => ({
+      url: `${SITE.url}/genre/${encodeURIComponent(g.name.toLowerCase())}`,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    })),
     // "Where to watch X" pages — high-volume search intent, so they belong in the
     // sitemap. Availability changes often, hence the weekly frequency.
     ...discovery.map((t) => ({

@@ -22,6 +22,14 @@ check("thin description fails the publish bar", !meetsPublishBar({ ...good, desc
 check("missing year survives tier 1", assessQuality({ ...good, year: null }).ok);
 check("missing year fails the publish bar", !meetsPublishBar({ ...good, year: null }).ok);
 check("a rich real film clears the publish bar", meetsPublishBar(good).ok);
+check("a modern upload does NOT clear the classic bar",
+  !meetsPublishBar({ ...good, year: 2024 }).ok);
+check("modern upload still passes tier 1 (not junk)",
+  assessQuality({ ...good, year: 2024 }).ok);
+check("classicOnly can be switched off",
+  meetsPublishBar({ ...good, year: 2024 }, { classicOnly: false }).ok);
+check("1980 itself is in", meetsPublishBar({ ...good, year: 1980 }).ok);
+check("1981 is out", !meetsPublishBar({ ...good, year: 1981 }).ok);
 check("junk fails BOTH tiers",
   !assessQuality({ title: "IMG 0057", year: 1843 }).ok && !meetsPublishBar({ title: "IMG 0057", year: 1843 }).ok);
 check("no title rejected", !assessQuality({ ...good, title: "" }).ok);

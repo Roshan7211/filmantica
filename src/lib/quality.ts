@@ -62,17 +62,27 @@ export function assessQuality(input: Candidate): QualityVerdict {
  *  What a title must have to go live WITHOUT a human looking at it. Failing this is
  *  not a rejection: it routes to the review queue instead. A sparse record can still
  *  become a fine page once a person confirms the rights and fills the gaps. */
+/** The free catalogue is a CLASSIC film section. A modern upload can be perfectly
+ *  legal to publish and still not belong there — a 2024 Minetest tutorial under CC0
+ *  passes every rights check and is not cinema. Titles after this year route to
+ *  review rather than auto-publishing into the classic catalogue. */
+export const CLASSIC_ERA_ENDS = 1980;
+
 export function meetsPublishBar(
   input: Candidate,
-  opts: { minDescription?: number } = {},
+  opts: { minDescription?: number; classicOnly?: boolean } = {},
 ): QualityVerdict {
   const minDescription = opts.minDescription ?? 80;
+  const classicOnly = opts.classicOnly ?? true;
   const reasons: string[] = [];
 
   const base = assessQuality(input);
   reasons.push(...base.reasons);
 
   if (input.year == null) reasons.push("no year");
+  else if (classicOnly && input.year > CLASSIC_ERA_ENDS) {
+    reasons.push(`released ${input.year} — the free catalogue is classic cinema (pre-${CLASSIC_ERA_ENDS + 1})`);
+  }
 
   const description = (input.description ?? "").trim();
   if (description.length < minDescription) {

@@ -40,6 +40,32 @@ export async function getDiscovery(slug: string): Promise<DiscoveryTitle | null>
   return (await load()).find((t) => t.slug === slug) ?? null;
 }
 
+/** Genres present in the discovery store, most populated first. */
+export async function discoveryGenres(): Promise<{ name: string; count: number }[]> {
+  const counts = new Map<string, number>();
+  for (const t of await load()) {
+    for (const g of t.genres) counts.set(g, (counts.get(g) ?? 0) + 1);
+  }
+  return [...counts.entries()]
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+}
+
+export async function discoveryByGenre(genre: string): Promise<DiscoveryTitle[]> {
+  const g = genre.toLowerCase();
+  return (await load())
+    .filter((t) => t.genres.some((x) => x.toLowerCase() === g))
+    .sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
+}
+
+/** Newest first — what the homepage leads with. */
+export async function latestDiscovery(limit = 12): Promise<DiscoveryTitle[]> {
+  return (await load())
+    .slice()
+    .sort((a, b) => (b.year ?? 0) - (a.year ?? 0))
+    .slice(0, limit);
+}
+
 export async function searchDiscovery(q: string): Promise<DiscoveryTitle[]> {
   const term = q.trim().toLowerCase();
   if (!term) return [];

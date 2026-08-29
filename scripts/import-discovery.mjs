@@ -30,7 +30,9 @@ const args = process.argv.slice(2);
 const flag = (n, d) => { const i = args.indexOf(`--${n}`); return i === -1 ? d : args[i + 1]; };
 const PROBE = args.includes("--probe");
 const DRY = args.includes("--dry");
-const LIMIT = Number(flag("limit", 25));
+const MAX_PER_PAGE = 250;              // Watchmode rejects anything larger
+const LIMIT = Math.min(Number(flag("limit", 25)), MAX_PER_PAGE);
+const PAGES = Number(flag("pages", 1));
 const REGION = flag("region", process.env.DISCOVERY_REGION || "US");
 const REGIONS_REPORT = args.includes("--regions");
 
@@ -176,20 +178,28 @@ const bySource = new Map(existing.map((t) => [t.sourceId, t]));
 
 await assertRegionEnabled(REGION);
 
-let list;
-try {
-  list = await api("/list-titles/", {
-    types: "movie",
-    limit: String(LIMIT),
-    sort_by: "popularity_desc",
-    regions: REGION,
-  });
-} catch (err) {
-  console.error("Could not list titles:", err.message);
-  process.exit(1);
+const rows = [];
+for (let page = 1; page <= PAGES; page++) {
+  let list;
+  try {
+    list = await api("/list-titles/", {
+      types: "movie",
+      limit: String(LIMIT),
+      page: String(page),
+      sort_by: "popularity_desc",
+      regions: REGION,
+    });
+  } catch (err) {
+    console.error(`Could not list titles (page ${page}):`, err.message);
+    break;
+  }
+  const batch = list?.titles ?? list?.results ?? list?.title_results ?? [];
+  if (!batch.length) break;
+  rows.push(...batch);
+  if (page === 1 && list?.total_results) {
+    console.log(`catalogue has ${list.total_results} movies in ${REGION}`);
+  }
 }
-
-const rows = list?.titles ?? list?.results ?? list?.title_results ?? [];
 if (!rows.length) {
   console.error("The list endpoint returned no rows. Run --probe and share the output.");
   process.exit(1);
