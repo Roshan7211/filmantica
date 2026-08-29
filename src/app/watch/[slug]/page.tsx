@@ -33,7 +33,7 @@ export default async function WatchPage({ params }: Params) {
           <video
             controls
             preload="metadata"
-            poster={movie.posterUrl ?? undefined}
+            poster={movie.posterUrl ? `/api/poster/${movie.slug}` : undefined}
             className="aspect-video w-full bg-black"
           >
             <source src={`/api/stream/${movie.slug}`} type="video/mp4" />

@@ -10,7 +10,7 @@ export default function MovieCard({ movie }: { movie: Movie }) {
                  hover:border-brass/50 focus-visible:outline-2 focus-visible:outline-brass"
     >
       <div className="aspect-2/3 overflow-hidden">
-        <Poster src={movie.posterUrl} title={movie.title} year={movie.year}
+        <Poster src={movie.posterUrl ? `/api/poster/${movie.slug}` : null} title={movie.title} year={movie.year}
                 className="transition duration-500 group-hover:scale-105" />
       </div>
       <div className="p-3">

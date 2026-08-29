@@ -55,7 +55,7 @@ export default async function MoviePage({ params }: Params) {
 
       <div className="grid gap-8 sm:grid-cols-[220px_1fr]">
         <div className="aspect-2/3 overflow-hidden rounded-md border border-edge">
-          <Poster src={movie.posterUrl} title={movie.title} year={movie.year} />
+          <Poster src={movie.posterUrl ? `/api/poster/${movie.slug}` : null} title={movie.title} year={movie.year} />
         </div>
 
         <div>
