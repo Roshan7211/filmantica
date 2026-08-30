@@ -1,0 +1,79 @@
+# Keeps availability current.
+#
+# Licences begin and end continuously, so a "FREE" badge that is wrong is the one
+# failure that would undermine this site. A full weekly refresh is not affordable
+# — 1,064 titles against a 2,500 request monthly budget — so this refreshes the
+# 500 titles checked longest ago and cycles. The whole catalogue comes round
+# roughly fortnightly, spending about 2,000 requests a month and leaving headroom.
+#
+# Requires two repository secrets:
+#   WATCHMODE_API_KEY   the API key
+#   VERCEL_DEPLOY_HOOK  a Vercel deploy hook URL, because pushing to GitHub does
+#                       not currently trigger a deploy on this project
+name: Refresh availability
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Titles to refresh (1 request each)"
+        default: "500"
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Check the API is reachable and has quota
+        env:
+          WATCHMODE_API_KEY: ${{ secrets.WATCHMODE_API_KEY }}
+        run: |
+          if [ -z "$WATCHMODE_API_KEY" ]; then
+            echo "WATCHMODE_API_KEY secret is not set - add it in Settings > Secrets."
+            exit 1
+          fi
+          curl -s "https://api.watchmode.com/v1/status/?apiKey=$WATCHMODE_API_KEY"
+          echo
+
+      - name: Refresh availability
+        env:
+          WATCHMODE_API_KEY: ${{ secrets.WATCHMODE_API_KEY }}
+          DISCOVERY_REGION: IN
+        run: |
+          node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON \
+            scripts/refresh-availability.mjs --limit "${{ inputs.limit || '500' }}"
+
+      - name: Commit if availability changed
+        id: commit
+        run: |
+          if git diff --quiet -- data/; then
+            echo "no availability changes"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name  "filmantica-refresh"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git commit -m "chore: refresh availability"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy the refreshed data
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "::warning::VERCEL_DEPLOY_HOOK is not set - data was committed but the site was not redeployed."
+            exit 0
+          fi
+          curl -sS -X POST "$HOOK" -o /dev/null -w "deploy hook: %{http_code}\n"

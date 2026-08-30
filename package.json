@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run lint && next build",
     "start": "next start",
-    "lint": "eslint",
+    "lint": "eslint --max-warnings=0",
     "import": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/import.mjs",
     "import:dry": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/import.mjs --dry --rows 50 --pages 1",
     "seed": "node scripts/seed.mjs",
@@ -28,7 +28,9 @@
     "test:youtube": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-youtube.mjs",
     "test:paginate": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-paginate.mjs",
     "test:all": "for t in quality triage policy film site youtube paginate credits; do npm run test:$t --silent; done",
-    "test:credits": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-credits.mjs"
+    "test:credits": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-credits.mjs",
+    "build:only": "next build",
+    "refresh": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --env-file-if-exists=.env.local scripts/refresh-availability.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
