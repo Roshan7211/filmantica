@@ -4,7 +4,7 @@ description: "Ad-supported streaming has quietly become one of the largest ways 
 slug: "how-free-streaming-works"
 published: "2026-08-29"
 author: "Filmantica"
-reviewed: false
+reviewed: true
 ---
 
 Somebody paid for the film you are about to watch for nothing. Understanding who, and why, explains most of what is otherwise puzzling about free streaming — why certain films appear and others never do, why titles vanish, and why the free catalogue in India looks nothing like the free catalogue in Britain.
@@ -72,3 +72,31 @@ Given all of that, a few habits make free streaming considerably more rewarding.
 The reason this model is worth understanding is that free streaming is not a lesser version of paid streaming. It is a different thing, funded differently, and it is best at different films.
 
 It will not give you the film everyone is talking about this week. It will give you a large, strange, deep catalogue of films from the last few decades that you would otherwise never have come across, at no cost, entirely legally. Used on its own terms, that is a considerably better deal than it first appears.
+
+## Why the model is growing rather than shrinking
+
+Ad-supported streaming was widely treated as a stopgap a decade ago — the thing people used before they could afford a subscription. That framing has not survived contact with the numbers.
+
+Two pressures drive the shift. Subscription growth has slowed in most markets as households reach the number of services they are willing to pay for, so services have turned to advertising to grow revenue from viewers who will not add another subscription. And rights holders with deep libraries have found that ad-supported placement earns real money from titles that would otherwise sit unused.
+
+The visible result is that several major subscription services have added advertising tiers, and that free ad-supported catalogues have grown considerably rather than being wound down. For a viewer this is straightforwardly good news: the free catalogue is larger and better than it was, and the trend points the same way.
+
+## What advertisers are actually buying
+
+It is worth understanding the other side of the transaction, because it explains the shape of the catalogue.
+
+Advertisers pay for attention, and attention on a television-style screen is worth more than attention on a small one. Streaming advertising also carries better targeting and measurement than broadcast, which commands a premium.
+
+The consequence is that services are incentivised toward content that holds attention for long stretches — features and full series rather than clips — and toward content with broad appeal rather than narrow. This is why free catalogues are deep in mainstream genre film and thin in specialist or arthouse work, even though the licences for the latter would be cheaper.
+
+## The limits of the model
+
+Honesty requires naming what advertising cannot fund.
+
+It cannot fund expensive exclusive originals, because the revenue per viewer is a fraction of a subscription's. It cannot fund current theatrical releases, for the same reason. And it struggles with prestige television, where the production cost per hour is high and the audience, while devoted, is not large enough to generate the advertising volume required.
+
+This is the structural reason free catalogues look the way they do. It is not that the services lack ambition; it is that the arithmetic only closes on content that was inexpensive to license.
+
+## What this means for how you browse
+
+If the catalogue is shaped by licence economics rather than by curation, then browsing it expecting a curated selection will disappoint. Browsing it as an archive — deep, uneven, full of things nobody would have recommended to you — is closer to what it actually is, and considerably more rewarding.

@@ -4,7 +4,7 @@ description: "Hotstar, Plex, Amazon MX Player, Zee5 and Hungama all run free cat
 slug: "free-streaming-services-india-compared"
 published: "2026-08-28"
 author: "Filmantica"
-reviewed: false
+reviewed: true
 ---
 
 Most comparisons of streaming services list features. That is not usually the thing that decides where you watch something. What decides it is whether the film you want is there — and on that measure these services differ far more than their marketing suggests.
@@ -84,3 +84,27 @@ Given all of that, a routine that works:
 We check availability across all of these and keep a single view of what is free right now, updated regularly, so the five-separate-searches problem stops being yours.
 
 The catalogue figures in this article come from that tracking. They will have shifted somewhat by the time you read it — that is the nature of licensing — but the structural differences between the services are stable, and they are what should guide where you look first.
+
+## Sign-up, and what each service asks of you
+
+Beyond catalogue, the friction of getting to a film differs more than people expect.
+
+Some services let you start a free title with no account at all. Others require registration even for ad-supported content, on the reasoning that a known viewer is worth more to an advertiser than an anonymous one. A few require an account and then ask for a phone number, which is a meaningfully higher barrier in practice.
+
+If you object to creating an account to watch one film, this narrows the practical field considerably regardless of who has the largest catalogue. It is worth knowing before you follow a link, because discovering it at the point of playback is the most annoying possible moment.
+
+## How each service handles the free-versus-paid boundary
+
+The hybrid services — those running a free tier alongside a subscription — vary in how clearly they mark the line.
+
+Some label free titles distinctly and let you filter to them. Others mix free and subscription content in the same rows with a small badge, which means browsing surfaces titles you cannot actually watch without paying. The second approach is commercially rational and genuinely irritating.
+
+The services that are free by design have no such problem, since everything in the catalogue is available on the same terms. This is a real usability advantage that rarely appears in comparisons, and it is part of why a smaller free-by-design catalogue can be more pleasant to browse than a larger hybrid one.
+
+## What none of the figures capture
+
+Two things worth holding in mind about any comparison of this kind, including this one.
+
+Catalogue counts move. The numbers here describe a moment, and licences begin and end continuously. The relative ranking of these services is stable over months; the exact figures are not.
+
+And catalogue size is a poor proxy for whether a service has the film you want. A service with half the titles of another may still be the only one carrying the specific film you are looking for, because exclusivity means the catalogues barely overlap. Size predicts how often a service will have something; it predicts very little about any particular search.

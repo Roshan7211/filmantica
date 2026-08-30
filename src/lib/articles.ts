@@ -80,6 +80,10 @@ export async function getArticle(slug: string): Promise<Article | null> {
   return (await publishedArticles()).find((a) => a.slug === slug) ?? null;
 }
 
+/** Target length. Long-form pieces rank better for the questions this site
+ *  answers, and give an ad reviewer more to judge than a thin post does. */
+export const MIN_WORDS = 1500;
+
 /** Progress toward the ~18 articles an ad network expects. */
 export async function articleStats() {
   const all = await loadAll();
@@ -89,6 +93,6 @@ export async function articleStats() {
     reviewed: reviewed.length,
     drafts: all.length - reviewed.length,
     words: all.reduce((n, a) => n + a.wordCount, 0),
-    shortOnes: all.filter((a) => a.wordCount < 800).map((a) => `${a.slug} (${a.wordCount}w)`),
+    shortOnes: all.filter((a) => a.wordCount < MIN_WORDS).map((a) => `${a.slug} (${a.wordCount}w)`),
   };
 }
