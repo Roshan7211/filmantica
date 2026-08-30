@@ -7,7 +7,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: { default: `${SITE.name} — ${SITE.tagline}`, template: `%s · ${SITE.name}` },
   description: SITE.description,
-  openGraph: { siteName: SITE.name, type: "website" },
+  openGraph: { siteName: SITE.name, type: "website", url: SITE.url },
+  // Default canonical. Pages with query parameters or their own URL override it;
+  // without this, every page lacking an explicit one had no canonical at all.
+  alternates: { canonical: "/" },
 };
 
 const NAV = [
@@ -18,6 +21,7 @@ const NAV = [
   ["Lists", "/lists"],
   ["Movies", "/discover"],
   ["Genres", "/genres"],
+  ["Industry", "/language"],
   ["Guides", "/guides"],
 ];
 

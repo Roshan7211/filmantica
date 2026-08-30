@@ -1,7 +1,7 @@
 import { allDiscovery, freeToWatch } from "@/lib/discovery";
 import { SITE } from "@/lib/site";
 
-export const metadata = { title: "About" };
+export const metadata = { title: "About", alternates: { canonical: "/about" } };
 
 export default async function AboutPage() {
   const [all, free] = await Promise.all([allDiscovery(), freeToWatch()]);

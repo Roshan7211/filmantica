@@ -4,6 +4,7 @@ import { newlyFree, recentlyLeftFree, lastCheckedAt } from "@/lib/discovery";
 import DiscoveryCard from "@/components/DiscoveryCard";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/new" },
   title: "New free films and what just left",
   description:
     "Films that have just become free to watch in India, and ones that have recently stopped being free.",

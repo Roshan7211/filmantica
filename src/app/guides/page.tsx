@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { publishedArticles } from "@/lib/articles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/guides" },
   title: "Guides to watching films free and legally",
   description:
     "How free streaming works in India, which services carry what, and how to tell a licensed service from an unlicensed one.",

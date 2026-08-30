@@ -4,6 +4,7 @@ import SubscriptionAudit from "@/components/SubscriptionAudit";
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/subscriptions" },
   title: "Are your streaming subscriptions worth it?",
   description:
     "Pick the services you pay for and see how much of what they offer is already free to watch somewhere else in India.",

@@ -8,8 +8,16 @@ import { useEffect, useRef, useState } from "react";
  *  fires onError, so we re-test complete/naturalWidth once the ref is attached.
  */
 export default function Poster({
-  src, title, year, className = "",
-}: { src: string | null; title: string; year: number | null; className?: string }) {
+  src, title, year, className = "", priority = false,
+}: {
+  src: string | null;
+  title: string;
+  year: number | null;
+  className?: string;
+  /** Set on images above the fold. Lazy-loading the largest visible image
+   *  delays the LCP, which is the metric that decides whether a page feels fast. */
+  priority?: boolean;
+}) {
   const [failed, setFailed] = useState(false);
   const ref = useRef<HTMLImageElement>(null);
 
@@ -36,7 +44,8 @@ export default function Poster({
       ref={ref}
       src={src}
       alt={`${title} poster`}
-      loading="lazy"
+      loading={priority ? "eager" : "lazy"}
+      fetchPriority={priority ? "high" : undefined}
       onError={() => setFailed(true)}
       className={`h-full w-full object-cover ${className}`}
     />

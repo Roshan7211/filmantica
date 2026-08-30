@@ -85,7 +85,7 @@ export default function HeroCarousel({ titles }: { titles: DiscoveryTitle[] }) {
                      [scrollbar-width:none] focus-visible:outline-2 focus-visible:outline-brass
                      [&::-webkit-scrollbar]:hidden"
         >
-          {titles.map((t) => {
+          {titles.map((t, i) => {
             const free = t.options.free.length > 0;
             return (
               <Link
@@ -99,6 +99,7 @@ export default function HeroCarousel({ titles }: { titles: DiscoveryTitle[] }) {
                     src={t.posterUrl}
                     title={t.title}
                     year={t.year}
+                    priority={i < 4}
                     className="transition duration-500 group-hover:scale-105"
                   />
                   {free && (

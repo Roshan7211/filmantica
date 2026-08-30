@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { discoveryGenres, genreSlug } from "@/lib/discovery";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/genres" },
   title: "Browse movies by genre — where to watch",
   description: "Action, thriller, horror, comedy and more, with every legal way to watch each film.",
 };

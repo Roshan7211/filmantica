@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { populatedLists } from "@/lib/lists";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/lists" },
   title: "Curated lists — free movies by genre and year",
   description: "Hand-picked lists of films you can watch free and legally right now.",
 };

@@ -3,12 +3,14 @@ import { allDiscovery, discoveryGenres, genreSlug } from "@/lib/discovery";
 import { SITE } from "@/lib/site";
 import { populatedLists } from "@/lib/lists";
 import { publishedArticles } from "@/lib/articles";
+import { populatedLanguages } from "@/lib/languages";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [titles, genres, lists] = await Promise.all([
     allDiscovery(), discoveryGenres(), populatedLists(),
   ]);
   const articles = await publishedArticles();
+  const languages = await populatedLanguages();
 
   return [
     { url: SITE.url, changeFrequency: "daily", priority: 1 },
@@ -36,6 +38,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.9,
     })),
     { url: `${SITE.url}/genres`, changeFrequency: "weekly", priority: 0.6 },
+    { url: `${SITE.url}/language`, changeFrequency: "weekly", priority: 0.8 },
+    ...languages.map(({ lang }) => ({
+      url: `${SITE.url}/language/${lang.slug}`,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    })),
     ...genres.map((g) => ({
       url: `${SITE.url}/genre/${genreSlug(g.name)}`,
       changeFrequency: "weekly" as const,
