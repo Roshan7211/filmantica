@@ -1,33 +1,29 @@
-import { stats } from "@/lib/movies";
+import { allDiscovery, freeToWatch } from "@/lib/discovery";
 import { SITE } from "@/lib/site";
 
 export const metadata = { title: "About" };
 
 export default async function AboutPage() {
-  const s = await stats();
+  const [all, free] = await Promise.all([allDiscovery(), freeToWatch()]);
+  const services = [...new Set(free.flatMap((t) => t.options.free.map((o) => o.name)))];
+
   return (
     <div className="max-w-2xl">
       <h1 className="display mb-6 text-3xl">About {SITE.name}</h1>
       <div className="space-y-4 leading-relaxed text-cream/85">
         <p>
-          {SITE.name} streams classic cinema that is free to share — films in the public domain,
-          and films released under licences that permit commercial reuse.
+          {SITE.name} answers one question: <strong>what can I watch right now, free and
+          legally?</strong>
         </p>
         <p>
-          Every title is checked before it is published. The importer reads licence metadata from
-          the source, and a title is published only if its licence appears on an explicit
-          whitelist. NonCommercial licences are rejected, because this site carries advertising.
-          A licence field that merely asserts &ldquo;public domain&rdquo; is held for manual
-          review rather than trusted.
+          We track {all.length} films and where each can be streamed, rented or bought.{" "}
+          {free.length} of them are free to watch right now
+          {services.length ? ` on ${services.slice(0, 4).join(", ")}` : ""}.
         </p>
         <p className="rounded border border-edge bg-ink-2 p-4 text-sm text-muted">
-          Catalogue: <strong className="text-cream">{s.total}</strong> records ·{" "}
-          <strong className="text-cream">{s.published}</strong> published ·{" "}
-          <strong className="text-cream">{s.verified}</strong> licence-verified
-        </p>
-        <p className="text-sm text-muted">
-          If you hold rights in something published here and believe it should not be, contact us
-          and it will be removed while the claim is reviewed.
+          We do not host or stream films. Every link goes to a licensed service that has the
+          right to show it. Availability changes often — we refresh it regularly, but check the
+          provider before relying on it.
         </p>
       </div>
     </div>

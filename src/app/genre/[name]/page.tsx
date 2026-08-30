@@ -27,8 +27,8 @@ export default async function GenrePage({ params }: Params) {
       <h1 className="display mb-1 text-3xl capitalize">{genre}</h1>
       <p className="mb-8 text-sm text-muted">
         {titles.length} films · newest first ·{" "}
-        <Link href="/movies" className="text-brass underline underline-offset-2">
-          see what&rsquo;s free to watch here
+        <Link href="/free" className="text-brass underline underline-offset-2">
+          see what&rsquo;s free to watch
         </Link>
       </p>
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">

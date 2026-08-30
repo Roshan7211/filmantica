@@ -1,6 +1,4 @@
-import { search } from "@/lib/movies";
 import { searchDiscovery, discoveryPopulated } from "@/lib/discovery";
-import MovieCard from "@/components/MovieCard";
 import DiscoveryCard from "@/components/DiscoveryCard";
 
 type Props = { searchParams: Promise<{ q?: string }> };
@@ -12,46 +10,43 @@ export async function generateMetadata({ searchParams }: Props) {
 
 export default async function SearchPage({ searchParams }: Props) {
   const { q = "" } = await searchParams;
+  const [results, populated] = await Promise.all([searchDiscovery(q), discoveryPopulated()]);
 
-  // Our own catalogue leads — those are free and watchable here.
-  const [ours, elsewhere, hasDiscovery] = await Promise.all([
-    search(q), searchDiscovery(q), discoveryPopulated(),
-  ]);
-
-  const ourTitles = new Set(ours.map((m) => m.title.toLowerCase()));
-  const others = elsewhere.filter((t) => !ourTitles.has(t.title.toLowerCase())).slice(0, 15);
+  // Free options first — that is what people come here to find.
+  const free = results.filter((t) => t.options.free.length > 0);
+  const paid = results.filter((t) => t.options.free.length === 0);
 
   return (
     <>
       <h1 className="display mb-1 text-3xl">Search</h1>
       <p className="mb-8 text-sm text-muted">
-        {q ? `Results for “${q}”` : "Type a title, director or genre."}
+        {q ? `${results.length} result${results.length === 1 ? "" : "s"} for “${q}”` : "Search for any film."}
       </p>
 
-      {ours.length > 0 && (
+      {free.length > 0 && (
         <section className="mb-12">
-          <h2 className="display mb-1 text-xl">Watch free here</h2>
-          <p className="mb-4 text-xs text-muted">{ours.length} in our catalogue</p>
+          <h2 className="display mb-1 text-xl">Free to watch</h2>
+          <p className="mb-4 text-xs text-muted">{free.length} streaming free right now</p>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
-            {ours.map((m) => <MovieCard key={m.id} movie={m} />)}
+            {free.map((t) => <DiscoveryCard key={t.id} title={t} />)}
           </div>
         </section>
       )}
 
-      {others.length > 0 && (
+      {paid.length > 0 && (
         <section>
-          <h2 className="display mb-1 text-xl">Where to watch elsewhere</h2>
-          <p className="mb-4 text-xs text-muted">Not in our catalogue — see licensed options</p>
+          <h2 className="display mb-1 text-xl">Where to watch</h2>
+          <p className="mb-4 text-xs text-muted">Stream, rent or buy</p>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
-            {others.map((t) => <DiscoveryCard key={t.id} title={t} />)}
+            {paid.map((t) => <DiscoveryCard key={t.id} title={t} />)}
           </div>
         </section>
       )}
 
-      {q && !ours.length && !others.length && (
+      {q && !results.length && (
         <p className="rounded border border-edge bg-ink-2 p-6 text-sm text-muted">
           Nothing matched.{" "}
-          {!hasDiscovery && "Run the discovery import to search current releases too."}
+          {!populated && "Run the discovery import to populate the catalogue."}
         </p>
       )}
     </>

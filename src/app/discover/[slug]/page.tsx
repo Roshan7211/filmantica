@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { allDiscovery, getDiscovery, hasAnyOption, type WatchOption } from "@/lib/discovery";
-import { search as searchCatalogue } from "@/lib/movies";
 import Poster from "@/components/Poster";
 import { SITE } from "@/lib/site";
 
@@ -63,8 +62,6 @@ export default async function WhereToWatch({ params }: Params) {
   const t = await getDiscovery(slug);
   if (!t) notFound();
 
-  const ourCopies = await searchCatalogue(t.title);
-  const free = ourCopies.find((m) => m.title.toLowerCase() === t.title.toLowerCase());
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -95,27 +92,13 @@ export default async function WhereToWatch({ params }: Params) {
 
           {t.plot && <p className="mt-5 max-w-2xl leading-relaxed text-cream/85">{t.plot}</p>}
 
-          {free && (
-            <div className="mt-7 rounded border border-brass/40 bg-brass/10 p-4">
-              <p className="text-sm">
-                <strong className="text-brass">Free on {SITE.name}.</strong>{" "}
-                <span className="text-cream/85">This film is in our public-domain catalogue.</span>
-              </p>
-              <Link href={`/watch/${free.slug}`}
-                className="mt-3 inline-block rounded bg-brass px-4 py-2 text-sm font-medium text-ink
-                           transition hover:bg-brass/90">
-                Watch free now
-              </Link>
-            </div>
-          )}
-
           <div className="mt-8">
             <Options label="Free" items={t.options.free} />
             <Options label="Stream" items={t.options.stream} />
             <Options label="Rent" items={t.options.rent} />
             <Options label="Buy" items={t.options.buy} />
 
-            {!hasAnyOption(t) && !free && (
+            {!hasAnyOption(t) && (
               <p className="rounded border border-edge bg-ink-2 p-4 text-sm text-muted">
                 No streaming options listed for this region right now.
               </p>

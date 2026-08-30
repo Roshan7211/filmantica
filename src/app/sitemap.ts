@@ -1,40 +1,36 @@
 import type { MetadataRoute } from "next";
-import { allMovies, allGenres } from "@/lib/movies";
 import { allDiscovery, discoveryGenres, genreSlug } from "@/lib/discovery";
 import { SITE } from "@/lib/site";
+import { populatedLists } from "@/lib/lists";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [movies, genres, discovery, dGenres] = await Promise.all([
-    allMovies(), allGenres(), allDiscovery(), discoveryGenres(),
+  const [titles, genres, lists] = await Promise.all([
+    allDiscovery(), discoveryGenres(), populatedLists(),
   ]);
 
   return [
     { url: SITE.url, changeFrequency: "daily", priority: 1 },
-    { url: `${SITE.url}/movies`, changeFrequency: "daily", priority: 0.9 },
-    { url: `${SITE.url}/genres`, changeFrequency: "weekly", priority: 0.6 },
+    // The free page is the site's reason to exist, so it ranks above the rest.
+    { url: `${SITE.url}/free`, changeFrequency: "daily", priority: 1 },
     { url: `${SITE.url}/discover`, changeFrequency: "daily", priority: 0.9 },
-    ...dGenres.map((g) => ({
+    { url: `${SITE.url}/lists`, changeFrequency: "weekly", priority: 0.8 },
+    ...lists.map(({ list }) => ({
+      url: `${SITE.url}/lists/${list.slug}`,
+      changeFrequency: "weekly" as const,
+      priority: 0.9,
+    })),
+    { url: `${SITE.url}/genres`, changeFrequency: "weekly", priority: 0.6 },
+    ...genres.map((g) => ({
       url: `${SITE.url}/genre/${genreSlug(g.name)}`,
       changeFrequency: "weekly" as const,
       priority: 0.7,
     })),
-    // "Where to watch X" pages — high-volume search intent, so they belong in the
-    // sitemap. Availability changes often, hence the weekly frequency.
-    ...discovery.map((t) => ({
+    // Per-title pages are the traffic engine: "<title> watch free" queries.
+    ...titles.map((t) => ({
       url: `${SITE.url}/discover/${t.slug}`,
       lastModified: t.updatedAt,
       changeFrequency: "weekly" as const,
-      priority: 0.8,
+      priority: t.options.free.length ? 0.9 : 0.8,
     })),
-    ...genres.map((g) => ({
-      url: `${SITE.url}/genres/${encodeURIComponent(g.name.toLowerCase())}`,
-      changeFrequency: "weekly" as const,
-      priority: 0.6,
-    })),
-    // The per-title pages are the traffic engine — highest priority after home.
-    ...movies.flatMap((m) => [
-      { url: `${SITE.url}/movies/${m.slug}`, lastModified: m.updatedAt, changeFrequency: "monthly" as const, priority: 0.8 },
-      { url: `${SITE.url}/watch/${m.slug}`, lastModified: m.updatedAt, changeFrequency: "monthly" as const, priority: 0.7 },
-    ]),
   ];
 }

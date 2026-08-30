@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 const NAV = [
   ["Free to watch", "/free"],
+  ["Lists", "/lists"],
   ["Movies", "/discover"],
   ["Genres", "/genres"],
-  ["Archive", "/movies"],
 ];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

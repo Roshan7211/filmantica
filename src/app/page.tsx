@@ -1,17 +1,16 @@
 import Link from "next/link";
-import { allDiscovery, discoveryGenres, discoveryByGenre, discoveryPopulated, hasAnyOption, genreSlug, freeToWatch } from "@/lib/discovery";
-import { allMovies } from "@/lib/movies";
+import {
+  allDiscovery, discoveryGenres, discoveryByGenre, discoveryPopulated,
+  freeToWatch, hasAnyOption, genreSlug,
+} from "@/lib/discovery";
 import DiscoveryCard from "@/components/DiscoveryCard";
 import DiscoveryEmpty from "@/components/DiscoveryEmpty";
-import MovieCard from "@/components/MovieCard";
 import Poster from "@/components/Poster";
 
-/** Homepage leads with current films and where to watch them — that is what
- *  people search for. The free public-domain catalogue is a genuine feature but a
- *  small one, so it sits below rather than defining the site. */
+/** Free-first: the site exists to answer "what can I watch right now, free".
+ *  Everything else is secondary to that question. */
 export default async function Home() {
-  const populated = await discoveryPopulated();
-  if (!populated) {
+  if (!(await discoveryPopulated())) {
     return (
       <>
         <h1 className="display mb-6 text-3xl">Movies</h1>
@@ -20,14 +19,14 @@ export default async function Home() {
     );
   }
 
-  const [titles, genres, freeStreams, hosted] = await Promise.all([
-    allDiscovery(), discoveryGenres(), freeToWatch(), allMovies(),
+  const [titles, genres, free] = await Promise.all([
+    allDiscovery(), discoveryGenres(), freeToWatch(),
   ]);
 
-  // Lead with something recent that actually has somewhere to watch it.
   const hero =
-    titles.filter((t) => t.year && t.year >= 2024 && hasAnyOption(t) && t.plot)
-          .sort((a, b) => (b.year ?? 0) - (a.year ?? 0))[0]
+    free.filter((t) => t.year && t.year >= 2024 && t.plot)
+        .sort((a, b) => (b.year ?? 0) - (a.year ?? 0))[0]
+    ?? free[0]
     ?? titles.find(hasAnyOption)
     ?? titles[0];
 
@@ -38,10 +37,7 @@ export default async function Home() {
     })),
   );
 
-  const heroWays = hero
-    ? hero.options.free.length + hero.options.stream.length +
-      hero.options.rent.length + hero.options.buy.length
-    : 0;
+  const heroIsFree = (hero?.options.free.length ?? 0) > 0;
 
   return (
     <>
@@ -51,7 +47,9 @@ export default async function Home() {
             <Poster src={hero.posterUrl} title={hero.title} year={hero.year} />
           </div>
           <div>
-            <p className="mb-2 text-xs uppercase tracking-[0.2em] text-brass">Now streaming</p>
+            <p className="mb-2 text-xs uppercase tracking-[0.2em] text-brass">
+              {heroIsFree ? `Free on ${hero.options.free[0].name}` : "Now streaming"}
+            </p>
             <h1 className="display text-4xl leading-tight sm:text-5xl">{hero.title}</h1>
             <p className="mt-2 text-sm text-muted">
               {[hero.year, hero.runtime && `${hero.runtime} min`, hero.genres.slice(0, 3).join(", ")]
@@ -65,12 +63,31 @@ export default async function Home() {
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <Link href={`/discover/${hero.slug}`}
                 className="rounded bg-brass px-5 py-2.5 text-sm font-medium text-ink transition hover:bg-brass/90">
-                Where to watch
+                {heroIsFree ? "Watch free" : "Where to watch"}
               </Link>
-              {heroWays > 0 && (
-                <span className="text-xs text-muted">{heroWays} way{heroWays === 1 ? "" : "s"} to watch</span>
-              )}
+              <Link href="/free" className="text-xs text-muted transition hover:text-brass">
+                {free.length} films free right now →
+              </Link>
             </div>
+          </div>
+        </section>
+      )}
+
+      {free.length > 0 && (
+        <section className="mb-14 rounded-lg border border-brass/25 bg-brass/[0.04] p-6">
+          <div className="mb-4 flex items-baseline justify-between">
+            <div>
+              <h2 className="display text-xl">Free to watch</h2>
+              <p className="mt-1 text-xs text-muted">
+                {free.length} films streaming free and legally, no subscription
+              </p>
+            </div>
+            <Link href="/free" className="text-xs text-muted transition hover:text-brass">See all →</Link>
+          </div>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+            {free.filter((t) => t.id !== hero?.id).slice(0, 6).map((t) => (
+              <DiscoveryCard key={t.id} title={t} />
+            ))}
           </div>
         </section>
       )}
@@ -87,29 +104,6 @@ export default async function Home() {
           </div>
         </section>
       ))}
-
-      {/* Free section leads with current films that are legally free to stream —
-          a public-domain catalogue alone cannot carry this. */}
-      {(freeStreams.length > 0 || hosted.length > 0) && (
-        <section className="mt-16 rounded-lg border border-brass/25 bg-brass/[0.04] p-6">
-          <div className="mb-4 flex items-baseline justify-between">
-            <div>
-              <h2 className="display text-xl">Free to watch</h2>
-              <p className="mt-1 text-xs text-muted">
-                {freeStreams.length > 0
-                  ? `${freeStreams.length} films streaming free right now, no subscription`
-                  : `${hosted.length} public-domain films to stream and download`}
-              </p>
-            </div>
-            <Link href="/free" className="text-xs text-muted transition hover:text-brass">See all →</Link>
-          </div>
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
-            {freeStreams.slice(0, 6).map((t) => <DiscoveryCard key={t.id} title={t} />)}
-            {freeStreams.length < 6 &&
-              hosted.slice(0, 6 - freeStreams.length).map((m) => <MovieCard key={m.id} movie={m} />)}
-          </div>
-        </section>
-      )}
     </>
   );
 }
