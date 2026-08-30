@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { allDiscovery, getDiscovery, hasAnyOption, type WatchOption } from "@/lib/discovery";
+import { allDiscovery, getDiscovery, hasAnyOption, genreSlug, type WatchOption } from "@/lib/discovery";
 import Poster from "@/components/Poster";
 import { SITE } from "@/lib/site";
 
@@ -72,6 +72,12 @@ export default async function WhereToWatch({ params }: Params) {
     datePublished: t.year ? String(t.year) : undefined,
     genre: t.genres.length ? t.genres : undefined,
     duration: t.runtime ? `PT${t.runtime}M` : undefined,
+    aggregateRating: t.rating
+      ? { "@type": "AggregateRating", ratingValue: t.rating, bestRating: 10, ratingCount: 1 }
+      : undefined,
+    potentialAction: t.options.free.length
+      ? { "@type": "WatchAction", target: t.options.free[0].url ?? undefined }
+      : undefined,
   };
 
   return (
@@ -85,12 +91,48 @@ export default async function WhereToWatch({ params }: Params) {
 
         <div>
           <h1 className="display text-3xl leading-tight sm:text-4xl">Where to watch {t.title}</h1>
-          <p className="mt-2 text-sm text-muted">
-            {[t.year, t.runtime && `${t.runtime} min`, t.genres.slice(0, 3).join(", ")]
-              .filter(Boolean).join(" · ")}
-          </p>
+          {/* Facts up front: people scan these before reading a synopsis. */}
+          <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-muted">
+            {t.year && <span>{t.year}</span>}
+            {t.runtime ? (
+              <span>
+                {t.runtime >= 60 ? `${Math.floor(t.runtime / 60)}h ${t.runtime % 60}m` : `${t.runtime}m`}
+              </span>
+            ) : null}
+            {t.rating ? (
+              <span className="rounded bg-brass/15 px-2 py-0.5 text-brass ring-1 ring-brass/30">
+                ★ {t.rating.toFixed(1)}
+              </span>
+            ) : null}
+            {t.options.free.length > 0 && (
+              <span className="rounded bg-brass px-2 py-0.5 text-xs font-semibold text-ink">
+                FREE TO WATCH
+              </span>
+            )}
+          </div>
+
+          {t.genres.length > 0 && (
+            <div className="mt-3 flex flex-wrap gap-2">
+              {t.genres.map((g) => (
+                <Link key={g} href={`/genre/${genreSlug(g)}`}
+                  className="rounded-full border border-edge px-3 py-1 text-xs text-muted transition
+                             hover:border-brass/60 hover:text-cream">
+                  {g}
+                </Link>
+              ))}
+            </div>
+          )}
 
           {t.plot && <p className="mt-5 max-w-2xl leading-relaxed text-cream/85">{t.plot}</p>}
+
+          {t.releaseDate && (
+            <p className="mt-4 text-xs text-muted">
+              Released{" "}
+              {new Date(t.releaseDate).toLocaleDateString("en-GB", {
+                day: "numeric", month: "long", year: "numeric",
+              })}
+            </p>
+          )}
 
           <div className="mt-8">
             <Options label="Free" items={t.options.free} />

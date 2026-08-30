@@ -24,6 +24,14 @@ export type DiscoveryTitle = {
   runtime: number | null;
   rating: number | null;
 
+  /** Richer detail captured from the source. Optional because titles imported
+   *  before these were mapped will not have them until the next refresh. */
+  backdropUrl?: string | null;
+  certification?: string | null;
+  language?: string | null;
+  imdbId?: string | null;
+  trailerUrl?: string | null;
+
   provider: string;
   sourceId: string;
 

@@ -35,6 +35,11 @@ export type RawTitle = {
   poster?: string | null;
   posterMedium?: string | null;
   posterLarge?: string | null;
+  backdrop?: string | null;
+  us_rating?: string | null;
+  original_language?: string | null;
+  imdb_id?: string | null;
+  trailer?: string | null;
 };
 
 export function mapSources(raw: unknown, region: string): DiscoveryTitle["options"] {
@@ -91,6 +96,12 @@ export function mapTitle(d: RawTitle, sources: unknown, region: string): Discove
     genres: (d.genre_names ?? []).map(String).slice(0, 5),
     runtime: Number(d.runtime_minutes) || null,
     rating,
+    backdropUrl: d.backdrop ?? null,
+    certification: d.us_rating ?? null,
+    language: d.original_language ?? null,
+    imdbId: d.imdb_id ?? null,
+    trailerUrl: d.trailer ?? null,
+
     provider: "watchmode",
     sourceId,
     options: mapSources(sources, region),
