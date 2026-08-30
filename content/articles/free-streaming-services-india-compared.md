@@ -15,7 +15,7 @@ We track availability across the free catalogues in India, so this comparison is
 
 Five run free catalogues of meaningful size in India, and they are structured quite differently from one another.
 
-**Hotstar** operates the largest free film selection we see, by a wide margin. It is a hybrid service — a paid subscription with a substantial free tier alongside it — which means the free catalogue sits next to the paid one and is not always obviously separated in the interface. Roughly two in five of the free films we track are here.
+**Hotstar** operates the largest free film selection we see, by a wide margin. It is a hybrid service — a paid subscription with a substantial free tier alongside it — which means the free catalogue sits next to the paid one and is not always obviously separated in the interface. Close to half the free films we track are here.
 
 **Plex** is the surprise for most people, because it began as media server software rather than a streaming service and many still think of it that way. Its ad-supported catalogue is the second largest we see and skews international and older, with a lot of catalogue cinema that has drifted out of paid windows.
 
@@ -24,6 +24,8 @@ Five run free catalogues of meaningful size in India, and they are structured qu
 **Zee5** runs a smaller free selection alongside its subscription, weighted toward Indian film and series.
 
 **Hungama Play** is smaller again but occasionally holds titles the others do not, which makes it worth checking when a specific film is proving hard to find.
+
+**Prime Video** belongs in this list for one reason that surprises people: while its films are overwhelmingly paid, it carries a large free ad-supported *series* selection. In our tracking it is the single largest source of free series in India — more than Hotstar and Plex combined. If you are looking for a show rather than a film, start here.
 
 ## They barely overlap
 
@@ -41,9 +43,9 @@ In practice this means checking one service and concluding a film is not free is
 
 **For Indian regional cinema**, Amazon MX Player is the most reliable, with Zee5 second. Both license heavily in languages the international services largely ignore.
 
-**For series**, the picture is thinner everywhere. Series are harder to license free than films, because their value to a service is the return visit rather than the single view. Where free series do exist, anime is disproportionately represented, since it reaches free platforms unusually fast.
+**For series**, the ranking inverts completely. Prime Video and Amazon MX Player carry the large majority of free series between them, while Hotstar — dominant for films — is a distant third. Anime is heavily over-represented: about a third of the free series we track are anime or animation, because simulcast seasons reach free platforms unusually fast.
 
-**For documentaries**, most of them, but Plex and Hotstar carry the most. Documentaries move onto free services faster than fiction because their commercial window is short.
+**For documentaries**, the free selection is thinner than you might expect — around thirty films across all services in our tracking. Documentaries do reach free services faster than fiction, because their commercial window is short and their relevance is long, but the absolute numbers stay small.
 
 ## The genuine differences in experience
 
