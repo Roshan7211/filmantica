@@ -102,7 +102,7 @@ export function meetsPublishBar(
  *  batch, so repeated runs produced three records sharing one slug — and three
  *  pages competing for one URL. */
 export function uniqueSlug(base: string, taken: Set<string>, fallbackId: string): string {
-  let slug = base || fallbackId;
+  const slug = base || fallbackId;
   if (!taken.has(slug)) { taken.add(slug); return slug; }
 
   const suffixed = `${slug}-${fallbackId}`.slice(0, 90);

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 import { allDiscovery, discoveryPopulated } from "@/lib/discovery";
 import DiscoveryCard from "@/components/DiscoveryCard";
@@ -27,7 +28,7 @@ export default async function DiscoverPage() {
       <p className="mb-8 max-w-2xl text-sm text-muted">
         Where these films can legally be watched. Links go to licensed services — the films we
         host ourselves are in{" "}
-        <a href="/movies" className="text-brass underline underline-offset-2">the free catalogue</a>.
+        <Link href="/movies" className="text-brass underline underline-offset-2">the free catalogue</Link>.
       </p>
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
         {titles.map((t) => <DiscoveryCard key={t.id} title={t} />)}
