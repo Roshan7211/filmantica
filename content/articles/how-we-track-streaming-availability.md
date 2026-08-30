@@ -4,7 +4,7 @@ description: "Availability data goes stale quickly. Here is exactly how ours is 
 slug: "how-we-track-streaming-availability"
 published: "2026-08-24"
 author: "Filmantica"
-reviewed: false
+reviewed: true
 ---
 
 The most common complaint about streaming guides is that they say a film is available when it is not. It is a fair complaint, and it is worth explaining how we try to avoid it — including where we can still get it wrong.

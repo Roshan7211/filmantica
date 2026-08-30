@@ -4,7 +4,7 @@ description: "The gap between cinema and streaming has compressed dramatically. 
 slug: "how-release-windows-changed"
 published: "2026-08-13"
 author: "Filmantica"
-reviewed: false
+reviewed: true
 ---
 
 A release window is the period during which a film is available in one form before moving to the next. Cinema, then rental, then subscription, then free. The sequence has held for decades; the timings have changed beyond recognition, and that changes how long anything takes to become free.

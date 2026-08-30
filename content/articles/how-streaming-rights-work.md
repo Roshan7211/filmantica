@@ -4,7 +4,7 @@ description: "Streaming rights are sold territory by territory. That single fact
 slug: "how-streaming-rights-work"
 published: "2026-08-27"
 author: "Filmantica"
-reviewed: false
+reviewed: true
 ---
 
 You read that a film is streaming free, click through, and find it is not available where you are. Nothing is broken. You are seeing the consequence of how film rights are actually sold, which is territory by territory rather than globally.

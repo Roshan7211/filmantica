@@ -4,7 +4,7 @@ description: "Free ad-supported television has gone from afterthought to a centr
 slug: "what-fast-streaming-means"
 published: "2026-08-15"
 author: "Filmantica"
-reviewed: false
+reviewed: true
 ---
 
 FAST stands for free ad-supported television, and it describes services funded by advertising rather than subscription. The label is industry jargon, but the thing it names has become one of the main ways films reach audiences, and it is worth understanding because it explains a great deal about what you can watch for nothing.

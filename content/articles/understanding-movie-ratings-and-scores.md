@@ -4,7 +4,7 @@ description: "Ratings look like a single number but come from very different pro
 slug: "understanding-movie-ratings-and-scores"
 published: "2026-08-14"
 author: "Filmantica"
-reviewed: false
+reviewed: true
 ---
 
 Every streaming catalogue attaches a number to a film. The numbers come from different sources, measure different things, and are routinely compared as though they were interchangeable. Knowing what each actually represents makes them useful rather than decorative.

@@ -4,7 +4,7 @@ description: "Some free services let you press play immediately. Others want an 
 slug: "watching-films-without-an-account"
 published: "2026-08-16"
 author: "Filmantica"
-reviewed: false
+reviewed: true
 ---
 
 The friction between deciding to watch something and actually watching it is larger than it should be, and most of it is account creation. It is worth knowing which free services ask for one, which do not, and what you are actually handing over when you agree.

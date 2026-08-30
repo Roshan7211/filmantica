@@ -4,7 +4,7 @@ description: "Beyond the legal question, unlicensed sites are a poor way to watc
 slug: "how-to-spot-an-unlicensed-streaming-site"
 published: "2026-08-21"
 author: "Filmantica"
-reviewed: false
+reviewed: true
 ---
 
 Search for almost any film alongside the word "free" and the results will mix licensed services with sites that have no right to show anything. They are designed to look similar. The differences are consistent enough to spot in seconds once you know what you are looking at.

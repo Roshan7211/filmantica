@@ -4,7 +4,7 @@ description: "Anime reaches free streaming faster than almost any other category
 slug: "free-anime-streaming-india"
 published: "2026-08-26"
 author: "Filmantica"
-reviewed: false
+reviewed: true
 ---
 
 Anime is the best-served category on free streaming in India, and it is not close. About a third of the free series we track are anime or animation — a share far above the genre's share of television generally.

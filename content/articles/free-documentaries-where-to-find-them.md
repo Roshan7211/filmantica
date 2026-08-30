@@ -4,7 +4,7 @@ description: "Documentaries reach free services faster than fiction, but the cat
 slug: "free-documentaries-where-to-find-them"
 published: "2026-08-18"
 author: "Filmantica"
-reviewed: false
+reviewed: true
 ---
 
 Documentaries occupy an odd position in streaming. They reach free services faster than almost any other kind of film, and yet the free documentary catalogue is smaller than most people expect. Both facts have the same cause.

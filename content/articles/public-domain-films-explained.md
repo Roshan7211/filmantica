@@ -4,7 +4,7 @@ description: "Copyright expires, and when it does anyone may share the film. The
 slug: "public-domain-films-explained"
 published: "2026-08-22"
 author: "Filmantica"
-reviewed: false
+reviewed: true
 ---
 
 Some films belong to everyone. Copyright is not perpetual, and once it expires a work enters the public domain, where anyone may copy, show, sell or adapt it without asking permission.

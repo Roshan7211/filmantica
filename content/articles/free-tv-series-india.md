@@ -4,7 +4,7 @@ description: "Series are harder to find free than films, and the services that c
 slug: "free-tv-series-india"
 published: "2026-08-19"
 author: "Filmantica"
-reviewed: false
+reviewed: true
 ---
 
 Free film catalogues are well understood by now. Free series catalogues are not, partly because they are smaller and partly because the ranking of services inverts completely. The platform with the most free films in India is not close to the one with the most free series.
