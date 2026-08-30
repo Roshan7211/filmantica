@@ -117,3 +117,40 @@ export async function searchDiscovery(q: string): Promise<DiscoveryTitle[]> {
     `${t.title} ${t.genres.join(" ")}`.toLowerCase().includes(term),
   );
 }
+
+/** Days a transition stays "recent" on the site. A fortnight matches the refresh
+ *  cycle: every title is re-checked in that window, so nothing shown as new is
+ *  older than one full pass. */
+const RECENT_DAYS = 14;
+
+const withinDays = (iso: string | null | undefined, days: number) => {
+  if (!iso) return false;
+  const t = Date.parse(iso);
+  return Number.isFinite(t) && Date.now() - t <= days * 86_400_000;
+};
+
+/** Titles a refresh saw become free recently. */
+export async function newlyFree(days = RECENT_DAYS): Promise<DiscoveryTitle[]> {
+  return (await load())
+    .filter((t) => t.options.free.length > 0 && withinDays(t.freeSince, days))
+    .sort((a, b) => String(b.freeSince).localeCompare(String(a.freeSince)));
+}
+
+/** Titles that were free and are no longer. Kept visible briefly because
+ *  "it was free last week" is information, not noise. */
+export async function recentlyLeftFree(days = RECENT_DAYS): Promise<DiscoveryTitle[]> {
+  return (await load())
+    .filter((t) => t.options.free.length === 0 && withinDays(t.leftFreeAt, days))
+    .sort((a, b) => String(b.leftFreeAt).localeCompare(String(a.leftFreeAt)));
+}
+
+/** Most recent availability check across the catalogue — shown so visitors can
+ *  judge how current the data is, which is the thing competitors are criticised
+ *  for hiding. */
+export async function lastCheckedAt(): Promise<string | null> {
+  const stamps = (await load())
+    .map((t) => t.checkedAt)
+    .filter((x): x is string => Boolean(x))
+    .sort();
+  return stamps.length ? stamps[stamps.length - 1] : null;
+}

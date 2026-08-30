@@ -91,8 +91,15 @@ for (const t of due) {
     t.checkedAt = new Date().toISOString();
 
     const isFree = t.options.free.length > 0;
-    if (!wasFree && isFree) gainedFree++;
-    if (wasFree && !isFree) lostFree++;
+    const now = t.checkedAt;
+
+    // Record the transition rather than only counting it, so the site can show
+    // what is newly free and what has just gone without diffing snapshots.
+    if (!wasFree && isFree) { t.freeSince = now; t.leftFreeAt = null; gainedFree++; }
+    if (wasFree && !isFree) { t.leftFreeAt = now; t.freeSince = null; lostFree++; }
+    // Deliberately NOT setting freeSince on first sighting: the first refresh would
+    // then mark every already-free title as newly free, which is false. The feed
+    // starts empty and fills with real transitions, which is the honest behaviour.
     if (JSON.stringify(t.options) !== before) changed++;
     ok++;
   } catch (err) {

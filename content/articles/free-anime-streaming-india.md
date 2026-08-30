@@ -31,7 +31,7 @@ In India the free anime selection is concentrated on a small number of services.
 
 **Crunchyroll** is the specialist, but the important nuance is that its free tier is narrower than its reputation suggests, and much of the catalogue people associate with it requires a subscription.
 
-**Hotstar and Zee5** carry smaller anime selections, generally dubbed rather than subtitled.
+**JioHotstar and Zee5** carry smaller anime selections, generally dubbed rather than subtitled.
 
 The practical implication is that no single service holds it all, and the overlap between them is small, so checking across services materially improves your odds.
 

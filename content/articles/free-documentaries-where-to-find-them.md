@@ -31,7 +31,7 @@ The concentration differs from fiction.
 
 **Plex** carries the deepest free documentary selection we see, skewing older and international. Its ad-supported catalogue generally favours library content, which suits documentaries well.
 
-**Hotstar** carries a reasonable selection within its larger free catalogue, weighted toward recent and Indian subjects.
+**JioHotstar** carries a reasonable selection within its larger free catalogue, weighted toward recent and Indian subjects.
 
 **Amazon MX Player** holds a smaller number, mostly Indian-produced.
 

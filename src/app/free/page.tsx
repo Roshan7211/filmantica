@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { freeToWatch } from "@/lib/discovery";
+import { freeToWatch, lastCheckedAt } from "@/lib/discovery";
 import { paginate } from "@/lib/paginate";
 import DiscoveryCard from "@/components/DiscoveryCard";
 import DiscoveryEmpty from "@/components/DiscoveryEmpty";
@@ -23,7 +23,7 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
 
 export default async function FreePage({ searchParams }: Props) {
   const { page } = await searchParams;
-  const films = await freeToWatch();
+  const [films, checked] = await Promise.all([freeToWatch(), lastCheckedAt()]);
 
   if (!films.length) {
     return (
@@ -46,8 +46,15 @@ export default async function FreePage({ searchParams }: Props) {
         {services.length ? ` on ${services.slice(0, 4).join(", ")}` : ""} — no subscription, no
         sign-up. {recent > 0 && `${recent} released in the last two years.`} Newest first.
       </p>
+      {/* Stated openly because stale availability is the commonest complaint about
+          guides like this one, and the only honest answer is to show the date. */}
       <p className="mb-8 text-xs text-muted">
         Showing {paged.from}–{paged.to} of {paged.total} · page {paged.page} of {paged.totalPages}
+        {checked && (
+          <> · availability last checked{" "}
+            {new Date(checked).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}
+          </>
+        )}
       </p>
 
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">

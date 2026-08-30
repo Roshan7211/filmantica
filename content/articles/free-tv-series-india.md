@@ -25,7 +25,7 @@ The ranking here surprises almost everyone.
 
 **Amazon MX Player** is second, and strong specifically in Indian-language series, much of it produced for the platform rather than licensed from broadcast.
 
-**Hotstar**, which dominates free films, is a distant third for series. Its series strength is concentrated in the subscription tier.
+**JioHotstar**, which dominates free films, is a distant third for series. Its series strength is concentrated in the subscription tier.
 
 **Zee5 and Sony LIV** carry smaller selections, largely broadcast series after their television run.
 

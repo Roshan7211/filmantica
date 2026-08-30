@@ -1,6 +1,6 @@
 ---
 title: "Free streaming services in India, compared by what they actually carry"
-description: "Hotstar, Plex, Amazon MX Player, Zee5 and Hungama all run free catalogues. They are far less alike than they appear."
+description: "JioHotstar, Plex, Amazon MX Player, Zee5 and Hungama all run free catalogues. They are far less alike than they appear."
 slug: "free-streaming-services-india-compared"
 published: "2026-08-28"
 author: "Filmantica"
@@ -15,7 +15,7 @@ We track availability across the free catalogues in India, so this comparison is
 
 Five run free catalogues of meaningful size in India, and they are structured quite differently from one another.
 
-**Hotstar** operates the largest free film selection we see, by a wide margin. It is a hybrid service — a paid subscription with a substantial free tier alongside it — which means the free catalogue sits next to the paid one and is not always obviously separated in the interface. Close to half the free films we track are here.
+**JioHotstar** operates the largest free film selection we see, by a wide margin. It is a hybrid service — a paid subscription with a substantial free tier alongside it — which means the free catalogue sits next to the paid one and is not always obviously separated in the interface. Close to half the free films we track are here.
 
 **Plex** is the surprise for most people, because it began as media server software rather than a streaming service and many still think of it that way. Its ad-supported catalogue is the second largest we see and skews international and older, with a lot of catalogue cinema that has drifted out of paid windows.
 
@@ -25,7 +25,7 @@ Five run free catalogues of meaningful size in India, and they are structured qu
 
 **Hungama Play** is smaller again but occasionally holds titles the others do not, which makes it worth checking when a specific film is proving hard to find.
 
-**Prime Video** belongs in this list for one reason that surprises people: while its films are overwhelmingly paid, it carries a large free ad-supported *series* selection. In our tracking it is the single largest source of free series in India — more than Hotstar and Plex combined. If you are looking for a show rather than a film, start here.
+**Prime Video** belongs in this list for one reason that surprises people: while its films are overwhelmingly paid, it carries a large free ad-supported *series* selection. In our tracking it is the single largest source of free series in India — more than JioHotstar and Plex combined. If you are looking for a show rather than a film, start here.
 
 ## They barely overlap
 
@@ -37,13 +37,13 @@ In practice this means checking one service and concluding a film is not free is
 
 ## What each is best at
 
-**For recent films**, Hotstar is the strongest. Its scale means it acquires more, and it acquires sooner.
+**For recent films**, JioHotstar is the strongest. Its scale means it acquires more, and it acquires sooner.
 
 **For older and international cinema**, Plex is consistently the deepest. Films from the 1980s and 1990s that have long since left every paid window frequently turn up here.
 
 **For Indian regional cinema**, Amazon MX Player is the most reliable, with Zee5 second. Both license heavily in languages the international services largely ignore.
 
-**For series**, the ranking inverts completely. Prime Video and Amazon MX Player carry the large majority of free series between them, while Hotstar — dominant for films — is a distant third. Anime is heavily over-represented: about a third of the free series we track are anime or animation, because simulcast seasons reach free platforms unusually fast.
+**For series**, the ranking inverts completely. Prime Video and Amazon MX Player carry the large majority of free series between them, while JioHotstar — dominant for films — is a distant third. Anime is heavily over-represented: about a third of the free series we track are anime or animation, because simulcast seasons reach free platforms unusually fast.
 
 **For documentaries**, the free selection is thinner than you might expect — around thirty films across all services in our tracking. Documentaries do reach free services faster than fiction, because their commercial window is short and their relevance is long, but the absolute numbers stay small.
 

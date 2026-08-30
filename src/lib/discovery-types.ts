@@ -43,6 +43,14 @@ export type DiscoveryTitle = {
   cast?: { name: string; role?: string | null }[];
   crew?: { name: string; role: string }[];
 
+  /** When a refresh last confirmed this title's availability. */
+  checkedAt?: string;
+  /** Set when a refresh saw a title become free, cleared when it stops being free.
+   *  Lets the site show what is newly free without diffing whole snapshots. */
+  freeSince?: string | null;
+  /** Set when a refresh saw a free title lose its free option. */
+  leftFreeAt?: string | null;
+
   provider: string;
   sourceId: string;
 

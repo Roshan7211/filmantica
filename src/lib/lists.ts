@@ -4,7 +4,7 @@ import { freeToWatch, freeSeries, isSeries, type DiscoveryTitle } from "./discov
 /** Curated lists.
  *
  *  Two jobs. They rank for queries a per-title page cannot ("free horror movies
- *  on Hotstar"), and they are original editorial writing — which matters because
+ *  on JioHotstar"), and they are original editorial writing — which matters because
  *  ad networks reject sites that are purely aggregated third-party data.
  *
  *  The prose is written once; the selection is computed, so a list stays accurate
@@ -178,12 +178,12 @@ export const LISTS: CuratedList[] = [
   // ---- by service ----
   {
     slug: "free-movies-on-hotstar",
-    title: "Free movies on Hotstar right now",
-    blurb: "Everything watchable on Hotstar without paying.",
+    title: "Free movies on JioHotstar right now",
+    blurb: "Everything watchable on JioHotstar without paying.",
     intro:
-      "Hotstar carries the largest free, ad-supported film selection available in India. You do " +
+      "JioHotstar carries the largest free, ad-supported film selection available in India. You do " +
       "not need a subscription for anything on this list — these titles are free with ads.",
-    pick: (f) => f.filter(onService("Hotstar")).sort(byNewest),
+    pick: (f) => f.filter(onService("JioHotstar")).sort(byNewest),
   },
   {
     slug: "free-movies-on-plex",

@@ -27,7 +27,7 @@ The services differ sharply here, and the ranking is not the same as it is for f
 
 **Zee5** carries a smaller free selection but is strong in specific languages, particularly Marathi and Bengali, reflecting its broadcast heritage.
 
-**Hotstar** has the largest free film catalogue overall, and a reasonable regional selection within it, though its strength is broader rather than specifically regional.
+**JioHotstar** has the largest free film catalogue overall, and a reasonable regional selection within it, though its strength is broader rather than specifically regional.
 
 **Sony LIV and Hungama Play** hold smaller selections that occasionally include titles the larger services do not.
 
@@ -67,7 +67,7 @@ Two honest limits.
 
 ## A practical routine
 
-**Start with MX Player for regional specifically**, then check Zee5, then Hotstar. That order reflects where regional titles actually concentrate rather than which service is largest overall.
+**Start with MX Player for regional specifically**, then check Zee5, then JioHotstar. That order reflects where regional titles actually concentrate rather than which service is largest overall.
 
 **Search the original title and the dubbed title separately**, because they are frequently different catalogue entries.
 
