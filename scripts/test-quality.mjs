@@ -57,6 +57,10 @@ const tc = [
   ["Some Film (480p)", "Some Film"],
   ["Nosferatu 1080p", "Nosferatu"],
   ["The General - Restored", "The General"],
+  ["Millie (1931) [P&M] 1080p Blu-ray (7.7GB)", "Millie (1931)"],
+  ["Some Film [XYZ] 720p Blu-ray", "Some Film"],
+  ["Real Title (1931)", "Real Title (1931)"],
+  ["A Film [Restored Print]", "A Film [Restored Print]"],
 ];
 for (const [input, want] of tc) {
   const got = cleanTitle(input);

@@ -24,6 +24,12 @@ const DEVICE_FILENAME = [
   /\(\s*\d{3,4}\s*p\s*\)/i,        // "(480p)" transcode suffixes
   /[_-](144|240|360|480|720|1080|1440|2160)p?$/i,  // trailing "_480" resolution
   /[_-]\d{6}[_-]\d{3,4}$/,        // "_230217_480" date+resolution tails
+  // Release-group and file annotations: "[P&M] 1080p Blu-ray (7.7GB)".
+  // Anchored from the first bracket that is followed by a technical token, so a
+  // meaningful bracket like "[Restored Print]" is left alone.
+  /\s*\[[^\]]{1,24}\](?=[^[]*\b(blu-?ray|bluray|dvdrip|webrip|hdrip|remux|\d{3,4}p|[\d.]+\s?[gm]b)\b).*$/i,
+  /\s*\b(blu-?ray|bluray|dvdrip|webrip|hdrip|remux)\b.*$/i,
+  /\s*\(\s*[\d.]+\s?[gm]b\s*\)\s*$/i,
 ];
 
 export type QualityVerdict = { ok: boolean; reasons: string[] };
@@ -120,6 +126,11 @@ const TITLE_CRUFT = [
   /\s*\(\s*\d{3,4}\s*p\s*\)\s*$/i,
   /\s*\b(1080p|720p|480p|360p|4k|hd|sd)\b\s*$/i,
   /\s*[-–—]\s*(complete|full movie|full film|restored|remastered)\s*$/i,
+  // Release-group and file annotations: "[P&M] 1080p Blu-ray (7.7GB)". Anchored on
+  // a bracket followed by a technical token, so "[Restored Print]" survives.
+  /\s*\[[^\]]{1,24}\](?=[^[]*\b(blu-?ray|bluray|dvdrip|webrip|hdrip|remux|\d{3,4}p|[\d.]+\s?[gm]b)\b).*$/i,
+  /\s*\b(blu-?ray|bluray|dvdrip|webrip|hdrip|remux)\b.*$/i,
+  /\s*\(\s*[\d.]+\s?[gm]b\s*\)\s*$/i,
 ];
 
 export function cleanTitle(raw: string | null | undefined): string {

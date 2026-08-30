@@ -33,9 +33,21 @@ const note = (k) => (reasons[k] = (reasons[k] ?? 0) + 1);
 
 const kept = [];
 for (const m of movies) {
-  // A decision already made by a human is never overridden by a machine.
-  if (m.reviewStatus === "approved" && m.licenseVerified && m.source !== "internetarchive") {
-    kept.push(m); changes.unchanged++; continue;
+  // A decision already made is never overridden by a machine.
+  //
+  // The earlier version also required source !== "internetarchive", which meant
+  // it did NOT protect approvals of Archive titles — so a re-adjudication silently
+  // reverted 48 films whose US copyright term had been confirmed expired. An
+  // approval is a decision; only content policy and tier-1 junk may override it.
+  if (m.reviewStatus === "approved") {
+    const policyCheck = checkContentPolicy({
+      title: m.title, creator: m.creator, description: m.description, genres: m.genres,
+    });
+    const junkCheck = assessQuality({ title: m.title, description: m.description, year: m.year });
+    if (policyCheck.allowed && junkCheck.ok) {
+      kept.push(m); changes.unchanged++; continue;
+    }
+    note(`approved title overridden: ${policyCheck.reason ?? junkCheck.reasons[0]}`);
   }
 
   const tidied = cleanTitle(m.title);
