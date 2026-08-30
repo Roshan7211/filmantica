@@ -39,6 +39,9 @@ const REGIONS_REPORT = args.includes("--regions");
  *  This is what makes a "free to watch" section possible with current films
  *  rather than only public-domain cinema. */
 const FREE_ONLY = args.includes("--free");
+/** popularity_desc mixes decades together; release_date_desc gives the newest
+ *  films, which is what a free-to-watch section actually needs. */
+const SORT = flag("sort", FREE_ONLY ? "release_date_desc" : "popularity_desc");
 
 const KEY = process.env.WATCHMODE_API_KEY;
 const BASE = "https://api.watchmode.com/v1";
@@ -190,7 +193,7 @@ for (let page = 1; page <= PAGES; page++) {
       types: "movie",
       limit: String(LIMIT),
       page: String(page),
-      sort_by: "popularity_desc",
+      sort_by: SORT,
       regions: REGION,
       ...(FREE_ONLY ? { source_types: "free" } : {}),
     });

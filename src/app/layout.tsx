@@ -14,7 +14,7 @@ const NAV = [
   ["Free to watch", "/free"],
   ["Movies", "/discover"],
   ["Genres", "/genres"],
-  ["About", "/about"],
+  ["Archive", "/movies"],
 ];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
