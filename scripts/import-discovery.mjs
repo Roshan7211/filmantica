@@ -35,6 +35,10 @@ const LIMIT = Math.min(Number(flag("limit", 25)), MAX_PER_PAGE);
 const PAGES = Number(flag("pages", 1));
 const REGION = flag("region", process.env.DISCOVERY_REGION || "US");
 const REGIONS_REPORT = args.includes("--regions");
+/** Pull only titles with a free, ad-supported legal stream (Tubi, MX Player, …).
+ *  This is what makes a "free to watch" section possible with current films
+ *  rather than only public-domain cinema. */
+const FREE_ONLY = args.includes("--free");
 
 const KEY = process.env.WATCHMODE_API_KEY;
 const BASE = "https://api.watchmode.com/v1";
@@ -188,6 +192,7 @@ for (let page = 1; page <= PAGES; page++) {
       page: String(page),
       sort_by: "popularity_desc",
       regions: REGION,
+      ...(FREE_ONLY ? { source_types: "free" } : {}),
     });
   } catch (err) {
     console.error(`Could not list titles (page ${page}):`, err.message);
@@ -197,7 +202,7 @@ for (let page = 1; page <= PAGES; page++) {
   if (!batch.length) break;
   rows.push(...batch);
   if (page === 1 && list?.total_results) {
-    console.log(`catalogue has ${list.total_results} movies in ${REGION}`);
+    console.log(`${FREE_ONLY ? "free-to-watch " : ""}catalogue has ${list.total_results} movies in ${REGION}`);
   }
 }
 if (!rows.length) {
@@ -244,11 +249,13 @@ const withOptions = out.filter(
   (t) => t.options.free.length + t.options.stream.length + t.options.rent.length + t.options.buy.length > 0,
 ).length;
 
+const freeCount = out.filter((t) => t.options.free.length).length;
 console.log("\n──────── discovery import ────────");
 console.log(`imported        ${imported}`);
 console.log(`failed          ${failed}`);
 console.log(`total in store  ${out.length}`);
 console.log(`with providers  ${withOptions}`);
+console.log(`free to watch   ${freeCount}`);
 console.log(`api requests    ${callCount}`);
 
 if (withOptions === 0 && out.length > 0) {

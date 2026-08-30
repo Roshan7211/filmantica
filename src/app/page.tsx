@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { allDiscovery, discoveryGenres, discoveryByGenre, discoveryPopulated, hasAnyOption, genreSlug } from "@/lib/discovery";
+import { allDiscovery, discoveryGenres, discoveryByGenre, discoveryPopulated, hasAnyOption, genreSlug, freeToWatch } from "@/lib/discovery";
 import { allMovies } from "@/lib/movies";
 import DiscoveryCard from "@/components/DiscoveryCard";
 import DiscoveryEmpty from "@/components/DiscoveryEmpty";
@@ -20,8 +20,8 @@ export default async function Home() {
     );
   }
 
-  const [titles, genres, free] = await Promise.all([
-    allDiscovery(), discoveryGenres(), allMovies(),
+  const [titles, genres, freeStreams, hosted] = await Promise.all([
+    allDiscovery(), discoveryGenres(), freeToWatch(), allMovies(),
   ]);
 
   // Lead with something recent that actually has somewhere to watch it.
@@ -88,19 +88,25 @@ export default async function Home() {
         </section>
       ))}
 
-      {free.length > 0 && (
-        <section className="mt-16 rounded-lg border border-edge bg-ink-2/40 p-6">
+      {/* Free section leads with current films that are legally free to stream —
+          a public-domain catalogue alone cannot carry this. */}
+      {(freeStreams.length > 0 || hosted.length > 0) && (
+        <section className="mt-16 rounded-lg border border-brass/25 bg-brass/[0.04] p-6">
           <div className="mb-4 flex items-baseline justify-between">
             <div>
-              <h2 className="display text-xl">Free to watch here</h2>
+              <h2 className="display text-xl">Free to watch</h2>
               <p className="mt-1 text-xs text-muted">
-                {free.length} public-domain films you can stream and download, no account needed
+                {freeStreams.length > 0
+                  ? `${freeStreams.length} films streaming free right now, no subscription`
+                  : `${hosted.length} public-domain films to stream and download`}
               </p>
             </div>
-            <Link href="/movies" className="text-xs text-muted transition hover:text-brass">See all →</Link>
+            <Link href="/free" className="text-xs text-muted transition hover:text-brass">See all →</Link>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
-            {free.slice(0, 6).map((m) => <MovieCard key={m.id} movie={m} />)}
+            {freeStreams.slice(0, 6).map((t) => <DiscoveryCard key={t.id} title={t} />)}
+            {freeStreams.length < 6 &&
+              hosted.slice(0, 6 - freeStreams.length).map((m) => <MovieCard key={m.id} movie={m} />)}
           </div>
         </section>
       )}

@@ -20,7 +20,8 @@
     "readjudicate": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/readjudicate.mjs",
     "test:policy": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-policy.mjs",
     "test:film": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-is-film.mjs",
-    "test:site": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-site.mjs"
+    "test:site": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-site.mjs",
+    "import:free": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --env-file-if-exists=.env.local scripts/import-discovery.mjs --free"
   },
   "dependencies": {
     "next": "16.3.3",

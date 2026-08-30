@@ -73,6 +73,17 @@ export async function genreDisplayName(slug: string): Promise<string | null> {
   return null;
 }
 
+/** Titles with a legal free, ad-supported stream (Tubi, MX Player, …).
+ *
+ *  This is what makes a free section possible with CURRENT films. The
+ *  public-domain catalogue can only ever hold pre-1931 cinema; these are recent
+ *  releases that are genuinely free to watch, just not hosted by us. */
+export async function freeToWatch(): Promise<DiscoveryTitle[]> {
+  return (await load())
+    .filter((t) => t.options.free.length > 0)
+    .sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
+}
+
 /** Newest first — what the homepage leads with. */
 export async function latestDiscovery(limit = 12): Promise<DiscoveryTitle[]> {
   return (await load())
