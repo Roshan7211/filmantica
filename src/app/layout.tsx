@@ -16,6 +16,7 @@ const NAV = [
   ["Lists", "/lists"],
   ["Movies", "/discover"],
   ["Genres", "/genres"],
+  ["Guides", "/guides"],
 ];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
