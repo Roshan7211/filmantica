@@ -65,6 +65,18 @@ export default function PrivacyPage() {
           you.
         </p>
 
+        <h2>What your browser stores</h2>
+        <p>
+          The subscription tool on this site remembers which services you selected, so the page is
+          not blank each time you return. That choice is written to your browser&rsquo;s local
+          storage on your own device.
+        </p>
+        <p>
+          It is never sent to us and we cannot read it. Clearing your browser data removes it, and
+          the tool works normally if your browser blocks storage entirely — it simply forgets your
+          selection. Nothing else on the site stores anything.
+        </p>
+
         <h2>Trailers</h2>
         <p>
           Some film pages include a trailer hosted by YouTube. The trailer does not load when you

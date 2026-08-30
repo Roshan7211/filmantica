@@ -43,8 +43,8 @@ function resolveSiteUrl(): string {
 
 export const SITE = {
   name: "Filmantica",
-  tagline: "Where to watch, and what's free",
+  tagline: "What's free to watch right now",
   description:
-    "Find where to stream, rent or buy any film — plus a free catalogue of public-domain cinema you can watch and download here.",
+    "Find what you can watch free and legally right now in India, and where to stream, rent or buy anything else.",
   url: resolveSiteUrl(),
 };

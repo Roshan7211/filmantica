@@ -75,9 +75,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="relative z-10 mt-16 border-t border-edge">
           <div className="mx-auto max-w-6xl px-4 py-8 text-xs leading-relaxed text-muted">
             <p className="max-w-2xl">
-              {SITE.name} lists where films can legally be streamed, rented or bought, and hosts
-              a small free catalogue of public-domain cinema. We do not stream films we have no
-              right to share — every free title carries its licence and source.
+              {SITE.name} lists where films and series can legally be watched, and which are free
+              right now. We do not host or stream any film — every link goes to a service that
+              holds the rights to show it.
             </p>
             <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
               <Link href="/about" className="transition hover:text-cream">About</Link>
