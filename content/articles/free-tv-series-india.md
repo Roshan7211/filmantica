@@ -21,11 +21,11 @@ The consequence is a free series catalogue that is smaller than the film catalog
 
 The ranking here surprises almost everyone.
 
-**Prime Video** carries the largest free ad-supported series selection we track in India. This is counterintuitive because Prime Video is filed mentally as a subscription service, and its film catalogue is overwhelmingly paid. The free tier sits alongside the paid one and is easy to miss if you are not looking for it.
+**[Prime Video](https://www.primevideo.com/)** carries the largest free ad-supported series selection we track in India. This is counterintuitive because Prime Video is filed mentally as a subscription service, and its film catalogue is overwhelmingly paid. The free tier sits alongside the paid one and is easy to miss if you are not looking for it.
 
-**Amazon MX Player** is second, and strong specifically in Indian-language series, much of it produced for the platform rather than licensed from broadcast.
+**[Amazon MX Player](https://www.mxplayer.in/)** is second, and strong specifically in Indian-language series, much of it produced for the platform rather than licensed from broadcast.
 
-**JioHotstar**, which dominates free films, is a distant third for series. Its series strength is concentrated in the subscription tier.
+**[JioHotstar](https://www.hotstar.com/in)**, which dominates free films, is a distant third for series. Its series strength is concentrated in the subscription tier.
 
 **Zee5 and Sony LIV** carry smaller selections, largely broadcast series after their television run.
 

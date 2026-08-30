@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { SITE } from "@/lib/site";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, webPage } from "@/lib/schema";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/privacy" },
@@ -18,8 +20,15 @@ export const metadata: Metadata = {
 export default function PrivacyPage() {
   const updated = "30 August 2026";
 
+
+  const jsonLd = graph(
+    webPage({ name: "Privacy policy", description: "What Filmantica collects, what it stores in your browser, and what it does not.", path: "/privacy" }),
+    breadcrumb([{ name: "Privacy policy", path: "/privacy" }]),
+  );
+
   return (
     <div className="max-w-2xl">
+      <JsonLd data={jsonLd} />
       <h1 className="display mb-2 text-3xl">Privacy policy</h1>
       <p className="mb-8 text-xs text-muted">Last updated {updated}</p>
 

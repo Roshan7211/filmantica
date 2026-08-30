@@ -1,6 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { populatedLanguages } from "@/lib/languages";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, collectionPage } from "@/lib/schema";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/language" },
@@ -12,8 +14,15 @@ export const metadata: Metadata = {
 export default async function LanguagesPage() {
   const rows = await populatedLanguages();
 
+
+  const jsonLd = graph(
+    collectionPage({ name: "Industry", description: "Browse cinema by industry and language.", path: "/language" }),
+    breadcrumb([{ name: "Industry", path: "/language" }]),
+  );
+
   return (
     <>
+      <JsonLd data={jsonLd} />
       <h1 className="display mb-1 text-3xl">Browse by industry</h1>
       <p className="mb-8 max-w-2xl text-sm text-muted">
         By language and industry, free titles counted separately so you can see what costs nothing.

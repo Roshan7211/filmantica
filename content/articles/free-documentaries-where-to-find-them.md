@@ -29,11 +29,11 @@ So the free documentary catalogue is thin not because services are reluctant, bu
 
 The concentration differs from fiction.
 
-**Plex** carries the deepest free documentary selection we see, skewing older and international. Its ad-supported catalogue generally favours library content, which suits documentaries well.
+**[Plex](https://www.plex.tv/watch-free-tv/)** carries the deepest free documentary selection we see, skewing older and international. Its ad-supported catalogue generally favours library content, which suits documentaries well.
 
-**JioHotstar** carries a reasonable selection within its larger free catalogue, weighted toward recent and Indian subjects.
+**[JioHotstar](https://www.hotstar.com/in)** carries a reasonable selection within its larger free catalogue, weighted toward recent and Indian subjects.
 
-**Amazon MX Player** holds a smaller number, mostly Indian-produced.
+**[Amazon MX Player](https://www.mxplayer.in/)** holds a smaller number, mostly Indian-produced.
 
 Beyond the commercial services, two categories are worth knowing about and are frequently overlooked.
 

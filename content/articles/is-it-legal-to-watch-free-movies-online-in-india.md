@@ -17,7 +17,7 @@ The assumption behind the question is usually that anything free must be cutting
 
 A large share of streaming is funded by advertising rather than subscription. You watch a film, the service shows advertisements, and the advertising revenue pays the licence fee to whoever owns the film. It is the same arrangement broadcast television has run on for decades, moved onto the internet. Nobody thinks watching a film on television is legally doubtful, and the online version is no different.
 
-In India this model is substantial. JioHotstar carries a large free tier alongside its paid one. Amazon MX Player is free by design rather than as an entry-level option. Plex, Zee5 and Hungama Play all run free ad-supported catalogues. Between them the free selection runs to thousands of titles, including films released in the last year or two.
+In India this model is substantial. [JioHotstar](https://www.hotstar.com/in) carries a large free tier alongside its paid one. [Amazon MX Player](https://www.mxplayer.in/) is free by design rather than as an entry-level option. [Plex](https://www.plex.tv/watch-free-tv/), Zee5 and [Hungama Play](https://www.hungama.com/) all run free ad-supported catalogues. Between them the free selection runs to thousands of titles, including films released in the last year or two.
 
 So when a legitimate service says a film is free, it means the film is genuinely free to you, and paid for by someone else.
 

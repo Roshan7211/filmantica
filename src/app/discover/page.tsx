@@ -6,6 +6,8 @@ import DiscoveryCard from "@/components/DiscoveryCard";
 import DiscoveryEmpty from "@/components/DiscoveryEmpty";
 import Pagination from "@/components/Pagination";
 import { SITE } from "@/lib/site";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, itemList, collectionPage } from "@/lib/schema";
 
 type Props = { searchParams: Promise<{ page?: string }> };
 
@@ -33,8 +35,16 @@ export default async function DiscoverPage({ searchParams }: Props) {
   const titles = await allDiscovery();
   const paged = paginate(titles, page);
 
+
+  const jsonLd = graph(
+    collectionPage({ name: "All movies", description: "Where to stream, rent or buy films in India.", path: "/discover" }),
+    itemList(paged.items, { name: "All movies", startPosition: paged.from, total: paged.total }),
+    breadcrumb([{ name: "Movies", path: "/discover" }]),
+  );
+
   return (
     <>
+      <JsonLd data={jsonLd} />
       <h1 className="display mb-1 text-3xl">All movies</h1>
       <p className="mb-4 max-w-2xl text-sm text-muted">
         Where these films can legally be watched. Links go to licensed services — see{" "}

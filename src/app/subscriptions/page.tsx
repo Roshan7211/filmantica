@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { auditPayload } from "@/lib/audit";
 import SubscriptionAudit from "@/components/SubscriptionAudit";
 import { SITE } from "@/lib/site";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, collectionPage } from "@/lib/schema";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/subscriptions" },
@@ -13,8 +15,15 @@ export const metadata: Metadata = {
 export default async function SubscriptionsPage() {
   const data = await auditPayload();
 
+
+  const jsonLd = graph(
+    collectionPage({ name: "Are your subscriptions worth it?", description: "Work out which streaming subscriptions earn their keep.", path: "/subscriptions" }),
+    breadcrumb([{ name: "Worth it?", path: "/subscriptions" }]),
+  );
+
   return (
     <>
+      <JsonLd data={jsonLd} />
       <h1 className="display mb-2 text-3xl">Are your subscriptions worth it?</h1>
       <p className="mb-8 max-w-2xl text-sm leading-relaxed text-muted">
         India has far more streaming viewers than paid subscriptions, and the commonest reason

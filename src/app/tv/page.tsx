@@ -5,6 +5,8 @@ import { paginate } from "@/lib/paginate";
 import DiscoveryCard from "@/components/DiscoveryCard";
 import Pagination from "@/components/Pagination";
 import { SITE } from "@/lib/site";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, itemList, collectionPage } from "@/lib/schema";
 
 type Props = { searchParams: Promise<{ page?: string; free?: string }> };
 
@@ -45,8 +47,16 @@ export default async function TvPage({ searchParams }: Props) {
   const paged = paginate(shown, page);
   const base = onlyFree ? "/tv?free=1" : "/tv";
 
+
+  const jsonLd = graph(
+    collectionPage({ name: "TV series", description: "Where to watch TV series in India, and which are free.", path: "/tv" }),
+    itemList(paged.items, { name: "TV series", startPosition: paged.from, total: paged.total }),
+    breadcrumb([{ name: "TV series", path: "/tv" }]),
+  );
+
   return (
     <>
+      <JsonLd data={jsonLd} />
       <h1 className="display mb-1 text-3xl">TV series</h1>
       <p className="mb-4 max-w-2xl text-sm text-muted">
         Series and miniseries, newest first, with every legal way to watch each one.

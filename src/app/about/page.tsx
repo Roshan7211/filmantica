@@ -1,5 +1,7 @@
 import { allDiscovery, freeToWatch } from "@/lib/discovery";
 import { SITE } from "@/lib/site";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, webPage } from "@/lib/schema";
 
 export const metadata = { title: "About", alternates: { canonical: "/about" } };
 
@@ -7,8 +9,15 @@ export default async function AboutPage() {
   const [all, free] = await Promise.all([allDiscovery(), freeToWatch()]);
   const services = [...new Set(free.flatMap((t) => t.options.free.map((o) => o.name)))];
 
+
+  const jsonLd = graph(
+    webPage({ name: "About", description: "What Filmantica is, how it works and who makes it.", path: "/about" }),
+    breadcrumb([{ name: "About", path: "/about" }]),
+  );
+
   return (
     <div className="max-w-2xl">
+      <JsonLd data={jsonLd} />
       <h1 className="display mb-6 text-3xl">About {SITE.name}</h1>
       <div className="space-y-4 leading-relaxed text-cream/85">
         <p>

@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getArticle, publishedArticles } from "@/lib/articles";
 import { SITE } from "@/lib/site";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, ORG_ID, SITE_ID } from "@/lib/schema";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -26,21 +28,29 @@ export default async function ArticlePage({ params }: Params) {
   const a = await getArticle(slug);
   if (!a) notFound();
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: a.title,
-    description: a.description,
-    datePublished: a.published,
-    dateModified: a.updated ?? a.published,
-    author: { "@type": "Organization", name: a.author },
-    publisher: { "@type": "Organization", name: SITE.name },
-    mainEntityOfPage: `${SITE.url}/guides/${a.slug}`,
-  };
+  const jsonLd = graph(
+    {
+      "@type": "Article",
+      headline: a.title,
+      description: a.description,
+      datePublished: a.published,
+      dateModified: a.updated ?? a.published,
+      author: { "@type": "Organization", name: a.author },
+      publisher: { "@id": ORG_ID },
+      isPartOf: { "@id": SITE_ID },
+      mainEntityOfPage: `${SITE.url}/guides/${a.slug}`,
+      wordCount: a.wordCount,
+      inLanguage: "en-IN",
+    },
+    breadcrumb([
+      { name: "Guides", path: "/guides" },
+      { name: a.title, path: `/guides/${a.slug}` },
+    ]),
+  );
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <JsonLd data={jsonLd} />
 
       <article className="mx-auto max-w-2xl">
         <Link href="/guides" className="text-xs text-muted transition hover:text-brass">← Guides</Link>

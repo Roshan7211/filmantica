@@ -1,6 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { populatedLists } from "@/lib/lists";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, collectionPage } from "@/lib/schema";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/lists" },
@@ -10,8 +12,15 @@ export const metadata: Metadata = {
 
 export default async function ListsPage() {
   const lists = await populatedLists();
+
+  const jsonLd = graph(
+    collectionPage({ name: "Lists", description: "Hand-picked collections of films worth watching.", path: "/lists" }),
+    breadcrumb([{ name: "Lists", path: "/lists" }]),
+  );
+
   return (
     <>
+      <JsonLd data={jsonLd} />
       <h1 className="display mb-1 text-3xl">Lists</h1>
       <p className="mb-8 max-w-2xl text-sm text-muted">
         Everything below is free and legal to watch right now. Lists update themselves as films

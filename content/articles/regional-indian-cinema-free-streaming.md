@@ -23,13 +23,13 @@ The consequence is that a regional film from two or three years ago is often fre
 
 The services differ sharply here, and the ranking is not the same as it is for films generally.
 
-**Amazon MX Player** is the most reliable starting point. It is free by design rather than as a tier, and it licenses heavily in Indian languages that international services largely ignore.
+**[Amazon MX Player](https://www.mxplayer.in/)** is the most reliable starting point. It is free by design rather than as a tier, and it licenses heavily in Indian languages that international services largely ignore.
 
 **Zee5** carries a smaller free selection but is strong in specific languages, particularly Marathi and Bengali, reflecting its broadcast heritage.
 
-**JioHotstar** has the largest free film catalogue overall, and a reasonable regional selection within it, though its strength is broader rather than specifically regional.
+**[JioHotstar](https://www.hotstar.com/in)** has the largest free film catalogue overall, and a reasonable regional selection within it, though its strength is broader rather than specifically regional.
 
-**Sony LIV and Hungama Play** hold smaller selections that occasionally include titles the larger services do not.
+**Sony LIV and [Hungama Play](https://www.hungama.com/)** hold smaller selections that occasionally include titles the larger services do not.
 
 The overlap between these is small, which means checking one and concluding a film is not free is the most common mistake.
 

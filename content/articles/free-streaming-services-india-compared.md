@@ -15,17 +15,17 @@ We track availability across the free catalogues in India, so this comparison is
 
 Five run free catalogues of meaningful size in India, and they are structured quite differently from one another.
 
-**JioHotstar** operates the largest free film selection we see, by a wide margin. It is a hybrid service — a paid subscription with a substantial free tier alongside it — which means the free catalogue sits next to the paid one and is not always obviously separated in the interface. Close to half the free films we track are here.
+**[JioHotstar](https://www.hotstar.com/in)** operates the largest free film selection we see, by a wide margin. It is a hybrid service — a paid subscription with a substantial free tier alongside it — which means the free catalogue sits next to the paid one and is not always obviously separated in the interface. Close to half the free films we track are here.
 
-**Plex** is the surprise for most people, because it began as media server software rather than a streaming service and many still think of it that way. Its ad-supported catalogue is the second largest we see and skews international and older, with a lot of catalogue cinema that has drifted out of paid windows.
+**[Plex](https://www.plex.tv/watch-free-tv/)** is the surprise for most people, because it began as media server software rather than a streaming service and many still think of it that way. Its ad-supported catalogue is the second largest we see and skews international and older, with a lot of catalogue cinema that has drifted out of paid windows.
 
-**Amazon MX Player** is free by design rather than as a tier, and leans heavily toward Indian and regional-language titles. If you are looking for regional cinema specifically, this is the first place to check rather than the last.
+**[Amazon MX Player](https://www.mxplayer.in/)** is free by design rather than as a tier, and leans heavily toward Indian and regional-language titles. If you are looking for regional cinema specifically, this is the first place to check rather than the last.
 
 **Zee5** runs a smaller free selection alongside its subscription, weighted toward Indian film and series.
 
-**Hungama Play** is smaller again but occasionally holds titles the others do not, which makes it worth checking when a specific film is proving hard to find.
+**[Hungama Play](https://www.hungama.com/)** is smaller again but occasionally holds titles the others do not, which makes it worth checking when a specific film is proving hard to find.
 
-**Prime Video** belongs in this list for one reason that surprises people: while its films are overwhelmingly paid, it carries a large free ad-supported *series* selection. In our tracking it is the single largest source of free series in India — more than JioHotstar and Plex combined. If you are looking for a show rather than a film, start here.
+**[Prime Video](https://www.primevideo.com/)** belongs in this list for one reason that surprises people: while its films are overwhelmingly paid, it carries a large free ad-supported *series* selection. In our tracking it is the single largest source of free series in India — more than JioHotstar and Plex combined. If you are looking for a show rather than a film, start here.
 
 ## They barely overlap
 

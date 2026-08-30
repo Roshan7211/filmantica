@@ -47,7 +47,7 @@ Where a service shows the count, it deserves as much attention as the score. Whe
 
 ## Certification is a different thing entirely
 
-Age certification — U, UA, A in India, and their equivalents elsewhere — is frequently displayed alongside quality scores and measures something completely unrelated.
+Age certification — [U, UA, A in India](https://www.cbfcindia.gov.in/), and their equivalents elsewhere — is frequently displayed alongside quality scores and measures something completely unrelated.
 
 Certification describes suitability for age groups according to a board's criteria. It says nothing about whether a film is good. A certificate also does not transfer between countries: the same film can carry markedly different ratings across territories, reflecting different norms about violence, language and sexual content rather than anything about the film.
 

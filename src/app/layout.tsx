@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE } from "@/lib/site";
+import JsonLd from "@/components/JsonLd";
+import { graph, organization, website } from "@/lib/schema";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -29,6 +31,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="relative">
+        {/* Site identity, stated once for the whole site. Page-level schema
+            references these by @id rather than repeating them. */}
+        <JsonLd data={graph(organization(), website())} />
         <header className="sticky top-0 z-50 border-b border-edge bg-ink/85 backdrop-blur">
           <div className="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3">
             <Link href="/" className="display text-xl tracking-tight">

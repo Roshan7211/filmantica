@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { SITE } from "@/lib/site";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, webPage } from "@/lib/schema";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/contact" },
@@ -10,8 +12,15 @@ export const metadata: Metadata = {
 const EMAIL = "filmantica@hexavo.co.uk";
 
 export default function ContactPage() {
+
+  const jsonLd = graph(
+    webPage({ name: "Contact", description: "How to reach Filmantica, including corrections to availability data.", path: "/contact" }),
+    breadcrumb([{ name: "Contact", path: "/contact" }]),
+  );
+
   return (
     <div className="max-w-2xl">
+      <JsonLd data={jsonLd} />
       <h1 className="display mb-2 text-3xl">Contact</h1>
       <p className="mb-8 text-sm text-muted">
         We read everything sent here, and corrections are especially welcome.

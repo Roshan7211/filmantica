@@ -25,13 +25,13 @@ Simulcasting compounds this. Because much of the audience watches within days of
 
 In India the free anime selection is concentrated on a small number of services.
 
-**Prime Video** carries the largest free ad-supported series catalogue we track, and anime is a substantial part of it. This surprises people, because Prime Video is thought of as a subscription service — the free ad-supported tier sits alongside the paid one.
+**[Prime Video](https://www.primevideo.com/)** carries the largest free ad-supported series catalogue we track, and anime is a substantial part of it. This surprises people, because Prime Video is thought of as a subscription service — the free ad-supported tier sits alongside the paid one.
 
-**Amazon MX Player** is the second largest source of free series, with a meaningful anime selection.
+**[Amazon MX Player](https://www.mxplayer.in/)** is the second largest source of free series, with a meaningful anime selection.
 
 **Crunchyroll** is the specialist, but the important nuance is that its free tier is narrower than its reputation suggests, and much of the catalogue people associate with it requires a subscription.
 
-**JioHotstar and Zee5** carry smaller anime selections, generally dubbed rather than subtitled.
+**[JioHotstar](https://www.hotstar.com/in) and Zee5** carry smaller anime selections, generally dubbed rather than subtitled.
 
 The practical implication is that no single service holds it all, and the overlap between them is small, so checking across services materially improves your odds.
 

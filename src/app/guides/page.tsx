@@ -1,6 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { publishedArticles } from "@/lib/articles";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, collectionPage } from "@/lib/schema";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/guides" },
@@ -25,8 +27,15 @@ export default async function GuidesPage() {
     );
   }
 
+
+  const jsonLd = graph(
+    collectionPage({ name: "Guides", description: "Plain-English guides to streaming, rights and what is free.", path: "/guides" }),
+    breadcrumb([{ name: "Guides", path: "/guides" }]),
+  );
+
   return (
     <>
+      <JsonLd data={jsonLd} />
       <h1 className="display mb-1 text-3xl">Guides</h1>
       <p className="mb-8 max-w-2xl text-sm text-muted">
         How free streaming works, what each service actually carries, and how to watch without

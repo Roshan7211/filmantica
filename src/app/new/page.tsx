@@ -2,6 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { newlyFree, recentlyLeftFree, lastCheckedAt } from "@/lib/discovery";
 import DiscoveryCard from "@/components/DiscoveryCard";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, itemList, collectionPage } from "@/lib/schema";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/new" },
@@ -23,8 +25,16 @@ export default async function NewPage() {
     ? new Date(checked).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })
     : null;
 
+
+  const jsonLd = graph(
+    collectionPage({ name: "What just changed", description: "Films that just became free to watch in India, and ones that just left.", path: "/new" }),
+    itemList(arrived, { name: "What just changed", startPosition: 1, total: arrived.length }),
+    breadcrumb([{ name: "Just changed", path: "/new" }]),
+  );
+
   return (
     <>
+      <JsonLd data={jsonLd} />
       <h1 className="display mb-1 text-3xl">What just changed</h1>
       <p className="mb-8 max-w-2xl text-sm text-muted">
         Films move on and off free services constantly as licences begin and end. This tracks both

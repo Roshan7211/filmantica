@@ -21,7 +21,7 @@ A studio might license a film's subscription rights in India to one service, its
 
 ## What this means when you search
 
-The practical consequence is that "is this film on Netflix" has no single answer. It has an answer per country, and those answers change independently.
+The practical consequence is that "is this film on [Netflix](https://www.netflix.com/in/)" has no single answer. It has an answer per country, and those answers change independently.
 
 This is why recommendations from foreign publications so often disappoint. A list of what is free this month, written for an American audience, describes a set of licensing deals that have no bearing on what an Indian service has bought.
 

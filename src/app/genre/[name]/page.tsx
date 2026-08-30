@@ -5,6 +5,8 @@ import { paginate } from "@/lib/paginate";
 import DiscoveryCard from "@/components/DiscoveryCard";
 import Pagination from "@/components/Pagination";
 import { SITE } from "@/lib/site";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, itemList, collectionPage } from "@/lib/schema";
 
 type Props = { params: Promise<{ name: string }>; searchParams: Promise<{ page?: string }> };
 
@@ -33,8 +35,16 @@ export default async function GenrePage({ params, searchParams }: Props) {
   const paged = paginate(titles, page);
   const freeCount = titles.filter((t) => t.options.free.length).length;
 
+
+  const jsonLd = graph(
+    collectionPage({ name: `${genre} movies`, description: `Where to watch ${genre} films in India, and which are free.`, path: `/genre/${name}` }),
+    itemList(paged.items, { name: `${genre} movies`, startPosition: paged.from, total: paged.total }),
+    breadcrumb([{ name: "Genres", path: "/genres" }, { name: genre, path: `/genre/${name}` }]),
+  );
+
   return (
     <>
+      <JsonLd data={jsonLd} />
       <h1 className="display mb-1 text-3xl">{genre} movies</h1>
       <p className="mb-4 max-w-2xl text-sm text-muted">
         {titles.length} {genre.toLowerCase()} films and where each can legally be watched.

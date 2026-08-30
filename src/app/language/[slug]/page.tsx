@@ -5,6 +5,8 @@ import { paginate } from "@/lib/paginate";
 import DiscoveryCard from "@/components/DiscoveryCard";
 import Pagination from "@/components/Pagination";
 import { SITE } from "@/lib/site";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, itemList, collectionPage } from "@/lib/schema";
 
 type Props = { params: Promise<{ slug: string }>; searchParams: Promise<{ page?: string }> };
 
@@ -36,8 +38,16 @@ export default async function LanguagePage({ params, searchParams }: Props) {
   const paged = paginate(titles, page);
   const free = titles.filter((t) => t.options.free.length > 0).length;
 
+
+  const jsonLd = graph(
+    collectionPage({ name: lang.name, description: lang.blurb ?? `Where to watch ${lang.name} films and series in India.`, path: `/language/${slug}` }),
+    itemList(paged.items, { name: lang.name, startPosition: paged.from, total: paged.total }),
+    breadcrumb([{ name: "Industry", path: "/language" }, { name: lang.name, path: `/language/${slug}` }]),
+  );
+
   return (
     <>
+      <JsonLd data={jsonLd} />
       <h1 className="display mb-1 text-3xl">{lang.name}</h1>
       <p className="mb-3 max-w-2xl text-sm text-muted">
         {titles.length} titles.

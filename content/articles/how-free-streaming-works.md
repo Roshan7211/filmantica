@@ -11,7 +11,7 @@ Somebody paid for the film you are about to watch for nothing. Understanding who
 
 ## The model has a name
 
-Services funded by advertising rather than subscription are known in the industry as FAST — free ad-supported television. The category covers everything from Plex and Amazon MX Player to the free tiers of services better known for their paid ones, like JioHotstar and Zee5.
+Services funded by advertising rather than subscription are known in the industry as FAST — free ad-supported television. The category covers everything from [Plex](https://www.plex.tv/watch-free-tv/) and [Amazon MX Player](https://www.mxplayer.in/) to the free tiers of services better known for their paid ones, like [JioHotstar](https://www.hotstar.com/in) and Zee5.
 
 The arrangement is straightforward. The service licenses a film from whoever owns it, usually for a fixed period and a fixed territory. It then shows the film to you with advertising breaks, and sells that advertising. If the advertising revenue over the licence period exceeds what the licence cost, the deal worked.
 
@@ -45,7 +45,7 @@ Rights are sold territory by territory. A studio might license a film to one ser
 
 This is why a film free on an Indian service may be a paid rental in America, and why a recommendation from an American publication is often useless locally. It is also why a service that operates in many countries shows a different catalogue in each — the service is not choosing, the licences are.
 
-For viewers in India this cuts favourably. The free ad-supported market here is unusually well developed, with JioHotstar, Amazon MX Player, Zee5, Hungama Play and Plex all operating substantial free catalogues, and a large amount of Indian and regional cinema licensed to them.
+For viewers in India this cuts favourably. The free ad-supported market here is unusually well developed, with JioHotstar, Amazon MX Player, Zee5, [Hungama Play](https://www.hungama.com/) and Plex all operating substantial free catalogues, and a large amount of Indian and regional cinema licensed to them.
 
 ## What the advertising is actually paying for
 

@@ -5,6 +5,8 @@ import DiscoveryCard from "@/components/DiscoveryCard";
 import DiscoveryEmpty from "@/components/DiscoveryEmpty";
 import Pagination from "@/components/Pagination";
 import { SITE } from "@/lib/site";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, itemList, collectionPage } from "@/lib/schema";
 
 type Props = { searchParams: Promise<{ page?: string }> };
 
@@ -38,8 +40,16 @@ export default async function FreePage({ searchParams }: Props) {
   const services = [...new Set(films.flatMap((t) => t.options.free.map((o) => o.name)))];
   const recent = films.filter((t) => t.year && t.year >= 2024).length;
 
+
+  const jsonLd = graph(
+    collectionPage({ name: "Free to watch", description: "Films streaming free and legally in India right now.", path: "/free" }),
+    itemList(paged.items, { name: "Free to watch", startPosition: paged.from, total: paged.total }),
+    breadcrumb([{ name: "Free to watch", path: "/free" }]),
+  );
+
   return (
     <>
+      <JsonLd data={jsonLd} />
       <h1 className="display mb-1 text-3xl">Free to watch</h1>
       <p className="mb-4 max-w-2xl text-sm text-muted">
         {films.length} films streaming free and legally right now

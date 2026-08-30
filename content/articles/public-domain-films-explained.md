@@ -13,7 +13,7 @@ It is a genuinely useful category, and it is also the subject of more confident 
 
 ## The rule in India
 
-Under Indian law, a cinematograph film is protected for sixty years from publication. The clock starts at the beginning of the year following release.
+Under Indian law, a cinematograph film is [protected for sixty years from publication](https://www.wipo.int/wipolex/en/text/128097). The clock starts at the beginning of the year following release.
 
 That means films published in 1965 entered the Indian public domain in January 2026, and each new year brings another.
 
@@ -21,7 +21,7 @@ Sixty years is comparatively short. Many countries run considerably longer, whic
 
 ## The same film, different answers
 
-The United States protects films for ninety-five years from publication. So in 2026 a film from 1960 is public domain in India and still protected in America.
+The United States [protects films for ninety-five years](https://www.copyright.gov/help/faq/faq-duration.html) from publication. So in 2026 a film from 1960 is public domain in India and still protected in America.
 
 Neither answer is wrong. Copyright is territorial, and a work can be free in one country while protected in another. There is no international public domain.
 

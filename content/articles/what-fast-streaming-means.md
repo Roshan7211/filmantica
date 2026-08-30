@@ -7,7 +7,7 @@ author: "Filmantica"
 reviewed: true
 ---
 
-FAST stands for free ad-supported television, and it describes services funded by advertising rather than subscription. The label is industry jargon, but the thing it names has become one of the main ways films reach audiences, and it is worth understanding because it explains a great deal about what you can watch for nothing.
+FAST stands for [free ad-supported television](https://en.wikipedia.org/wiki/Free_ad-supported_streaming_television), and it describes services funded by advertising rather than subscription. The label is industry jargon, but the thing it names has become one of the main ways films reach audiences, and it is worth understanding because it explains a great deal about what you can watch for nothing.
 
 ## The two shapes it takes
 

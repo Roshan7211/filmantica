@@ -4,7 +4,8 @@ import { allDiscovery, getDiscovery, hasAnyOption, genreSlug, type WatchOption }
 import Poster from "@/components/Poster";
 import TrailerPlayer from "@/components/TrailerPlayer";
 import CastList from "@/components/CastList";
-import { directorsOf } from "@/lib/credits";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, titleSchema } from "@/lib/schema";
 import { SITE } from "@/lib/site";
 
 type Params = { params: Promise<{ slug: string }> };
@@ -66,37 +67,18 @@ export default async function WhereToWatch({ params }: Params) {
   if (!t) notFound();
 
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Movie",
-    name: t.title,
-    description: t.plot || undefined,
-    image: t.posterUrl ?? undefined,
-    datePublished: t.year ? String(t.year) : undefined,
-    genre: t.genres.length ? t.genres : undefined,
-    duration: t.runtime ? `PT${t.runtime}M` : undefined,
-    contentRating: t.certification ?? undefined,
-    inLanguage: t.language ?? undefined,
-    actor: t.cast?.length
-      ? t.cast.slice(0, 8).map((p) => ({ "@type": "Person", name: p.name }))
-      : undefined,
-    director: directorsOf(t.crew ?? []).length
-      ? directorsOf(t.crew ?? []).map((c) => ({ "@type": "Person", name: c.name }))
-      : undefined,
-    trailer: t.trailerId
-      ? { "@type": "VideoObject", name: `${t.title} trailer`, embedUrl: `https://www.youtube-nocookie.com/embed/${t.trailerId}` }
-      : undefined,
-    aggregateRating: t.rating
-      ? { "@type": "AggregateRating", ratingValue: t.rating, bestRating: 10, ratingCount: 1 }
-      : undefined,
-    potentialAction: t.options.free.length
-      ? { "@type": "WatchAction", target: t.options.free[0].url ?? undefined }
-      : undefined,
-  };
+  const kind = t.titleType === "movie" ? "Movies" : "TV series";
+  const jsonLd = graph(
+    titleSchema(t),
+    breadcrumb([
+      { name: kind, path: t.titleType === "movie" ? "/discover" : "/tv" },
+      { name: t.title, path: `/discover/${t.slug}` },
+    ]),
+  );
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <JsonLd data={jsonLd} />
 
       <div className="grid gap-8 sm:grid-cols-[200px_1fr]">
         <div className="aspect-2/3 overflow-hidden rounded-md border border-edge">

@@ -19,7 +19,7 @@ More pixels can carry more detail. Whether they do depends on everything else.
 
 Bitrate is how much data per second the service spends describing the picture. It is the number that actually determines whether a stream looks good, and almost nobody advertises it.
 
-A 1080p stream at a low bitrate looks worse than a 720p stream at a high one. Compression artefacts — blocky shadows, smearing during fast movement, banding across a sky — are bitrate problems, not resolution problems. Adding pixels while holding data constant makes each pixel less accurate, which is why an underfed high-resolution stream can look softer than a well-fed lower-resolution one.
+A 1080p stream at a low bitrate looks worse than a 720p stream at a high one. Services publish the [connection speeds each resolution needs](https://help.netflix.com/en/node/306), which is really a statement about bitrate rather than pixels. Compression artefacts — blocky shadows, smearing during fast movement, banding across a sky — are bitrate problems, not resolution problems. Adding pixels while holding data constant makes each pixel less accurate, which is why an underfed high-resolution stream can look softer than a well-fed lower-resolution one.
 
 This is the single most useful thing to understand about streaming quality, and it explains why two services showing the same film at the same advertised resolution can look noticeably different.
 

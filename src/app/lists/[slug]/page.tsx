@@ -5,6 +5,8 @@ import { paginate } from "@/lib/paginate";
 import DiscoveryCard from "@/components/DiscoveryCard";
 import Pagination from "@/components/Pagination";
 import { SITE } from "@/lib/site";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, itemList, collectionPage } from "@/lib/schema";
 
 type Props = { params: Promise<{ slug: string }>; searchParams: Promise<{ page?: string }> };
 
@@ -33,23 +35,18 @@ export default async function ListPage({ params, searchParams }: Props) {
   const { list, films } = resolved;
   const paged = paginate(films, page);
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: list.title,
-    description: list.blurb,
-    numberOfItems: films.length,
-    itemListElement: paged.items.map((t, i) => ({
-      "@type": "ListItem",
-      position: paged.from + i,
-      name: t.title,
-      url: `${SITE.url}/discover/${t.slug}`,
-    })),
-  };
+  const jsonLd = graph(
+    collectionPage({ name: list.title, description: list.blurb, path: `/lists/${list.slug}` }),
+    itemList(paged.items, { name: list.title, startPosition: paged.from, total: films.length }),
+    breadcrumb([
+      { name: "Lists", path: "/lists" },
+      { name: list.title, path: `/lists/${list.slug}` },
+    ]),
+  );
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <JsonLd data={jsonLd} />
       <h1 className="display mb-3 text-3xl leading-tight">{list.title}</h1>
       {paged.page === 1 && (
         <p className="mb-6 max-w-2xl leading-relaxed text-cream/85">{list.intro}</p>

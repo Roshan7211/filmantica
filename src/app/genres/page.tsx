@@ -1,6 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { discoveryGenres, genreSlug } from "@/lib/discovery";
+import JsonLd from "@/components/JsonLd";
+import { graph, breadcrumb, collectionPage } from "@/lib/schema";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/genres" },
@@ -10,8 +12,15 @@ export const metadata: Metadata = {
 
 export default async function GenresPage() {
   const genres = await discoveryGenres();
+
+  const jsonLd = graph(
+    collectionPage({ name: "Genres", description: "Browse films and series by genre.", path: "/genres" }),
+    breadcrumb([{ name: "Genres", path: "/genres" }]),
+  );
+
   return (
     <>
+      <JsonLd data={jsonLd} />
       <h1 className="display mb-1 text-3xl">Genres</h1>
       <p className="mb-8 text-sm text-muted">Where to stream, rent or buy, by genre.</p>
       <div className="flex flex-wrap gap-3">
