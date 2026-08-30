@@ -12,7 +12,7 @@ import type { DiscoveryTitle } from "./discovery-types";
  *  Types and pure helpers live in discovery-types.ts so the importer can share them.
  */
 
-export type { DiscoveryTitle, WatchOption } from "./discovery-types";
+export type { DiscoveryTitle, WatchOption, TitleType } from "./discovery-types";
 export { hasAnyOption, discoverySlug } from "./discovery-types";
 
 let cache: DiscoveryTitle[] | null = null;
@@ -73,14 +73,32 @@ export async function genreDisplayName(slug: string): Promise<string | null> {
   return null;
 }
 
+export const isSeries = (t: DiscoveryTitle) => t.titleType !== "movie";
+
+/** Films only. */
+export async function movies(): Promise<DiscoveryTitle[]> {
+  return (await load()).filter((t) => !isSeries(t));
+}
+
+/** Series and miniseries. */
+export async function series(): Promise<DiscoveryTitle[]> {
+  return (await load()).filter(isSeries).sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
+}
+
+/** Free series only — the TV equivalent of the free films page. */
+export async function freeSeries(): Promise<DiscoveryTitle[]> {
+  return (await series()).filter((t) => t.options.free.length > 0);
+}
+
 /** Titles with a legal free, ad-supported stream (Tubi, MX Player, …).
  *
  *  This is what makes a free section possible with CURRENT films. The
  *  public-domain catalogue can only ever hold pre-1931 cinema; these are recent
  *  releases that are genuinely free to watch, just not hosted by us. */
 export async function freeToWatch(): Promise<DiscoveryTitle[]> {
+  // Films only: series get their own page, and mixing them makes both harder to scan.
   return (await load())
-    .filter((t) => t.options.free.length > 0)
+    .filter((t) => t.options.free.length > 0 && !isSeries(t))
     .sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
 }
 

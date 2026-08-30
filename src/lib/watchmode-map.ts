@@ -10,7 +10,16 @@
  *  Also: on the free tier ios_url/android_url contain the literal string
  *  "Deeplinks available for paid plans only." — never a URL. Only web_url is usable.
  */
-import { discoverySlug, type DiscoveryTitle, type WatchOption } from "./discovery-types.ts";
+import { discoverySlug, type DiscoveryTitle, type TitleType, type WatchOption } from "./discovery-types.ts";
+
+/** Watchmode reports several series flavours; anything not clearly a series is
+ *  treated as a film, which is the safe default for an unrecognised value. */
+function normaliseType(raw: unknown): TitleType {
+  const t = String(raw ?? "").toLowerCase();
+  if (t === "tv_miniseries") return "tv_miniseries";
+  if (t.startsWith("tv")) return "tv_series";
+  return "movie";
+}
 
 export type RawSource = {
   source_id?: number;
@@ -40,6 +49,8 @@ export type RawTitle = {
   original_language?: string | null;
   imdb_id?: string | null;
   trailer?: string | null;
+  type?: string | null;
+  end_year?: number | string | null;
 };
 
 export function mapSources(raw: unknown, region: string): DiscoveryTitle["options"] {
@@ -101,6 +112,9 @@ export function mapTitle(d: RawTitle, sources: unknown, region: string): Discove
     language: d.original_language ?? null,
     imdbId: d.imdb_id ?? null,
     trailerUrl: d.trailer ?? null,
+
+    titleType: normaliseType(d.type),
+    endYear: Number(d.end_year) || null,
 
     provider: "watchmode",
     sourceId,

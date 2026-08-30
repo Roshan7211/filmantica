@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Poster from "./Poster";
-import type { DiscoveryTitle } from "@/lib/discovery";
+import { isSeries, type DiscoveryTitle } from "@/lib/discovery";
 
 /** Cards carry enough to decide without opening the page: year, length, rating,
  *  genre, and — the thing people are actually here for — whether it is free and
@@ -10,11 +10,20 @@ export default function DiscoveryCard({ title }: { title: DiscoveryTitle }) {
   const paidCount =
     title.options.stream.length + title.options.rent.length + title.options.buy.length;
 
-  const runtime = title.runtime
-    ? title.runtime >= 60
-      ? `${Math.floor(title.runtime / 60)}h ${title.runtime % 60}m`
-      : `${title.runtime}m`
-    : null;
+  const tv = isSeries(title);
+
+  // A series is described by the years it ran; a film by how long it lasts.
+  const span = tv
+    ? title.endYear && title.endYear !== title.year
+      ? `${title.year}\u2013${title.endYear}`
+      : title.year
+        ? `${title.year}\u2013`
+        : null
+    : title.runtime
+      ? title.runtime >= 60
+        ? `${Math.floor(title.runtime / 60)}h ${title.runtime % 60}m`
+        : `${title.runtime}m`
+      : null;
 
   return (
     <Link
@@ -41,8 +50,8 @@ export default function DiscoveryCard({ title }: { title: DiscoveryTitle }) {
         <h3 className="display line-clamp-2 text-[15px] leading-snug">{title.title}</h3>
 
         <p className="mt-1 flex flex-wrap items-center gap-x-1.5 text-xs text-muted">
-          {title.year && <span>{title.year}</span>}
-          {runtime && <><span aria-hidden>·</span><span>{runtime}</span></>}
+          {tv ? <span className="text-cream/70">Series</span> : title.year && <span>{title.year}</span>}
+          {span && <><span aria-hidden>·</span><span>{span}</span></>}
           {title.genres[0] && <><span aria-hidden>·</span><span className="truncate">{title.genres[0]}</span></>}
         </p>
 

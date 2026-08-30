@@ -12,10 +12,16 @@ export type WatchOption = {
   format: string | null;
 };
 
+export type TitleType = "movie" | "tv_series" | "tv_miniseries";
+
 export type DiscoveryTitle = {
   id: string;
   slug: string;
   title: string;
+  /** Films and series need different labelling and browsing, so the kind is
+   *  carried on the record rather than inferred. Older records default to movie. */
+  titleType: TitleType;
+  endYear?: number | null;
   year: number | null;
   releaseDate: string | null;
   plot: string;

@@ -42,6 +42,8 @@ const FREE_ONLY = args.includes("--free");
 /** popularity_desc mixes decades together; release_date_desc gives the newest
  *  films, which is what a free-to-watch section actually needs. */
 const SORT = flag("sort", FREE_ONLY ? "release_date_desc" : "popularity_desc");
+/** movie | tv_series | tv_miniseries — Watchmode accepts a comma-separated list. */
+const TYPES = flag("types", "movie");
 
 const KEY = process.env.WATCHMODE_API_KEY;
 const BASE = "https://api.watchmode.com/v1";
@@ -190,7 +192,7 @@ for (let page = 1; page <= PAGES; page++) {
   let list;
   try {
     list = await api("/list-titles/", {
-      types: "movie",
+      types: TYPES,
       limit: String(LIMIT),
       page: String(page),
       sort_by: SORT,
