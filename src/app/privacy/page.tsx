@@ -73,7 +73,7 @@ export default function PrivacyPage() {
         <p>
           If you do press play, the video is served by YouTube using their privacy-enhanced
           domain, which avoids setting tracking cookies for viewers who have not played anything.
-          Once playback begins, YouTube receives your IP address and can set cookies under Google's
+          Once playback begins, YouTube receives your IP address and can set cookies under Google&rsquo;s
           privacy policy rather than ours. We receive nothing from this and cannot see what you
           watched.
         </p>

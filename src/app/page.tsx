@@ -1,11 +1,11 @@
 import Link from "next/link";
 import {
   allDiscovery, discoveryGenres, discoveryByGenre, discoveryPopulated,
-  freeToWatch, hasAnyOption, genreSlug,
+  freeToWatch, genreSlug,
 } from "@/lib/discovery";
 import DiscoveryCard from "@/components/DiscoveryCard";
+import HeroCarousel from "@/components/HeroCarousel";
 import DiscoveryEmpty from "@/components/DiscoveryEmpty";
-import Poster from "@/components/Poster";
 
 /** Free-first: the site exists to answer "what can I watch right now, free".
  *  Everything else is secondary to that question. */
@@ -23,55 +23,28 @@ export default async function Home() {
     allDiscovery(), discoveryGenres(), freeToWatch(),
   ]);
 
-  const hero =
-    free.filter((t) => t.year && t.year >= 2024 && t.plot)
-        .sort((a, b) => (b.year ?? 0) - (a.year ?? 0))[0]
-    ?? free[0]
-    ?? titles.find(hasAnyOption)
-    ?? titles[0];
+  /** The rail leads the page, so it needs titles that look current and have
+   *  artwork — a fallback tile in the hero position undersells the catalogue. */
+  const justReleased = titles
+    .filter((t) => t.posterUrl && t.year)
+    .sort((a, b) => {
+      if ((b.year ?? 0) !== (a.year ?? 0)) return (b.year ?? 0) - (a.year ?? 0);
+      const af = a.options.free.length > 0, bf = b.options.free.length > 0;
+      if (af !== bf) return af ? -1 : 1;
+      return (b.rating ?? 0) - (a.rating ?? 0);
+    })
+    .slice(0, 20);
 
   const rows = await Promise.all(
     genres.slice(0, 5).map(async (g) => ({
       genre: g.name,
-      items: (await discoveryByGenre(g.name)).filter((t) => t.id !== hero?.id).slice(0, 6),
+      items: (await discoveryByGenre(g.name)).slice(0, 6),
     })),
   );
 
-  const heroIsFree = (hero?.options.free.length ?? 0) > 0;
-
   return (
     <>
-      {hero && (
-        <section className="mb-14 grid gap-6 sm:grid-cols-[190px_1fr] sm:items-center">
-          <div className="aspect-2/3 overflow-hidden rounded-md border border-edge shadow-2xl shadow-black/50">
-            <Poster src={hero.posterUrl} title={hero.title} year={hero.year} />
-          </div>
-          <div>
-            <p className="mb-2 text-xs uppercase tracking-[0.2em] text-brass">
-              {heroIsFree ? `Free on ${hero.options.free[0].name}` : "Now streaming"}
-            </p>
-            <h1 className="display text-4xl leading-tight sm:text-5xl">{hero.title}</h1>
-            <p className="mt-2 text-sm text-muted">
-              {[hero.year, hero.runtime && `${hero.runtime} min`, hero.genres.slice(0, 3).join(", ")]
-                .filter(Boolean).join(" · ")}
-            </p>
-            {hero.plot && (
-              <p className="mt-4 line-clamp-3 max-w-xl text-[15px] leading-relaxed text-cream/85">
-                {hero.plot}
-              </p>
-            )}
-            <div className="mt-6 flex flex-wrap items-center gap-3">
-              <Link href={`/discover/${hero.slug}`}
-                className="rounded bg-brass px-5 py-2.5 text-sm font-medium text-ink transition hover:bg-brass/90">
-                {heroIsFree ? "Watch free" : "Where to watch"}
-              </Link>
-              <Link href="/free" className="text-xs text-muted transition hover:text-brass">
-                {free.length} films free right now →
-              </Link>
-            </div>
-          </div>
-        </section>
-      )}
+      <HeroCarousel titles={justReleased} />
 
       {free.length > 0 && (
         <section className="mb-14 rounded-lg border border-brass/25 bg-brass/[0.04] p-6">
@@ -85,7 +58,7 @@ export default async function Home() {
             <Link href="/free" className="text-xs text-muted transition hover:text-brass">See all →</Link>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
-            {free.filter((t) => t.id !== hero?.id).slice(0, 6).map((t) => (
+            {free.slice(0, 6).map((t) => (
               <DiscoveryCard key={t.id} title={t} />
             ))}
           </div>
