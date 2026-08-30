@@ -1,0 +1,108 @@
+import type { Metadata } from "next";
+import { SITE } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: "Privacy policy",
+  description: "What data this site collects, why, and what your choices are.",
+};
+
+/** Required by ad networks, and genuinely required by law in several territories.
+ *
+ *  IMPORTANT: this describes the site as it is built today — no accounts, no
+ *  analytics, no advertising. Every one of those will change what must be
+ *  disclosed here, and adding advertising in particular obliges you to disclose
+ *  third-party cookies and provide a consent mechanism. Update this page at the
+ *  same time you make those changes, not afterwards.
+ */
+export default function PrivacyPage() {
+  const updated = "30 August 2026";
+
+  return (
+    <div className="max-w-2xl">
+      <h1 className="display mb-2 text-3xl">Privacy policy</h1>
+      <p className="mb-8 text-xs text-muted">Last updated {updated}</p>
+
+      <div className="prose-article">
+        <p>
+          This page explains what information {SITE.name} collects when you use it, what we do
+          with it, and what control you have. It describes the site as it currently operates. If
+          that changes, this page changes with it.
+        </p>
+
+        <h2>What we collect</h2>
+        <p>
+          {SITE.name} has no accounts, no sign-up and no login. We do not ask for your name, email
+          address, phone number or payment details, and we have no way to store them.
+        </p>
+        <p>
+          We do not currently run analytics or advertising, so we do not set cookies of our own and
+          do not build a profile of your visit.
+        </p>
+
+        <h2>What our hosting provider records</h2>
+        <p>
+          Like any website, requests to {SITE.name} reach a server, and that server keeps standard
+          logs. These typically include your IP address, the page requested, the time, and your
+          browser and device type. Our hosting provider generates these automatically as part of
+          delivering the site and protecting it from abuse.
+        </p>
+        <p>
+          We use these only to keep the site working. We do not use them to identify individuals or
+          combine them with anything else.
+        </p>
+
+        <h2>Links to other services</h2>
+        <p>
+          {SITE.name} tells you where films can legally be watched, and links out to the services
+          that hold those rights. When you follow one of those links you leave this site, and the
+          service you arrive at collects data under its own policy, not ours.
+        </p>
+        <p>
+          We have no control over and no visibility into what those services do. Their privacy
+          policies apply from the moment you arrive, and they are worth reading if that matters to
+          you.
+        </p>
+
+        <h2>Where our film data comes from</h2>
+        <p>
+          Information about films, series and where they can be watched comes from a licensed
+          third-party availability provider. That data is about films rather than about you — no
+          information about your visit is sent to them.
+        </p>
+
+        <h2>Children</h2>
+        <p>
+          {SITE.name} is not directed at children and collects no information from anyone. We do
+          not knowingly hold data about children because we do not knowingly hold data about
+          anyone.
+        </p>
+
+        <h2>Your rights</h2>
+        <p>
+          Data protection law in several territories gives you rights to access, correct and delete
+          personal data held about you. Because we hold no accounts and no personal records, there
+          is in practice nothing to access or delete beyond server logs, which are retained briefly
+          and then discarded.
+        </p>
+        <p>
+          If you believe we hold information about you and want it removed, contact us and we will
+          look into it.
+        </p>
+
+        <h2>If this changes</h2>
+        <p>
+          If we add advertising, analytics or accounts, this page will be updated before those
+          changes go live, and the date at the top will change. Advertising in particular would
+          mean third parties setting cookies, and we would say so here and provide a way to
+          control it.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          Questions about this policy can be sent through our{" "}
+          <a href="/contact">contact page</a>.
+        </p>
+      </div>
+    </div>
+  );
+}

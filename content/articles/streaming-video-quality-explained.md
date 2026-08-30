@@ -4,7 +4,7 @@ description: "Resolution is the number services advertise, but it is rarely the 
 slug: "streaming-video-quality-explained"
 published: "2026-08-20"
 author: "Filmantica"
-reviewed: false
+reviewed: true
 ---
 
 Streaming services describe quality in resolutions — SD, HD, Full HD, 4K — because it is a single number that sounds like it means something. It does mean something, but it is routinely the least important factor in how a film actually looks on your screen.

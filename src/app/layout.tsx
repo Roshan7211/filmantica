@@ -54,6 +54,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               a small free catalogue of public-domain cinema. We do not stream films we have no
               right to share — every free title carries its licence and source.
             </p>
+            <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
+              <Link href="/about" className="transition hover:text-cream">About</Link>
+              <Link href="/guides" className="transition hover:text-cream">Guides</Link>
+              <Link href="/privacy" className="transition hover:text-cream">Privacy</Link>
+              <Link href="/contact" className="transition hover:text-cream">Contact</Link>
+            </p>
             <p className="mt-3">© {new Date().getFullYear()} {SITE.name}</p>
           </div>
         </footer>
