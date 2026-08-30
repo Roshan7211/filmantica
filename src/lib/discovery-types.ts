@@ -37,6 +37,11 @@ export type DiscoveryTitle = {
   language?: string | null;
   imdbId?: string | null;
   trailerUrl?: string | null;
+  /** YouTube video id extracted from trailerUrl, so the page does not parse a URL. */
+  trailerId?: string | null;
+  /** Top-billed cast and key crew, in the order the source supplies. */
+  cast?: { name: string; role?: string | null }[];
+  crew?: { name: string; role: string }[];
 
   provider: string;
   sourceId: string;

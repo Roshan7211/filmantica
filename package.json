@@ -23,7 +23,12 @@
     "test:site": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-site.mjs",
     "import:free": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --env-file-if-exists=.env.local scripts/import-discovery.mjs --free",
     "approve:expired": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/approve-expired.mjs",
-    "approve:territory": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/approve-territory.mjs"
+    "approve:territory": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/approve-territory.mjs",
+    "enrich": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --env-file-if-exists=.env.local scripts/enrich-discovery.mjs",
+    "test:youtube": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-youtube.mjs",
+    "test:paginate": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-paginate.mjs",
+    "test:all": "for t in quality triage policy film site youtube paginate credits; do npm run test:$t --silent; done",
+    "test:credits": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-credits.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

@@ -4,7 +4,7 @@ description: "Rental and purchase prices vary between platforms for the same fil
 slug: "why-films-cost-different-amounts"
 published: "2026-08-17"
 author: "Filmantica"
-reviewed: false
+reviewed: true
 ---
 
 Look up a film to rent and check two or three services, and the prices will frequently differ. Sometimes by a little, occasionally by a great deal. This is not an error, and neither price is the real one.

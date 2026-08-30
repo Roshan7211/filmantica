@@ -27,7 +27,7 @@ const DRY = args.includes("--dry");
 
 const SEARCH = "https://archive.org/advancedsearch.php";
 const META = "https://archive.org/metadata";
-const UA = "Filmantica/0.1 (catalogue importer; contact: hello@filmantica.com)";
+const UA = "Filmantica/0.1 (catalogue importer; contact: filmantica@hexavo.co.uk)";
 
 /** Two distinct hunting grounds.
  *

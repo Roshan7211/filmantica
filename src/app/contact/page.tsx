@@ -6,10 +6,7 @@ export const metadata: Metadata = {
   description: `How to reach ${SITE.name} — corrections, questions and rights enquiries.`,
 };
 
-/** TODO before launch: replace the placeholder address below with a real mailbox
- *  you monitor. An ad network will check that a contact route exists and works,
- *  and a rights holder needs somewhere to reach you. */
-const EMAIL = "hello@filmantica.com";
+const EMAIL = "filmantica@hexavo.co.uk";
 
 export default function ContactPage() {
   return (

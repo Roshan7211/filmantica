@@ -2,6 +2,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { allDiscovery, getDiscovery, hasAnyOption, genreSlug, type WatchOption } from "@/lib/discovery";
 import Poster from "@/components/Poster";
+import TrailerPlayer from "@/components/TrailerPlayer";
+import CastList from "@/components/CastList";
+import { directorsOf } from "@/lib/credits";
 import { SITE } from "@/lib/site";
 
 type Params = { params: Promise<{ slug: string }> };
@@ -72,6 +75,17 @@ export default async function WhereToWatch({ params }: Params) {
     datePublished: t.year ? String(t.year) : undefined,
     genre: t.genres.length ? t.genres : undefined,
     duration: t.runtime ? `PT${t.runtime}M` : undefined,
+    contentRating: t.certification ?? undefined,
+    inLanguage: t.language ?? undefined,
+    actor: t.cast?.length
+      ? t.cast.slice(0, 8).map((p) => ({ "@type": "Person", name: p.name }))
+      : undefined,
+    director: directorsOf(t.crew ?? []).length
+      ? directorsOf(t.crew ?? []).map((c) => ({ "@type": "Person", name: c.name }))
+      : undefined,
+    trailer: t.trailerId
+      ? { "@type": "VideoObject", name: `${t.title} trailer`, embedUrl: `https://www.youtube-nocookie.com/embed/${t.trailerId}` }
+      : undefined,
     aggregateRating: t.rating
       ? { "@type": "AggregateRating", ratingValue: t.rating, bestRating: 10, ratingCount: 1 }
       : undefined,
@@ -109,6 +123,14 @@ export default async function WhereToWatch({ params }: Params) {
                 FREE TO WATCH
               </span>
             )}
+            {t.certification && (
+              <span className="rounded border border-edge px-2 py-0.5 text-xs uppercase tracking-wide">
+                {t.certification}
+              </span>
+            )}
+            {t.language && t.language !== "en" && (
+              <span className="text-xs uppercase tracking-wide">{t.language}</span>
+            )}
           </div>
 
           {t.genres.length > 0 && (
@@ -134,6 +156,13 @@ export default async function WhereToWatch({ params }: Params) {
             </p>
           )}
 
+          {t.trailerId && (
+            <div className="mt-8 max-w-2xl">
+              <h2 className="mb-3 text-xs uppercase tracking-[0.15em] text-brass">Trailer</h2>
+              <TrailerPlayer videoId={t.trailerId} title={t.title} poster={t.backdropUrl} />
+            </div>
+          )}
+
           <div className="mt-8">
             <Options label="Free" items={t.options.free} />
             <Options label="Stream" items={t.options.stream} />
@@ -151,6 +180,8 @@ export default async function WhereToWatch({ params }: Params) {
             Availability data can change without notice. {SITE.name} does not stream this title —
             the links above go to licensed services.
           </p>
+
+          <CastList title={t} />
         </div>
       </div>
     </>

@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 /** Required by ad networks, and genuinely required by law in several territories.
  *
  *  IMPORTANT: this describes the site as it is built today — no accounts, no
- *  analytics, no advertising. Every one of those will change what must be
- *  disclosed here, and adding advertising in particular obliges you to disclose
- *  third-party cookies and provide a consent mechanism. Update this page at the
- *  same time you make those changes, not afterwards.
+ *  analytics, no advertising, and YouTube trailers that load only on click.
+ *  Adding advertising will oblige you to disclose third-party cookies and provide
+ *  a consent mechanism. Update this page at the same time you make that change,
+ *  not afterwards.
  */
 export default function PrivacyPage() {
   const updated = "30 August 2026";
@@ -36,7 +36,8 @@ export default function PrivacyPage() {
         </p>
         <p>
           We do not currently run analytics or advertising, so we do not set cookies of our own and
-          do not build a profile of your visit.
+          do not build a profile of your visit. The only third-party content on the site is
+          trailers, and those load only if you press play — see below.
         </p>
 
         <h2>What our hosting provider records</h2>
@@ -61,6 +62,24 @@ export default function PrivacyPage() {
           We have no control over and no visibility into what those services do. Their privacy
           policies apply from the moment you arrive, and they are worth reading if that matters to
           you.
+        </p>
+
+        <h2>Trailers</h2>
+        <p>
+          Some film pages include a trailer hosted by YouTube. The trailer does not load when you
+          open the page. We show a still image and a play button, and nothing is requested from
+          YouTube until you choose to press play.
+        </p>
+        <p>
+          If you do press play, the video is served by YouTube using their privacy-enhanced
+          domain, which avoids setting tracking cookies for viewers who have not played anything.
+          Once playback begins, YouTube receives your IP address and can set cookies under Google's
+          privacy policy rather than ours. We receive nothing from this and cannot see what you
+          watched.
+        </p>
+        <p>
+          If you would rather no request reach YouTube at all, simply do not press play — no
+          trailer loads on its own.
         </p>
 
         <h2>Where our film data comes from</h2>

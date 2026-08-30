@@ -42,3 +42,4 @@ next-env.d.ts
 
 # importer lock file
 data/.import.lock
+data/.enrich.lock
