@@ -43,6 +43,23 @@ export async function GET(
     return new Response("Unsupported source", { status: 502 });
   }
 
+  // Copyright terms differ by country. Titles cleared under a territory's shorter
+  // term (India: 60 years for film, vs 95 in the US) are public domain THERE and
+  // may still be protected elsewhere. Distribution is the act that matters, so the
+  // check belongs here rather than on the page.
+  const cleared = movie.publicDomainTerritory;
+  if (cleared) {
+    const viewer = req.headers.get("x-vercel-ip-country");
+    // Absent header = local dev or an unknown edge; allow rather than break dev.
+    if (viewer && viewer !== cleared) {
+      return new Response(
+        `This film is in the public domain in ${cleared} and may still be under ` +
+        `copyright in ${viewer}, so it is not available in your country.`,
+        { status: 451, headers: { "Content-Type": "text/plain; charset=utf-8" } },
+      );
+    }
+  }
+
   const range = req.headers.get("range");
 
   let upstream: Response;

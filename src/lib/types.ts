@@ -32,6 +32,9 @@ export type Movie = {
   attributionText: string | null;
 
   /** "pending" records are imported but never served — they await a human decision. */
+  /** Territory whose copyright term was used to clear this title, when it was
+   *  cleared on term expiry rather than a licence. Streaming is restricted to it. */
+  publicDomainTerritory?: string;
   reviewStatus: "approved" | "pending" | "rejected";
   isPublic: boolean;
   isFeatured: boolean;

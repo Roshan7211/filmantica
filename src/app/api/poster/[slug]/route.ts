@@ -21,6 +21,12 @@ export async function GET(
   const movie = await getMovie(slug);
   if (!movie?.posterUrl) return new Response("Not found", { status: 404 });
 
+  const cleared = movie.publicDomainTerritory;
+  if (cleared) {
+    const viewer = _req.headers.get("x-vercel-ip-country");
+    if (viewer && viewer !== cleared) return new Response("Not available", { status: 451 });
+  }
+
   let target: URL;
   try {
     target = new URL(movie.posterUrl);
