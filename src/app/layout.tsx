@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 const NAV = [
   ["Free to watch", "/free"],
   ["Just changed", "/new"],
+  ["Worth it?", "/subscriptions"],
   ["TV series", "/tv"],
   ["Lists", "/lists"],
   ["Movies", "/discover"],

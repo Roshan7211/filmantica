@@ -15,6 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // The free page is the site's reason to exist, so it ranks above the rest.
     { url: `${SITE.url}/free`, changeFrequency: "daily", priority: 1 },
     { url: `${SITE.url}/new`, changeFrequency: "daily", priority: 0.9 },
+    { url: `${SITE.url}/subscriptions`, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE.url}/discover`, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE.url}/tv`, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE.url}/tv?free=1`, changeFrequency: "daily", priority: 0.9 },
