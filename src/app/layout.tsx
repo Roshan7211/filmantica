@@ -28,6 +28,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/" className="display text-xl tracking-tight">
               Film<span className="text-brass">antica</span>
             </Link>
+            {/* Desktop: inline. Mobile: a scrollable strip below, because hiding
+                navigation entirely on phones left most of the site unreachable. */}
             <nav className="hidden gap-5 text-sm text-muted sm:flex">
               {NAV.map(([label, href]) => (
                 <Link key={href} href={href} className="transition hover:text-cream">{label}</Link>
@@ -43,6 +45,23 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               />
             </form>
           </div>
+
+          <nav
+            aria-label="Sections"
+            className="flex gap-1 overflow-x-auto border-t border-edge px-4 pb-2 pt-1.5
+                       [scrollbar-width:none] sm:hidden [&::-webkit-scrollbar]:hidden"
+          >
+            {NAV.map(([label, href]) => (
+              <Link
+                key={href}
+                href={href}
+                className="shrink-0 rounded-full border border-edge px-3 py-1.5 text-[13px] text-muted
+                           transition active:border-brass/60 active:text-cream"
+              >
+                {label}
+              </Link>
+            ))}
+          </nav>
         </header>
 
         <main className="relative z-10 mx-auto max-w-6xl px-4 py-8">{children}</main>
