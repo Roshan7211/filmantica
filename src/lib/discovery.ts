@@ -1,7 +1,7 @@
 import "server-only";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import type { DiscoveryTitle } from "./discovery-types";
+import type { DiscoveryTitle, TitleType } from "./discovery-types";
 
 /** Discovery store access (server-only).
  *
@@ -108,6 +108,63 @@ export async function latestDiscovery(limit = 12): Promise<DiscoveryTitle[]> {
     .slice()
     .sort((a, b) => (b.year ?? 0) - (a.year ?? 0))
     .slice(0, limit);
+}
+
+/** A single suggestion, trimmed to what a dropdown row draws. The full record is
+ *  ~3KB; sending 8 of those per keystroke would be absurd for four fields. */
+export type Suggestion = {
+  slug: string;
+  title: string;
+  year: number | null;
+  titleType: TitleType;
+  posterUrl: string | null;
+  free: boolean;
+};
+
+/** Ranked matches for a type-ahead.
+ *
+ *  searchDiscovery uses a plain substring test, which is fine for a results page
+ *  but wrong for a dropdown: typing "the" would put every film with "the" in the
+ *  middle of its name above "The Dark Knight". Rank instead — whole-title prefix,
+ *  then word prefix, then substring — so what the person is most likely typing
+ *  toward surfaces first.
+ */
+export async function suggestDiscovery(q: string, limit = 8): Promise<Suggestion[]> {
+  const term = q.trim().toLowerCase();
+  if (term.length < 2) return [];
+
+  const scored: { t: DiscoveryTitle; score: number }[] = [];
+
+  for (const t of await load()) {
+    const title = t.title.toLowerCase();
+    let score = 0;
+
+    if (title === term) score = 5;
+    else if (title.startsWith(term)) score = 4;
+    else if (title.split(/[^a-z0-9]+/i).some((w) => w.startsWith(term))) score = 3;
+    else if (title.includes(term)) score = 2;
+    else if (t.genres.some((g) => g.toLowerCase().startsWith(term))) score = 1;
+
+    if (score) scored.push({ t, score });
+  }
+
+  return scored
+    .sort((a, b) =>
+      b.score - a.score ||
+      // A free title is the answer this site exists to give, so it outranks a
+      // paid one of equal textual relevance.
+      Number(b.t.options.free.length > 0) - Number(a.t.options.free.length > 0) ||
+      (b.t.year ?? 0) - (a.t.year ?? 0) ||
+      a.t.title.length - b.t.title.length)
+    .slice(0, limit)
+    .map(({ t }) => ({
+      slug: t.slug,
+      title: t.title,
+      year: t.year,
+      titleType: t.titleType,
+      posterUrl: t.posterUrl,
+      free: t.options.free.length > 0,
+    }));
 }
 
 export async function searchDiscovery(q: string): Promise<DiscoveryTitle[]> {

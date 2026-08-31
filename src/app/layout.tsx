@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE } from "@/lib/site";
 import JsonLd from "@/components/JsonLd";
+import SearchBox from "@/components/SearchBox";
 import { graph, organization, website } from "@/lib/schema";
 import "./globals.css";
 
@@ -46,15 +47,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Link key={href} href={href} className="transition hover:text-cream">{label}</Link>
               ))}
             </nav>
-            <form action="/search" className="ml-auto">
-              <input
-                name="q"
-                placeholder="Search films…"
-                aria-label="Search films"
-                className="w-36 rounded border border-edge bg-ink-2 px-3 py-1.5 text-sm outline-none
-                           transition focus:w-56 focus:border-brass/60 sm:w-48"
-              />
-            </form>
+            <SearchBox />
           </div>
 
           <nav
