@@ -44,6 +44,32 @@ const FREE_ONLY = args.includes("--free");
 const SORT = flag("sort", FREE_ONLY ? "release_date_desc" : "popularity_desc");
 /** movie | tv_series | tv_miniseries — Watchmode accepts a comma-separated list. */
 const TYPES = flag("types", "movie");
+/** Filter to one original language, e.g. --language hi for Bollywood.
+ *
+ *  This cannot be done by the list endpoint: /list-titles/ silently ignores
+ *  `language` (it returns an identical total_results with and without it), and
+ *  a list row carries only id, title, year, imdb_id, tmdb_id, type and
+ *  popularity — no language at all. The only place language appears is
+ *  /title/{id}/details/, so a title has to be fetched to find out what it is.
+ *  Non-matches therefore cost one request rather than two, because /sources/ is
+ *  skipped for them. */
+const LANGUAGE = flag("language", null);
+/** Earliest release year, passed to the API as release_date_start. The list
+ *  endpoint DOES honour this one, so it costs nothing to apply and keeps old
+ *  films out of the catalogue at the source rather than after paying for them. */
+const SINCE = flag("since", null);
+/** Hard ceiling on API requests for this run. The monthly quota is small enough
+ *  that an unbounded import can exhaust it in one go, and a half-finished
+ *  catalogue is worse than a smaller complete one. */
+const BUDGET = Number(flag("budget", Infinity));
+/** Comma-separated Watchmode source ids, e.g. --sources 447 for JioHotstar.
+ *
+ *  This is the lever that makes a language import affordable. Language cannot be
+ *  filtered server-side, so the only way to raise the hit rate is to start from a
+ *  pool that is already dense in the language wanted. Sorting the whole Indian
+ *  catalogue by popularity does the opposite — its top thousand is almost
+ *  entirely English — whereas an Indian service's own catalogue is mostly Indian. */
+const SOURCES = flag("sources", null);
 
 const KEY = process.env.WATCHMODE_API_KEY;
 const BASE = "https://api.watchmode.com/v1";
@@ -197,6 +223,8 @@ for (let page = 1; page <= PAGES; page++) {
       page: String(page),
       sort_by: SORT,
       regions: REGION,
+      ...(SINCE ? { release_date_start: `${SINCE}0101` } : {}),
+      ...(SOURCES ? { source_ids: SOURCES } : {}),
       ...(FREE_ONLY ? { source_types: "free" } : {}),
     });
   } catch (err) {
@@ -218,7 +246,8 @@ console.log(`listing returned ${rows.length} titles`);
 console.log(`fetching details + sources for each (~${rows.length * 2} requests)\n`);
 const started = Date.now();
 
-let imported = 0, failed = 0;
+let imported = 0, failed = 0, alreadyHad = 0, wrongLanguage = 0, checked = 0;
+let hitBudget = false;
 let index = 0;
 for (const row of rows) {
   index++;
@@ -226,8 +255,24 @@ for (const row of rows) {
   if (!id) { failed++; continue; }
 
 
+  // Already in the store: costs nothing to skip, and re-importing would spend
+  // two requests to learn what we already know. Availability is the refresh
+  // job's responsibility, not this script's.
+  if (bySource.has(String(id))) { alreadyHad++; continue; }
+
+  if (callCount >= BUDGET) { hitBudget = true; break; }
+
   try {
-    const [details, sources] = [await api(`/title/${id}/details/`), await api(`/title/${id}/sources/`)];
+    const details = await api(`/title/${id}/details/`);
+    checked++;
+
+    if (LANGUAGE && (details?.original_language ?? null) !== LANGUAGE) {
+      wrongLanguage++;
+      await sleep(120);
+      continue;                       // one request spent, not two
+    }
+
+    const sources = await api(`/title/${id}/sources/`);
     await sleep(150);
     const mapped = mapTitle(details, sources, REGION);
     bySource.set(mapped.sourceId, mapped);
@@ -262,6 +307,16 @@ console.log(`total in store  ${out.length}`);
 console.log(`with providers  ${withOptions}`);
 console.log(`free to watch   ${freeCount}`);
 console.log(`api requests    ${callCount}`);
+if (LANGUAGE) {
+  const rate = checked ? ((imported / checked) * 100).toFixed(1) : "0.0";
+  console.log(`\nlanguage filter "${LANGUAGE}"`);
+  console.log(`  already had     ${alreadyHad}  (skipped, no request)`);
+  console.log(`  details checked ${checked}`);
+  console.log(`  wrong language  ${wrongLanguage}`);
+  console.log(`  hit rate        ${rate}%`);
+  if (imported) console.log(`  cost per keeper ${(callCount / imported).toFixed(1)} requests`);
+}
+if (hitBudget) console.log(`\nstopped at the --budget ceiling of ${BUDGET} requests`);
 
 if (withOptions === 0 && out.length > 0) {
   console.log("\n  No titles got provider options — the sources mapping is probably wrong.");

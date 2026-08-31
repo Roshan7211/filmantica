@@ -115347,5 +115347,444 @@
         "role": "Co-Producer, Producer, Post Producer"
       }
     ]
+  },
+  {
+    "id": "watchmode:11065457",
+    "slug": "dhurandhar-the-revenge-11065457",
+    "title": "Dhurandhar: The Revenge",
+    "year": 2026,
+    "releaseDate": "2026-03-18",
+    "plot": "Amid rival gangs, corrupt officials and a ruthless military commander, an undercover operative’s mission for his country turns into a violent personal war. As loyalties fracture in Lyari, he is pushed toward choices that blur the boundary between patriotism and brutality.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/ptTwQES14pr5c3aZvJg56YlYgb1.jpg",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "runtime": 229,
+    "rating": 7.6,
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/br4Ra4dRpvR0R7a1zPPkOwGkcky.jpg",
+    "certification": "NR",
+    "language": "hi",
+    "imdbId": "tt39139925",
+    "trailerUrl": "https://www.youtube.com/watch?v=CN0lNff-zm0",
+    "titleType": "movie",
+    "endYear": null,
+    "provider": "watchmode",
+    "sourceId": "11065457",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/movies/dhurandhar-the-revenge/1271641088",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/82813021",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-31T11:02:57.789Z"
+  },
+  {
+    "id": "watchmode:11095691",
+    "slug": "the-kerala-story-2-goes-beyond-11095691",
+    "title": "The Kerala Story 2 Goes Beyond",
+    "year": 2026,
+    "releaseDate": "2026-02-27",
+    "plot": "Three young women from different parts of India choose love over tradition, but their relationships gradually become traps marked by manipulation, control, and silence. Their parallel journeys explore how emotional pressure and rebellion can be turned against personal freedom, creating an intense social drama about trust, vulnerability, and the consequences of losing independence.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/5btAk8YTRT3FLsqQBumN5eCk8xO.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "runtime": 131,
+    "rating": 5.9,
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/fXbZ941KEZ4a9GFMu3y6XrCBuOp.jpg",
+    "certification": null,
+    "language": "hi",
+    "imdbId": "tt39310158",
+    "trailerUrl": "https://www.youtube.com/watch?v=RkflMoZhoIw",
+    "titleType": "movie",
+    "endYear": null,
+    "provider": "watchmode",
+    "sourceId": "11095691",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/the-kerala-story-2/0-0-1z5950506",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-31T11:03:04.599Z"
+  },
+  {
+    "id": "watchmode:1948969",
+    "slug": "assi-1948969",
+    "title": "Assi",
+    "year": 2026,
+    "releaseDate": "2026-02-20",
+    "plot": "After a school teacher is sexually assaulted on her way home, a determined prosecution lawyer takes on the fight for justice. As the case exposes failures in policing, investigation, and the legal system, the story asks what justice can mean when countless reports rarely reach trial.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/mSLtAAHdnqQisw9JbeWKVJDHhTs.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "runtime": 134,
+    "rating": 6.9,
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/6WsLyxygdWezcFhnwk7MwkQYIwL.jpg",
+    "certification": null,
+    "language": "hi",
+    "imdbId": "tt39392533",
+    "trailerUrl": "https://www.youtube.com/watch?v=_fTMb1olDQY",
+    "titleType": "movie",
+    "endYear": null,
+    "provider": "watchmode",
+    "sourceId": "1948969",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/assi/0-0-1z5946669",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-31T11:03:05.593Z"
+  },
+  {
+    "id": "watchmode:1855754",
+    "slug": "kis-kisko-pyaar-karoon-2-1855754",
+    "title": "Kis Kisko Pyaar Karoon 2",
+    "year": 2025,
+    "releaseDate": "2025-12-12",
+    "plot": "A man hoping to marry the love of his life is pulled into an absurd marriage mix-up involving three women from different religious backgrounds. As he tries to manage the resulting misunderstandings and domestic chaos, his plans become increasingly difficult to keep under control.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/sqCgEMxOKvb949xbxn35Wcfn50S.jpg",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Drama"
+    ],
+    "runtime": 142,
+    "rating": 4.9,
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/pwyBBLEofnkRSyQ60oxjXCw9uGW.jpg",
+    "certification": null,
+    "language": "hi",
+    "imdbId": "tt33307516",
+    "trailerUrl": "https://www.youtube.com/watch?v=Eb9fIMlIiyc",
+    "titleType": "movie",
+    "endYear": null,
+    "provider": "watchmode",
+    "sourceId": "1855754",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1271527818",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-31T11:03:20.038Z"
+  },
+  {
+    "id": "watchmode:1823728",
+    "slug": "dhurandhar-1823728",
+    "title": "Dhurandhar",
+    "year": 2025,
+    "releaseDate": "2025-12-05",
+    "plot": "A mysterious traveler enters Karachi’s criminal underworld and steadily rises through its dangerous ranks. Operating with lethal precision, the traveler navigates crime, politics, shifting loyalties, and an intelligence-linked network while pursuing a mission designed to dismantle the powerful connection from within.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "runtime": 214,
+    "rating": 7.6,
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/4DfxcN4w0FuYZHQ3JAHzpHWia1U.jpg",
+    "certification": "NR",
+    "language": "hi",
+    "imdbId": "tt33014583",
+    "trailerUrl": "https://www.youtube.com/watch?v=NHk7scrb_9I",
+    "titleType": "movie",
+    "endYear": null,
+    "provider": "watchmode",
+    "sourceId": "1823728",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/82813816",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/movies/dhurandhar/1271642559",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-31T11:03:21.024Z"
+  },
+  {
+    "id": "watchmode:1928105",
+    "slug": "gustaakh-ishq-1928105",
+    "title": "Gustaakh Ishq",
+    "year": 2025,
+    "releaseDate": "2025-11-28",
+    "plot": "A man struggling to save his family’s printing press becomes a disciple of a revered poet and falls in love with the poet’s daughter. Caught between his feelings and loyalty to his mentor, he must confront a difficult choice that could reshape his future.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/eEl28LCW1DsXTRhmdlo2vjuaP5X.jpg",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "runtime": 128,
+    "rating": 7.2,
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/lFq65LulkPYZEeKo8cEId4N2s07.jpg",
+    "certification": null,
+    "language": "hi",
+    "imdbId": "tt30007502",
+    "trailerUrl": "https://www.youtube.com/watch?v=f918TjGXFyI",
+    "titleType": "movie",
+    "endYear": null,
+    "provider": "watchmode",
+    "sourceId": "1928105",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/movies/gustaakh-ishq/1271525297",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-31T11:03:22.480Z"
+  },
+  {
+    "id": "watchmode:1779940",
+    "slug": "mastiii-4-1779940",
+    "title": "Mastiii 4",
+    "year": 2025,
+    "releaseDate": "2025-11-21",
+    "plot": "Three frustrated husbands, trapped in dull marriages, dream of freedom and excitement. After encountering an unconventional arrangement that seems to offer an escape, they pursue a similar idea, triggering a chaotic chain of misunderstandings, awkward situations, and increasingly wild attempts to change their ordinary lives.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/99rpDOk540UDaCMlJSonpSvQCPm.jpg",
+    "genres": [
+      "Comedy"
+    ],
+    "runtime": 142,
+    "rating": 2.5,
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/huXWIOCkaS91oWMyMgMfY2EVNcf.jpg",
+    "certification": null,
+    "language": "hi",
+    "imdbId": "tt30818815",
+    "trailerUrl": "https://www.youtube.com/watch?v=m43HC9T9YM8",
+    "titleType": "movie",
+    "endYear": null,
+    "provider": "watchmode",
+    "sourceId": "1779940",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/mastiii-4/0-0-1z5895209",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-31T11:03:23.790Z"
+  },
+  {
+    "id": "watchmode:11044679",
+    "slug": "bhagwat-chapter-one-raakshas-11044679",
+    "title": "Bhagwat Chapter One: Raakshas",
+    "year": 2025,
+    "releaseDate": "2025-10-17",
+    "plot": "A seemingly simple missing-girl case draws a small-town police inspector into a disturbing investigation involving several disappearing young women. As he follows a trail of suspicion, the inquiry becomes a tense crime drama about hidden motives, moral conflict, and the difficult search for truth.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/hXVDG74ykzadnIHtPpV8eZWwtZB.jpg",
+    "genres": [
+      "Thriller"
+    ],
+    "runtime": 128,
+    "rating": 7,
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/k8p6fA6YPvEcqmvbCuBQKmbIT3l.jpg",
+    "certification": null,
+    "language": "hi",
+    "imdbId": "tt38525492",
+    "trailerUrl": "https://www.youtube.com/watch?v=W8pv9CHwsE4",
+    "titleType": "movie",
+    "endYear": null,
+    "provider": "watchmode",
+    "sourceId": "11044679",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/bhagwat-chapter-one-raakshas/0-0-1z5831123",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-31T11:03:31.831Z"
+  },
+  {
+    "id": "watchmode:1649001",
+    "slug": "the-bengal-files-1649001",
+    "title": "The Bengal Files",
+    "year": 2025,
+    "releaseDate": "2025-09-05",
+    "plot": "A criminal investigator pursues a missing-person case that leads into a wider web of corruption. Meanwhile, someone connected to the investigation reflects on communal violence that erupted in the period leading up to India’s partition.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/3gbZh1S735CLz7NwFRb7bycUWkP.jpg",
+    "genres": [
+      "Drama",
+      "History",
+      "Thriller"
+    ],
+    "runtime": 205,
+    "rating": 6.8,
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/ncvfuh7OZG46Ohiw73RQfKVNecO.jpg",
+    "certification": null,
+    "language": "hi",
+    "imdbId": "tt15416342",
+    "trailerUrl": "https://www.youtube.com/watch?v=AurrdDCUTO4",
+    "titleType": "movie",
+    "endYear": null,
+    "provider": "watchmode",
+    "sourceId": "1649001",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/the-bengal-files/0-0-1z5845532",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-31T11:03:41.668Z"
+  },
+  {
+    "id": "watchmode:1688496",
+    "slug": "tehran-1688496",
+    "title": "Tehran",
+    "year": 2025,
+    "releaseDate": "2025-08-14",
+    "plot": "After a magnetic bomb destroys an Israeli embassy vehicle in Delhi, a determined police investigator suspects the attack is more complex than it first appears. Facing political pressure and possible international connections, he pursues the truth through a perilous investigation against formidable adversaries.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/gbz9Y1NwnlE2GxXmgWTKZC1fste.jpg",
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "runtime": 116,
+    "rating": 5.5,
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/nrDyzITJljfb6As9qnLnH8rf4Is.jpg",
+    "certification": null,
+    "language": "hi",
+    "imdbId": "tt21818782",
+    "trailerUrl": "https://www.youtube.com/watch?v=ffDvEdkFtJk",
+    "titleType": "movie",
+    "endYear": null,
+    "provider": "watchmode",
+    "sourceId": "1688496",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/tehran-2025-watch-full-movie-online-ott-release-and-cast-on-zee5/0-0-1z5797649",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81577018",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-31T11:03:46.588Z"
+  },
+  {
+    "id": "watchmode:1861086",
+    "slug": "kaalidhar-laapata-1861086",
+    "title": "Kaalidhar Laapata",
+    "year": 2025,
+    "releaseDate": "2025-07-04",
+    "plot": "An ageing Kaalidhar escapes his family after overhearing their plans to abandon him. He meets the free-spirited Ballu, and they embark on an adventure to tick things off Kaalidhar's bucket list.",
+    "posterUrl": "https://image.tmdb.org/t/p/w780/a7ctu6C6f7tN87ve4HFDoELp7cH.jpg",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "runtime": 109,
+    "rating": 7.4,
+    "backdropUrl": "https://image.tmdb.org/t/p/w780/ua4mb3GrFKWMvecNvfYK7eAuXwi.jpg",
+    "certification": null,
+    "language": "hi",
+    "imdbId": "tt27866781",
+    "trailerUrl": "https://www.youtube.com/watch?v=6YPsQDhUM-I",
+    "titleType": "movie",
+    "endYear": null,
+    "provider": "watchmode",
+    "sourceId": "1861086",
+    "options": {
+      "free": [],
+      "stream": [
+        {
+          "name": "Zee5",
+          "url": "https://www.zee5.com/movies/details/kaalidhar-laapata-2025-movie-watch-online-ott-release-and-cast-on-zee5/0-0-1z5774976",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "updatedAt": "2026-08-31T11:03:49.203Z"
   }
 ]
