@@ -54,6 +54,11 @@ const TYPES = flag("types", "movie");
  *  Non-matches therefore cost one request rather than two, because /sources/ is
  *  skipped for them. */
 const LANGUAGE = flag("language", null);
+/** Extra languages to keep when they turn up. Identifying a title costs a
+ *  request whatever it is, so discarding a Telugu or Malayalam film we have
+ *  already paid to identify wastes that request outright — those sections exist
+ *  and are thin. Primary --language still drives which pools are worth reading. */
+const ALSO = (flag("also", "") || "").split(",").map((x) => x.trim()).filter(Boolean);
 /** Earliest release year, passed to the API as release_date_start. The list
  *  endpoint DOES honour this one, so it costs nothing to apply and keeps old
  *  films out of the catalogue at the source rather than after paying for them. */
@@ -83,15 +88,29 @@ if (!KEY) {
 }
 
 let callCount = 0;
-async function api(path, params = {}) {
+let rateLimitWaits = 0;
+
+async function api(path, params = {}, attempt = 1) {
   const qs = new URLSearchParams({ apiKey: KEY, ...params });
   callCount++;
   const res = await fetch(`${BASE}${path}?${qs}`);
   const body = await res.json().catch(() => null);
+  const message = body?.errorMessage || body?.statusMessage || "";
+
+  // A rate-limited request is a spent request that returned nothing. Backing off
+  // and retrying costs one more, but giving up costs the same and yields a hole
+  // in the catalogue.
+  if (res.status === 429 || /rate limit/i.test(message)) {
+    if (attempt > 5) throw new Error("rate limited after 5 attempts");
+    rateLimitWaits++;
+    await sleep(1000 * 2 ** (attempt - 1));
+    return api(path, params, attempt + 1);
+  }
+
   if (body && body.success === false) {
     // Watchmode reports auth failures via errorMessage and plan/param failures
     // via statusMessage. Reading only one hides the real cause.
-    throw new Error(body.errorMessage || body.statusMessage || `API rejected the request (HTTP ${res.status})`);
+    throw new Error(message || `API rejected the request (HTTP ${res.status})`);
   }
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return body;
@@ -246,7 +265,7 @@ console.log(`listing returned ${rows.length} titles`);
 console.log(`fetching details + sources for each (~${rows.length * 2} requests)\n`);
 const started = Date.now();
 
-let imported = 0, failed = 0, alreadyHad = 0, wrongLanguage = 0, checked = 0;
+let imported = 0, failed = 0, alreadyHad = 0, wrongLanguage = 0, checked = 0, primaryHits = 0;
 let hitBudget = false;
 let index = 0;
 for (const row of rows) {
@@ -266,11 +285,14 @@ for (const row of rows) {
     const details = await api(`/title/${id}/details/`);
     checked++;
 
-    if (LANGUAGE && (details?.original_language ?? null) !== LANGUAGE) {
+    const lang = details?.original_language ?? null;
+    const wanted = !LANGUAGE || lang === LANGUAGE || (lang !== null && ALSO.includes(lang));
+    if (!wanted) {
       wrongLanguage++;
       await sleep(120);
       continue;                       // one request spent, not two
     }
+    if (lang === LANGUAGE) primaryHits++;
 
     const sources = await api(`/title/${id}/sources/`);
     await sleep(150);
@@ -314,6 +336,9 @@ if (LANGUAGE) {
   console.log(`  details checked ${checked}`);
   console.log(`  wrong language  ${wrongLanguage}`);
   console.log(`  hit rate        ${rate}%`);
+  console.log(`  primary "${LANGUAGE}"    ${primaryHits}`);
+  if (ALSO.length) console.log(`  also kept       ${imported - primaryHits} (${ALSO.join(", ")})`);
+  if (rateLimitWaits) console.log(`  rate-limit waits ${rateLimitWaits}`);
   if (imported) console.log(`  cost per keeper ${(callCount / imported).toFixed(1)} requests`);
 }
 if (hitBudget) console.log(`\nstopped at the --budget ceiling of ${BUDGET} requests`);
