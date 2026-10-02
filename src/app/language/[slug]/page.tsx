@@ -18,7 +18,7 @@ export async function generateMetadata({ params, searchParams }: Props) {
   const [{ slug }, { page }] = await Promise.all([params, searchParams]);
   const lang = getLanguage(slug);
   if (!lang) return {};
-  const n = Number(page) || 1;
+  const n = paginate(await titlesInLanguage(lang.code), page).page;
   const base = `${SITE.url}/language/${slug}`;
   return {
     title: n > 1 ? `${lang.name} — page ${n}` : `${lang.name} — where to watch, free options marked`,

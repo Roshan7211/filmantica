@@ -12,7 +12,7 @@ type Props = { searchParams: Promise<{ page?: string }> };
 
 export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
   const { page } = await searchParams;
-  const n = Number(page) || 1;
+  const n = paginate(await freeToWatch(), page).page;
   return {
     title: n > 1
       ? `Free movies to watch online in India — page ${n}`

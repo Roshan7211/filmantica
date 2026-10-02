@@ -44,6 +44,9 @@ export default async function Home() {
 
   return (
     <>
+      {/* The page's subject, for search engines and screen readers. Visually the
+          rail and section headings already say it. */}
+      <h1 className="sr-only">Free movies and TV series to watch legally in India</h1>
       <HeroCarousel titles={justReleased} />
 
       {free.length > 0 && (

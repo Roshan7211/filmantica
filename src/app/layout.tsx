@@ -14,6 +14,8 @@ export const metadata: Metadata = {
   // Default canonical. Pages with query parameters or their own URL override it;
   // without this, every page lacking an explicit one had no canonical at all.
   alternates: { canonical: "/" },
+  // Google Search Console ownership check for filmantica.com.
+  verification: { google: "TCvDZJyyRv5387igYY5OpCZ-GrlICv6sV3jC9aL1gq8" },
 };
 
 const NAV = [

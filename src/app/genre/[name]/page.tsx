@@ -17,8 +17,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params, searchParams }: Props) {
   const [{ name }, { page }] = await Promise.all([params, searchParams]);
   const genre = (await genreDisplayName(name)) ?? decodeURIComponent(name);
-  const n = Number(page) || 1;
-  const base = `${SITE.url}/genre/${name}`;
+  const n = paginate(await discoveryByGenre(name), page).page;
+  // Genre lookup ignores case, so /genre/Action also renders; point it at the one URL.
+  const base = `${SITE.url}/genre/${genreSlug(genre)}`;
   return {
     title: n > 1 ? `${genre} movies — page ${n}` : `${genre} movies — where to watch`,
     description: `Every legal way to stream, rent or buy ${genre.toLowerCase()} films, plus what is free right now.`,
@@ -37,9 +38,9 @@ export default async function GenrePage({ params, searchParams }: Props) {
 
 
   const jsonLd = graph(
-    collectionPage({ name: `${genre} movies`, description: `Where to watch ${genre} films in India, and which are free.`, path: `/genre/${name}` }),
+    collectionPage({ name: `${genre} movies`, description: `Where to watch ${genre} films in India, and which are free.`, path: `/genre/${genreSlug(genre)}` }),
     itemList(paged.items, { name: `${genre} movies`, startPosition: paged.from, total: paged.total }),
-    breadcrumb([{ name: "Genres", path: "/genres" }, { name: genre, path: `/genre/${name}` }]),
+    breadcrumb([{ name: "Genres", path: "/genres" }, { name: genre, path: `/genre/${genreSlug(genre)}` }]),
   );
 
   return (
@@ -61,7 +62,7 @@ export default async function GenrePage({ params, searchParams }: Props) {
         {paged.items.map((t) => <DiscoveryCard key={t.id} title={t} />)}
       </div>
 
-      <Pagination paged={paged} basePath={`/genre/${name}`} />
+      <Pagination paged={paged} basePath={`/genre/${genreSlug(genre)}`} />
     </>
   );
 }

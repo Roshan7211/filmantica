@@ -12,8 +12,8 @@ type Props = { searchParams: Promise<{ page?: string; free?: string }> };
 
 export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
   const { page, free } = await searchParams;
-  const n = Number(page) || 1;
   const onlyFree = free === "1";
+  const n = paginate(await (onlyFree ? freeSeries() : series()), page).page;
   const base = `${SITE.url}/tv${onlyFree ? "?free=1" : ""}`;
   return {
     title: onlyFree

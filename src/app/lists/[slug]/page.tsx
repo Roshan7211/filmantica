@@ -18,7 +18,7 @@ export async function generateMetadata({ params, searchParams }: Props) {
   const [{ slug }, { page }] = await Promise.all([params, searchParams]);
   const resolved = await resolveList(slug);
   if (!resolved) return {};
-  const n = Number(page) || 1;
+  const n = paginate(resolved.films, page).page;
   const base = `${SITE.url}/lists/${slug}`;
   return {
     title: n > 1 ? `${resolved.list.title} — page ${n}` : resolved.list.title,
