@@ -6,10 +6,12 @@
 # 500 titles checked longest ago and cycles. The whole catalogue comes round
 # roughly fortnightly, spending about 2,000 requests a month and leaving headroom.
 #
-# Requires two repository secrets:
-#   WATCHMODE_API_KEY   the API key
-#   VERCEL_DEPLOY_HOOK  a Vercel deploy hook URL, because pushing to GitHub does
-#                       not currently trigger a deploy on this project
+# Repository secrets:
+#   WATCHMODE_API_KEY      the API key (required)
+#   HOSTINGER_DEPLOY_HOOK  Hostinger's redeploy webhook URL, for filmantica.com.
+#                          Not needed if Hostinger already redeploys on every push.
+#   VERCEL_DEPLOY_HOOK     a Vercel deploy hook URL, because pushing to GitHub does
+#                          not currently trigger a deploy on that project
 name: Refresh availability
 
 on:
@@ -70,10 +72,16 @@ jobs:
       - name: Deploy the refreshed data
         if: steps.commit.outputs.changed == 'true'
         env:
-          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+          HOSTINGER_HOOK: ${{ secrets.HOSTINGER_DEPLOY_HOOK }}
+          VERCEL_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
         run: |
-          if [ -z "$HOOK" ]; then
-            echo "::warning::VERCEL_DEPLOY_HOOK is not set - data was committed but the site was not redeployed."
+          if [ -z "$HOSTINGER_HOOK$VERCEL_HOOK" ]; then
+            echo "::warning::No deploy hook is set - data was committed but only a push-triggered deploy will pick it up."
             exit 0
           fi
-          curl -sS -X POST "$HOOK" -o /dev/null -w "deploy hook: %{http_code}\n"
+          if [ -n "$HOSTINGER_HOOK" ]; then
+            curl -sS -X POST "$HOSTINGER_HOOK" -o /dev/null -w "hostinger hook: %{http_code}\n"
+          fi
+          if [ -n "$VERCEL_HOOK" ]; then
+            curl -sS -X POST "$VERCEL_HOOK" -o /dev/null -w "vercel hook: %{http_code}\n"
+          fi

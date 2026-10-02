@@ -82,7 +82,8 @@ export default async function WhereToWatch({ params }: Params) {
 
       <div className="grid gap-8 sm:grid-cols-[200px_1fr]">
         <div className="aspect-2/3 overflow-hidden rounded-md border border-edge">
-          <Poster src={t.posterUrl} title={t.title} year={t.year} />
+          <Poster src={t.posterUrl} title={t.title} year={t.year} priority
+                  sizes="(min-width: 640px) 200px, 100vw" />
         </div>
 
         <div>

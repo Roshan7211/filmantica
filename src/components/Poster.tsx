@@ -1,6 +1,18 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 
+/** TMDB serves each poster at fixed widths, and the catalogue stores the w780
+ *  one (~150 KB). A 200px card on a 1x screen needs only w342 (~40 KB), so offer
+ *  the smaller widths and let the browser pick from `sizes`. */
+const TMDB_SIZE = /^(https:\/\/image\.tmdb\.org\/t\/p\/)w\d+(\/.+)$/;
+const TMDB_WIDTHS = [342, 500, 780];
+
+function tmdbSrcSet(src: string): string | undefined {
+  const m = TMDB_SIZE.exec(src);
+  if (!m) return undefined;
+  return TMDB_WIDTHS.map((w) => `${m[1]}w${w}${m[2]} ${w}w`).join(", ");
+}
+
 /** Archive.org poster with a typographic fallback.
  *
  *  Catalogue thumbnails are frequently missing, and a broken image looks worse
@@ -9,11 +21,14 @@ import { useEffect, useRef, useState } from "react";
  */
 export default function Poster({
   src, title, year, className = "", priority = false,
+  sizes = "(min-width: 1024px) 200px, (min-width: 640px) 33vw, 50vw",
 }: {
   src: string | null;
   title: string;
   year: number | null;
   className?: string;
+  /** Rendered width, for choosing a poster size. The default fits the card grids. */
+  sizes?: string;
   /** Set on images above the fold. Lazy-loading the largest visible image
    *  delays the LCP, which is the metric that decides whether a page feels fast. */
   priority?: boolean;
@@ -25,6 +40,8 @@ export default function Poster({
     const img = ref.current;
     if (img && img.complete && img.naturalWidth === 0) setFailed(true);
   }, []);
+
+  const srcSet = src ? tmdbSrcSet(src) : undefined;
 
   if (!src || failed) {
     return (
@@ -43,6 +60,8 @@ export default function Poster({
     <img
       ref={ref}
       src={src}
+      srcSet={srcSet}
+      sizes={srcSet ? sizes : undefined}
       alt={`${title} poster`}
       loading={priority ? "eager" : "lazy"}
       fetchPriority={priority ? "high" : undefined}

@@ -99,7 +99,9 @@ export default function HeroCarousel({ titles }: { titles: DiscoveryTitle[] }) {
                     src={t.posterUrl}
                     title={t.title}
                     year={t.year}
-                    priority={i < 4}
+                    // Only what a phone shows before scrolling; more just splits the bandwidth.
+                    priority={i < 2}
+                    sizes="(min-width: 640px) 200px, 160px"
                     className="transition duration-500 group-hover:scale-105"
                   />
                   {free && (
