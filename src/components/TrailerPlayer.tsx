@@ -65,8 +65,8 @@ export default function TrailerPlayer({
         </span>
       </span>
       <span
-        className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/85 to-transparent p-3
-                   text-left text-xs text-cream/90"
+        className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/75 to-transparent
+                   px-3 pb-3 pt-10 text-left text-xs text-cream/90"
       >
         Watch trailer · plays here, loaded from YouTube only when you press play
       </span>

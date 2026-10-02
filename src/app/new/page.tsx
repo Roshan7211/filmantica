@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { newlyFree, recentlyLeftFree, lastCheckedAt } from "@/lib/discovery";
+import { newlyFree, recentlyLeftFree, lastCheckedAt, hasAnyOption } from "@/lib/discovery";
 import DiscoveryCard from "@/components/DiscoveryCard";
 import JsonLd from "@/components/JsonLd";
 import { graph, breadcrumb, itemList, collectionPage } from "@/lib/schema";
@@ -24,7 +24,7 @@ export default async function NewPage() {
   const when = checked
     ? new Date(checked).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })
     : null;
-
+  const stillPaid = left.filter(hasAnyOption).length;
 
   const jsonLd = graph(
     collectionPage({ name: "What just changed", description: "Films that just became free to watch in India, and ones that just left.", path: "/new" }),
@@ -74,8 +74,14 @@ export default async function NewPage() {
         <section>
           <h2 className="display mb-1 text-xl">No longer free</h2>
           <p className="mb-4 text-xs text-muted">
-            {left.length} title{left.length === 1 ? "" : "s"} whose free option has gone — still
-            watchable, but now paid
+            {/* Most titles that leave a free service leave India altogether, so
+                claiming they are "still watchable, but paid" was usually false. */}
+            {left.length} title{left.length === 1 ? "" : "s"} whose free option has gone.{" "}
+            {stillPaid === left.length
+              ? "All can still be streamed, rented or bought."
+              : stillPaid > 0
+                ? `${stillPaid} can still be streamed, rented or bought; the rest aren't currently available in India.`
+                : "None is currently available in India."}
           </p>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
             {left.slice(0, 18).map((t) => <DiscoveryCard key={t.id} title={t} />)}

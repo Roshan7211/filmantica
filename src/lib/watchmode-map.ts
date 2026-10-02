@@ -11,6 +11,7 @@
  *  "Deeplinks available for paid plans only." — never a URL. Only web_url is usable.
  */
 import { discoverySlug, type DiscoveryTitle, type TitleType, type WatchOption } from "./discovery-types.ts";
+import { youtubeId } from "./youtube.ts";
 
 /** Watchmode reports several series flavours; anything not clearly a series is
  *  treated as a film, which is the safe default for an unrecognised value. */
@@ -112,6 +113,9 @@ export function mapTitle(d: RawTitle, sources: unknown, region: string): Discove
     language: d.original_language ?? null,
     imdbId: d.imdb_id ?? null,
     trailerUrl: d.trailer ?? null,
+    // The page plays trailers by id; storing only the URL left every imported
+    // title's trailer hidden.
+    trailerId: youtubeId(d.trailer),
 
     titleType: normaliseType(d.type),
     endYear: Number(d.end_year) || null,

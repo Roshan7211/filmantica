@@ -42,9 +42,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/" className="display text-xl tracking-tight">
               Film<span className="text-brass">antica</span>
             </Link>
-            {/* Desktop: inline. Mobile: a scrollable strip below, because hiding
-                navigation entirely on phones left most of the site unreachable. */}
-            <nav className="hidden gap-5 text-sm text-muted sm:flex">
+            {/* Desktop: inline. Phones and tablets: a scrollable strip below, because
+                hiding navigation entirely left most of the site unreachable. Nine links
+                and the search box need ~900px, so inline waits for lg; at sm it pushed
+                every page 100-260px wider than a tablet screen. */}
+            <nav className="hidden gap-5 text-sm text-muted lg:flex">
               {NAV.map(([label, href]) => (
                 <Link key={href} href={href} className="transition hover:text-cream">{label}</Link>
               ))}
@@ -55,7 +57,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <nav
             aria-label="Sections"
             className="flex gap-1 overflow-x-auto border-t border-edge px-4 pb-2 pt-1.5
-                       [scrollbar-width:none] sm:hidden [&::-webkit-scrollbar]:hidden"
+                       [scrollbar-width:none] lg:hidden [&::-webkit-scrollbar]:hidden"
           >
             {NAV.map(([label, href]) => (
               <Link

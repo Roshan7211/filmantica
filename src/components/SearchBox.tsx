@@ -2,6 +2,7 @@
 
 import { useEffect, useId, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import { tmdbSized } from "@/lib/tmdb";
 
 /** Search with type-ahead suggestions.
  *
@@ -160,7 +161,7 @@ export default function SearchBox() {
               <span className="h-12 w-8 shrink-0 overflow-hidden rounded-sm border border-edge bg-ink-2">
                 {s.posterUrl && (
                   /* eslint-disable-next-line @next/next/no-img-element */
-                  <img src={s.posterUrl} alt="" loading="lazy" width={32} height={48}
+                  <img src={tmdbSized(s.posterUrl, 92)} alt="" loading="lazy" width={32} height={48}
                        className="h-full w-full object-cover" />
                 )}
               </span>

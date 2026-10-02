@@ -1,17 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-
-/** TMDB serves each poster at fixed widths, and the catalogue stores the w780
- *  one (~150 KB). A 200px card on a 1x screen needs only w342 (~40 KB), so offer
- *  the smaller widths and let the browser pick from `sizes`. */
-const TMDB_SIZE = /^(https:\/\/image\.tmdb\.org\/t\/p\/)w\d+(\/.+)$/;
-const TMDB_WIDTHS = [342, 500, 780];
-
-function tmdbSrcSet(src: string): string | undefined {
-  const m = TMDB_SIZE.exec(src);
-  if (!m) return undefined;
-  return TMDB_WIDTHS.map((w) => `${m[1]}w${w}${m[2]} ${w}w`).join(", ");
-}
+import { tmdbSrcSet } from "@/lib/tmdb";
 
 /** Archive.org poster with a typographic fallback.
  *
