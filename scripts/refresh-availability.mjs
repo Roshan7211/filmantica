@@ -29,10 +29,18 @@ if (!KEY) { console.error("WATCHMODE_API_KEY is not set."); process.exit(1); }
 const BASE = "https://api.watchmode.com/v1";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+/** Without a timeout one stalled connection hangs the run forever. In CI that is
+ *  six hours until GitHub kills the job, and nothing is written. */
+const REQUEST_TIMEOUT_MS = 30_000;
+/** A failing API (quota spent, key revoked, outage) fails every title, and each
+ *  rate-limit retry sequence costs ~a minute: 500 titles is ~8 hours. Stop early
+ *  and keep what was refreshed instead. */
+const MAX_CONSECUTIVE_FAILURES = 10;
+
 let calls = 0, rateLimitHits = 0;
 async function api(path, attempt = 0) {
   calls++;
-  const res = await fetch(`${BASE}${path}?apiKey=${KEY}`);
+  const res = await fetch(`${BASE}${path}?apiKey=${KEY}`, { signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
   const body = await res.json().catch(() => null);
   const message = body?.errorMessage || body?.statusMessage || "";
   if (res.status === 429 || /rate limit/i.test(message)) {
@@ -77,9 +85,14 @@ console.log(`${titles.length} titles, refreshing the ${due.length} checked longe
 console.log(`region ${REGION}, budget ~${due.length} requests\n`);
 
 const started = Date.now();
-let ok = 0, failed = 0, gainedFree = 0, lostFree = 0, changed = 0;
+let ok = 0, failed = 0, gainedFree = 0, lostFree = 0, changed = 0, failStreak = 0, aborted = false;
 
 for (const t of due) {
+  if (failStreak >= MAX_CONSECUTIVE_FAILURES) {
+    aborted = true;
+    console.error(`\n${failStreak} failures in a row: the API is unusable right now. Stopping and keeping what was refreshed.`);
+    break;
+  }
   try {
     const raw = await api(`/title/${t.sourceId}/sources/`);
     await sleep(200);
@@ -102,8 +115,10 @@ for (const t of due) {
     // starts empty and fills with real transitions, which is the honest behaviour.
     if (JSON.stringify(t.options) !== before) changed++;
     ok++;
+    failStreak = 0;
   } catch (err) {
     failed++;
+    failStreak++;
     if (failed <= 3) console.error(`  failed ${t.sourceId}: ${err.message}`);
   }
 
@@ -130,4 +145,11 @@ if (DRY) console.log("\n--dry: nothing written");
 else {
   await writeFile("data/discovery.json", JSON.stringify(titles, null, 2));
   console.log("\nwrote data/discovery.json");
+}
+
+// A partial run still exits 0 so CI commits what it got; the ::warning:: line
+// surfaces on the Actions run. Nothing refreshed at all is a failure.
+if (aborted) {
+  console.log(`::warning::Refresh stopped early after ${ok} of ${due.length} titles: the API kept failing.`);
+  if (ok === 0) process.exit(1);
 }
