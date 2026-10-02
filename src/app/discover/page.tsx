@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { allDiscovery, discoveryPopulated } from "@/lib/discovery";
+import { allDiscovery, discoveryPopulated, newestFirst } from "@/lib/discovery";
 import { paginate } from "@/lib/paginate";
 import DiscoveryCard from "@/components/DiscoveryCard";
 import DiscoveryEmpty from "@/components/DiscoveryEmpty";
@@ -32,7 +32,8 @@ export default async function DiscoverPage({ searchParams }: Props) {
   }
 
   const { page } = await searchParams;
-  const titles = await allDiscovery();
+  // The store is in import order; the newest releases should lead.
+  const titles = (await allDiscovery()).slice().sort(newestFirst);
   const paged = paginate(titles, page);
 
 

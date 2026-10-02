@@ -1,5 +1,5 @@
 import "server-only";
-import { freeToWatch, freeSeries, isSeries, type DiscoveryTitle } from "./discovery";
+import { freeToWatch, freeSeries, isSeries, newestFirst, type DiscoveryTitle } from "./discovery";
 
 /** Curated lists.
  *
@@ -21,7 +21,7 @@ export type CuratedList = {
   pick: (titles: DiscoveryTitle[]) => DiscoveryTitle[];
 };
 
-const byNewest = (a: DiscoveryTitle, b: DiscoveryTitle) => (b.year ?? 0) - (a.year ?? 0);
+const byNewest = newestFirst;
 const byRating = (a: DiscoveryTitle, b: DiscoveryTitle) => (b.rating ?? 0) - (a.rating ?? 0);
 const inGenre = (g: string) => (t: DiscoveryTitle) =>
   t.genres.some((x) => x.toLowerCase() === g.toLowerCase());

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import {
   allDiscovery, discoveryGenres, discoveryByGenre, discoveryPopulated,
-  freeToWatch, genreSlug,
+  freeToWatch, genreSlug, newestFirst,
 } from "@/lib/discovery";
 import DiscoveryCard from "@/components/DiscoveryCard";
 import HeroCarousel from "@/components/HeroCarousel";
@@ -28,7 +28,8 @@ export default async function Home() {
   const justReleased = titles
     .filter((t) => t.posterUrl && t.year)
     .sort((a, b) => {
-      if ((b.year ?? 0) !== (a.year ?? 0)) return (b.year ?? 0) - (a.year ?? 0);
+      const byDate = newestFirst(a, b);
+      if (byDate !== 0) return byDate;
       const af = a.options.free.length > 0, bf = b.options.free.length > 0;
       if (af !== bf) return af ? -1 : 1;
       return (b.rating ?? 0) - (a.rating ?? 0);

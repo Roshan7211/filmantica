@@ -63,6 +63,10 @@ const ALSO = (flag("also", "") || "").split(",").map((x) => x.trim()).filter(Boo
  *  endpoint DOES honour this one, so it costs nothing to apply and keeps old
  *  films out of the catalogue at the source rather than after paying for them. */
 const SINCE = flag("since", null);
+/** Latest release year, as release_date_end. Wrong-language titles are not
+ *  remembered, so re-listing a year range already imported pays to identify
+ *  them again; --until moves an import onto older years instead. */
+const UNTIL = flag("until", null);
 /** Hard ceiling on API requests for this run. The monthly quota is small enough
  *  that an unbounded import can exhaust it in one go, and a half-finished
  *  catalogue is worse than a smaller complete one. */
@@ -93,7 +97,8 @@ let rateLimitWaits = 0;
 async function api(path, params = {}, attempt = 1) {
   const qs = new URLSearchParams({ apiKey: KEY, ...params });
   callCount++;
-  const res = await fetch(`${BASE}${path}?${qs}`);
+  // A stalled connection otherwise hangs the run indefinitely.
+  const res = await fetch(`${BASE}${path}?${qs}`, { signal: AbortSignal.timeout(30_000) });
   const body = await res.json().catch(() => null);
   const message = body?.errorMessage || body?.statusMessage || "";
 
@@ -243,6 +248,7 @@ for (let page = 1; page <= PAGES; page++) {
       sort_by: SORT,
       regions: REGION,
       ...(SINCE ? { release_date_start: `${SINCE}0101` } : {}),
+      ...(UNTIL ? { release_date_end: `${UNTIL}1231` } : {}),
       ...(SOURCES ? { source_ids: SOURCES } : {}),
       ...(FREE_ONLY ? { source_types: "free" } : {}),
     });

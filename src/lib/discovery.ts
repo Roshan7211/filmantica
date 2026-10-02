@@ -15,6 +15,12 @@ import type { DiscoveryTitle, TitleType } from "./discovery-types";
 export type { DiscoveryTitle, WatchOption, TitleType } from "./discovery-types";
 export { hasAnyOption, discoverySlug } from "./discovery-types";
 
+/** Newest release first. Sorting on year alone left a title released this week
+ *  behind everything from January, in whatever order it was imported. Titles
+ *  without a date sort after the dated ones from their year. */
+export const newestFirst = (a: DiscoveryTitle, b: DiscoveryTitle) =>
+  (b.releaseDate ?? String(b.year ?? "")).localeCompare(a.releaseDate ?? String(a.year ?? ""));
+
 let cache: DiscoveryTitle[] | null = null;
 
 async function load(): Promise<DiscoveryTitle[]> {
@@ -60,7 +66,7 @@ export async function discoveryByGenre(slugOrName: string): Promise<DiscoveryTit
   const wanted = genreSlug(slugOrName);
   return (await load())
     .filter((t) => t.genres.some((x) => genreSlug(x) === wanted))
-    .sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
+    .sort(newestFirst);
 }
 
 /** Display name for a genre slug, so pages show "Science Fiction" not "science-fiction". */
@@ -82,7 +88,7 @@ export async function movies(): Promise<DiscoveryTitle[]> {
 
 /** Series and miniseries. */
 export async function series(): Promise<DiscoveryTitle[]> {
-  return (await load()).filter(isSeries).sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
+  return (await load()).filter(isSeries).sort(newestFirst);
 }
 
 /** Free series only — the TV equivalent of the free films page. */
@@ -99,14 +105,14 @@ export async function freeToWatch(): Promise<DiscoveryTitle[]> {
   // Films only: series get their own page, and mixing them makes both harder to scan.
   return (await load())
     .filter((t) => t.options.free.length > 0 && !isSeries(t))
-    .sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
+    .sort(newestFirst);
 }
 
 /** Newest first — what the homepage leads with. */
 export async function latestDiscovery(limit = 12): Promise<DiscoveryTitle[]> {
   return (await load())
     .slice()
-    .sort((a, b) => (b.year ?? 0) - (a.year ?? 0))
+    .sort(newestFirst)
     .slice(0, limit);
 }
 

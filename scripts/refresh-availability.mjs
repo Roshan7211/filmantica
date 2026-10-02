@@ -73,13 +73,26 @@ const release = () => { try { closeSync(fd); } catch {} try { if (existsSync(LOC
 process.on("exit", release);
 process.on("SIGINT", () => { release(); process.exit(130); });
 
+/** Spend only what is left this month. An import can use the whole quota, and
+ *  refreshing into a spent quota just fails every title. /status/ is not billed. */
+let remaining = Infinity;
+try {
+  const status = await (await fetch(`${BASE}/status/?apiKey=${KEY}`, { signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) })).json();
+  if (Number.isFinite(status?.quota) && Number.isFinite(status?.quotaUsed)) remaining = status.quota - status.quotaUsed;
+} catch { /* unknown: fall back to LIMIT, and the failure streak guards the rest */ }
+
+if (remaining <= 0) {
+  console.log("::notice::API quota is spent for this month; skipping the refresh until it resets.");
+  process.exit(0);
+}
+
 const titles = JSON.parse(await readFile("data/discovery.json", "utf8"));
 
 /** Oldest checked first, so every title comes round in turn. */
 const due = titles
   .slice()
   .sort((a, b) => String(a.checkedAt ?? a.updatedAt ?? "").localeCompare(String(b.checkedAt ?? b.updatedAt ?? "")))
-  .slice(0, LIMIT);
+  .slice(0, Math.min(LIMIT, remaining));
 
 console.log(`${titles.length} titles, refreshing the ${due.length} checked longest ago`);
 console.log(`region ${REGION}, budget ~${due.length} requests\n`);

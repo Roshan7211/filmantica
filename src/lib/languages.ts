@@ -1,5 +1,5 @@
 import "server-only";
-import { allDiscovery, type DiscoveryTitle } from "./discovery";
+import { allDiscovery, newestFirst, type DiscoveryTitle } from "./discovery";
 
 /** Language categories.
  *
@@ -62,7 +62,7 @@ export async function titlesInLanguage(code: string): Promise<DiscoveryTitle[]> 
       // Free first, then newest — the site's ordering everywhere else.
       const af = a.options.free.length > 0, bf = b.options.free.length > 0;
       if (af !== bf) return af ? -1 : 1;
-      return (b.year ?? 0) - (a.year ?? 0);
+      return newestFirst(a, b);
     });
 }
 
