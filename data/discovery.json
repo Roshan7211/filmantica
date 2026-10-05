@@ -8861,7 +8861,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1660000038",
           "price": null,
           "format": "HD"
@@ -8953,7 +8953,8 @@
         "name": "Jon Favreau",
         "role": "Director, Executive Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-05T09:56:16.081Z"
   },
   {
     "id": "watchmode:1184167",
@@ -11328,7 +11329,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1000046231",
           "price": null,
           "format": "4K"
@@ -11426,7 +11427,8 @@
         "name": "John G. Scotti",
         "role": "Associate Producer, First Assistant Director"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-05T09:56:16.414Z"
   },
   {
     "id": "watchmode:1184166",
