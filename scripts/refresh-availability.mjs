@@ -11,7 +11,7 @@
  *  Only /sources/ is fetched — one request per title. Details, cast and trailers
  *  do not change, so re-fetching them would double the cost for nothing.
  *
- *  Usage: node scripts/refresh-availability.mjs --limit 500 [--dry]
+ *  Usage: node scripts/refresh-availability.mjs --limit 500 [--dry] [--force]
  */
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { openSync, closeSync, existsSync, unlinkSync, writeFileSync } from "node:fs";
@@ -22,6 +22,7 @@ const flag = (n, d) => { const i = args.indexOf(`--${n}`); return i === -1 ? d :
 const LIMIT = Number(flag("limit", 200));
 const REGION = flag("region", process.env.DISCOVERY_REGION || "IN");
 const DRY = args.includes("--dry");
+const FORCE = args.includes("--force");
 
 const KEY = process.env.WATCHMODE_API_KEY;
 if (!KEY) { console.error("WATCHMODE_API_KEY is not set."); process.exit(1); }
@@ -40,6 +41,13 @@ const MAX_CONSECUTIVE_FAILURES = 10;
  *  its retries (~a minute), the next will too. Ten of them is ten minutes and
  *  sixty requests for nothing. */
 const MAX_CONSECUTIVE_RATE_LIMITED = 3;
+/** A title loses a provider now and then. It does not lose every provider at
+ *  once, and hundreds do not do so in the same week. On 12 Oct 2026 the API
+ *  returned no sources for the region for 202 of 500 titles, among them films
+ *  still on Prime Video, JioHotstar and Apple TV. Writing that would have taken
+ *  down 199 correct FREE badges, so past this share the data is not trusted. */
+const MAX_EMPTIED_SHARE = 0.15;
+const listed = (options) => Object.values(options).some((list) => list.length > 0);
 /** Longer than this and the API is not asking for a pause, it is saying no. */
 const MAX_RETRY_WAIT_MS = 60_000;
 
@@ -136,6 +144,7 @@ console.log(`region ${REGION}, budget ~${due.length} requests\n`);
 
 const started = Date.now();
 let ok = 0, failed = 0, gainedFree = 0, lostFree = 0, changed = 0, failStreak = 0, rateLimitedStreak = 0, aborted = false, quotaSpent = false;
+let hadOptions = 0, emptied = 0;
 
 for (const t of due) {
   if (quotaSpent) break;
@@ -150,11 +159,13 @@ for (const t of due) {
 
     const before = JSON.stringify(t.options);
     const wasFree = t.options.free.length > 0;
+    const wasListed = listed(t.options);
 
     t.options = mapSources(raw, REGION);
     t.checkedAt = new Date().toISOString();
 
     const isFree = t.options.free.length > 0;
+    if (wasListed) { hadOptions++; if (!listed(t.options)) emptied++; }
     const now = t.checkedAt;
 
     // Record the transition rather than only counting it, so the site can show
@@ -192,8 +203,15 @@ console.log(`availability changed ${changed}`);
 console.log(`became free      ${gainedFree}`);
 console.log(`no longer free   ${lostFree}`);
 console.log(`free now         ${free} of ${titles.length}`);
+console.log(`lost every option ${emptied} of ${hadOptions}`);
 console.log(`api requests     ${calls}`);
 console.log(`rate limit waits ${rateLimitHits}`);
+
+const suspect = hadOptions >= 20 && emptied / hadOptions > MAX_EMPTIED_SHARE;
+if (suspect && !FORCE) {
+  console.log(`::error::${emptied} of ${hadOptions} titles came back with nothing to watch in ${REGION}. That is the API losing data, not ${emptied} licences ending; nothing was written. Check a few by hand, and pass --force if it is real.`);
+  process.exit(1);
+}
 
 if (DRY) console.log("\n--dry: nothing written");
 else {
