@@ -45,8 +45,17 @@ const MAX_CONSECUTIVE_RATE_LIMITED = 3;
  *  once, and hundreds do not do so in the same week. On 12 Oct 2026 the API
  *  returned no sources for the region for 202 of 500 titles, among them films
  *  still on Prime Video, JioHotstar and Apple TV. Writing that would have taken
- *  down 199 correct FREE badges, so past this share the data is not trusted. */
+ *  down 199 correct FREE badges.
+ *
+ *  So an empty answer is judged by the company it keeps. Past this share of the
+ *  run, the empty answers are not believed: those titles keep their listings and
+ *  are asked again next time round, and everything else is written as normal.
+ *  Below it, a title that came back empty really has gone. --force believes the
+ *  API regardless. */
 const MAX_EMPTIED_SHARE = 0.15;
+/** Fewer titles than this is too few to take a share of, which is no reason to
+ *  believe an empty answer either. */
+const MIN_SAMPLE_FOR_SHARE = 20;
 const listed = (options) => Object.values(options).some((list) => list.length > 0);
 /** Longer than this and the API is not asking for a pause, it is saying no. */
 const MAX_RETRY_WAIT_MS = 60_000;
@@ -133,10 +142,12 @@ if (remaining <= 0) {
 
 const titles = JSON.parse(await readFile("data/discovery.json", "utf8"));
 
-/** Oldest checked first, so every title comes round in turn. */
+/** Oldest checked first, so every title comes round in turn. A held title counts
+ *  as asked, or the held ones would fill the front of the queue every week. */
+const lastAsked = (t) => String([t.checkedAt, t.heldAt].filter(Boolean).sort().pop() ?? t.updatedAt ?? "");
 const due = titles
   .slice()
-  .sort((a, b) => String(a.checkedAt ?? a.updatedAt ?? "").localeCompare(String(b.checkedAt ?? b.updatedAt ?? "")))
+  .sort((a, b) => lastAsked(a).localeCompare(lastAsked(b)))
   .slice(0, Math.min(LIMIT, remaining));
 
 console.log(`${titles.length} titles, refreshing the ${due.length} checked longest ago`);
@@ -144,7 +155,29 @@ console.log(`region ${REGION}, budget ~${due.length} requests\n`);
 
 const started = Date.now();
 let ok = 0, failed = 0, gainedFree = 0, lostFree = 0, changed = 0, failStreak = 0, rateLimitedStreak = 0, aborted = false, quotaSpent = false;
-let hadOptions = 0, emptied = 0;
+let hadOptions = 0;
+/** Titles that had listings and came back with none, waiting on the verdict. */
+const emptied = [];
+
+function apply(t, options, now) {
+  const before = JSON.stringify(t.options);
+  const wasFree = t.options.free.length > 0;
+
+  t.options = options;
+  t.checkedAt = now;
+  delete t.heldAt;
+
+  const isFree = t.options.free.length > 0;
+
+  // Record the transition rather than only counting it, so the site can show
+  // what is newly free and what has just gone without diffing snapshots.
+  if (!wasFree && isFree) { t.freeSince = now; t.leftFreeAt = null; gainedFree++; }
+  if (wasFree && !isFree) { t.leftFreeAt = now; t.freeSince = null; lostFree++; }
+  // Deliberately NOT setting freeSince on first sighting: the first refresh would
+  // then mark every already-free title as newly free, which is false. The feed
+  // starts empty and fills with real transitions, which is the honest behaviour.
+  if (JSON.stringify(t.options) !== before) changed++;
+}
 
 for (const t of due) {
   if (quotaSpent) break;
@@ -157,25 +190,12 @@ for (const t of due) {
     const raw = await api(`/title/${t.sourceId}/sources/`);
     await sleep(200);
 
-    const before = JSON.stringify(t.options);
-    const wasFree = t.options.free.length > 0;
-    const wasListed = listed(t.options);
+    const options = mapSources(raw, REGION);
+    const now = new Date().toISOString();
 
-    t.options = mapSources(raw, REGION);
-    t.checkedAt = new Date().toISOString();
-
-    const isFree = t.options.free.length > 0;
-    if (wasListed) { hadOptions++; if (!listed(t.options)) emptied++; }
-    const now = t.checkedAt;
-
-    // Record the transition rather than only counting it, so the site can show
-    // what is newly free and what has just gone without diffing snapshots.
-    if (!wasFree && isFree) { t.freeSince = now; t.leftFreeAt = null; gainedFree++; }
-    if (wasFree && !isFree) { t.leftFreeAt = now; t.freeSince = null; lostFree++; }
-    // Deliberately NOT setting freeSince on first sighting: the first refresh would
-    // then mark every already-free title as newly free, which is false. The feed
-    // starts empty and fills with real transitions, which is the honest behaviour.
-    if (JSON.stringify(t.options) !== before) changed++;
+    if (listed(t.options)) hadOptions++;
+    if (listed(t.options) && !listed(options)) emptied.push({ t, options, now });
+    else apply(t, options, now);
     ok++;
     failStreak = 0;
     rateLimitedStreak = 0;
@@ -194,6 +214,13 @@ for (const t of due) {
   }
 }
 
+const distrusted = !FORCE && emptied.length > 0
+  && (hadOptions < MIN_SAMPLE_FOR_SHARE || emptied.length / hadOptions > MAX_EMPTIED_SHARE);
+for (const { t, options, now } of emptied) {
+  if (distrusted) t.heldAt = now;
+  else apply(t, options, now);
+}
+
 const free = titles.filter((t) => t.options.free.length > 0).length;
 
 console.log("\n──────── availability refresh ────────");
@@ -203,14 +230,12 @@ console.log(`availability changed ${changed}`);
 console.log(`became free      ${gainedFree}`);
 console.log(`no longer free   ${lostFree}`);
 console.log(`free now         ${free} of ${titles.length}`);
-console.log(`lost every option ${emptied} of ${hadOptions}`);
+console.log(`lost every option ${emptied.length} of ${hadOptions}${distrusted ? " (not believed: listings kept)" : ""}`);
 console.log(`api requests     ${calls}`);
 console.log(`rate limit waits ${rateLimitHits}`);
 
-const suspect = hadOptions >= 20 && emptied / hadOptions > MAX_EMPTIED_SHARE;
-if (suspect && !FORCE) {
-  console.log(`::error::${emptied} of ${hadOptions} titles came back with nothing to watch in ${REGION}. That is the API losing data, not ${emptied} licences ending; nothing was written. Check a few by hand, and pass --force if it is real.`);
-  process.exit(1);
+if (distrusted) {
+  console.log(`::warning::${emptied.length} of ${hadOptions} titles came back with nothing to watch in ${REGION}. That is the API losing data, not ${emptied.length} licences ending, so those titles kept their listings and will be asked again. Pass --force if it is real.`);
 }
 
 if (DRY) console.log("\n--dry: nothing written");

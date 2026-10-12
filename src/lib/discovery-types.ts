@@ -45,6 +45,10 @@ export type DiscoveryTitle = {
 
   /** When a refresh last confirmed this title's availability. */
   checkedAt?: string;
+  /** Set when a refresh got an answer for this title it did not believe (every
+   *  listing gone at once, along with many others) and kept the listings it had.
+   *  Cleared the next time an answer is accepted. */
+  heldAt?: string;
   /** Set when a refresh saw a title become free, cleared when it stops being free.
    *  Lets the site show what is newly free without diffing whole snapshots. */
   freeSince?: string | null;
