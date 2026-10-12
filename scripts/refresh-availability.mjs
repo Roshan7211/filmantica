@@ -36,6 +36,26 @@ const REQUEST_TIMEOUT_MS = 30_000;
  *  rate-limit retry sequence costs ~a minute: 500 titles is ~8 hours. Stop early
  *  and keep what was refreshed instead. */
 const MAX_CONSECUTIVE_FAILURES = 10;
+/** A rate limit is on the account, not the title: once one title has waited out
+ *  its retries (~a minute), the next will too. Ten of them is ten minutes and
+ *  sixty requests for nothing. */
+const MAX_CONSECUTIVE_RATE_LIMITED = 3;
+/** Longer than this and the API is not asking for a pause, it is saying no. */
+const MAX_RETRY_WAIT_MS = 60_000;
+
+/** A 429 is either a short burst limit or a spent monthly quota, and only the
+ *  response says which. Reporting both as "rate limited" left a failed run with
+ *  no way to tell what had gone wrong, so keep everything the API said. */
+function describe(res, message) {
+  const h = (n) => res.headers.get(n);
+  return [
+    `HTTP ${res.status}`,
+    message && `"${message}"`,
+    h("retry-after") && `retry-after ${h("retry-after")}`,
+    h("x-account-quota") && `quota ${h("x-account-quota-used")} of ${h("x-account-quota")} used`,
+    h("x-ratelimit-limit") && `rate limit ${h("x-ratelimit-remaining")} of ${h("x-ratelimit-limit")} left`,
+  ].filter(Boolean).join(", ");
+}
 
 let calls = 0, rateLimitHits = 0;
 async function api(path, attempt = 0) {
@@ -45,8 +65,18 @@ async function api(path, attempt = 0) {
   const message = body?.errorMessage || body?.statusMessage || "";
   if (res.status === 429 || /rate limit/i.test(message)) {
     rateLimitHits++;
-    if (attempt >= 5) throw new Error("rate limited after 5 attempts");
-    await sleep(2000 * Math.pow(2, attempt));
+    const refused = (why, props) => Object.assign(new Error(`${why}: ${describe(res, message)}`), props);
+
+    const quota = Number(res.headers.get("x-account-quota"));
+    const used = Number(res.headers.get("x-account-quota-used"));
+    if (/quota/i.test(message) || (quota > 0 && used >= quota)) throw refused("quota spent", { quotaSpent: true });
+
+    // Wait as long as the API asks when it says; guess only when it does not.
+    const retryAfter = Number(res.headers.get("retry-after"));
+    const wait = retryAfter > 0 ? retryAfter * 1000 : 2000 * Math.pow(2, attempt);
+    if (attempt >= 5) throw refused("rate limited after 5 attempts", { rateLimited: true });
+    if (wait > MAX_RETRY_WAIT_MS) throw refused("rate limited for longer than this run can wait", { rateLimited: true });
+    await sleep(wait);
     return api(path, attempt + 1);
   }
   if (body && body.success === false) throw new Error(message || `HTTP ${res.status}`);
@@ -77,9 +107,16 @@ process.on("SIGINT", () => { release(); process.exit(130); });
  *  refreshing into a spent quota just fails every title. /status/ is not billed. */
 let remaining = Infinity;
 try {
-  const status = await (await fetch(`${BASE}/status/?apiKey=${KEY}`, { signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) })).json();
-  if (Number.isFinite(status?.quota) && Number.isFinite(status?.quotaUsed)) remaining = status.quota - status.quotaUsed;
-} catch { /* unknown: fall back to LIMIT, and the failure streak guards the rest */ }
+  const res = await fetch(`${BASE}/status/?apiKey=${KEY}`, { signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
+  const status = await res.json().catch(() => null);
+  if (Number.isFinite(status?.quota) && Number.isFinite(status?.quotaUsed)) {
+    remaining = status.quota - status.quotaUsed;
+    console.log(`quota: ${status.quotaUsed} of ${status.quota} used this month`);
+  } else {
+    // Unknown: fall back to LIMIT, and the failure streak guards the rest.
+    console.warn(`quota unknown, /status/ answered ${describe(res, status?.errorMessage || status?.statusMessage || "")}`);
+  }
+} catch (err) { console.warn(`quota unknown, /status/ failed: ${err.message}`); }
 
 if (remaining <= 0) {
   console.log("::notice::API quota is spent for this month; skipping the refresh until it resets.");
@@ -98,10 +135,11 @@ console.log(`${titles.length} titles, refreshing the ${due.length} checked longe
 console.log(`region ${REGION}, budget ~${due.length} requests\n`);
 
 const started = Date.now();
-let ok = 0, failed = 0, gainedFree = 0, lostFree = 0, changed = 0, failStreak = 0, aborted = false;
+let ok = 0, failed = 0, gainedFree = 0, lostFree = 0, changed = 0, failStreak = 0, rateLimitedStreak = 0, aborted = false, quotaSpent = false;
 
 for (const t of due) {
-  if (failStreak >= MAX_CONSECUTIVE_FAILURES) {
+  if (quotaSpent) break;
+  if (failStreak >= MAX_CONSECUTIVE_FAILURES || rateLimitedStreak >= MAX_CONSECUTIVE_RATE_LIMITED) {
     aborted = true;
     console.error(`\n${failStreak} failures in a row: the API is unusable right now. Stopping and keeping what was refreshed.`);
     break;
@@ -129,9 +167,12 @@ for (const t of due) {
     if (JSON.stringify(t.options) !== before) changed++;
     ok++;
     failStreak = 0;
+    rateLimitedStreak = 0;
   } catch (err) {
     failed++;
     failStreak++;
+    rateLimitedStreak = err.rateLimited ? rateLimitedStreak + 1 : 0;
+    quotaSpent = Boolean(err.quotaSpent);
     if (failed <= 3) console.error(`  failed ${t.sourceId}: ${err.message}`);
   }
 
@@ -159,6 +200,10 @@ else {
   await writeFile("data/discovery.json", JSON.stringify(titles, null, 2));
   console.log("\nwrote data/discovery.json");
 }
+
+// Running out of quota is expected, not a fault: the same outcome as finding it
+// already spent before starting.
+if (quotaSpent) console.log(`::notice::API quota ran out after ${ok} of ${due.length} titles; the rest wait until it resets.`);
 
 // A partial run still exits 0 so CI commits what it got; the ::warning:: line
 // surfaces on the Actions run. Nothing refreshed at all is a failure.
