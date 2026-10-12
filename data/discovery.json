@@ -2631,7 +2631,8 @@
         "name": "Melissa Taylor",
         "role": "Visual Effects Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:58.776Z"
   },
   {
     "id": "watchmode:11033760",
@@ -3787,7 +3788,7 @@
           "format": "HD"
         },
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271668105",
           "price": null,
           "format": "HD"
@@ -3905,7 +3906,8 @@
         "name": "Eric Heffron",
         "role": "First Assistant Director"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:46.819Z"
   },
   {
     "id": "watchmode:1972561",
@@ -4553,8 +4555,14 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271413394",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/60011152",
           "price": null,
           "format": "4K"
         }
@@ -4577,7 +4585,7 @@
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/the-godfather/umc.cmc.3ew9fykdnpfaq9t2jq5da011c?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A534906082",
-          "price": 199,
+          "price": 499,
           "format": "SD"
         }
       ]
@@ -4665,7 +4673,8 @@
         "name": "Gordon Willis",
         "role": "Director of Photography"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:40:08.298Z"
   },
   {
     "id": "watchmode:1830382",
@@ -6253,7 +6262,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1971000620",
           "price": null,
           "format": "4K"
@@ -6371,7 +6380,8 @@
         "name": "Colin Fletcher",
         "role": "First Assistant Director"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:53.556Z"
   },
   {
     "id": "watchmode:1159480",
@@ -6393,7 +6403,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1971000398",
           "price": null,
           "format": "4K"
@@ -6499,7 +6509,8 @@
         "name": "Dominic Masters",
         "role": "Assistant Art Director"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:48.884Z"
   },
   {
     "id": "watchmode:11098919",
@@ -7667,7 +7678,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1971000532",
           "price": null,
           "format": "4K"
@@ -7791,7 +7802,8 @@
         "name": "Charlie McClellan",
         "role": "Visual Effects Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:45.227Z"
   },
   {
     "id": "watchmode:1357311",
@@ -7832,7 +7844,7 @@
           "format": "SD"
         },
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271670452",
           "price": null,
           "format": "HD"
@@ -7849,19 +7861,19 @@
           "name": "Zee5",
           "url": "https://www.zee5.com/movies/details/watch-spider-man-3-full-hd-movie-online-on-zee5/0-0-1z5206606",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         },
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/spider-man-3/umc.cmc.6b5zczyf59sfnocdpbah8ve7t?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1274317735",
           "price": 129,
-          "format": "SD"
+          "format": "HD"
         },
         {
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1aa9f6b4-bc8f-9ae9-fedf-83fb7aa58c40",
           "price": 99,
-          "format": "SD"
+          "format": "4K"
         }
       ],
       "buy": [
@@ -7956,7 +7968,8 @@
         "name": "Ivan Raimi",
         "role": "Screenplay, Screenstory"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:38.592Z"
   },
   {
     "id": "watchmode:138018",
@@ -9112,7 +9125,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1971000578",
           "price": null,
           "format": "4K"
@@ -9236,7 +9249,8 @@
         "name": "Charlie McClellan",
         "role": "Visual Effects Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:49.605Z"
   },
   {
     "id": "watchmode:1184168",
@@ -10050,7 +10064,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1660010197",
           "price": null,
           "format": "4K"
@@ -10148,7 +10162,8 @@
         "name": "Eben Ostby",
         "role": "Visual Effects Technical Director"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:57.201Z"
   },
   {
     "id": "watchmode:1310542",
@@ -10283,7 +10298,8 @@
         "name": "Lawrence Bender",
         "role": "Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:40:00.005Z"
   },
   {
     "id": "watchmode:1374079",
@@ -10405,7 +10421,8 @@
         "name": "Charles William Breen",
         "role": "Assistant Art Director"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:40:04.322Z"
   },
   {
     "id": "watchmode:1868996",
@@ -11306,7 +11323,8 @@
         "name": "John King",
         "role": "Supervising Art Director"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:43.767Z"
   },
   {
     "id": "watchmode:1398669",
@@ -11578,7 +11596,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1971000409",
           "price": null,
           "format": "4K"
@@ -11690,7 +11708,8 @@
         "name": "Mark Radcliffe",
         "role": "Executive Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:47.514Z"
   },
   {
     "id": "watchmode:1434738",
@@ -11712,7 +11731,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1770001166",
           "price": null,
           "format": "4K"
@@ -11804,7 +11823,8 @@
         "name": "Charles Dwight Lee",
         "role": "Supervising Art Director"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:56.666Z"
   },
   {
     "id": "watchmode:1335706",
@@ -11827,7 +11847,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271413509",
           "price": null,
           "format": "4K"
@@ -11850,7 +11870,7 @@
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.e62610ba-f9e9-4635-b0f6-6e0b0b8a9624",
           "price": 99,
-          "format": "HD"
+          "format": "SD"
         }
       ],
       "buy": []
@@ -11938,7 +11958,8 @@
         "name": "Steven Spielberg",
         "role": "Director, Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:40:01.943Z"
   },
   {
     "id": "watchmode:1132806",
@@ -12052,7 +12073,8 @@
         "name": "Ceán Chaffin",
         "role": "Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:54.068Z"
   },
   {
     "id": "watchmode:1422901",
@@ -12075,16 +12097,16 @@
       "free": [],
       "stream": [
         {
-          "name": "MGM+ (Via Amazon Prime)",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ba010cb3-ea27-4c85-888b-f843380d9b55",
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.28a714d9-9c98-4a7b-ab30-9613fee0e89f",
           "price": null,
-          "format": "HD"
+          "format": "4K"
         }
       ],
       "rent": [
         {
           "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ba010cb3-ea27-4c85-888b-f843380d9b55",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.28a714d9-9c98-4a7b-ab30-9613fee0e89f",
           "price": 119,
           "format": "SD"
         }
@@ -12174,7 +12196,8 @@
         "name": "John Daly",
         "role": "Executive Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:40:05.042Z"
   },
   {
     "id": "watchmode:1584304",
@@ -13057,7 +13080,8 @@
         "name": "William Cruse",
         "role": "Supervising Art Director"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:54.782Z"
   },
   {
     "id": "watchmode:1148809",
@@ -13198,7 +13222,8 @@
         "name": "David Allday",
         "role": "Supervising Art Director"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:52.098Z"
   },
   {
     "id": "watchmode:1138145",
@@ -13221,7 +13246,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271416362",
           "price": null,
           "format": "4K"
@@ -13333,7 +13358,8 @@
         "name": "Don Burgess",
         "role": "Director of Photography"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:40:00.719Z"
   },
   {
     "id": "watchmode:1847379",
@@ -14245,16 +14271,22 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271416364",
           "price": null,
           "format": "4K"
+        },
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/60011663",
+          "price": null,
+          "format": "HD"
         }
       ],
       "rent": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/the-godfather-part-ii/umc.cmc.3jyv977h8msmkkuz4r1u29lel?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A534960656",
+          "url": "https://tv.apple.com/in/movie/the-godfather-part-ii/umc.cmc.3jyv977h8msmkkuz4r1u29lel?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A534960656",
           "price": 129,
           "format": "SD"
         },
@@ -14268,7 +14300,7 @@
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/the-godfather-part-ii/umc.cmc.3jyv977h8msmkkuz4r1u29lel?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A534960656",
+          "url": "https://tv.apple.com/in/movie/the-godfather-part-ii/umc.cmc.3jyv977h8msmkkuz4r1u29lel?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A534960656",
           "price": 499,
           "format": "SD"
         }
@@ -14357,7 +14389,8 @@
         "name": "Mario Puzo",
         "role": "Novel, Screenplay"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:40:07.454Z"
   },
   {
     "id": "watchmode:1687959",
@@ -14522,7 +14555,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1971000405",
           "price": null,
           "format": "4K"
@@ -14634,7 +14667,8 @@
         "name": "Clare Norman",
         "role": "Digital Effects Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:44.525Z"
   },
   {
     "id": "watchmode:1159476",
@@ -14656,7 +14690,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1971000404",
           "price": null,
           "format": "4K"
@@ -14767,7 +14801,8 @@
         "name": "Neil Lamont",
         "role": "Supervising Art Director"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:42.398Z"
   },
   {
     "id": "watchmode:1403455",
@@ -14882,7 +14917,8 @@
         "name": "Linda Woolverton",
         "role": "Screenplay"
       }
-    ]
+    ],
+    "heldAt": "2026-10-12T12:40:01.233Z"
   },
   {
     "id": "watchmode:1176752",
@@ -15680,7 +15716,8 @@
         "name": "Joe Stillman",
         "role": "Writer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:50.131Z"
   },
   {
     "id": "watchmode:1787904",
@@ -16234,7 +16271,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1660010169",
           "price": null,
           "format": "4K"
@@ -16326,7 +16363,8 @@
         "name": "Jim Reardon",
         "role": "Screenplay"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:37.900Z"
   },
   {
     "id": "watchmode:1404364",
@@ -16349,7 +16387,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1971000579",
           "price": null,
           "format": "4K"
@@ -16473,7 +16511,8 @@
         "name": "Charlie McClellan",
         "role": "Visual Effects Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:48.049Z"
   },
   {
     "id": "watchmode:1387349",
@@ -16495,7 +16534,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1770000745",
           "price": null,
           "format": "4K"
@@ -16593,7 +16632,8 @@
         "name": "Roger Simonsz",
         "role": "Additional Director of Photography"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:41.643Z"
   },
   {
     "id": "watchmode:1357583",
@@ -16708,7 +16748,8 @@
         "name": "Megumi Kagawa",
         "role": "Animation Director"
       }
-    ]
+    ],
+    "heldAt": "2026-10-12T12:39:50.594Z"
   },
   {
     "id": "watchmode:1336708",
@@ -16836,7 +16877,8 @@
         "name": "Darius Khondji",
         "role": "Director of Photography"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:57.902Z"
   },
   {
     "id": "watchmode:1259801",
@@ -16860,7 +16902,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1260016863",
           "price": null,
           "format": "4K"
@@ -16952,7 +16994,8 @@
         "name": "John Lasseter",
         "role": "Executive Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:51.402Z"
   },
   {
     "id": "watchmode:11014446",
@@ -18867,7 +18910,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1660010114",
           "price": null,
           "format": "HD"
@@ -18959,7 +19002,8 @@
         "name": "Jeremy Lasky",
         "role": "Director of Photography"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:46.102Z"
   },
   {
     "id": "watchmode:1543519",
@@ -19117,7 +19161,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1260016021",
           "price": null,
           "format": "4K"
@@ -19209,7 +19253,8 @@
         "name": "Terry Madden",
         "role": "Assistant Director"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:40:06.314Z"
   },
   {
     "id": "watchmode:11087609",
@@ -20694,7 +20739,8 @@
         "name": "James Giovannetti Jr.",
         "role": "First Assistant Director"
       }
-    ]
+    ],
+    "heldAt": "2026-10-12T12:40:03.615Z"
   },
   {
     "id": "watchmode:1804308",
@@ -21290,7 +21336,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:00.619Z"
+    "checkedAt": "2026-10-12T12:40:31.770Z"
   },
   {
     "id": "watchmode:1583831",
@@ -21936,7 +21982,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1260016855",
           "price": null,
           "format": "4K"
@@ -22028,7 +22074,8 @@
         "name": "Galyn Susman",
         "role": "Associate Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:39.096Z"
   },
   {
     "id": "watchmode:1383529",
@@ -22051,7 +22098,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1260018747",
           "price": null,
           "format": "HD"
@@ -22149,7 +22196,8 @@
         "name": "Douglas Gresham",
         "role": "Co-Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:43.110Z"
   },
   {
     "id": "watchmode:168105",
@@ -22295,7 +22343,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271672576",
           "price": null,
           "format": "HD"
@@ -22310,7 +22358,7 @@
         },
         {
           "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.275c70f7-cf6e-4265-9d5e-c4ddc49fcff2",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4c3b1953-fdd0-4769-97ad-adcc0e1bd3b0",
           "price": 99,
           "format": "SD"
         },
@@ -22413,7 +22461,8 @@
         "name": "Gary Freeman",
         "role": "Standby Art Director"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:56.130Z"
   },
   {
     "id": "watchmode:1438467",
@@ -22436,7 +22485,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1660000051",
           "price": null,
           "format": "4K"
@@ -22528,7 +22577,8 @@
         "name": "Helene Plotkin",
         "role": "Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:55.415Z"
   },
   {
     "id": "watchmode:1885274",
@@ -22772,7 +22822,7 @@
         "role": "First Assistant Director"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:27.570Z"
+    "checkedAt": "2026-10-12T12:40:08.848Z"
   },
   {
     "id": "watchmode:11011304",
@@ -23641,7 +23691,8 @@
         "name": "Joel Coen",
         "role": "Director, Editor, Producer, Writer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:40.043Z"
   },
   {
     "id": "watchmode:1159478",
@@ -23663,7 +23714,7 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
+          "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1971000408",
           "price": null,
           "format": "4K"
@@ -23775,7 +23826,8 @@
         "name": "Emma Norton",
         "role": "Visual Effects Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:40.796Z"
   },
   {
     "id": "watchmode:1688039",
@@ -24083,7 +24135,7 @@
       "rent": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/indiana-jones-and-the-raiders-of-the-lost-ark/umc.cmc.askk2uyh039pu6ik4h8kv4dn?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A733230994",
+          "url": "https://tv.apple.com/in/movie/indiana-jones-and-the-raiders-of-the-lost-ark/umc.cmc.askk2uyh039pu6ik4h8kv4dn?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A733230994",
           "price": 129,
           "format": "SD"
         },
@@ -24097,7 +24149,7 @@
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/indiana-jones-and-the-raiders-of-the-lost-ark/umc.cmc.askk2uyh039pu6ik4h8kv4dn?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A733230994",
+          "url": "https://tv.apple.com/in/movie/indiana-jones-and-the-raiders-of-the-lost-ark/umc.cmc.askk2uyh039pu6ik4h8kv4dn?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A733230994",
           "price": 499,
           "format": "SD"
         }
@@ -24186,7 +24238,8 @@
         "name": "George Lucas",
         "role": "Executive Producer, Story"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:40:05.743Z"
   },
   {
     "id": "watchmode:1243804",
@@ -24312,7 +24365,8 @@
         "name": "Harvey Weinstein",
         "role": "Producer"
       }
-    ]
+    ],
+    "checkedAt": "2026-10-12T12:39:52.800Z"
   },
   {
     "id": "watchmode:1931010",
@@ -26246,7 +26300,7 @@
         "role": "Co-Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:27.854Z"
+    "checkedAt": "2026-10-12T12:40:09.350Z"
   },
   {
     "id": "watchmode:1438996",
@@ -26510,7 +26564,7 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:28.178Z"
+    "checkedAt": "2026-10-12T12:40:10.127Z"
   },
   {
     "id": "watchmode:1791953",
@@ -26551,7 +26605,7 @@
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8136636a-bbe6-41da-bb4d-31770c892c51",
           "price": 119,
-          "format": "HD"
+          "format": "SD"
         }
       ],
       "buy": []
@@ -26640,7 +26694,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:00.982Z"
+    "checkedAt": "2026-10-12T12:40:32.538Z"
   },
   {
     "id": "watchmode:1633813",
@@ -26722,7 +26776,7 @@
         "role": "Producer, Screenplay, Production Manager"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:20.588Z"
+    "checkedAt": "2026-10-12T12:42:05.369Z"
   },
   {
     "id": "watchmode:1348452",
@@ -27194,7 +27248,7 @@
         "role": "Screenplay, Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:30.523Z"
+    "checkedAt": "2026-10-12T12:43:48.927Z"
   },
   {
     "id": "watchmode:1398266",
@@ -27427,7 +27481,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:20.935Z"
+    "checkedAt": "2026-08-31T09:16:20.935Z",
+    "heldAt": "2026-10-12T12:42:05.820Z"
   },
   {
     "id": "watchmode:1854893",
@@ -27555,7 +27610,7 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:21.372Z"
+    "checkedAt": "2026-10-12T12:42:06.572Z"
   },
   {
     "id": "watchmode:1709096",
@@ -27677,7 +27732,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:01.344Z"
+    "checkedAt": "2026-10-12T12:40:33.318Z"
   },
   {
     "id": "watchmode:1156267",
@@ -28057,7 +28112,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:01.699Z"
+    "checkedAt": "2026-10-12T12:40:33.983Z"
   },
   {
     "id": "watchmode:1328101",
@@ -28456,7 +28511,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:21.711Z"
+    "checkedAt": "2026-10-12T12:42:07.188Z"
   },
   {
     "id": "watchmode:1796345",
@@ -28555,7 +28610,7 @@
         "role": "Screenplay"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:22.031Z"
+    "checkedAt": "2026-10-12T12:42:07.803Z"
   },
   {
     "id": "watchmode:1687282",
@@ -28922,7 +28977,7 @@
         "role": "Executive Producer, Second Unit Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:22.420Z"
+    "checkedAt": "2026-10-12T12:42:08.483Z"
   },
   {
     "id": "watchmode:1537352",
@@ -29694,7 +29749,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:30.872Z"
+    "checkedAt": "2026-10-12T12:43:49.660Z"
   },
   {
     "id": "watchmode:183585",
@@ -30076,7 +30131,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:22.783Z"
+    "checkedAt": "2026-10-12T12:42:09.158Z"
   },
   {
     "id": "watchmode:1702300",
@@ -30204,7 +30259,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:31.228Z"
+    "checkedAt": "2026-10-12T12:43:50.139Z"
   },
   {
     "id": "watchmode:1878725",
@@ -30334,7 +30389,7 @@
         "role": "Director, Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:23.133Z"
+    "checkedAt": "2026-10-12T12:42:09.951Z"
   },
   {
     "id": "watchmode:1685462",
@@ -30688,7 +30743,7 @@
         "role": "Screenplay"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:02.057Z"
+    "checkedAt": "2026-10-12T12:40:34.605Z"
   },
   {
     "id": "watchmode:1204150",
@@ -31069,7 +31124,7 @@
         "role": "Sound Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:31.657Z"
+    "checkedAt": "2026-10-12T12:43:50.776Z"
   },
   {
     "id": "watchmode:1222576",
@@ -31425,7 +31480,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:32.100Z"
+    "checkedAt": "2026-08-31T09:17:32.100Z",
+    "heldAt": "2026-10-12T12:43:51.330Z"
   },
   {
     "id": "watchmode:1558180",
@@ -31784,7 +31840,7 @@
         "role": "Producer, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:02.420Z"
+    "checkedAt": "2026-10-12T12:40:35.335Z"
   },
   {
     "id": "watchmode:1107841",
@@ -32537,7 +32593,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:32.448Z"
+    "checkedAt": "2026-10-12T12:43:51.852Z"
   },
   {
     "id": "watchmode:13820",
@@ -32895,7 +32951,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:32.799Z"
+    "checkedAt": "2026-08-31T09:17:32.799Z",
+    "heldAt": "2026-10-12T12:43:52.561Z"
   },
   {
     "id": "watchmode:1387126",
@@ -33413,7 +33470,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:02.777Z"
+    "checkedAt": "2026-10-12T12:40:36.018Z"
   },
   {
     "id": "watchmode:1648150",
@@ -33536,7 +33593,8 @@
         "role": "Second Assistant Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:03.153Z"
+    "checkedAt": "2026-08-31T09:15:03.153Z",
+    "heldAt": "2026-10-12T12:40:36.562Z"
   },
   {
     "id": "watchmode:1316713",
@@ -34018,7 +34076,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:03.492Z"
+    "checkedAt": "2026-10-12T12:40:37.045Z"
   },
   {
     "id": "watchmode:1860191",
@@ -34147,7 +34205,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:03.865Z"
+    "checkedAt": "2026-08-31T09:15:03.865Z",
+    "heldAt": "2026-10-12T12:40:37.792Z"
   },
   {
     "id": "watchmode:11023657",
@@ -34269,7 +34328,8 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:04.207Z"
+    "checkedAt": "2026-08-31T09:15:04.207Z",
+    "heldAt": "2026-10-12T12:40:38.406Z"
   },
   {
     "id": "watchmode:1956009",
@@ -34381,7 +34441,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:04.562Z"
+    "checkedAt": "2026-10-12T12:40:39.061Z"
   },
   {
     "id": "watchmode:1829312",
@@ -34504,7 +34564,8 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:23.535Z"
+    "checkedAt": "2026-08-31T09:16:23.535Z",
+    "heldAt": "2026-10-12T12:42:10.568Z"
   },
   {
     "id": "watchmode:1870959",
@@ -34626,7 +34687,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:04.933Z"
+    "checkedAt": "2026-10-12T12:40:39.943Z"
   },
   {
     "id": "watchmode:1854016",
@@ -34748,7 +34809,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:05.321Z"
+    "checkedAt": "2026-10-12T12:40:40.619Z"
   },
   {
     "id": "watchmode:189060",
@@ -35115,7 +35176,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:05.681Z"
+    "checkedAt": "2026-08-31T09:15:05.681Z",
+    "heldAt": "2026-10-12T12:40:41.483Z"
   },
   {
     "id": "watchmode:1515086",
@@ -35366,7 +35428,8 @@
         "role": "Second Assistant Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:33.142Z"
+    "checkedAt": "2026-08-31T09:17:33.142Z",
+    "heldAt": "2026-10-12T12:43:53.481Z"
   },
   {
     "id": "watchmode:1548124",
@@ -36455,7 +36518,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:23.865Z"
+    "checkedAt": "2026-08-31T09:16:23.865Z",
+    "heldAt": "2026-10-12T12:42:11.181Z"
   },
   {
     "id": "watchmode:1650289",
@@ -36577,7 +36641,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:06.281Z"
+    "checkedAt": "2026-08-31T09:15:06.281Z",
+    "heldAt": "2026-10-12T12:40:42.129Z"
   },
   {
     "id": "watchmode:1764288",
@@ -36707,7 +36772,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:33.465Z"
+    "checkedAt": "2026-08-31T09:17:33.465Z",
+    "heldAt": "2026-10-12T12:43:54.402Z"
   },
   {
     "id": "watchmode:1676906",
@@ -36829,7 +36895,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:33.806Z"
+    "checkedAt": "2026-10-12T12:43:55.093Z"
   },
   {
     "id": "watchmode:1609225",
@@ -37075,7 +37141,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:34.245Z"
+    "checkedAt": "2026-10-12T12:43:56.533Z"
   },
   {
     "id": "watchmode:1880033",
@@ -37217,7 +37283,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:24.212Z"
+    "checkedAt": "2026-08-31T09:16:24.212Z",
+    "heldAt": "2026-10-12T12:42:11.801Z"
   },
   {
     "id": "watchmode:1410049",
@@ -37452,7 +37519,8 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:06.650Z"
+    "checkedAt": "2026-08-31T09:15:06.650Z",
+    "heldAt": "2026-10-12T12:40:42.770Z"
   },
   {
     "id": "watchmode:1698144",
@@ -37554,7 +37622,8 @@
         "role": "Associate Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:07.025Z"
+    "checkedAt": "2026-08-31T09:15:07.025Z",
+    "heldAt": "2026-10-12T12:40:43.628Z"
   },
   {
     "id": "watchmode:1866961",
@@ -37679,7 +37748,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:24.558Z"
+    "checkedAt": "2026-08-31T09:16:24.558Z",
+    "heldAt": "2026-10-12T12:42:12.454Z"
   },
   {
     "id": "watchmode:1706865",
@@ -37807,7 +37877,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:24.990Z"
+    "checkedAt": "2026-08-31T09:16:24.990Z",
+    "heldAt": "2026-10-12T12:42:13.084Z"
   },
   {
     "id": "watchmode:1258645",
@@ -38171,7 +38242,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:34.565Z"
+    "checkedAt": "2026-08-31T09:17:34.565Z",
+    "heldAt": "2026-10-12T12:43:57.206Z"
   },
   {
     "id": "watchmode:1692104",
@@ -38309,7 +38381,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:25.325Z"
+    "checkedAt": "2026-08-31T09:16:25.325Z",
+    "heldAt": "2026-10-12T12:42:13.947Z"
   },
   {
     "id": "watchmode:1772124",
@@ -38439,7 +38512,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:07.375Z"
+    "checkedAt": "2026-08-31T09:15:07.375Z",
+    "heldAt": "2026-10-12T12:40:44.098Z"
   },
   {
     "id": "watchmode:1367720",
@@ -38684,7 +38758,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:25.766Z"
+    "checkedAt": "2026-10-12T12:42:14.611Z"
   },
   {
     "id": "watchmode:1915425",
@@ -38806,7 +38880,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:07.704Z"
+    "checkedAt": "2026-10-12T12:40:44.565Z"
   },
   {
     "id": "watchmode:1699795",
@@ -38916,7 +38990,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:34.903Z"
+    "checkedAt": "2026-08-31T09:17:34.903Z",
+    "heldAt": "2026-10-12T12:43:57.832Z"
   },
   {
     "id": "watchmode:1921645",
@@ -39040,7 +39115,7 @@
         "role": "Unit Production Manager, Line Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:08.028Z"
+    "checkedAt": "2026-10-12T12:40:45.472Z"
   },
   {
     "id": "watchmode:11021970",
@@ -39146,7 +39221,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:08.358Z"
+    "checkedAt": "2026-08-31T09:15:08.358Z",
+    "heldAt": "2026-10-12T12:40:46.179Z"
   },
   {
     "id": "watchmode:1886067",
@@ -39267,7 +39343,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:26.098Z"
+    "checkedAt": "2026-08-31T09:16:26.098Z",
+    "heldAt": "2026-10-12T12:42:15.178Z"
   },
   {
     "id": "watchmode:1690494",
@@ -39389,7 +39466,8 @@
         "role": "First Assistant Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:26.440Z"
+    "checkedAt": "2026-08-31T09:16:26.440Z",
+    "heldAt": "2026-10-12T12:42:15.654Z"
   },
   {
     "id": "watchmode:1921023",
@@ -39519,7 +39597,8 @@
         "role": "Director, Producer, Story, Screenplay"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:08.716Z"
+    "checkedAt": "2026-08-31T09:15:08.716Z",
+    "heldAt": "2026-10-12T12:40:47.005Z"
   },
   {
     "id": "watchmode:1984926",
@@ -39618,7 +39697,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:09.034Z"
+    "checkedAt": "2026-10-12T12:40:47.620Z"
   },
   {
     "id": "watchmode:1850085",
@@ -39705,7 +39784,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:26.754Z"
+    "checkedAt": "2026-10-12T12:42:16.107Z"
   },
   {
     "id": "watchmode:165221",
@@ -39981,7 +40060,8 @@
         "role": "First Assistant Director, Additional Writing"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:28.465Z"
+    "checkedAt": "2026-08-30T16:56:28.465Z",
+    "heldAt": "2026-10-12T12:40:10.572Z"
   },
   {
     "id": "watchmode:1508104",
@@ -40783,7 +40863,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:28.770Z"
+    "checkedAt": "2026-10-12T12:40:11.209Z"
   },
   {
     "id": "watchmode:1244254",
@@ -41271,7 +41351,8 @@
         "role": "Producer, Visual Effects Supervisor"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:35.219Z"
+    "checkedAt": "2026-08-31T09:17:35.219Z",
+    "heldAt": "2026-10-12T12:43:58.263Z"
   },
   {
     "id": "watchmode:1581309",
@@ -42756,7 +42837,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:35.556Z"
+    "checkedAt": "2026-10-12T12:43:58.754Z"
   },
   {
     "id": "watchmode:1642183",
@@ -42785,22 +42866,8 @@
           "format": "HD"
         }
       ],
-      "stream": [
-        {
-          "name": "Prime Video",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.333f80ac-c7b8-4963-9b70-3d48c9031ec4",
-          "price": null,
-          "format": "4K"
-        }
-      ],
-      "rent": [
-        {
-          "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.333f80ac-c7b8-4963-9b70-3d48c9031ec4",
-          "price": 99,
-          "format": "SD"
-        }
-      ],
+      "stream": [],
+      "rent": [],
       "buy": []
     },
     "updatedAt": "2026-08-30T13:10:58.775Z",
@@ -42887,7 +42954,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:35.871Z"
+    "checkedAt": "2026-10-12T12:43:59.315Z"
   },
   {
     "id": "watchmode:1591697",
@@ -44967,7 +45034,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:29.051Z"
+    "checkedAt": "2026-10-12T12:40:11.678Z"
   },
   {
     "id": "watchmode:1822116",
@@ -45096,7 +45163,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:09.353Z"
+    "checkedAt": "2026-10-12T12:40:48.545Z"
   },
   {
     "id": "watchmode:1988813",
@@ -45206,7 +45273,7 @@
         "role": "Casting Director"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:29.338Z"
+    "checkedAt": "2026-10-12T12:40:12.334Z"
   },
   {
     "id": "watchmode:1705224",
@@ -45280,7 +45347,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:36.179Z"
+    "checkedAt": "2026-10-12T12:43:59.931Z"
   },
   {
     "id": "watchmode:1803615",
@@ -45308,22 +45375,8 @@
           "format": "HD"
         }
       ],
-      "stream": [
-        {
-          "name": "Prime Video",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8f5793f0-9728-4d2e-9f9f-1a6b828c1a40",
-          "price": null,
-          "format": "4K"
-        }
-      ],
-      "rent": [
-        {
-          "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8f5793f0-9728-4d2e-9f9f-1a6b828c1a40",
-          "price": 149,
-          "format": "4K"
-        }
-      ],
+      "stream": [],
+      "rent": [],
       "buy": []
     },
     "updatedAt": "2026-08-30T12:17:32.767Z",
@@ -45410,7 +45463,7 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:29.632Z"
+    "checkedAt": "2026-10-12T12:40:13.468Z"
   },
   {
     "id": "watchmode:1833434",
@@ -45524,7 +45577,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:27.064Z"
+    "checkedAt": "2026-10-12T12:42:16.686Z"
   },
   {
     "id": "watchmode:11121644",
@@ -45564,7 +45617,8 @@
     "trailerId": null,
     "cast": [],
     "crew": [],
-    "checkedAt": "2026-08-30T16:56:29.916Z"
+    "checkedAt": "2026-08-30T16:56:29.916Z",
+    "heldAt": "2026-10-12T12:40:13.928Z"
   },
   {
     "id": "watchmode:1832578",
@@ -45671,7 +45725,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:30.211Z"
+    "checkedAt": "2026-10-12T12:40:14.374Z"
   },
   {
     "id": "watchmode:11113791",
@@ -45737,7 +45791,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-30T16:56:30.498Z"
+    "checkedAt": "2026-10-12T12:40:14.820Z"
   },
   {
     "id": "watchmode:11066922",
@@ -45815,7 +45869,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:30.775Z"
+    "checkedAt": "2026-08-30T16:56:30.775Z",
+    "heldAt": "2026-10-12T12:40:15.365Z"
   },
   {
     "id": "watchmode:1956446",
@@ -45920,7 +45975,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:31.053Z"
+    "checkedAt": "2026-10-12T12:40:15.810Z"
   },
   {
     "id": "watchmode:11022202",
@@ -46003,7 +46058,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:31.339Z"
+    "checkedAt": "2026-10-12T12:40:16.596Z"
   },
   {
     "id": "watchmode:11040865",
@@ -46102,7 +46157,8 @@
         "role": "Producer, Additional Casting"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:09.669Z"
+    "checkedAt": "2026-08-31T09:15:09.669Z",
+    "heldAt": "2026-10-12T12:40:49.008Z"
   },
   {
     "id": "watchmode:11133449",
@@ -46190,7 +46246,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:31.619Z"
+    "checkedAt": "2026-08-30T16:56:31.619Z",
+    "heldAt": "2026-10-12T12:40:17.035Z"
   },
   {
     "id": "watchmode:11090468",
@@ -46244,7 +46301,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:09.990Z"
+    "checkedAt": "2026-10-12T12:40:49.617Z"
   },
   {
     "id": "watchmode:11048299",
@@ -46298,7 +46355,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:31.896Z"
+    "checkedAt": "2026-10-12T12:40:17.515Z"
   },
   {
     "id": "watchmode:11080606",
@@ -46343,7 +46400,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:32.178Z"
+    "checkedAt": "2026-08-30T16:56:32.178Z",
+    "heldAt": "2026-10-12T12:40:18.084Z"
   },
   {
     "id": "watchmode:11094363",
@@ -46445,7 +46503,7 @@
         "role": "Writer, Editor"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:10.305Z"
+    "checkedAt": "2026-10-12T12:40:50.076Z"
   },
   {
     "id": "watchmode:11085290",
@@ -46511,7 +46569,8 @@
         "role": "First Assistant Director"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:32.471Z"
+    "checkedAt": "2026-08-30T16:56:32.471Z",
+    "heldAt": "2026-10-12T12:40:18.745Z"
   },
   {
     "id": "watchmode:11159657",
@@ -46561,7 +46620,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:10.618Z"
+    "checkedAt": "2026-10-12T12:40:50.497Z"
   },
   {
     "id": "watchmode:11094637",
@@ -46613,7 +46672,8 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:10.940Z"
+    "checkedAt": "2026-08-31T09:15:10.940Z",
+    "heldAt": "2026-10-12T12:40:50.939Z"
   },
   {
     "id": "watchmode:11078397",
@@ -46665,7 +46725,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:11.248Z"
+    "checkedAt": "2026-10-12T12:40:51.397Z"
   },
   {
     "id": "watchmode:11040162",
@@ -46720,7 +46780,8 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:11.562Z"
+    "checkedAt": "2026-08-31T09:15:11.562Z",
+    "heldAt": "2026-10-12T12:40:51.922Z"
   },
   {
     "id": "watchmode:11023405",
@@ -46810,7 +46871,8 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:11.881Z"
+    "checkedAt": "2026-08-31T09:15:11.881Z",
+    "heldAt": "2026-10-12T12:40:52.530Z"
   },
   {
     "id": "watchmode:1834897",
@@ -46893,7 +46955,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:12.189Z"
+    "checkedAt": "2026-10-12T12:40:53.162Z"
   },
   {
     "id": "watchmode:11071538",
@@ -46955,7 +47017,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:12.501Z"
+    "checkedAt": "2026-10-12T12:40:54.076Z"
   },
   {
     "id": "watchmode:11033380",
@@ -46995,7 +47057,8 @@
     "trailerId": null,
     "cast": [],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:12.813Z"
+    "checkedAt": "2026-08-31T09:15:12.813Z",
+    "heldAt": "2026-10-12T12:40:54.498Z"
   },
   {
     "id": "watchmode:11088065",
@@ -47055,7 +47118,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:13.130Z"
+    "checkedAt": "2026-10-12T12:40:54.942Z"
   },
   {
     "id": "watchmode:11076313",
@@ -47093,7 +47156,7 @@
     "trailerId": null,
     "cast": [],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:13.444Z"
+    "checkedAt": "2026-10-12T12:40:55.610Z"
   },
   {
     "id": "watchmode:1988029",
@@ -47181,7 +47244,8 @@
         "role": "Director, Writer, Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:13.755Z"
+    "checkedAt": "2026-08-31T09:15:13.755Z",
+    "heldAt": "2026-10-12T12:40:56.216Z"
   },
   {
     "id": "watchmode:1797742",
@@ -47272,7 +47336,7 @@
         "role": "Deputy Director Winters"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:14.065Z"
+    "checkedAt": "2026-10-12T12:40:56.854Z"
   },
   {
     "id": "watchmode:1863201",
@@ -47335,7 +47399,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:27.378Z"
+    "checkedAt": "2026-10-12T12:42:17.326Z"
   },
   {
     "id": "watchmode:1942748",
@@ -47425,7 +47489,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:14.381Z"
+    "checkedAt": "2026-08-31T09:15:14.381Z",
+    "heldAt": "2026-10-12T12:40:57.306Z"
   },
   {
     "id": "watchmode:11124570",
@@ -47523,7 +47588,7 @@
         "role": "Associate Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:14.695Z"
+    "checkedAt": "2026-10-12T12:40:58.028Z"
   },
   {
     "id": "watchmode:11054236",
@@ -47615,7 +47680,7 @@
         "role": "Producer, Editor"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:15.011Z"
+    "checkedAt": "2026-10-12T12:40:58.679Z"
   },
   {
     "id": "watchmode:11052725",
@@ -47740,7 +47805,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:15.335Z"
+    "checkedAt": "2026-08-31T09:15:15.335Z",
+    "heldAt": "2026-10-12T12:40:59.296Z"
   },
   {
     "id": "watchmode:1752293",
@@ -47843,7 +47909,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:27.693Z"
+    "checkedAt": "2026-10-12T12:42:17.771Z"
   },
   {
     "id": "watchmode:11055773",
@@ -47906,7 +47972,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:15.653Z"
+    "checkedAt": "2026-10-12T12:40:59.764Z"
   },
   {
     "id": "watchmode:1920142",
@@ -47989,7 +48055,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:36.489Z"
+    "checkedAt": "2026-10-12T12:44:00.545Z"
   },
   {
     "id": "watchmode:11058847",
@@ -48059,7 +48125,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:15.970Z"
+    "checkedAt": "2026-10-12T12:41:00.218Z"
   },
   {
     "id": "watchmode:11058726",
@@ -48129,7 +48195,8 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:16.288Z"
+    "checkedAt": "2026-08-31T09:15:16.288Z",
+    "heldAt": "2026-10-12T12:41:00.655Z"
   },
   {
     "id": "watchmode:1883892",
@@ -48251,7 +48318,8 @@
         "role": "Director Bae Seok-dong"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:16.614Z"
+    "checkedAt": "2026-08-31T09:15:16.614Z",
+    "heldAt": "2026-10-12T12:41:01.234Z"
   },
   {
     "id": "watchmode:11045451",
@@ -48289,7 +48357,8 @@
     "trailerId": null,
     "cast": [],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:16.931Z"
+    "checkedAt": "2026-08-31T09:15:16.931Z",
+    "heldAt": "2026-10-12T12:41:01.683Z"
   },
   {
     "id": "watchmode:1835843",
@@ -48352,7 +48421,8 @@
         "role": "Producer, Editor"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:17.246Z"
+    "checkedAt": "2026-08-31T09:15:17.246Z",
+    "heldAt": "2026-10-12T12:41:02.131Z"
   },
   {
     "id": "watchmode:11019892",
@@ -48414,7 +48484,8 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:17.558Z"
+    "checkedAt": "2026-08-31T09:15:17.558Z",
+    "heldAt": "2026-10-12T12:41:03.902Z"
   },
   {
     "id": "watchmode:1873139",
@@ -48509,7 +48580,8 @@
         "role": "Creative Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:17.874Z"
+    "checkedAt": "2026-08-31T09:15:17.874Z",
+    "heldAt": "2026-10-12T12:41:04.444Z"
   },
   {
     "id": "watchmode:11062477",
@@ -48589,7 +48661,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:28.007Z"
+    "checkedAt": "2026-08-31T09:16:28.007Z",
+    "heldAt": "2026-10-12T12:42:18.205Z"
   },
   {
     "id": "watchmode:11035945",
@@ -48654,7 +48727,8 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:18.192Z"
+    "checkedAt": "2026-08-31T09:15:18.192Z",
+    "heldAt": "2026-10-12T12:41:04.903Z"
   },
   {
     "id": "watchmode:11015996",
@@ -48755,7 +48829,8 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:18.523Z"
+    "checkedAt": "2026-08-31T09:15:18.523Z",
+    "heldAt": "2026-10-12T12:41:05.655Z"
   },
   {
     "id": "watchmode:1652893",
@@ -48885,7 +48960,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:18.869Z"
+    "checkedAt": "2026-10-12T12:41:06.330Z"
   },
   {
     "id": "watchmode:1934883",
@@ -48994,7 +49069,8 @@
         "role": "Writer, Screenplay, Dialogue"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:19.185Z"
+    "checkedAt": "2026-08-31T09:15:19.185Z",
+    "heldAt": "2026-10-12T12:41:06.800Z"
   },
   {
     "id": "watchmode:1893704",
@@ -49089,7 +49165,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:19.493Z"
+    "checkedAt": "2026-08-31T09:15:19.493Z",
+    "heldAt": "2026-10-12T12:41:07.273Z"
   },
   {
     "id": "watchmode:1898617",
@@ -49187,7 +49264,8 @@
         "role": "Producer, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:19.812Z"
+    "checkedAt": "2026-08-31T09:15:19.812Z",
+    "heldAt": "2026-10-12T12:41:07.896Z"
   },
   {
     "id": "watchmode:1706821",
@@ -49262,7 +49340,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:28.324Z"
+    "checkedAt": "2026-08-31T09:16:28.324Z",
+    "heldAt": "2026-10-12T12:42:18.845Z"
   },
   {
     "id": "watchmode:1839505",
@@ -49366,7 +49445,7 @@
         "role": "Associate Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:20.146Z"
+    "checkedAt": "2026-10-12T12:41:08.820Z"
   },
   {
     "id": "watchmode:11051705",
@@ -49437,7 +49516,8 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:20.452Z"
+    "checkedAt": "2026-08-31T09:15:20.452Z",
+    "heldAt": "2026-10-12T12:41:09.434Z"
   },
   {
     "id": "watchmode:1825226",
@@ -49566,7 +49646,7 @@
         "role": "Assistant Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:20.765Z"
+    "checkedAt": "2026-10-12T12:41:10.048Z"
   },
   {
     "id": "watchmode:1759794",
@@ -49671,7 +49751,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:21.084Z"
+    "checkedAt": "2026-08-31T09:15:21.084Z",
+    "heldAt": "2026-10-12T12:41:10.838Z"
   },
   {
     "id": "watchmode:1940597",
@@ -49800,7 +49881,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:21.398Z"
+    "checkedAt": "2026-08-31T09:15:21.398Z",
+    "heldAt": "2026-10-12T12:41:11.724Z"
   },
   {
     "id": "watchmode:11008556",
@@ -49845,7 +49927,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:21.861Z"
+    "checkedAt": "2026-10-12T12:41:12.193Z"
   },
   {
     "id": "watchmode:11004779",
@@ -49909,7 +49991,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:22.170Z"
+    "checkedAt": "2026-10-12T12:41:12.661Z"
   },
   {
     "id": "watchmode:1781132",
@@ -50024,7 +50106,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:22.484Z"
+    "checkedAt": "2026-08-31T09:15:22.484Z",
+    "heldAt": "2026-10-12T12:41:13.425Z"
   },
   {
     "id": "watchmode:1805203",
@@ -50138,7 +50221,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:22.797Z"
+    "checkedAt": "2026-08-31T09:15:22.797Z",
+    "heldAt": "2026-10-12T12:41:14.349Z"
   },
   {
     "id": "watchmode:11013287",
@@ -50204,7 +50288,8 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:23.111Z"
+    "checkedAt": "2026-08-31T09:15:23.111Z",
+    "heldAt": "2026-10-12T12:41:14.955Z"
   },
   {
     "id": "watchmode:11001292",
@@ -50282,7 +50367,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-30T16:56:32.750Z"
+    "checkedAt": "2026-10-12T12:40:19.361Z"
   },
   {
     "id": "watchmode:1874753",
@@ -50351,7 +50436,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:23.421Z"
+    "checkedAt": "2026-10-12T12:41:15.577Z"
   },
   {
     "id": "watchmode:11001744",
@@ -50449,7 +50534,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:23.732Z"
+    "checkedAt": "2026-10-12T12:41:16.051Z"
   },
   {
     "id": "watchmode:1856115",
@@ -50511,7 +50596,8 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:24.049Z"
+    "checkedAt": "2026-08-31T09:15:24.049Z",
+    "heldAt": "2026-10-12T12:41:16.510Z"
   },
   {
     "id": "watchmode:1823019",
@@ -50627,7 +50713,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:28.636Z"
+    "checkedAt": "2026-10-12T12:42:19.570Z"
   },
   {
     "id": "watchmode:1993818",
@@ -50702,7 +50788,8 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:24.371Z"
+    "checkedAt": "2026-08-31T09:15:24.371Z",
+    "heldAt": "2026-10-12T12:41:17.005Z"
   },
   {
     "id": "watchmode:1977082",
@@ -50789,7 +50876,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:24.741Z"
+    "checkedAt": "2026-08-31T09:15:24.741Z",
+    "heldAt": "2026-10-12T12:41:17.728Z"
   },
   {
     "id": "watchmode:1995708",
@@ -50834,7 +50922,7 @@
         "role": "Director, Producer, Editor"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:25.053Z"
+    "checkedAt": "2026-10-12T12:41:18.178Z"
   },
   {
     "id": "watchmode:1836195",
@@ -50939,7 +51027,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:25.365Z"
+    "checkedAt": "2026-08-31T09:15:25.365Z",
+    "heldAt": "2026-10-12T12:41:18.728Z"
   },
   {
     "id": "watchmode:1787109",
@@ -51039,7 +51128,7 @@
         "role": "Director, Writer, Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:25.687Z"
+    "checkedAt": "2026-10-12T12:41:19.207Z"
   },
   {
     "id": "watchmode:1998054",
@@ -51090,7 +51179,7 @@
         "role": "Director, Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:26.002Z"
+    "checkedAt": "2026-10-12T12:41:19.878Z"
   },
   {
     "id": "watchmode:11092923",
@@ -51173,7 +51262,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:26.322Z"
+    "checkedAt": "2026-10-12T12:41:20.314Z"
   },
   {
     "id": "watchmode:11067860",
@@ -51223,7 +51312,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:26.645Z"
+    "checkedAt": "2026-10-12T12:41:20.799Z"
   },
   {
     "id": "watchmode:1984311",
@@ -51309,7 +51398,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:26.957Z"
+    "checkedAt": "2026-10-12T12:41:21.249Z"
   },
   {
     "id": "watchmode:1971966",
@@ -51411,7 +51500,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:27.272Z"
+    "checkedAt": "2026-10-12T12:41:21.805Z"
   },
   {
     "id": "watchmode:1863637",
@@ -51510,7 +51599,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:27.590Z"
+    "checkedAt": "2026-10-12T12:41:22.336Z"
   },
   {
     "id": "watchmode:1859689",
@@ -51628,7 +51717,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:27.902Z"
+    "checkedAt": "2026-10-12T12:41:24.373Z"
   },
   {
     "id": "watchmode:1765892",
@@ -51757,7 +51846,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:28.244Z"
+    "checkedAt": "2026-10-12T12:41:25.040Z"
   },
   {
     "id": "watchmode:1984759",
@@ -51823,7 +51912,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:28.559Z"
+    "checkedAt": "2026-10-12T12:41:25.714Z"
   },
   {
     "id": "watchmode:1970873",
@@ -51881,7 +51970,7 @@
         "role": "Director, Writer, Editor"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:28.867Z"
+    "checkedAt": "2026-10-12T12:41:26.330Z"
   },
   {
     "id": "watchmode:1969563",
@@ -51984,7 +52073,8 @@
         "role": "Screenplay"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:29.177Z"
+    "checkedAt": "2026-08-31T09:15:29.177Z",
+    "heldAt": "2026-10-12T12:41:26.944Z"
   },
   {
     "id": "watchmode:1883374",
@@ -52066,7 +52156,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:28.949Z"
+    "checkedAt": "2026-08-31T09:16:28.949Z",
+    "heldAt": "2026-10-12T12:42:20.017Z"
   },
   {
     "id": "watchmode:1723342",
@@ -52180,7 +52271,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:29.514Z"
+    "checkedAt": "2026-08-31T09:15:29.514Z",
+    "heldAt": "2026-10-12T12:41:27.560Z"
   },
   {
     "id": "watchmode:1842550",
@@ -52230,7 +52322,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:29.822Z"
+    "checkedAt": "2026-10-12T12:41:28.111Z"
   },
   {
     "id": "watchmode:1993520",
@@ -52345,7 +52437,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:30.139Z"
+    "checkedAt": "2026-10-12T12:41:28.786Z"
   },
   {
     "id": "watchmode:1976106",
@@ -52390,7 +52482,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:30.448Z"
+    "checkedAt": "2026-10-12T12:41:29.404Z"
   },
   {
     "id": "watchmode:1979788",
@@ -52461,7 +52553,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:30.755Z"
+    "checkedAt": "2026-10-12T12:41:31.246Z"
   },
   {
     "id": "watchmode:1886802",
@@ -52580,7 +52672,8 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:31.078Z"
+    "checkedAt": "2026-08-31T09:15:31.078Z",
+    "heldAt": "2026-10-12T12:41:31.801Z"
   },
   {
     "id": "watchmode:11053799",
@@ -52629,7 +52722,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:31.395Z"
+    "checkedAt": "2026-10-12T12:41:32.273Z"
   },
   {
     "id": "watchmode:1975638",
@@ -52683,7 +52776,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:29.258Z"
+    "checkedAt": "2026-10-12T12:42:20.480Z"
   },
   {
     "id": "watchmode:1973622",
@@ -52752,7 +52845,8 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:31.707Z"
+    "checkedAt": "2026-08-31T09:15:31.707Z",
+    "heldAt": "2026-10-12T12:41:32.714Z"
   },
   {
     "id": "watchmode:1745236",
@@ -52862,7 +52956,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:36.803Z"
+    "checkedAt": "2026-08-31T09:17:36.803Z",
+    "heldAt": "2026-10-12T12:44:01.006Z"
   },
   {
     "id": "watchmode:1855509",
@@ -52912,7 +53007,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:16:29.566Z"
+    "checkedAt": "2026-10-12T12:42:21.012Z"
   },
   {
     "id": "watchmode:1841732",
@@ -53030,7 +53125,8 @@
         "role": "Assistant Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:29.901Z"
+    "checkedAt": "2026-08-31T09:16:29.901Z",
+    "heldAt": "2026-10-12T12:42:21.544Z"
   },
   {
     "id": "watchmode:1694188",
@@ -53160,7 +53256,7 @@
         "role": "Second Unit Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:30.331Z"
+    "checkedAt": "2026-10-12T12:42:22.200Z"
   },
   {
     "id": "watchmode:1814302",
@@ -53235,7 +53331,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:30.640Z"
+    "checkedAt": "2026-10-12T12:42:22.856Z"
   },
   {
     "id": "watchmode:1845321",
@@ -53301,7 +53397,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:30.953Z"
+    "checkedAt": "2026-10-12T12:42:23.299Z"
   },
   {
     "id": "watchmode:1760728",
@@ -53429,7 +53525,8 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:31.300Z"
+    "checkedAt": "2026-08-31T09:16:31.300Z",
+    "heldAt": "2026-10-12T12:42:24.083Z"
   },
   {
     "id": "watchmode:1860221",
@@ -53500,7 +53597,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:31.614Z"
+    "checkedAt": "2026-10-12T12:42:24.698Z"
   },
   {
     "id": "watchmode:1556692",
@@ -53630,7 +53727,8 @@
         "role": "First Assistant Director, Co-Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:31.958Z"
+    "checkedAt": "2026-08-31T09:16:31.958Z",
+    "heldAt": "2026-10-12T12:42:25.356Z"
   },
   {
     "id": "watchmode:1856817",
@@ -53710,7 +53808,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:32.263Z"
+    "checkedAt": "2026-08-31T09:16:32.263Z",
+    "heldAt": "2026-10-12T12:42:25.929Z"
   },
   {
     "id": "watchmode:1843690",
@@ -53807,7 +53906,8 @@
         "role": "Director, Writer, Editor"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:32.598Z"
+    "checkedAt": "2026-08-31T09:16:32.598Z",
+    "heldAt": "2026-10-12T12:42:26.564Z"
   },
   {
     "id": "watchmode:1804461",
@@ -53899,7 +53999,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:32.920Z"
+    "checkedAt": "2026-10-12T12:42:27.220Z"
   },
   {
     "id": "watchmode:1853528",
@@ -53985,7 +54085,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:33.229Z"
+    "checkedAt": "2026-08-31T09:16:33.229Z",
+    "heldAt": "2026-10-12T12:42:27.658Z"
   },
   {
     "id": "watchmode:1701248",
@@ -54088,7 +54189,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:33.543Z"
+    "checkedAt": "2026-10-12T12:42:28.397Z"
   },
   {
     "id": "watchmode:1816627",
@@ -54184,7 +54285,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:33.860Z"
+    "checkedAt": "2026-08-31T09:16:33.860Z",
+    "heldAt": "2026-10-12T12:42:28.999Z"
   },
   {
     "id": "watchmode:1714450",
@@ -54291,7 +54393,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:34.166Z"
+    "checkedAt": "2026-10-12T12:42:29.612Z"
   },
   {
     "id": "watchmode:1860211",
@@ -54354,7 +54456,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:34.476Z"
+    "checkedAt": "2026-10-12T12:42:30.228Z"
   },
   {
     "id": "watchmode:1902246",
@@ -54453,7 +54555,8 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:34.802Z"
+    "checkedAt": "2026-08-31T09:16:34.802Z",
+    "heldAt": "2026-10-12T12:42:30.845Z"
   },
   {
     "id": "watchmode:1781001",
@@ -54539,7 +54642,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:35.110Z"
+    "checkedAt": "2026-10-12T12:42:31.294Z"
   },
   {
     "id": "watchmode:1874833",
@@ -54584,7 +54687,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:35.423Z"
+    "checkedAt": "2026-08-31T09:16:35.423Z",
+    "heldAt": "2026-10-12T12:42:31.896Z"
   },
   {
     "id": "watchmode:1835590",
@@ -54698,7 +54802,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:35.762Z"
+    "checkedAt": "2026-10-12T12:42:32.526Z"
   },
   {
     "id": "watchmode:1882245",
@@ -54753,7 +54857,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:16:36.072Z"
+    "checkedAt": "2026-10-12T12:42:32.971Z"
   },
   {
     "id": "watchmode:1813703",
@@ -54855,7 +54959,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:36.393Z"
+    "checkedAt": "2026-10-12T12:42:33.447Z"
   },
   {
     "id": "watchmode:1839156",
@@ -54918,7 +55022,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:36.707Z"
+    "checkedAt": "2026-10-12T12:42:33.914Z"
   },
   {
     "id": "watchmode:1836707",
@@ -55032,7 +55136,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:37.142Z"
+    "checkedAt": "2026-10-12T12:42:35.759Z"
   },
   {
     "id": "watchmode:1763816",
@@ -55120,7 +55224,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:37.454Z"
+    "checkedAt": "2026-08-31T09:16:37.454Z",
+    "heldAt": "2026-10-12T12:42:36.198Z"
   },
   {
     "id": "watchmode:1674586",
@@ -55227,7 +55332,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:37.786Z"
+    "checkedAt": "2026-08-31T09:16:37.786Z",
+    "heldAt": "2026-10-12T12:42:36.987Z"
   },
   {
     "id": "watchmode:1834424",
@@ -55293,7 +55399,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:38.098Z"
+    "checkedAt": "2026-10-12T12:42:37.583Z"
   },
   {
     "id": "watchmode:1833649",
@@ -55416,7 +55522,7 @@
         "role": "Co-Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:38.410Z"
+    "checkedAt": "2026-10-12T12:42:38.203Z"
   },
   {
     "id": "watchmode:1830538",
@@ -55519,7 +55625,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:38.738Z"
+    "checkedAt": "2026-08-31T09:16:38.738Z",
+    "heldAt": "2026-10-12T12:42:38.831Z"
   },
   {
     "id": "watchmode:1828652",
@@ -55598,7 +55705,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:39.050Z"
+    "checkedAt": "2026-10-12T12:42:39.411Z"
   },
   {
     "id": "watchmode:1782736",
@@ -55636,7 +55743,7 @@
     "trailerId": null,
     "cast": [],
     "crew": [],
-    "checkedAt": "2026-08-31T09:16:39.360Z"
+    "checkedAt": "2026-10-12T12:42:39.898Z"
   },
   {
     "id": "watchmode:1769945",
@@ -55758,7 +55865,8 @@
         "role": "Second Unit Director, Associate Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:39.783Z"
+    "checkedAt": "2026-08-31T09:16:39.783Z",
+    "heldAt": "2026-10-12T12:42:40.526Z"
   },
   {
     "id": "watchmode:1826620",
@@ -55868,7 +55976,7 @@
         "role": "Associate Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:40.096Z"
+    "checkedAt": "2026-10-12T12:42:40.981Z"
   },
   {
     "id": "watchmode:1826257",
@@ -55932,7 +56040,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:40.405Z"
+    "checkedAt": "2026-08-31T09:16:40.405Z",
+    "heldAt": "2026-10-12T12:42:41.541Z"
   },
   {
     "id": "watchmode:1803569",
@@ -56035,7 +56144,8 @@
         "role": "Writer, Screenplay, Dialogue"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:40.716Z"
+    "checkedAt": "2026-08-31T09:16:40.716Z",
+    "heldAt": "2026-10-12T12:42:42.208Z"
   },
   {
     "id": "watchmode:1644786",
@@ -56148,7 +56258,8 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:41.063Z"
+    "checkedAt": "2026-08-31T09:16:41.063Z",
+    "heldAt": "2026-10-12T12:42:42.839Z"
   },
   {
     "id": "watchmode:1875905",
@@ -56205,7 +56316,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:16:41.377Z"
+    "checkedAt": "2026-10-12T12:42:43.439Z"
   },
   {
     "id": "watchmode:1815474",
@@ -56320,7 +56431,7 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:41.691Z"
+    "checkedAt": "2026-10-12T12:42:44.051Z"
   },
   {
     "id": "watchmode:1806052",
@@ -56431,7 +56542,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:42.003Z"
+    "checkedAt": "2026-08-31T09:16:42.003Z",
+    "heldAt": "2026-10-12T12:42:44.666Z"
   },
   {
     "id": "watchmode:1808420",
@@ -56511,7 +56623,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:42.335Z"
+    "checkedAt": "2026-08-31T09:16:42.335Z",
+    "heldAt": "2026-10-12T12:42:45.649Z"
   },
   {
     "id": "watchmode:1808382",
@@ -56635,7 +56748,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:42.691Z"
+    "checkedAt": "2026-08-31T09:16:42.691Z",
+    "heldAt": "2026-10-12T12:42:46.282Z"
   },
   {
     "id": "watchmode:1704195",
@@ -56749,7 +56863,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:43.045Z"
+    "checkedAt": "2026-10-12T12:42:46.980Z"
   },
   {
     "id": "watchmode:1810223",
@@ -56865,7 +56979,7 @@
         "role": "Line Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:43.364Z"
+    "checkedAt": "2026-10-12T12:42:47.739Z"
   },
   {
     "id": "watchmode:1598025",
@@ -56993,7 +57107,7 @@
         "role": "Second Assistant Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:43.685Z"
+    "checkedAt": "2026-10-12T12:42:48.306Z"
   },
   {
     "id": "watchmode:1808983",
@@ -57067,7 +57181,7 @@
         "role": "Director, Writer, Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:43.994Z"
+    "checkedAt": "2026-10-12T12:42:48.794Z"
   },
   {
     "id": "watchmode:1720591",
@@ -57091,34 +57205,14 @@
     "options": {
       "free": [
         {
-          "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1971010950",
-          "price": null,
-          "format": "SD"
-        },
-        {
           "name": "Amazon MX Player",
           "url": "https://www.mxplayer.in/",
           "price": null,
           "format": "HD"
         }
       ],
-      "stream": [
-        {
-          "name": "Prime Video",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.cac87ce1-6606-4d61-8062-da699de5f6c4",
-          "price": null,
-          "format": "4K"
-        }
-      ],
-      "rent": [
-        {
-          "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.0fe225b7-9efd-4787-ac4a-b1d965b5fe87",
-          "price": 99,
-          "format": "4K"
-        }
-      ],
+      "stream": [],
+      "rent": [],
       "buy": []
     },
     "updatedAt": "2026-08-30T12:23:07.078Z",
@@ -57201,7 +57295,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:44.310Z"
+    "checkedAt": "2026-10-12T12:42:49.243Z"
   },
   {
     "id": "watchmode:11061082",
@@ -57239,7 +57333,7 @@
     "trailerId": null,
     "cast": [],
     "crew": [],
-    "checkedAt": "2026-08-31T09:16:44.618Z"
+    "checkedAt": "2026-10-12T12:42:49.890Z"
   },
   {
     "id": "watchmode:1915350",
@@ -57279,7 +57373,7 @@
     "trailerId": null,
     "cast": [],
     "crew": [],
-    "checkedAt": "2026-08-31T09:16:44.993Z"
+    "checkedAt": "2026-10-12T12:42:50.494Z"
   },
   {
     "id": "watchmode:1731462",
@@ -57350,7 +57444,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:37.129Z"
+    "checkedAt": "2026-10-12T12:44:01.465Z"
   },
   {
     "id": "watchmode:1805216",
@@ -57405,7 +57499,8 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:45.305Z"
+    "checkedAt": "2026-08-31T09:16:45.305Z",
+    "heldAt": "2026-10-12T12:42:50.949Z"
   },
   {
     "id": "watchmode:1695010",
@@ -57520,7 +57615,7 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:45.622Z"
+    "checkedAt": "2026-10-12T12:42:51.427Z"
   },
   {
     "id": "watchmode:1793646",
@@ -57541,34 +57636,14 @@
     "options": {
       "free": [
         {
-          "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271410280",
-          "price": null,
-          "format": "SD"
-        },
-        {
           "name": "Amazon MX Player",
           "url": "https://www.mxplayer.in/",
           "price": null,
           "format": "HD"
         }
       ],
-      "stream": [
-        {
-          "name": "Prime Video",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2956aecb-9cfe-43d9-bf43-f2ce4c975826",
-          "price": null,
-          "format": "4K"
-        }
-      ],
-      "rent": [
-        {
-          "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.b9f0c164-ae64-4e9b-ae00-406302e87236",
-          "price": 99,
-          "format": "4K"
-        }
-      ],
+      "stream": [],
+      "rent": [],
       "buy": []
     },
     "updatedAt": "2026-08-30T12:23:13.713Z",
@@ -57643,7 +57718,7 @@
         "role": "Music Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:45.936Z"
+    "checkedAt": "2026-10-12T12:42:52.019Z"
   },
   {
     "id": "watchmode:11029824",
@@ -57759,7 +57834,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:32.021Z"
+    "checkedAt": "2026-10-12T12:41:33.394Z"
   },
   {
     "id": "watchmode:11054162",
@@ -57834,7 +57909,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:32.339Z"
+    "checkedAt": "2026-10-12T12:41:33.973Z"
   },
   {
     "id": "watchmode:11006518",
@@ -57932,7 +58007,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:32.658Z"
+    "checkedAt": "2026-08-31T09:15:32.658Z",
+    "heldAt": "2026-10-12T12:41:34.417Z"
   },
   {
     "id": "watchmode:1894120",
@@ -58027,7 +58103,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:33.086Z"
+    "checkedAt": "2026-08-31T09:15:33.086Z",
+    "heldAt": "2026-10-12T12:41:35.066Z"
   },
   {
     "id": "watchmode:1704632",
@@ -58146,7 +58223,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:33.392Z"
+    "checkedAt": "2026-10-12T12:41:35.785Z"
   },
   {
     "id": "watchmode:1700742",
@@ -58232,7 +58309,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:46.250Z"
+    "checkedAt": "2026-10-12T12:42:52.653Z"
   },
   {
     "id": "watchmode:11053782",
@@ -58302,7 +58379,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:33.714Z"
+    "checkedAt": "2026-10-12T12:41:36.773Z"
   },
   {
     "id": "watchmode:1733454",
@@ -58359,7 +58436,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:37.438Z"
+    "checkedAt": "2026-10-12T12:44:02.078Z"
   },
   {
     "id": "watchmode:1999056",
@@ -58404,7 +58481,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:34.023Z"
+    "checkedAt": "2026-10-12T12:41:37.213Z"
   },
   {
     "id": "watchmode:1950157",
@@ -58488,7 +58565,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:34.335Z"
+    "checkedAt": "2026-10-12T12:41:37.675Z"
   },
   {
     "id": "watchmode:1888413",
@@ -58550,7 +58627,8 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:34.651Z"
+    "checkedAt": "2026-08-31T09:15:34.651Z",
+    "heldAt": "2026-10-12T12:41:38.116Z"
   },
   {
     "id": "watchmode:1835105",
@@ -58649,7 +58727,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:34.957Z"
+    "checkedAt": "2026-08-31T09:15:34.957Z",
+    "heldAt": "2026-10-12T12:41:38.561Z"
   },
   {
     "id": "watchmode:1830333",
@@ -58720,7 +58799,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:35.271Z"
+    "checkedAt": "2026-10-12T12:41:39.230Z"
   },
   {
     "id": "watchmode:1890710",
@@ -58791,7 +58870,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:35.581Z"
+    "checkedAt": "2026-10-12T12:41:39.770Z"
   },
   {
     "id": "watchmode:1777231",
@@ -58928,7 +59007,8 @@
         "role": "Executive Producer, Adaptation"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:35.918Z"
+    "checkedAt": "2026-08-31T09:15:35.918Z",
+    "heldAt": "2026-10-12T12:41:40.415Z"
   },
   {
     "id": "watchmode:1855622",
@@ -59015,7 +59095,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:36.230Z"
+    "checkedAt": "2026-08-31T09:15:36.230Z",
+    "heldAt": "2026-10-12T12:41:41.075Z"
   },
   {
     "id": "watchmode:1794182",
@@ -59131,7 +59212,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:36.576Z"
+    "checkedAt": "2026-10-12T12:41:41.997Z"
   },
   {
     "id": "watchmode:1692313",
@@ -59261,7 +59342,8 @@
         "role": "Producer, Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:36.930Z"
+    "checkedAt": "2026-08-31T09:15:36.930Z",
+    "heldAt": "2026-10-12T12:41:42.708Z"
   },
   {
     "id": "watchmode:1931265",
@@ -59313,7 +59395,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:37.242Z"
+    "checkedAt": "2026-08-31T09:15:37.242Z",
+    "heldAt": "2026-10-12T12:41:43.227Z"
   },
   {
     "id": "watchmode:11110142",
@@ -59380,7 +59463,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:37.553Z"
+    "checkedAt": "2026-08-31T09:15:37.553Z",
+    "heldAt": "2026-10-12T12:41:43.830Z"
   },
   {
     "id": "watchmode:1909608",
@@ -59474,7 +59558,7 @@
         "role": "Director, Writer, Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:37.868Z"
+    "checkedAt": "2026-10-12T12:41:44.453Z"
   },
   {
     "id": "watchmode:11004830",
@@ -59514,7 +59598,7 @@
     "trailerId": null,
     "cast": [],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:38.210Z"
+    "checkedAt": "2026-10-12T12:41:44.969Z"
   },
   {
     "id": "watchmode:1927964",
@@ -59577,7 +59661,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:38.524Z"
+    "checkedAt": "2026-08-31T09:15:38.524Z",
+    "heldAt": "2026-10-12T12:41:45.435Z"
   },
   {
     "id": "watchmode:11028237",
@@ -59622,7 +59707,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:38.831Z"
+    "checkedAt": "2026-10-12T12:41:45.872Z"
   },
   {
     "id": "watchmode:1886442",
@@ -59676,7 +59761,8 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:16:46.560Z"
+    "checkedAt": "2026-08-31T09:16:46.560Z",
+    "heldAt": "2026-10-12T12:42:53.268Z"
   },
   {
     "id": "watchmode:1967007",
@@ -59716,7 +59802,7 @@
     "trailerId": null,
     "cast": [],
     "crew": [],
-    "checkedAt": "2026-08-31T09:16:46.868Z"
+    "checkedAt": "2026-10-12T12:42:53.812Z"
   },
   {
     "id": "watchmode:1983756",
@@ -59771,7 +59857,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:47.180Z"
+    "checkedAt": "2026-10-12T12:42:54.397Z"
   },
   {
     "id": "watchmode:1945308",
@@ -59811,7 +59897,7 @@
     "trailerId": null,
     "cast": [],
     "crew": [],
-    "checkedAt": "2026-08-31T09:16:47.491Z"
+    "checkedAt": "2026-10-12T12:42:54.845Z"
   },
   {
     "id": "watchmode:1913935",
@@ -59880,7 +59966,8 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:47.802Z"
+    "checkedAt": "2026-08-31T09:16:47.802Z",
+    "heldAt": "2026-10-12T12:42:55.420Z"
   },
   {
     "id": "watchmode:1880249",
@@ -59970,7 +60057,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:48.113Z"
+    "checkedAt": "2026-10-12T12:42:56.033Z"
   },
   {
     "id": "watchmode:1765251",
@@ -60044,7 +60131,7 @@
         "role": "Director, Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:48.426Z"
+    "checkedAt": "2026-10-12T12:42:56.513Z"
   },
   {
     "id": "watchmode:1909819",
@@ -60103,7 +60190,8 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:16:48.739Z"
+    "checkedAt": "2026-08-31T09:16:48.739Z",
+    "heldAt": "2026-10-12T12:42:57.262Z"
   },
   {
     "id": "watchmode:1890128",
@@ -60195,7 +60283,8 @@
         "role": "Screenplay, Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:49.046Z"
+    "checkedAt": "2026-08-31T09:16:49.046Z",
+    "heldAt": "2026-10-12T12:42:57.705Z"
   },
   {
     "id": "watchmode:1883152",
@@ -60318,7 +60407,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:49.359Z"
+    "checkedAt": "2026-08-31T09:16:49.359Z",
+    "heldAt": "2026-10-12T12:42:58.492Z"
   },
   {
     "id": "watchmode:1853866",
@@ -60400,7 +60490,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:39.146Z"
+    "checkedAt": "2026-10-12T12:41:46.311Z"
   },
   {
     "id": "watchmode:1931306",
@@ -60499,7 +60589,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:49.671Z"
+    "checkedAt": "2026-10-12T12:42:59.104Z"
   },
   {
     "id": "watchmode:11042024",
@@ -60571,7 +60661,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:49.984Z"
+    "checkedAt": "2026-10-12T12:42:59.721Z"
   },
   {
     "id": "watchmode:1849780",
@@ -60675,7 +60765,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:50.291Z"
+    "checkedAt": "2026-08-31T09:16:50.291Z",
+    "heldAt": "2026-10-12T12:43:00.334Z"
   },
   {
     "id": "watchmode:1858987",
@@ -60754,7 +60845,8 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:50.603Z"
+    "checkedAt": "2026-08-31T09:16:50.603Z",
+    "heldAt": "2026-10-12T12:43:00.801Z"
   },
   {
     "id": "watchmode:1871926",
@@ -60861,7 +60953,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:50.932Z"
+    "checkedAt": "2026-10-12T12:43:01.423Z"
   },
   {
     "id": "watchmode:1871400",
@@ -60903,7 +60995,7 @@
     "trailerId": null,
     "cast": [],
     "crew": [],
-    "checkedAt": "2026-08-31T09:16:51.240Z"
+    "checkedAt": "2026-10-12T12:43:01.996Z"
   },
   {
     "id": "watchmode:1859222",
@@ -61009,7 +61101,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:51.549Z"
+    "checkedAt": "2026-08-31T09:16:51.549Z",
+    "heldAt": "2026-10-12T12:43:02.792Z"
   },
   {
     "id": "watchmode:1681807",
@@ -61036,14 +61129,7 @@
           "format": "HD"
         }
       ],
-      "stream": [
-        {
-          "name": "Netflix",
-          "url": "https://www.netflix.com/title/81953481",
-          "price": null,
-          "format": "4K"
-        }
-      ],
+      "stream": [],
       "rent": [],
       "buy": []
     },
@@ -61119,7 +61205,7 @@
         "role": "Screenplay, Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:51.869Z"
+    "checkedAt": "2026-10-12T12:43:03.709Z"
   },
   {
     "id": "watchmode:1875913",
@@ -61223,7 +61309,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:52.181Z"
+    "checkedAt": "2026-08-31T09:16:52.181Z",
+    "heldAt": "2026-10-12T12:43:04.152Z"
   },
   {
     "id": "watchmode:1962637",
@@ -61273,7 +61360,7 @@
         "role": "Director, Executive Producer, Colorist"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:52.500Z"
+    "checkedAt": "2026-10-12T12:43:05.360Z"
   },
   {
     "id": "watchmode:1639095",
@@ -61376,7 +61463,8 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:52.825Z"
+    "checkedAt": "2026-08-31T09:16:52.825Z",
+    "heldAt": "2026-10-12T12:43:05.874Z"
   },
   {
     "id": "watchmode:1967249",
@@ -61434,7 +61522,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:53.136Z"
+    "checkedAt": "2026-10-12T12:43:07.095Z"
   },
   {
     "id": "watchmode:1804375",
@@ -61512,7 +61600,7 @@
         "role": "Director, Writer, Cinematography, Editor"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:53.463Z"
+    "checkedAt": "2026-10-12T12:43:08.075Z"
   },
   {
     "id": "watchmode:1866962",
@@ -61611,7 +61699,8 @@
         "role": "Associate Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:53.777Z"
+    "checkedAt": "2026-08-31T09:16:53.777Z",
+    "heldAt": "2026-10-12T12:43:08.935Z"
   },
   {
     "id": "watchmode:1653234",
@@ -61742,7 +61831,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:54.203Z"
+    "checkedAt": "2026-08-31T09:16:54.203Z",
+    "heldAt": "2026-10-12T12:43:09.561Z"
   },
   {
     "id": "watchmode:1798360",
@@ -61862,7 +61952,7 @@
         "role": "Screenplay, Director, Story"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:54.512Z"
+    "checkedAt": "2026-10-12T12:43:10.004Z"
   },
   {
     "id": "watchmode:1796428",
@@ -61971,7 +62061,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:54.841Z"
+    "checkedAt": "2026-08-31T09:16:54.841Z",
+    "heldAt": "2026-10-12T12:43:10.617Z"
   },
   {
     "id": "watchmode:1789866",
@@ -62110,7 +62201,8 @@
         "role": "Music Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:55.158Z"
+    "checkedAt": "2026-08-31T09:16:55.158Z",
+    "heldAt": "2026-10-12T12:43:11.087Z"
   },
   {
     "id": "watchmode:1726120",
@@ -62204,7 +62296,8 @@
         "role": "First Assistant Director, Co-Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:37.761Z"
+    "checkedAt": "2026-08-31T09:17:37.761Z",
+    "heldAt": "2026-10-12T12:44:02.697Z"
   },
   {
     "id": "watchmode:1695212",
@@ -62304,7 +62397,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:55.469Z"
+    "checkedAt": "2026-10-12T12:43:11.630Z"
   },
   {
     "id": "watchmode:1807699",
@@ -62354,7 +62447,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:55.778Z"
+    "checkedAt": "2026-10-12T12:43:12.076Z"
   },
   {
     "id": "watchmode:1793351",
@@ -62455,7 +62548,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:56.089Z"
+    "checkedAt": "2026-10-12T12:43:12.622Z"
   },
   {
     "id": "watchmode:1825947",
@@ -62502,7 +62595,8 @@
     "trailerId": null,
     "cast": [],
     "crew": [],
-    "checkedAt": "2026-08-31T09:17:11.038Z"
+    "checkedAt": "2026-08-31T09:17:11.038Z",
+    "heldAt": "2026-10-12T12:43:13.237Z"
   },
   {
     "id": "watchmode:11041500",
@@ -62562,7 +62656,7 @@
         "role": "Music Score Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:11.347Z"
+    "checkedAt": "2026-10-12T12:43:13.688Z"
   },
   {
     "id": "watchmode:1788939",
@@ -62590,22 +62684,8 @@
           "format": "HD"
         }
       ],
-      "stream": [
-        {
-          "name": "Prime Video",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4b0528be-682a-47fa-8016-f3002f05bfc2",
-          "price": null,
-          "format": "4K"
-        }
-      ],
-      "rent": [
-        {
-          "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4b0528be-682a-47fa-8016-f3002f05bfc2",
-          "price": 99,
-          "format": "SD"
-        }
-      ],
+      "stream": [],
+      "rent": [],
       "buy": []
     },
     "updatedAt": "2026-08-30T12:23:56.643Z",
@@ -62692,7 +62772,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:11.667Z"
+    "checkedAt": "2026-10-12T12:43:14.139Z"
   },
   {
     "id": "watchmode:1780112",
@@ -62798,7 +62878,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:11.984Z"
+    "checkedAt": "2026-10-12T12:43:14.773Z"
   },
   {
     "id": "watchmode:1701113",
@@ -62919,7 +62999,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:12.297Z"
+    "checkedAt": "2026-08-31T09:17:12.297Z",
+    "heldAt": "2026-10-12T12:43:15.388Z"
   },
   {
     "id": "watchmode:1777363",
@@ -63009,7 +63090,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:17:12.622Z"
+    "checkedAt": "2026-10-12T12:43:16.001Z"
   },
   {
     "id": "watchmode:1748287",
@@ -63140,7 +63221,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:38.093Z"
+    "checkedAt": "2026-08-31T09:17:38.093Z",
+    "heldAt": "2026-10-12T12:44:03.311Z"
   },
   {
     "id": "watchmode:1773622",
@@ -63215,7 +63297,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:12.938Z"
+    "checkedAt": "2026-08-31T09:17:12.938Z",
+    "heldAt": "2026-10-12T12:43:16.455Z"
   },
   {
     "id": "watchmode:1763834",
@@ -63289,7 +63372,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:38.401Z"
+    "checkedAt": "2026-10-12T12:44:07.449Z"
   },
   {
     "id": "watchmode:1740910",
@@ -63408,7 +63491,8 @@
         "role": "Director, Screenplay, Choreographer, Story"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:13.251Z"
+    "checkedAt": "2026-08-31T09:17:13.251Z",
+    "heldAt": "2026-10-12T12:43:16.915Z"
   },
   {
     "id": "watchmode:1780427",
@@ -63543,7 +63627,8 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:13.559Z"
+    "checkedAt": "2026-08-31T09:17:13.559Z",
+    "heldAt": "2026-10-12T12:43:17.539Z"
   },
   {
     "id": "watchmode:1709358",
@@ -63678,7 +63763,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:13.883Z"
+    "checkedAt": "2026-10-12T12:43:18.825Z"
   },
   {
     "id": "watchmode:1644180",
@@ -63797,7 +63882,8 @@
         "role": "Associate Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:14.194Z"
+    "checkedAt": "2026-08-31T09:17:14.194Z",
+    "heldAt": "2026-10-12T12:43:19.405Z"
   },
   {
     "id": "watchmode:1757302",
@@ -63858,7 +63944,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:14.505Z"
+    "checkedAt": "2026-10-12T12:43:19.910Z"
   },
   {
     "id": "watchmode:1754154",
@@ -63948,7 +64034,8 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:38.711Z"
+    "checkedAt": "2026-08-31T09:17:38.711Z",
+    "heldAt": "2026-10-12T12:44:09.283Z"
   },
   {
     "id": "watchmode:1744723",
@@ -64063,7 +64150,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:39.049Z"
+    "checkedAt": "2026-10-12T12:44:10.070Z"
   },
   {
     "id": "watchmode:1732124",
@@ -64170,7 +64257,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:39.362Z"
+    "checkedAt": "2026-10-12T12:44:10.993Z"
   },
   {
     "id": "watchmode:1806697",
@@ -64245,7 +64332,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:39.675Z"
+    "checkedAt": "2026-08-31T09:17:39.675Z",
+    "heldAt": "2026-10-12T12:44:11.450Z"
   },
   {
     "id": "watchmode:1651283",
@@ -64356,7 +64444,8 @@
         "role": "Director, Writer, Producer, Editor, Visual Effects"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:39.992Z"
+    "checkedAt": "2026-08-31T09:17:39.992Z",
+    "heldAt": "2026-10-12T12:44:12.221Z"
   },
   {
     "id": "watchmode:1701102",
@@ -64482,7 +64571,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:40.332Z"
+    "checkedAt": "2026-08-31T09:17:40.332Z",
+    "heldAt": "2026-10-12T12:44:13.144Z"
   },
   {
     "id": "watchmode:1702393",
@@ -64576,7 +64666,8 @@
         "role": "Cinematography, Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:40.652Z"
+    "checkedAt": "2026-08-31T09:17:40.652Z",
+    "heldAt": "2026-10-12T12:44:13.621Z"
   },
   {
     "id": "watchmode:1770619",
@@ -64618,7 +64709,7 @@
     "trailerId": null,
     "cast": [],
     "crew": [],
-    "checkedAt": "2026-08-31T09:17:40.959Z"
+    "checkedAt": "2026-10-12T12:44:14.371Z"
   },
   {
     "id": "watchmode:1766748",
@@ -64669,7 +64760,8 @@
     "trailerId": null,
     "cast": [],
     "crew": [],
-    "checkedAt": "2026-08-31T09:17:41.270Z"
+    "checkedAt": "2026-08-31T09:17:41.270Z",
+    "heldAt": "2026-10-12T12:44:14.804Z"
   },
   {
     "id": "watchmode:1765589",
@@ -64772,7 +64864,8 @@
         "role": "Line Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:41.586Z"
+    "checkedAt": "2026-08-31T09:17:41.586Z",
+    "heldAt": "2026-10-12T12:44:15.293Z"
   },
   {
     "id": "watchmode:1756808",
@@ -64881,7 +64974,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:41.891Z"
+    "checkedAt": "2026-10-12T12:44:15.750Z"
   },
   {
     "id": "watchmode:1755867",
@@ -64962,7 +65055,8 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:42.205Z"
+    "checkedAt": "2026-08-31T09:17:42.205Z",
+    "heldAt": "2026-10-12T12:44:16.220Z"
   },
   {
     "id": "watchmode:11120307",
@@ -65016,7 +65110,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:42.514Z"
+    "checkedAt": "2026-10-12T12:44:16.715Z"
   },
   {
     "id": "watchmode:1763435",
@@ -65128,7 +65222,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:42.829Z"
+    "checkedAt": "2026-10-12T12:44:17.445Z"
   },
   {
     "id": "watchmode:1690192",
@@ -65242,7 +65336,7 @@
         "role": "Second Assistant Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:43.160Z"
+    "checkedAt": "2026-10-12T12:44:18.096Z"
   },
   {
     "id": "watchmode:1791262",
@@ -65307,7 +65401,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:43.468Z"
+    "checkedAt": "2026-08-31T09:17:43.468Z",
+    "heldAt": "2026-10-12T12:44:18.672Z"
   },
   {
     "id": "watchmode:1761329",
@@ -65423,7 +65518,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:43.777Z"
+    "checkedAt": "2026-08-31T09:17:43.777Z",
+    "heldAt": "2026-10-12T12:44:19.288Z"
   },
   {
     "id": "watchmode:1751524",
@@ -65494,7 +65590,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:44.081Z"
+    "checkedAt": "2026-10-12T12:44:19.748Z"
   },
   {
     "id": "watchmode:1748924",
@@ -65566,7 +65662,8 @@
         "role": "Director, Writer, Lyricist"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:44.388Z"
+    "checkedAt": "2026-08-31T09:17:44.388Z",
+    "heldAt": "2026-10-12T12:44:20.444Z"
   },
   {
     "id": "watchmode:1677371",
@@ -65689,7 +65786,8 @@
         "role": "First Assistant Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:44.740Z"
+    "checkedAt": "2026-08-31T09:17:44.740Z",
+    "heldAt": "2026-10-12T12:44:21.130Z"
   },
   {
     "id": "watchmode:1702395",
@@ -65767,7 +65865,8 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:45.050Z"
+    "checkedAt": "2026-08-31T09:17:45.050Z",
+    "heldAt": "2026-10-12T12:44:21.576Z"
   },
   {
     "id": "watchmode:1555982",
@@ -65906,7 +66005,8 @@
         "role": "Screenplay"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:45.463Z"
+    "checkedAt": "2026-08-31T09:17:45.463Z",
+    "heldAt": "2026-10-12T12:44:22.250Z"
   },
   {
     "id": "watchmode:1746466",
@@ -65964,7 +66064,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:45.793Z"
+    "checkedAt": "2026-08-31T09:17:45.793Z",
+    "heldAt": "2026-10-12T12:44:22.691Z"
   },
   {
     "id": "watchmode:1745410",
@@ -65992,22 +66093,8 @@
           "format": "HD"
         }
       ],
-      "stream": [
-        {
-          "name": "Prime Video",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.dff95adf-f5f8-496d-976b-6a1ea1bccbf4",
-          "price": null,
-          "format": "4K"
-        }
-      ],
-      "rent": [
-        {
-          "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.dff95adf-f5f8-496d-976b-6a1ea1bccbf4",
-          "price": 99,
-          "format": "SD"
-        }
-      ],
+      "stream": [],
+      "rent": [],
       "buy": []
     },
     "updatedAt": "2026-08-30T13:11:48.643Z",
@@ -66086,7 +66173,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:46.106Z"
+    "checkedAt": "2026-10-12T12:44:23.280Z"
   },
   {
     "id": "watchmode:11046727",
@@ -66148,7 +66235,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:46.421Z"
+    "checkedAt": "2026-08-31T09:17:46.421Z",
+    "heldAt": "2026-10-12T12:44:23.760Z"
   },
   {
     "id": "watchmode:1754864",
@@ -66231,7 +66319,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:46.744Z"
+    "checkedAt": "2026-08-31T09:17:46.744Z",
+    "heldAt": "2026-10-12T12:44:24.510Z"
   },
   {
     "id": "watchmode:1771483",
@@ -66279,7 +66368,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:47.062Z"
+    "checkedAt": "2026-10-12T12:44:25.125Z"
   },
   {
     "id": "watchmode:1991305",
@@ -66330,7 +66419,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:47.375Z"
+    "checkedAt": "2026-10-12T12:44:25.570Z"
   },
   {
     "id": "watchmode:1747262",
@@ -66395,7 +66484,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:17:47.695Z"
+    "checkedAt": "2026-10-12T12:44:26.026Z"
   },
   {
     "id": "watchmode:1691409",
@@ -66518,7 +66607,7 @@
         "role": "Screenplay, Director, Editor, Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:48.034Z"
+    "checkedAt": "2026-10-12T12:44:26.967Z"
   },
   {
     "id": "watchmode:1675747",
@@ -66648,7 +66737,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:48.352Z"
+    "checkedAt": "2026-10-12T12:44:27.581Z"
   },
   {
     "id": "watchmode:1675690",
@@ -66770,7 +66859,7 @@
         "role": "Screenplay"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:48.688Z"
+    "checkedAt": "2026-10-12T12:44:28.067Z"
   },
   {
     "id": "watchmode:1629386",
@@ -67000,7 +67089,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:49.007Z"
+    "checkedAt": "2026-10-12T12:44:28.811Z"
   },
   {
     "id": "watchmode:1730798",
@@ -67137,7 +67226,8 @@
         "role": "Lighting Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:49.424Z"
+    "checkedAt": "2026-08-31T09:17:49.424Z",
+    "heldAt": "2026-10-12T12:44:29.730Z"
   },
   {
     "id": "watchmode:1700846",
@@ -67260,7 +67350,7 @@
         "role": "Supervising Art Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:49.747Z"
+    "checkedAt": "2026-10-12T12:44:30.343Z"
   },
   {
     "id": "watchmode:1729294",
@@ -67386,7 +67476,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:50.062Z"
+    "checkedAt": "2026-08-31T09:17:50.062Z",
+    "heldAt": "2026-10-12T12:44:30.959Z"
   },
   {
     "id": "watchmode:1730549",
@@ -67522,7 +67613,8 @@
         "role": "Associate Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:50.384Z"
+    "checkedAt": "2026-08-31T09:17:50.384Z",
+    "heldAt": "2026-10-12T12:44:31.576Z"
   },
   {
     "id": "watchmode:1726090",
@@ -67621,7 +67713,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:50.698Z"
+    "checkedAt": "2026-08-31T09:17:50.698Z",
+    "heldAt": "2026-10-12T12:44:32.189Z"
   },
   {
     "id": "watchmode:1721198",
@@ -67748,7 +67841,7 @@
         "role": "Story, Co-Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:51.010Z"
+    "checkedAt": "2026-10-12T12:44:32.625Z"
   },
   {
     "id": "watchmode:1645355",
@@ -67870,7 +67963,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:05.948Z"
+    "checkedAt": "2026-08-31T09:18:05.948Z",
+    "heldAt": "2026-10-12T12:44:33.420Z"
   },
   {
     "id": "watchmode:2761732",
@@ -67974,7 +68068,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:06.263Z"
+    "checkedAt": "2026-08-31T09:18:06.263Z",
+    "heldAt": "2026-10-12T12:44:33.848Z"
   },
   {
     "id": "watchmode:1718247",
@@ -68099,7 +68194,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:06.583Z"
+    "checkedAt": "2026-08-31T09:18:06.583Z",
+    "heldAt": "2026-10-12T12:44:34.339Z"
   },
   {
     "id": "watchmode:1702519",
@@ -68221,7 +68317,7 @@
         "role": "Assistant Director Dave Mattis"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:06.925Z"
+    "checkedAt": "2026-10-12T12:44:34.974Z"
   },
   {
     "id": "watchmode:1723234",
@@ -68342,7 +68438,8 @@
         "role": "Producer, Story"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:07.241Z"
+    "checkedAt": "2026-08-31T09:18:07.241Z",
+    "heldAt": "2026-10-12T12:44:36.782Z"
   },
   {
     "id": "watchmode:1723230",
@@ -68467,7 +68564,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:07.561Z"
+    "checkedAt": "2026-10-12T12:44:37.412Z"
   },
   {
     "id": "watchmode:1884040",
@@ -68604,7 +68701,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:07.891Z"
+    "checkedAt": "2026-08-31T09:18:07.891Z",
+    "heldAt": "2026-10-12T12:44:38.026Z"
   },
   {
     "id": "watchmode:1691066",
@@ -68720,7 +68818,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:08.211Z"
+    "checkedAt": "2026-08-31T09:18:08.211Z",
+    "heldAt": "2026-10-12T12:44:38.639Z"
   },
   {
     "id": "watchmode:1676420",
@@ -68851,7 +68950,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:08.566Z"
+    "checkedAt": "2026-08-31T09:18:08.566Z",
+    "heldAt": "2026-10-12T12:44:39.254Z"
   },
   {
     "id": "watchmode:1761190",
@@ -68891,7 +68991,7 @@
     "trailerId": null,
     "cast": [],
     "crew": [],
-    "checkedAt": "2026-08-31T09:18:08.896Z"
+    "checkedAt": "2026-10-12T12:44:39.869Z"
   },
   {
     "id": "watchmode:1837338",
@@ -69084,7 +69184,8 @@
         "role": "Co-Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:09.213Z"
+    "checkedAt": "2026-08-31T09:18:09.213Z",
+    "heldAt": "2026-10-12T12:44:40.401Z"
   },
   {
     "id": "watchmode:11014958",
@@ -69146,7 +69247,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:09.525Z"
+    "checkedAt": "2026-10-12T12:44:40.870Z"
   },
   {
     "id": "watchmode:1721676",
@@ -69200,7 +69301,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:09.831Z"
+    "checkedAt": "2026-10-12T12:44:41.315Z"
   },
   {
     "id": "watchmode:1705523",
@@ -69270,7 +69371,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:10.146Z"
+    "checkedAt": "2026-10-12T12:44:41.775Z"
   },
   {
     "id": "watchmode:1697236",
@@ -69401,7 +69502,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:10.473Z"
+    "checkedAt": "2026-08-31T09:18:10.473Z",
+    "heldAt": "2026-10-12T12:44:42.877Z"
   },
   {
     "id": "watchmode:1694082",
@@ -69518,7 +69620,8 @@
         "role": "Director, Screenplay"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:10.798Z"
+    "checkedAt": "2026-08-31T09:18:10.798Z",
+    "heldAt": "2026-10-12T12:44:43.556Z"
   },
   {
     "id": "watchmode:1632413",
@@ -69635,7 +69738,8 @@
         "role": "Director, Editor, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:11.118Z"
+    "checkedAt": "2026-08-31T09:18:11.118Z",
+    "heldAt": "2026-10-12T12:44:44.117Z"
   },
   {
     "id": "watchmode:1697105",
@@ -69757,7 +69861,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:11.427Z"
+    "checkedAt": "2026-08-31T09:18:11.427Z",
+    "heldAt": "2026-10-12T12:44:45.706Z"
   },
   {
     "id": "watchmode:1707074",
@@ -69821,7 +69926,8 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:11.755Z"
+    "checkedAt": "2026-08-31T09:18:11.755Z",
+    "heldAt": "2026-10-12T12:44:46.166Z"
   },
   {
     "id": "watchmode:1706040",
@@ -69933,7 +70039,7 @@
         "role": "Producer, Casting Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:12.092Z"
+    "checkedAt": "2026-10-12T12:44:46.950Z"
   },
   {
     "id": "watchmode:1687735",
@@ -70039,7 +70145,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:12.425Z"
+    "checkedAt": "2026-08-31T09:18:12.425Z",
+    "heldAt": "2026-10-12T12:44:47.930Z"
   },
   {
     "id": "watchmode:1640777",
@@ -70153,7 +70260,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:12.737Z"
+    "checkedAt": "2026-10-12T12:44:48.584Z"
   },
   {
     "id": "watchmode:1812811",
@@ -70261,7 +70368,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:13.050Z"
+    "checkedAt": "2026-10-12T12:44:49.021Z"
   },
   {
     "id": "watchmode:1707014",
@@ -70333,7 +70440,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:13.370Z"
+    "checkedAt": "2026-08-31T09:18:13.370Z",
+    "heldAt": "2026-10-12T12:44:49.699Z"
   },
   {
     "id": "watchmode:1681976",
@@ -70464,7 +70572,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:13.683Z"
+    "checkedAt": "2026-08-31T09:18:13.683Z",
+    "heldAt": "2026-10-12T12:44:50.312Z"
   },
   {
     "id": "watchmode:1625496",
@@ -70594,7 +70703,7 @@
         "role": "Screenplay, Dialogue, Second Unit Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:13.999Z"
+    "checkedAt": "2026-10-12T12:44:50.789Z"
   },
   {
     "id": "watchmode:1929442",
@@ -70711,7 +70820,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:14.319Z"
+    "checkedAt": "2026-08-31T09:18:14.319Z",
+    "heldAt": "2026-10-12T12:44:52.157Z"
   },
   {
     "id": "watchmode:1653178",
@@ -70906,7 +71016,7 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:14.630Z"
+    "checkedAt": "2026-10-12T12:44:52.616Z"
   },
   {
     "id": "watchmode:1692389",
@@ -73120,7 +73230,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:14.946Z"
+    "checkedAt": "2026-08-31T09:18:14.946Z",
+    "heldAt": "2026-10-12T12:44:53.397Z"
   },
   {
     "id": "watchmode:1695349",
@@ -77579,7 +77690,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-30T16:56:33.032Z"
+    "checkedAt": "2026-10-12T12:40:19.816Z"
   },
   {
     "id": "watchmode:3291596",
@@ -77700,7 +77811,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:14:54.707Z"
+    "checkedAt": "2026-10-12T12:40:20.368Z"
   },
   {
     "id": "watchmode:3274329",
@@ -77825,7 +77936,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:14:55.043Z"
+    "checkedAt": "2026-10-12T12:40:20.951Z"
   },
   {
     "id": "watchmode:3310500",
@@ -77918,7 +78029,7 @@
         "role": "Series Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:14:55.352Z"
+    "checkedAt": "2026-10-12T12:40:21.444Z"
   },
   {
     "id": "watchmode:3279137",
@@ -78042,7 +78153,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:14:55.696Z"
+    "checkedAt": "2026-10-12T12:40:22.123Z"
   },
   {
     "id": "watchmode:3262458",
@@ -78081,13 +78192,13 @@
       "stream": [
         {
           "name": "Crunchyroll Premium",
-          "url": "https://www.crunchyroll.com/watch/GE00377909ENUS",
+          "url": "https://www.crunchyroll.com/watch/GE00377909HIIN",
           "price": null,
           "format": "HD"
         },
         {
           "name": "Crunchyroll Premium (Via Prime) Amazon Channel",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.82e5879a-294f-4b76-a895-e9a03a3cca7a",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.fc53cd7e-bffc-4e87-979e-b224aa6a280a",
           "price": null,
           "format": "HD"
         },
@@ -78175,7 +78286,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:14:56.029Z"
+    "checkedAt": "2026-10-12T12:40:22.637Z"
   },
   {
     "id": "watchmode:3236002",
@@ -78287,7 +78398,7 @@
         "role": "Sound Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:14:56.381Z"
+    "checkedAt": "2026-10-12T12:40:23.352Z"
   },
   {
     "id": "watchmode:3310939",
@@ -78391,7 +78502,7 @@
         "role": "Casting Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:14:56.697Z"
+    "checkedAt": "2026-10-12T12:40:23.879Z"
   },
   {
     "id": "watchmode:3275092",
@@ -78502,7 +78613,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:14:57.019Z"
+    "checkedAt": "2026-10-12T12:40:24.364Z"
   },
   {
     "id": "watchmode:3299441",
@@ -78593,7 +78704,8 @@
         "role": "Writer, Creator"
       }
     ],
-    "checkedAt": "2026-08-31T09:14:57.334Z"
+    "checkedAt": "2026-08-31T09:14:57.334Z",
+    "heldAt": "2026-10-12T12:40:24.883Z"
   },
   {
     "id": "watchmode:3296060",
@@ -78627,14 +78739,7 @@
           "format": "HD"
         }
       ],
-      "stream": [
-        {
-          "name": "Prime Video",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8370b704-fdbd-435e-a983-3a488f8136a3",
-          "price": null,
-          "format": "HD"
-        }
-      ],
+      "stream": [],
       "rent": [],
       "buy": []
     },
@@ -78696,7 +78801,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:14:57.663Z"
+    "checkedAt": "2026-10-12T12:40:25.503Z"
   },
   {
     "id": "watchmode:3269274",
@@ -78798,7 +78903,8 @@
         "role": "Writer, Creator"
       }
     ],
-    "checkedAt": "2026-08-31T09:14:57.977Z"
+    "checkedAt": "2026-08-31T09:14:57.977Z",
+    "heldAt": "2026-10-12T12:40:25.955Z"
   },
   {
     "id": "watchmode:3296586",
@@ -78913,7 +79019,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:14:58.299Z"
+    "checkedAt": "2026-10-12T12:40:26.423Z"
   },
   {
     "id": "watchmode:3297143",
@@ -78985,7 +79091,8 @@
         "role": "Sound Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:14:58.610Z"
+    "checkedAt": "2026-08-31T09:14:58.610Z",
+    "heldAt": "2026-10-12T12:40:26.897Z"
   },
   {
     "id": "watchmode:3295575",
@@ -79059,7 +79166,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:14:58.925Z"
+    "checkedAt": "2026-10-12T12:40:27.346Z"
   },
   {
     "id": "watchmode:3295435",
@@ -79174,7 +79281,7 @@
         "role": "Writer, Creator"
       }
     ],
-    "checkedAt": "2026-08-31T09:14:59.235Z"
+    "checkedAt": "2026-10-12T12:40:27.962Z"
   },
   {
     "id": "watchmode:3286780",
@@ -79275,7 +79382,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:14:59.560Z"
+    "checkedAt": "2026-10-12T12:40:28.420Z"
   },
   {
     "id": "watchmode:3291573",
@@ -79391,7 +79498,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:14:59.873Z"
+    "checkedAt": "2026-10-12T12:40:29.115Z"
   },
   {
     "id": "watchmode:3258581",
@@ -79491,7 +79598,7 @@
         "role": "Sound Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:00.263Z"
+    "checkedAt": "2026-10-12T12:40:30.771Z"
   },
   {
     "id": "watchmode:3260352",
@@ -79604,7 +79711,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:39.502Z"
+    "checkedAt": "2026-08-31T09:15:39.502Z",
+    "heldAt": "2026-10-12T12:41:46.805Z"
   },
   {
     "id": "watchmode:3260819",
@@ -79710,7 +79818,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:39.857Z"
+    "checkedAt": "2026-08-31T09:15:39.857Z",
+    "heldAt": "2026-10-12T12:41:47.478Z"
   },
   {
     "id": "watchmode:3287979",
@@ -79772,7 +79881,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:40.163Z"
+    "checkedAt": "2026-10-12T12:41:48.136Z"
   },
   {
     "id": "watchmode:3287325",
@@ -79885,7 +79994,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:40.473Z"
+    "checkedAt": "2026-10-12T12:41:48.754Z"
   },
   {
     "id": "watchmode:3286569",
@@ -79939,7 +80048,8 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:40.784Z"
+    "checkedAt": "2026-08-31T09:15:40.784Z",
+    "heldAt": "2026-10-12T12:41:49.345Z"
   },
   {
     "id": "watchmode:3285554",
@@ -80056,7 +80166,7 @@
         "role": "Executive Producer, Second Unit Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:41.130Z"
+    "checkedAt": "2026-10-12T12:41:49.984Z"
   },
   {
     "id": "watchmode:3285322",
@@ -80086,7 +80196,13 @@
       "free": [
         {
           "name": "Amazon MX Player",
-          "url": "https://www.mxplayer.in/",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.cad33e4e-649c-4610-9a5c-0fcc6253796a",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Amazon Freevee",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2929ce66-12f8-4bef-a3d0-f500d04b4670",
           "price": null,
           "format": "HD"
         }
@@ -80148,7 +80264,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:15:41.424Z"
+    "checkedAt": "2026-10-12T12:41:50.490Z"
   },
   {
     "id": "watchmode:3237851",
@@ -80265,7 +80381,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:41.784Z"
+    "checkedAt": "2026-10-12T12:41:51.213Z"
   },
   {
     "id": "watchmode:3217383",
@@ -80381,7 +80497,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:42.118Z"
+    "checkedAt": "2026-10-12T12:41:51.700Z"
   },
   {
     "id": "watchmode:3280555",
@@ -80485,7 +80601,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:42.431Z"
+    "checkedAt": "2026-10-12T12:41:52.419Z"
   },
   {
     "id": "watchmode:552822",
@@ -80543,7 +80659,7 @@
         "role": "Supervising Animation Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:42.739Z"
+    "checkedAt": "2026-10-12T12:41:53.057Z"
   },
   {
     "id": "watchmode:3240214",
@@ -80633,7 +80749,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:43.088Z"
+    "checkedAt": "2026-10-12T12:41:53.672Z"
   },
   {
     "id": "watchmode:551861",
@@ -80749,7 +80865,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:43.411Z"
+    "checkedAt": "2026-10-12T12:41:54.122Z"
   },
   {
     "id": "watchmode:3237698",
@@ -80854,7 +80970,8 @@
         "role": "Executive Producer, Writer, Creator"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:43.730Z"
+    "checkedAt": "2026-08-31T09:15:43.730Z",
+    "heldAt": "2026-10-12T12:41:54.575Z"
   },
   {
     "id": "watchmode:3228577",
@@ -80955,7 +81072,7 @@
         "role": "Executive Producer, Writer, Creator"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:44.074Z"
+    "checkedAt": "2026-10-12T12:41:55.205Z"
   },
   {
     "id": "watchmode:3275575",
@@ -81058,7 +81175,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:44.386Z"
+    "checkedAt": "2026-08-31T09:15:44.386Z",
+    "heldAt": "2026-10-12T12:41:55.713Z"
   },
   {
     "id": "watchmode:3203664",
@@ -81156,7 +81274,7 @@
         "role": "Director, Creator"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:44.716Z"
+    "checkedAt": "2026-10-12T12:41:56.435Z"
   },
   {
     "id": "watchmode:3263472",
@@ -81292,7 +81410,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:45.082Z"
+    "checkedAt": "2026-08-31T09:15:45.082Z",
+    "heldAt": "2026-10-12T12:41:56.904Z"
   },
   {
     "id": "watchmode:3258595",
@@ -81428,7 +81547,8 @@
         "role": "Director of Photography, Compositing Artist"
       }
     ],
-    "checkedAt": "2026-08-31T09:15:45.420Z"
+    "checkedAt": "2026-08-31T09:15:45.420Z",
+    "heldAt": "2026-10-12T12:41:57.562Z"
   },
   {
     "id": "watchmode:3264142",
@@ -81546,7 +81666,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:16.635Z"
+    "checkedAt": "2026-08-31T09:16:16.635Z",
+    "heldAt": "2026-10-12T12:41:58.128Z"
   },
   {
     "id": "watchmode:3259087",
@@ -81623,7 +81744,8 @@
         "role": "Director of Photography, Sound Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:16.944Z"
+    "checkedAt": "2026-08-31T09:16:16.944Z",
+    "heldAt": "2026-10-12T12:41:58.893Z"
   },
   {
     "id": "watchmode:3251121",
@@ -81661,14 +81783,14 @@
       ],
       "stream": [
         {
-          "name": "Crunchyroll Premium",
-          "url": "https://www.crunchyroll.com/watch/GE00366271ITIT",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/82036361",
           "price": null,
           "format": "HD"
         },
         {
-          "name": "Netflix",
-          "url": "https://www.netflix.com/title/82036361",
+          "name": "Crunchyroll Premium",
+          "url": "https://www.crunchyroll.com/watch/GE00366271ITIT",
           "price": null,
           "format": "HD"
         },
@@ -81679,14 +81801,14 @@
           "format": "SD"
         },
         {
-          "name": "Sony LIV",
-          "url": "https://www.sonyliv.com/shows/my-hero-academia-vigilantes-1790007536/im-here-1090521601",
+          "name": "Crunchyroll Premium (Via Prime) Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.919c3c6d-ad99-440c-adaf-b463edfa45a1",
           "price": null,
           "format": "HD"
         },
         {
-          "name": "Crunchyroll Premium (Via Prime) Amazon Channel",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.919c3c6d-ad99-440c-adaf-b463edfa45a1",
+          "name": "Sony LIV",
+          "url": "https://www.sonyliv.com/shows/my-hero-academia-vigilantes-1790007536/im-here-1090521601",
           "price": null,
           "format": "HD"
         },
@@ -81778,7 +81900,7 @@
         "role": "Background Designer, Assistant Art Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:17.309Z"
+    "checkedAt": "2026-10-12T12:41:59.813Z"
   },
   {
     "id": "watchmode:3233705",
@@ -81921,7 +82043,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:17.801Z"
+    "checkedAt": "2026-08-31T09:16:17.801Z",
+    "heldAt": "2026-10-12T12:42:00.369Z"
   },
   {
     "id": "watchmode:3241842",
@@ -82046,7 +82169,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:18.148Z"
+    "checkedAt": "2026-10-12T12:42:01.045Z"
   },
   {
     "id": "watchmode:3227984",
@@ -82153,7 +82276,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:18.479Z"
+    "checkedAt": "2026-10-12T12:42:01.660Z"
   },
   {
     "id": "watchmode:3220179",
@@ -82239,7 +82362,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:18.805Z"
+    "checkedAt": "2026-10-12T12:42:02.278Z"
   },
   {
     "id": "watchmode:3294007",
@@ -82294,7 +82417,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:16:19.119Z"
+    "checkedAt": "2026-10-12T12:42:02.831Z"
   },
   {
     "id": "watchmode:3227230",
@@ -82409,7 +82532,7 @@
         "role": "Executive Producer, Writer, Creator"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:19.442Z"
+    "checkedAt": "2026-10-12T12:42:03.501Z"
   },
   {
     "id": "watchmode:3220983",
@@ -82547,7 +82670,8 @@
         "role": "Character Designer, Supervising Animation Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:19.808Z"
+    "checkedAt": "2026-08-31T09:16:19.808Z",
+    "heldAt": "2026-10-12T12:42:04.114Z"
   },
   {
     "id": "watchmode:3230434",
@@ -82670,7 +82794,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:16:20.158Z"
+    "checkedAt": "2026-10-12T12:42:04.732Z"
   },
   {
     "id": "watchmode:3265507",
@@ -82736,7 +82860,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:17:14.815Z"
+    "checkedAt": "2026-10-12T12:43:20.451Z"
   },
   {
     "id": "watchmode:3200863",
@@ -82874,7 +82998,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:15.157Z"
+    "checkedAt": "2026-08-31T09:17:15.157Z",
+    "heldAt": "2026-10-12T12:43:21.226Z"
   },
   {
     "id": "watchmode:3222270",
@@ -82997,7 +83122,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:15.489Z"
+    "checkedAt": "2026-10-12T12:43:21.731Z"
   },
   {
     "id": "watchmode:3208053",
@@ -83104,7 +83229,8 @@
         "role": "Writer, Creator"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:15.809Z"
+    "checkedAt": "2026-08-31T09:17:15.809Z",
+    "heldAt": "2026-10-12T12:43:22.188Z"
   },
   {
     "id": "watchmode:3236572",
@@ -83193,7 +83319,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:16.135Z"
+    "checkedAt": "2026-10-12T12:43:22.772Z"
   },
   {
     "id": "watchmode:3233145",
@@ -83310,7 +83436,8 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:16.482Z"
+    "checkedAt": "2026-08-31T09:17:16.482Z",
+    "heldAt": "2026-10-12T12:43:23.375Z"
   },
   {
     "id": "watchmode:3239660",
@@ -83399,7 +83526,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:16.789Z",
+    "checkedAt": "2026-10-12T12:43:23.978Z",
     "leftFreeAt": "2026-08-31T09:17:16.789Z",
     "freeSince": null
   },
@@ -83481,7 +83608,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:17.103Z"
+    "checkedAt": "2026-08-31T09:17:17.103Z",
+    "heldAt": "2026-10-12T12:43:24.443Z"
   },
   {
     "id": "watchmode:3233433",
@@ -83539,7 +83667,7 @@
         "role": "Co-Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:17.426Z"
+    "checkedAt": "2026-10-12T12:43:26.445Z"
   },
   {
     "id": "watchmode:3219505",
@@ -83644,7 +83772,8 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:17.751Z"
+    "checkedAt": "2026-08-31T09:17:17.751Z",
+    "heldAt": "2026-10-12T12:43:27.008Z"
   },
   {
     "id": "watchmode:3212158",
@@ -83799,7 +83928,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:18.172Z"
+    "checkedAt": "2026-10-12T12:43:27.983Z"
   },
   {
     "id": "watchmode:3230435",
@@ -83941,7 +84070,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:18.581Z"
+    "checkedAt": "2026-08-31T09:17:18.581Z",
+    "heldAt": "2026-10-12T12:43:28.599Z"
   },
   {
     "id": "watchmode:3203238",
@@ -84058,7 +84188,8 @@
         "role": "Producer, Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:18.919Z"
+    "checkedAt": "2026-08-31T09:17:18.919Z",
+    "heldAt": "2026-10-12T12:43:29.068Z"
   },
   {
     "id": "watchmode:3216671",
@@ -84175,7 +84306,7 @@
         "role": "Executive Producer, Creator"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:19.260Z"
+    "checkedAt": "2026-10-12T12:43:29.538Z"
   },
   {
     "id": "watchmode:3231621",
@@ -84274,7 +84405,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:19.589Z"
+    "checkedAt": "2026-10-12T12:43:29.986Z"
   },
   {
     "id": "watchmode:3221849",
@@ -84340,7 +84471,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:19.902Z"
+    "checkedAt": "2026-10-12T12:43:30.428Z"
   },
   {
     "id": "watchmode:3220894",
@@ -84470,7 +84601,7 @@
         "role": "Animation Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:20.324Z"
+    "checkedAt": "2026-10-12T12:43:31.363Z"
   },
   {
     "id": "watchmode:3216998",
@@ -84612,7 +84743,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:20.694Z"
+    "checkedAt": "2026-08-31T09:17:20.694Z",
+    "heldAt": "2026-10-12T12:43:31.977Z"
   },
   {
     "id": "watchmode:3210598",
@@ -84737,7 +84869,7 @@
         "role": "Music Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:21.050Z"
+    "checkedAt": "2026-10-12T12:43:32.454Z"
   },
   {
     "id": "watchmode:3200941",
@@ -84854,7 +84986,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:21.426Z"
+    "checkedAt": "2026-10-12T12:43:33.011Z"
   },
   {
     "id": "watchmode:3224053",
@@ -84961,7 +85093,7 @@
         "role": "Screenplay, Dialogue"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:21.740Z"
+    "checkedAt": "2026-10-12T12:43:33.512Z"
   },
   {
     "id": "watchmode:3229357",
@@ -85053,7 +85185,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:17:22.062Z"
+    "checkedAt": "2026-10-12T12:43:34.127Z"
   },
   {
     "id": "watchmode:3213959",
@@ -85137,7 +85269,7 @@
         "role": "Director, Director of Photography, Creator"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:22.376Z"
+    "checkedAt": "2026-10-12T12:43:34.588Z"
   },
   {
     "id": "watchmode:3183943",
@@ -85268,7 +85400,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:22.779Z"
+    "checkedAt": "2026-10-12T12:43:35.258Z"
   },
   {
     "id": "watchmode:3208980",
@@ -85416,7 +85548,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:23.150Z"
+    "checkedAt": "2026-08-31T09:17:23.150Z",
+    "heldAt": "2026-10-12T12:43:35.975Z"
   },
   {
     "id": "watchmode:3202058",
@@ -85523,7 +85656,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:23.517Z"
+    "checkedAt": "2026-10-12T12:43:36.519Z"
   },
   {
     "id": "watchmode:3208895",
@@ -85553,7 +85686,7 @@
       "free": [
         {
           "name": "Prime Video",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.fc3ea12e-e3b6-4ed8-99e1-4e732437fe2f",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.02e2ffed-c632-4463-85d9-c579c9dbcb36",
           "price": null,
           "format": "HD"
         }
@@ -85567,7 +85700,7 @@
         },
         {
           "name": "Anime Times Amazon Channel",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.02e2ffed-c632-4463-85d9-c579c9dbcb36",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.63e9c237-1d33-45e7-8db4-7e5350549308",
           "price": null,
           "format": "HD"
         }
@@ -85653,7 +85786,7 @@
         "role": "Music Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:23.914Z"
+    "checkedAt": "2026-10-12T12:43:37.200Z"
   },
   {
     "id": "watchmode:3220290",
@@ -85795,7 +85928,8 @@
         "role": "Series Composition, Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:24.308Z"
+    "checkedAt": "2026-08-31T09:17:24.308Z",
+    "heldAt": "2026-10-12T12:43:37.814Z"
   },
   {
     "id": "watchmode:3207029",
@@ -85945,7 +86079,7 @@
         "role": "Sound Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:24.655Z"
+    "checkedAt": "2026-10-12T12:43:38.449Z"
   },
   {
     "id": "watchmode:3217215",
@@ -86087,7 +86221,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:25.048Z"
+    "checkedAt": "2026-08-31T09:17:25.048Z",
+    "heldAt": "2026-10-12T12:43:38.940Z"
   },
   {
     "id": "watchmode:3219141",
@@ -86166,7 +86301,8 @@
         "role": "Line Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:25.372Z"
+    "checkedAt": "2026-08-31T09:17:25.372Z",
+    "heldAt": "2026-10-12T12:43:39.658Z"
   },
   {
     "id": "watchmode:3219381",
@@ -86266,7 +86402,8 @@
         "role": "Line Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:25.688Z"
+    "checkedAt": "2026-08-31T09:17:25.688Z",
+    "heldAt": "2026-10-12T12:43:40.165Z"
   },
   {
     "id": "watchmode:3201244",
@@ -86371,7 +86508,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:26.005Z"
+    "checkedAt": "2026-10-12T12:43:40.614Z"
   },
   {
     "id": "watchmode:3217728",
@@ -86435,7 +86572,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:17:26.327Z"
+    "checkedAt": "2026-10-12T12:43:41.059Z"
   },
   {
     "id": "watchmode:3196288",
@@ -86501,7 +86638,8 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:17:26.663Z"
+    "checkedAt": "2026-08-31T09:17:26.663Z",
+    "heldAt": "2026-10-12T12:43:41.810Z"
   },
   {
     "id": "watchmode:3215642",
@@ -86612,7 +86750,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:26.986Z"
+    "checkedAt": "2026-10-12T12:43:42.421Z"
   },
   {
     "id": "watchmode:3208790",
@@ -86729,7 +86867,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:27.360Z"
+    "checkedAt": "2026-08-31T09:17:27.360Z",
+    "heldAt": "2026-10-12T12:43:43.036Z"
   },
   {
     "id": "watchmode:3208926",
@@ -86840,7 +86979,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:27.726Z"
+    "checkedAt": "2026-08-31T09:17:27.726Z",
+    "heldAt": "2026-10-12T12:43:43.651Z"
   },
   {
     "id": "watchmode:3208230",
@@ -86964,7 +87104,8 @@
         "role": "Production Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:28.090Z"
+    "checkedAt": "2026-08-31T09:17:28.090Z",
+    "heldAt": "2026-10-12T12:43:44.252Z"
   },
   {
     "id": "watchmode:3204309",
@@ -87114,7 +87255,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:28.463Z"
+    "checkedAt": "2026-10-12T12:43:45.075Z"
   },
   {
     "id": "watchmode:3192995",
@@ -87247,7 +87388,7 @@
         "role": "Animation Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:28.841Z"
+    "checkedAt": "2026-10-12T12:43:45.800Z"
   },
   {
     "id": "watchmode:3207833",
@@ -87378,7 +87519,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:29.198Z"
+    "checkedAt": "2026-10-12T12:43:46.380Z"
   },
   {
     "id": "watchmode:3208852",
@@ -87502,7 +87643,8 @@
         "role": "Sound Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:17:29.533Z"
+    "checkedAt": "2026-08-31T09:17:29.533Z",
+    "heldAt": "2026-10-12T12:43:46.864Z"
   },
   {
     "id": "watchmode:3216131",
@@ -87557,7 +87699,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:17:29.848Z"
+    "checkedAt": "2026-10-12T12:43:47.337Z"
   },
   {
     "id": "watchmode:3214392",
@@ -87623,7 +87765,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:17:30.170Z"
+    "checkedAt": "2026-10-12T12:43:48.258Z"
   },
   {
     "id": "watchmode:3212582",
@@ -87706,7 +87848,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:15.258Z"
+    "checkedAt": "2026-10-12T12:44:53.855Z"
   },
   {
     "id": "watchmode:3212375",
@@ -87803,7 +87945,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-08-31T09:18:15.667Z"
+    "checkedAt": "2026-10-12T12:44:54.613Z"
   },
   {
     "id": "watchmode:3207570",
@@ -87915,7 +88057,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:15.983Z"
+    "checkedAt": "2026-08-31T09:18:15.983Z",
+    "heldAt": "2026-10-12T12:44:55.230Z"
   },
   {
     "id": "watchmode:3204596",
@@ -88126,7 +88269,8 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:16.296Z"
+    "checkedAt": "2026-08-31T09:18:16.296Z",
+    "heldAt": "2026-10-12T12:44:55.805Z"
   },
   {
     "id": "watchmode:3200969",
@@ -88224,7 +88368,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:16.614Z"
+    "checkedAt": "2026-08-31T09:18:16.614Z",
+    "heldAt": "2026-10-12T12:44:56.394Z"
   },
   {
     "id": "watchmode:3206109",
@@ -88337,7 +88482,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:16.977Z"
+    "checkedAt": "2026-08-31T09:18:16.977Z",
+    "heldAt": "2026-10-12T12:44:56.897Z"
   },
   {
     "id": "watchmode:3207841",
@@ -88453,7 +88599,8 @@
         "role": "CGI Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:17.338Z"
+    "checkedAt": "2026-08-31T09:18:17.338Z",
+    "heldAt": "2026-10-12T12:44:57.360Z"
   },
   {
     "id": "watchmode:3198133",
@@ -88595,7 +88742,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:17.701Z"
+    "checkedAt": "2026-08-31T09:18:17.701Z",
+    "heldAt": "2026-10-12T12:44:57.834Z"
   },
   {
     "id": "watchmode:3204714",
@@ -88623,12 +88771,6 @@
     "sourceId": "3204714",
     "options": {
       "free": [
-        {
-          "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1971077743",
-          "price": null,
-          "format": "SD"
-        },
         {
           "name": "Amazon MX Player",
           "url": "https://www.mxplayer.in/",
@@ -88710,7 +88852,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:18.061Z"
+    "checkedAt": "2026-10-12T12:44:58.311Z"
   },
   {
     "id": "watchmode:3201928",
@@ -88847,7 +88989,7 @@
         "role": "Assistant Director, Storyboard Artist, Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:18.579Z"
+    "checkedAt": "2026-10-12T12:44:58.988Z"
   },
   {
     "id": "watchmode:3203040",
@@ -88962,7 +89104,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:18.913Z"
+    "checkedAt": "2026-10-12T12:44:59.838Z"
   },
   {
     "id": "watchmode:548506",
@@ -89070,7 +89212,7 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:19.242Z"
+    "checkedAt": "2026-10-12T12:45:00.318Z"
   },
   {
     "id": "watchmode:3204588",
@@ -89169,7 +89311,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:19.558Z"
+    "checkedAt": "2026-08-31T09:18:19.558Z",
+    "heldAt": "2026-10-12T12:45:01.065Z"
   },
   {
     "id": "watchmode:3205013",
@@ -89257,7 +89400,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-08-31T09:18:19.886Z"
+    "checkedAt": "2026-10-12T12:45:01.986Z"
   },
   {
     "id": "watchmode:3202592",
