@@ -2,11 +2,11 @@
  *
  *  Licences begin and end continuously, so a "FREE" badge that is wrong is the
  *  one failure that would undermine the site. But refreshing every title weekly
- *  is not affordable: 1,064 titles against a 2,500 request monthly budget.
+ *  is not affordable: 1,888 titles against a 2,500 request monthly budget.
  *
  *  So this refreshes the titles checked longest ago, up to a budget, and cycles.
- *  At 500 per week the whole catalogue is re-checked roughly fortnightly and the
- *  monthly spend stays near 2,000, leaving headroom for importing new titles.
+ *  At 500 per week the whole catalogue is re-checked about every four weeks and
+ *  the monthly spend is 2,000 to 2,500, which leaves little for importing.
  *
  *  Only /sources/ is fetched — one request per title. Details, cast and trailers
  *  do not change, so re-fetching them would double the cost for nothing.
@@ -74,6 +74,14 @@ function describe(res, message) {
   ].filter(Boolean).join(", ");
 }
 
+/** Quota for the month, straight from the API. /status/ is not billed. */
+async function readQuota() {
+  const res = await fetch(`${BASE}/status/?apiKey=${KEY}`, { signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
+  const status = await res.json().catch(() => null);
+  if (Number.isFinite(status?.quota) && Number.isFinite(status?.quotaUsed)) return { quota: status.quota, used: status.quotaUsed };
+  throw new Error(`/status/ answered ${describe(res, status?.errorMessage || status?.statusMessage || "")}`);
+}
+
 let calls = 0, rateLimitHits = 0;
 async function api(path, attempt = 0) {
   calls++;
@@ -84,9 +92,13 @@ async function api(path, attempt = 0) {
     rateLimitHits++;
     const refused = (why, props) => Object.assign(new Error(`${why}: ${describe(res, message)}`), props);
 
+    // A spent quota is a clean stop and a burst limit is a fault, so do not guess
+    // which from the wording: take it from the headers, or ask.
     const quota = Number(res.headers.get("x-account-quota"));
     const used = Number(res.headers.get("x-account-quota-used"));
-    if (/quota/i.test(message) || (quota > 0 && used >= quota)) throw refused("quota spent", { quotaSpent: true });
+    let spent = quota > 0 && used >= quota;
+    if (!spent && attempt === 0) spent = await readQuota().then((q) => q.used >= q.quota, () => false);
+    if (spent) throw refused("quota spent", { quotaSpent: true });
 
     // Wait as long as the API asks when it says; guess only when it does not.
     const retryAfter = Number(res.headers.get("retry-after"));
@@ -97,6 +109,10 @@ async function api(path, attempt = 0) {
     return api(path, attempt + 1);
   }
   if (body && body.success === false) throw new Error(message || `HTTP ${res.status}`);
+  // An error page or an error object is not "this title has no sources". Read as
+  // one it empties the title's listings, and too few of them to trip the share.
+  if (!res.ok) throw new Error(describe(res, message));
+  if (!Array.isArray(body)) throw new Error(`not a list of sources: ${describe(res, message || JSON.stringify(body)?.slice(0, 80))}`);
   return body;
 }
 
@@ -124,16 +140,13 @@ process.on("SIGINT", () => { release(); process.exit(130); });
  *  refreshing into a spent quota just fails every title. /status/ is not billed. */
 let remaining = Infinity;
 try {
-  const res = await fetch(`${BASE}/status/?apiKey=${KEY}`, { signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
-  const status = await res.json().catch(() => null);
-  if (Number.isFinite(status?.quota) && Number.isFinite(status?.quotaUsed)) {
-    remaining = status.quota - status.quotaUsed;
-    console.log(`quota: ${status.quotaUsed} of ${status.quota} used this month`);
-  } else {
-    // Unknown: fall back to LIMIT, and the failure streak guards the rest.
-    console.warn(`quota unknown, /status/ answered ${describe(res, status?.errorMessage || status?.statusMessage || "")}`);
-  }
-} catch (err) { console.warn(`quota unknown, /status/ failed: ${err.message}`); }
+  const { quota, used } = await readQuota();
+  remaining = quota - used;
+  console.log(`quota: ${used} of ${quota} used this month`);
+} catch (err) {
+  // Unknown: fall back to LIMIT, and the failure streak guards the rest.
+  console.warn(`quota unknown: ${err.message}`);
+}
 
 if (remaining <= 0) {
   console.log("::notice::API quota is spent for this month; skipping the refresh until it resets.");
@@ -235,7 +248,10 @@ console.log(`api requests     ${calls}`);
 console.log(`rate limit waits ${rateLimitHits}`);
 
 if (distrusted) {
-  console.log(`::warning::${emptied.length} of ${hadOptions} titles came back with nothing to watch in ${REGION}. That is the API losing data, not ${emptied.length} licences ending, so those titles kept their listings and will be asked again. Pass --force if it is real.`);
+  const why = hadOptions < MIN_SAMPLE_FOR_SHARE
+    ? "That is too few titles to tell a real removal from the API losing data"
+    : `That is the API losing data, not ${emptied.length} licences ending`;
+  console.log(`::warning::${emptied.length} of ${hadOptions} titles came back with nothing to watch in ${REGION}. ${why}, so those titles kept their listings and will be asked again. Pass --force if it is real.`);
 }
 
 if (DRY) console.log("\n--dry: nothing written");
@@ -247,6 +263,10 @@ else {
 // Running out of quota is expected, not a fault: the same outcome as finding it
 // already spent before starting.
 if (quotaSpent) console.log(`::notice::API quota ran out after ${ok} of ${due.length} titles; the rest wait until it resets.`);
+
+// Failed titles keep their place at the front of the queue, so a title that
+// fails every week should be seen, not buried in a green run.
+if (failed > 0 && !aborted && !quotaSpent) console.log(`::warning::${failed} of ${due.length} titles could not be refreshed and will be tried again next run.`);
 
 // A partial run still exits 0 so CI commits what it got; the ::warning:: line
 // surfaces on the Actions run. Nothing refreshed at all is a failure.
