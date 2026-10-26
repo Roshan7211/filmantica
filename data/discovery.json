@@ -113,7 +113,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:16.293Z"
+    "checkedAt": "2026-10-26T08:26:21.856Z"
   },
   {
     "id": "watchmode:11019936",
@@ -228,7 +228,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:16.748Z"
+    "checkedAt": "2026-10-26T08:26:22.179Z"
   },
   {
     "id": "watchmode:1855581",
@@ -356,7 +356,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:42.799Z"
+    "checkedAt": "2026-10-26T08:26:39.065Z"
   },
   {
     "id": "watchmode:1589918",
@@ -386,7 +386,7 @@
         },
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271661204",
+          "url": "https://www.hotstar.com/in/movies/spider-man-no-way-home/1271661204",
           "price": null,
           "format": "HD"
         },
@@ -510,7 +510,7 @@
         "role": "Supervising Art Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:24.433Z"
+    "checkedAt": "2026-10-26T08:27:02.608Z"
   },
   {
     "id": "watchmode:1840434",
@@ -641,7 +641,7 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:17.515Z"
+    "checkedAt": "2026-10-26T08:26:22.626Z"
   },
   {
     "id": "watchmode:1818690",
@@ -757,7 +757,7 @@
         "role": "Consulting Producer, Unit Production Manager"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:17.984Z"
+    "checkedAt": "2026-10-26T08:26:22.958Z"
   },
   {
     "id": "watchmode:1826919",
@@ -782,13 +782,13 @@
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/disclosure-day/umc.cmc.1i56xrk36gdembwgd2qfll4qi?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A6791439406",
-          "price": 399,
+          "price": 149,
           "format": "SD"
         },
         {
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.56bf57bc-6f3b-4cec-9d30-6ab7b71f977b",
-          "price": 299,
+          "price": 119,
           "format": "SD"
         }
       ],
@@ -885,7 +885,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:18.900Z"
+    "checkedAt": "2026-10-26T08:26:23.425Z"
   },
   {
     "id": "watchmode:1908308",
@@ -1001,7 +1001,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:19.480Z"
+    "checkedAt": "2026-10-26T08:26:23.862Z"
   },
   {
     "id": "watchmode:1950233",
@@ -1117,7 +1117,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:20.118Z"
+    "checkedAt": "2026-10-26T08:26:24.185Z"
   },
   {
     "id": "watchmode:1873959",
@@ -1138,7 +1138,14 @@
     "sourceId": "1873959",
     "options": {
       "free": [],
-      "stream": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.3c1f5309-fd7a-4c32-89f3-f60f5a2f4694",
+          "price": null,
+          "format": "HD"
+        }
+      ],
       "rent": [
         {
           "name": "Amazon",
@@ -1150,7 +1157,7 @@
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/colony/umc.cmc.2o7rihh36draw9h7t5scg0mxk?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A6807043258",
           "price": 149,
-          "format": "HD"
+          "format": "SD"
         }
       ],
       "buy": [
@@ -1246,7 +1253,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:20.602Z"
+    "checkedAt": "2026-10-26T08:26:24.592Z"
   },
   {
     "id": "watchmode:1700278",
@@ -1266,7 +1273,14 @@
     "sourceId": "1700278",
     "options": {
       "free": [],
-      "stream": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.35516acc-91d6-4b38-a5e1-5a4c573d85ed",
+          "price": null,
+          "format": "4K"
+        }
+      ],
       "rent": [],
       "buy": []
     },
@@ -1346,7 +1360,7 @@
         "role": "Executive Producer, Unit Production Manager"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:43.353Z"
+    "checkedAt": "2026-10-26T08:26:39.384Z"
   },
   {
     "id": "watchmode:1611652",
@@ -1481,7 +1495,7 @@
         "role": "Executive Producer, Line Producer, Unit Production Manager"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:21.593Z"
+    "checkedAt": "2026-10-26T08:26:25.051Z"
   },
   {
     "id": "watchmode:1861369",
@@ -1610,7 +1624,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:22.587Z"
+    "checkedAt": "2026-10-26T08:26:25.531Z"
   },
   {
     "id": "watchmode:138100",
@@ -1732,7 +1746,7 @@
         "role": "Aerial Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:31.403Z"
+    "checkedAt": "2026-10-26T08:27:06.512Z"
   },
   {
     "id": "watchmode:1248513",
@@ -1848,7 +1862,7 @@
         "role": "Executive Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:23.202Z"
+    "checkedAt": "2026-10-26T08:26:25.895Z"
   },
   {
     "id": "watchmode:1837124",
@@ -1982,7 +1996,7 @@
         "role": "Second Unit Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:43.769Z"
+    "checkedAt": "2026-10-26T08:26:39.793Z"
   },
   {
     "id": "watchmode:1637385",
@@ -2111,7 +2125,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:23.814Z"
+    "checkedAt": "2026-10-26T08:26:26.345Z"
   },
   {
     "id": "watchmode:1684276",
@@ -2228,7 +2242,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:24.242Z"
+    "checkedAt": "2026-10-26T08:26:26.679Z"
   },
   {
     "id": "watchmode:138019",
@@ -2344,7 +2358,7 @@
         "role": "Supervising Art Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:44.265Z"
+    "checkedAt": "2026-10-26T08:26:40.262Z"
   },
   {
     "id": "watchmode:1357316",
@@ -2386,7 +2400,13 @@
         },
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271667616",
+          "url": "https://www.hotstar.com/in/movies/spider-man-homecoming/1271667616",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Sony Pictures Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.b8ae7ac5-df1a-918c-02be-56fea135a055",
           "price": null,
           "format": "HD"
         }
@@ -2415,7 +2435,7 @@
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/spider-man-homecoming/umc.cmc.2sbgqu6gpbevxnjjhfd4ahuvn?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1275267966",
-          "price": 199,
+          "price": 149,
           "format": "SD"
         }
       ]
@@ -2504,7 +2524,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:34.420Z"
+    "checkedAt": "2026-10-26T08:27:08.272Z"
   },
   {
     "id": "watchmode:1418767",
@@ -2732,7 +2752,7 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:24.705Z"
+    "checkedAt": "2026-10-26T08:26:27.027Z"
   },
   {
     "id": "watchmode:1702492",
@@ -2860,7 +2880,7 @@
         "role": "Supervising Art Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:25.810Z"
+    "checkedAt": "2026-10-26T08:26:27.495Z"
   },
   {
     "id": "watchmode:1543522",
@@ -3009,7 +3029,7 @@
         "role": "Producer, Writer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:08.359Z"
+    "checkedAt": "2026-10-26T08:26:54.690Z"
   },
   {
     "id": "watchmode:1377874",
@@ -3131,7 +3151,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:56.445Z"
+    "checkedAt": "2026-10-26T08:27:21.352Z"
   },
   {
     "id": "watchmode:11123837",
@@ -3234,7 +3254,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:26.240Z"
+    "checkedAt": "2026-10-26T08:26:27.815Z"
   },
   {
     "id": "watchmode:1785478",
@@ -3352,7 +3372,7 @@
         "role": "Associate Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:44.840Z"
+    "checkedAt": "2026-10-26T08:26:40.729Z"
   },
   {
     "id": "watchmode:1450054",
@@ -3474,7 +3494,7 @@
         "role": "Aerial Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:27.417Z"
+    "checkedAt": "2026-10-26T08:27:04.495Z"
   },
   {
     "id": "watchmode:1885279",
@@ -3612,7 +3632,7 @@
         "role": "Co-Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:26.706Z"
+    "checkedAt": "2026-10-26T08:26:28.276Z"
   },
   {
     "id": "watchmode:1184713",
@@ -3754,7 +3774,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:48.916Z"
+    "checkedAt": "2026-10-26T08:27:16.504Z"
   },
   {
     "id": "watchmode:1357304",
@@ -3998,7 +4018,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:27.366Z"
+    "checkedAt": "2026-10-26T08:26:28.593Z"
   },
   {
     "id": "watchmode:1816442",
@@ -4127,7 +4147,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:45.613Z"
+    "checkedAt": "2026-10-26T08:26:41.160Z"
   },
   {
     "id": "watchmode:1240560",
@@ -4275,7 +4295,8 @@
         "role": "Second Unit Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:45.488Z"
+    "checkedAt": "2026-10-02T06:53:45.488Z",
+    "heldAt": "2026-10-26T08:27:14.763Z"
   },
   {
     "id": "watchmode:1386160",
@@ -4417,7 +4438,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:54:07.004Z"
+    "checkedAt": "2026-10-26T08:27:27.392Z"
   },
   {
     "id": "watchmode:1823183",
@@ -4533,7 +4554,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:28.121Z"
+    "checkedAt": "2026-10-26T08:26:29.040Z"
   },
   {
     "id": "watchmode:1394258",
@@ -4790,7 +4811,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:28.620Z"
+    "checkedAt": "2026-10-26T08:26:29.375Z"
   },
   {
     "id": "watchmode:1357314",
@@ -4854,7 +4875,7 @@
           "name": "Zee5",
           "url": "https://www.zee5.com/movies/details/watch-spider-man-far-from-home-2019-full-hd-movie-online-on-zee5/0-0-1z5210758",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         },
         {
           "name": "AppleTV",
@@ -4873,8 +4894,8 @@
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/spider-man-far-from-home/umc.cmc.1xnsjqmhn8a93iy2vgj36w3d1?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1478072903",
-          "price": 199,
-          "format": "SD"
+          "price": 99,
+          "format": "HD"
         }
       ]
     },
@@ -4962,7 +4983,7 @@
         "role": "Stunt Coordinator, Second Unit Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:28.330Z"
+    "checkedAt": "2026-10-26T08:27:05.016Z"
   },
   {
     "id": "watchmode:1182444",
@@ -5104,7 +5125,7 @@
         "role": "Aerial Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:54:01.520Z"
+    "checkedAt": "2026-10-26T08:27:24.049Z"
   },
   {
     "id": "watchmode:1994067",
@@ -5203,7 +5224,7 @@
         "role": "Director, Writer, Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:29.035Z"
+    "checkedAt": "2026-10-26T08:26:29.692Z"
   },
   {
     "id": "watchmode:1892965",
@@ -5321,7 +5342,7 @@
         "role": "Post Production Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:29.657Z"
+    "checkedAt": "2026-10-26T08:26:30.146Z"
   },
   {
     "id": "watchmode:1662726",
@@ -5450,7 +5471,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:30.275Z"
+    "checkedAt": "2026-10-26T08:26:30.645Z"
   },
   {
     "id": "watchmode:138099",
@@ -5566,7 +5587,8 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:46.028Z"
+    "checkedAt": "2026-10-02T06:53:46.028Z",
+    "heldAt": "2026-10-26T08:27:15.183Z"
   },
   {
     "id": "watchmode:1376729",
@@ -5611,6 +5633,12 @@
           "url": "https://www.netflix.com/title/70208599",
           "price": null,
           "format": "4K"
+        },
+        {
+          "name": "Sony Pictures Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1ea9f6b8-151d-5fe1-5f3b-c897b6dd14cf",
+          "price": null,
+          "format": "HD"
         }
       ],
       "rent": [
@@ -5618,7 +5646,7 @@
           "name": "Zee5",
           "url": "https://www.zee5.com/movies/details/watch-the-amazing-spider-man-full-hd-movie-online-on-zee5/0-0-1z5210148",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         },
         {
           "name": "AppleTV",
@@ -5630,7 +5658,7 @@
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1ea9f6b8-151d-5fe1-5f3b-c897b6dd14cf",
           "price": 99,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "buy": [
@@ -5726,7 +5754,7 @@
         "role": "Supervising Art Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:57.304Z"
+    "checkedAt": "2026-10-26T08:27:21.860Z"
   },
   {
     "id": "watchmode:1832369",
@@ -5854,7 +5882,7 @@
         "role": "First Assistant Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:30.795Z"
+    "checkedAt": "2026-10-26T08:26:31.114Z"
   },
   {
     "id": "watchmode:1593277",
@@ -5970,7 +5998,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:46.244Z"
+    "checkedAt": "2026-10-26T08:26:41.562Z"
   },
   {
     "id": "watchmode:1357317",
@@ -6016,6 +6044,12 @@
           "url": "https://www.hotstar.com/in/1271668892",
           "price": null,
           "format": "HD"
+        },
+        {
+          "name": "Sony Pictures Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8cb3d0d2-8276-69ba-e66b-f200871aacf7",
+          "price": null,
+          "format": "HD"
         }
       ],
       "rent": [
@@ -6023,19 +6057,19 @@
           "name": "Zee5",
           "url": "https://www.zee5.com/movies/details/watch-spider-man-into-the-spider-verse-full-hd-movie-online-on-zee5/0-0-1z5210769",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         },
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/spider-man-into-the-spider-verse/umc.cmc.4a2ypxddplsdsahwxrc5fkz4x?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1454080844",
           "price": 129,
-          "format": "SD"
+          "format": "HD"
         },
         {
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8cb3d0d2-8276-69ba-e66b-f200871aacf7",
           "price": 99,
-          "format": "SD"
+          "format": "4K"
         }
       ],
       "buy": [
@@ -6131,7 +6165,7 @@
         "role": "Screenplay, Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:32.168Z"
+    "checkedAt": "2026-10-26T08:27:06.988Z"
   },
   {
     "id": "watchmode:1709598",
@@ -6240,7 +6274,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:46.752Z"
+    "checkedAt": "2026-10-26T08:26:41.905Z"
   },
   {
     "id": "watchmode:1406847",
@@ -6626,7 +6660,7 @@
         "role": "First Assistant Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:31.207Z"
+    "checkedAt": "2026-10-26T08:26:31.430Z"
   },
   {
     "id": "watchmode:1884698",
@@ -6734,7 +6768,7 @@
         "role": "Characters, Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:47.469Z"
+    "checkedAt": "2026-10-26T08:26:42.354Z"
   },
   {
     "id": "watchmode:1653815",
@@ -6760,6 +6794,12 @@
           "url": "https://www.netflix.com/title/81691510",
           "price": null,
           "format": "4K"
+        },
+        {
+          "name": "Sony Pictures Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.b212e04c-cb7a-4e79-8382-c0cec081fe44",
+          "price": null,
+          "format": "HD"
         }
       ],
       "rent": [
@@ -6875,7 +6915,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:09.126Z"
+    "checkedAt": "2026-10-26T08:26:55.149Z"
   },
   {
     "id": "watchmode:1643798",
@@ -7016,7 +7056,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:10.510Z"
+    "checkedAt": "2026-10-26T08:26:55.632Z"
   },
   {
     "id": "watchmode:1901214",
@@ -7133,7 +7173,8 @@
         "role": "Screenplay, Story"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:31.800Z"
+    "checkedAt": "2026-10-02T06:52:31.800Z",
+    "heldAt": "2026-10-26T08:26:31.749Z"
   },
   {
     "id": "watchmode:1784103",
@@ -7262,7 +7303,7 @@
         "role": "Casting Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:48.456Z"
+    "checkedAt": "2026-10-26T08:26:42.765Z"
   },
   {
     "id": "watchmode:1738880",
@@ -7379,7 +7420,8 @@
         "role": "Executive Producer, Unit Production Manager"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:32.427Z"
+    "checkedAt": "2026-10-02T06:52:32.427Z",
+    "heldAt": "2026-10-26T08:26:32.146Z"
   },
   {
     "id": "watchmode:166939",
@@ -7495,7 +7537,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:39.521Z"
+    "checkedAt": "2026-10-26T08:27:11.496Z"
   },
   {
     "id": "watchmode:1376730",
@@ -7525,7 +7567,7 @@
         },
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271644422",
+          "url": "https://www.hotstar.com/in/movies/the-amazing-spider-man-2/1271644422",
           "price": null,
           "format": "HD"
         },
@@ -7540,6 +7582,12 @@
           "url": "https://www.netflix.com/title/70293702",
           "price": null,
           "format": "4K"
+        },
+        {
+          "name": "Sony Pictures Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.aea9f774-1745-1035-3a21-2564dfd57ba3",
+          "price": null,
+          "format": "HD"
         }
       ],
       "rent": [
@@ -7559,7 +7607,7 @@
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.aea9f774-1745-1035-3a21-2564dfd57ba3",
           "price": 99,
-          "format": "HD"
+          "format": "SD"
         }
       ],
       "buy": [
@@ -7655,7 +7703,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:49.529Z"
+    "checkedAt": "2026-10-26T08:27:17.008Z"
   },
   {
     "id": "watchmode:1404363",
@@ -8091,7 +8139,7 @@
         "role": "Supervising Art Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:16.224Z"
+    "checkedAt": "2026-10-26T08:26:58.591Z"
   },
   {
     "id": "watchmode:1707657",
@@ -8206,7 +8254,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:32.863Z"
+    "checkedAt": "2026-10-26T08:26:32.502Z"
   },
   {
     "id": "watchmode:1749638",
@@ -8353,7 +8401,7 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:00.786Z"
+    "checkedAt": "2026-10-26T08:26:50.242Z"
   },
   {
     "id": "watchmode:178503",
@@ -8476,7 +8524,7 @@
         "role": "Associate Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:35.100Z"
+    "checkedAt": "2026-10-26T08:27:08.638Z"
   },
   {
     "id": "watchmode:1295258",
@@ -8592,7 +8640,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:28.950Z"
+    "checkedAt": "2026-10-26T08:27:05.393Z"
   },
   {
     "id": "watchmode:1685606",
@@ -8708,7 +8756,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:48.948Z"
+    "checkedAt": "2026-10-26T08:26:43.242Z"
   },
   {
     "id": "watchmode:1386163",
@@ -8851,7 +8899,7 @@
         "role": "Supervising Art Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:58.132Z"
+    "checkedAt": "2026-10-26T08:27:22.335Z"
   },
   {
     "id": "watchmode:1186051",
@@ -8993,6 +9041,12 @@
           "url": "https://moviesandtv.myvi.in/movie/insidious-chapter-3",
           "price": null,
           "format": "SD"
+        },
+        {
+          "name": "Sony Pictures Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.0aa9f732-6115-fdb9-6764-c9fed90226ea",
+          "price": null,
+          "format": "HD"
         }
       ],
       "rent": [
@@ -9013,7 +9067,7 @@
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/insidious-chapter-3/umc.cmc.1xjippk4lq4gffsxyucnn5b5b?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1023994260",
-          "price": 199,
+          "price": 149,
           "format": "SD"
         }
       ]
@@ -9102,7 +9156,7 @@
         "role": "Co-Producer, Unit Production Manager"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:47.069Z"
+    "checkedAt": "2026-10-26T08:27:15.632Z"
   },
   {
     "id": "watchmode:1404362",
@@ -9276,12 +9330,24 @@
           "url": "https://www.sonyliv.com/movies/insidious-the-last-key-1000214645",
           "price": null,
           "format": "HD"
+        },
+        {
+          "name": "Sony Pictures Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.d4b02450-3abd-2645-24f9-fc5dc08c8db4",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/movies/insidious-the-last-key/1271710905",
+          "price": null,
+          "format": "HD"
         }
       ],
       "rent": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/insidious-the-last-key/umc.cmc.4gosbjb9erx6np1zvn684pfv5?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1354311403",
+          "url": "https://tv.apple.com/in/movie/insidious-the-last-key/umc.cmc.4gosbjb9erx6np1zvn684pfv5?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1354311403",
           "price": 129,
           "format": "SD"
         },
@@ -9295,8 +9361,8 @@
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/insidious-the-last-key/umc.cmc.4gosbjb9erx6np1zvn684pfv5?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1354311403",
-          "price": 199,
+          "url": "https://tv.apple.com/in/movie/insidious-the-last-key/umc.cmc.4gosbjb9erx6np1zvn684pfv5?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1354311403",
+          "price": 149,
           "format": "SD"
         }
       ]
@@ -9385,7 +9451,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:32.804Z"
+    "checkedAt": "2026-10-26T08:27:07.419Z"
   },
   {
     "id": "watchmode:11089038",
@@ -9499,7 +9565,7 @@
         "role": "Director, Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:33.260Z"
+    "checkedAt": "2026-10-26T08:26:32.815Z"
   },
   {
     "id": "watchmode:1805677",
@@ -9615,7 +9681,8 @@
         "role": "Screenplay"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:33.719Z"
+    "checkedAt": "2026-10-02T06:52:33.719Z",
+    "heldAt": "2026-10-26T08:26:33.140Z"
   },
   {
     "id": "watchmode:1437213",
@@ -9762,7 +9829,7 @@
         "role": "Second Unit Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:17.278Z"
+    "checkedAt": "2026-10-26T08:26:59.078Z"
   },
   {
     "id": "watchmode:1703330",
@@ -9898,7 +9965,7 @@
         "role": "Executive Producer, Unit Production Manager"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:49.621Z"
+    "checkedAt": "2026-10-26T08:26:43.753Z"
   },
   {
     "id": "watchmode:1566628",
@@ -10040,7 +10107,7 @@
         "role": "Supervising Art Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:50.235Z"
+    "checkedAt": "2026-10-26T08:26:44.249Z"
   },
   {
     "id": "watchmode:1438466",
@@ -10557,7 +10624,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:51.004Z"
+    "checkedAt": "2026-10-26T08:26:44.706Z"
   },
   {
     "id": "watchmode:1560295",
@@ -10578,7 +10645,20 @@
     "sourceId": "1560295",
     "options": {
       "free": [],
-      "stream": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/movies/doctor-strange-in-the-multiverse-of-madness/1260103761",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/doctor-strange-in-the-multiverse-of-madness",
+          "price": null,
+          "format": "SD"
+        }
+      ],
       "rent": [],
       "buy": []
     },
@@ -10666,7 +10746,7 @@
         "role": "Visual Effects Supervisor, Second Unit Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:17.822Z"
+    "checkedAt": "2026-10-26T08:26:59.485Z"
   },
   {
     "id": "watchmode:1652190",
@@ -10801,7 +10881,7 @@
         "role": "Screenplay, Director, Producer, Story"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:01.909Z"
+    "checkedAt": "2026-10-26T08:26:50.739Z"
   },
   {
     "id": "watchmode:1428374",
@@ -11072,7 +11152,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:59.999Z"
+    "checkedAt": "2026-10-26T08:27:23.175Z"
   },
   {
     "id": "watchmode:1827938",
@@ -11208,7 +11288,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:34.474Z"
+    "checkedAt": "2026-10-26T08:26:33.603Z"
   },
   {
     "id": "watchmode:1441335",
@@ -11466,7 +11546,20 @@
     "sourceId": "1184166",
     "options": {
       "free": [],
-      "stream": [],
+      "stream": [
+        {
+          "name": "Sony LIV",
+          "url": "https://www.sonyliv.com/movies/insidious-chapter-2-1000007747",
+          "price": null,
+          "format": "SD"
+        },
+        {
+          "name": "Sony Pictures Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.08ae6606-f537-c2a4-002c-5b17f7254ad7",
+          "price": null,
+          "format": "HD"
+        }
+      ],
       "rent": [
         {
           "name": "AppleTV",
@@ -11485,7 +11578,7 @@
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/insidious-chapter-2/umc.cmc.6nwnyfxojggw45cv3u8aa2pg?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A757640409",
-          "price": 199,
+          "price": 149,
           "format": "SD"
         }
       ]
@@ -11574,7 +11667,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:54.135Z"
+    "checkedAt": "2026-10-26T08:27:19.768Z"
   },
   {
     "id": "watchmode:1159473",
@@ -12313,7 +12406,8 @@
         "role": "Visual Effects Supervisor, Second Unit Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:18.403Z"
+    "checkedAt": "2026-10-02T06:53:18.403Z",
+    "heldAt": "2026-10-26T08:26:59.840Z"
   },
   {
     "id": "watchmode:1644435",
@@ -12448,7 +12542,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:02.671Z"
+    "checkedAt": "2026-10-26T08:26:51.262Z"
   },
   {
     "id": "watchmode:1893263",
@@ -12565,7 +12659,7 @@
         "role": "Screenplay"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:51.522Z"
+    "checkedAt": "2026-10-26T08:26:45.033Z"
   },
   {
     "id": "watchmode:1397223",
@@ -12599,23 +12693,16 @@
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/the-hobbit-the-battle-of-the-five-armies/umc.cmc.75r81cmpvfyfmylysshch0mef?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A942696468",
           "price": 129,
-          "format": "SD"
+          "format": "HD"
         },
         {
           "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.36a9f6ce-5fb5-389b-e172-da7a4d4e1865",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f6bafecb-8985-daee-c5e1-709855e9a2a0",
           "price": 119,
-          "format": "SD"
+          "format": "4K"
         }
       ],
-      "buy": [
-        {
-          "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/the-hobbit-the-battle-of-the-five-armies/umc.cmc.75r81cmpvfyfmylysshch0mef?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A942696468",
-          "price": 149,
-          "format": "SD"
-        }
-      ]
+      "buy": []
     },
     "updatedAt": "2026-08-30T13:45:57.533Z",
     "titleType": "movie",
@@ -12701,7 +12788,7 @@
         "role": "Screenplay"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:50.280Z"
+    "checkedAt": "2026-10-26T08:27:17.361Z"
   },
   {
     "id": "watchmode:138014",
@@ -12817,7 +12904,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:54:04.989Z"
+    "checkedAt": "2026-10-26T08:27:26.096Z"
   },
   {
     "id": "watchmode:1159474",
@@ -12952,7 +13039,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:54:02.432Z"
+    "checkedAt": "2026-10-26T08:27:24.525Z"
   },
   {
     "id": "watchmode:1395561",
@@ -13475,7 +13562,7 @@
         "role": "Director, Writer, Executive Producer, Editor"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:35.488Z"
+    "checkedAt": "2026-10-26T08:26:34.072Z"
   },
   {
     "id": "watchmode:1496273",
@@ -13616,7 +13703,7 @@
         "role": "Screenplay"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:25.019Z"
+    "checkedAt": "2026-10-26T08:27:03.160Z"
   },
   {
     "id": "watchmode:1837570",
@@ -13744,7 +13831,7 @@
         "role": "Screenplay, Story"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:52.016Z"
+    "checkedAt": "2026-10-26T08:26:45.474Z"
   },
   {
     "id": "watchmode:1467276",
@@ -13874,7 +13961,7 @@
         "role": "Line Producer, Unit Production Manager"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:50.769Z"
+    "checkedAt": "2026-10-26T08:27:17.749Z"
   },
   {
     "id": "watchmode:1384594",
@@ -14015,7 +14102,8 @@
         "role": "Consulting Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:54.751Z"
+    "checkedAt": "2026-10-02T06:53:54.751Z",
+    "heldAt": "2026-10-26T08:27:20.203Z"
   },
   {
     "id": "watchmode:150807",
@@ -14133,7 +14221,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:51.385Z"
+    "checkedAt": "2026-10-02T06:53:51.385Z",
+    "heldAt": "2026-10-26T08:27:18.102Z"
   },
   {
     "id": "watchmode:1716317",
@@ -14249,7 +14338,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:11.110Z"
+    "checkedAt": "2026-10-26T08:26:55.949Z"
   },
   {
     "id": "watchmode:1394267",
@@ -14533,7 +14622,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:52.871Z"
+    "checkedAt": "2026-10-26T08:26:45.945Z"
   },
   {
     "id": "watchmode:1159479",
@@ -14944,7 +15033,7 @@
       "stream": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1770015395",
+          "url": "https://www.hotstar.com/in/movies/ice-age-collision-course/1770015395",
           "price": null,
           "format": "4K"
         }
@@ -15036,7 +15125,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:40.295Z"
+    "checkedAt": "2026-10-26T08:27:11.953Z"
   },
   {
     "id": "watchmode:1546856",
@@ -15174,7 +15263,7 @@
         "role": "Co-Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:11.570Z"
+    "checkedAt": "2026-10-26T08:26:56.434Z"
   },
   {
     "id": "watchmode:1193690",
@@ -15310,7 +15399,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:29.865Z"
+    "checkedAt": "2026-10-02T06:53:29.865Z",
+    "heldAt": "2026-10-26T08:27:05.777Z"
   },
   {
     "id": "watchmode:1806067",
@@ -15425,7 +15515,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:36.330Z"
+    "checkedAt": "2026-10-26T08:26:34.536Z"
   },
   {
     "id": "watchmode:1130466",
@@ -15567,7 +15657,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:12.200Z"
+    "checkedAt": "2026-10-26T08:26:56.927Z"
   },
   {
     "id": "watchmode:1346023",
@@ -15853,7 +15943,7 @@
         "role": "Unit Production Manager, Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:53.614Z"
+    "checkedAt": "2026-10-26T08:26:46.405Z"
   },
   {
     "id": "watchmode:1532981",
@@ -15995,7 +16085,7 @@
         "role": "Supervising Art Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:19.117Z"
+    "checkedAt": "2026-10-26T08:27:00.342Z"
   },
   {
     "id": "watchmode:1773066",
@@ -16131,7 +16221,7 @@
         "role": "Animation Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:54.096Z"
+    "checkedAt": "2026-10-26T08:26:46.753Z"
   },
   {
     "id": "watchmode:1692869",
@@ -16248,7 +16338,7 @@
         "role": "Post Production Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:03.151Z"
+    "checkedAt": "2026-10-26T08:26:51.647Z"
   },
   {
     "id": "watchmode:1460254",
@@ -17111,7 +17201,7 @@
         "role": "Executive Producer, Unit Production Manager"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:36.750Z"
+    "checkedAt": "2026-10-26T08:26:34.851Z"
   },
   {
     "id": "watchmode:1842343",
@@ -17226,7 +17316,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:37.332Z"
+    "checkedAt": "2026-10-26T08:26:35.177Z"
   },
   {
     "id": "watchmode:1783110",
@@ -17368,7 +17458,7 @@
         "role": "Co-Producer, Unit Production Manager"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:55.001Z"
+    "checkedAt": "2026-10-26T08:26:47.205Z"
   },
   {
     "id": "watchmode:1832786",
@@ -17498,7 +17588,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:55.988Z"
+    "checkedAt": "2026-10-26T08:26:47.656Z"
   },
   {
     "id": "watchmode:1529898",
@@ -17650,7 +17740,7 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:03.752Z"
+    "checkedAt": "2026-10-26T08:26:52.108Z"
   },
   {
     "id": "watchmode:194187",
@@ -17759,7 +17849,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:40.892Z"
+    "checkedAt": "2026-10-26T08:27:12.308Z"
   },
   {
     "id": "watchmode:1431651",
@@ -17875,7 +17965,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:55.328Z"
+    "checkedAt": "2026-10-02T06:53:55.328Z",
+    "heldAt": "2026-10-26T08:27:20.535Z"
   },
   {
     "id": "watchmode:1789097",
@@ -17993,7 +18084,7 @@
         "role": "Executive Music Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:04.304Z"
+    "checkedAt": "2026-10-26T08:26:52.471Z"
   },
   {
     "id": "watchmode:1132763",
@@ -18122,7 +18213,7 @@
         "role": "First Assistant Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:48.122Z"
+    "checkedAt": "2026-10-26T08:27:16.017Z"
   },
   {
     "id": "watchmode:1142357",
@@ -18245,7 +18336,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:51.985Z"
+    "checkedAt": "2026-10-26T08:27:18.570Z"
   },
   {
     "id": "watchmode:153801",
@@ -18274,7 +18365,7 @@
         },
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271643831",
+          "url": "https://www.hotstar.com/in/movies/blade-runner-2049/1271643831",
           "price": null,
           "format": "HD"
         },
@@ -18398,7 +18489,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:35.851Z"
+    "checkedAt": "2026-10-26T08:27:09.112Z"
   },
   {
     "id": "watchmode:1438468",
@@ -18514,7 +18605,7 @@
         "role": "Director, Story"
       }
     ],
-    "checkedAt": "2026-10-02T06:54:03.051Z"
+    "checkedAt": "2026-10-26T08:27:24.898Z"
   },
   {
     "id": "watchmode:1431644",
@@ -18630,7 +18721,8 @@
         "role": "Aerial Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:54:00.463Z"
+    "checkedAt": "2026-10-02T06:54:00.463Z",
+    "heldAt": "2026-10-26T08:27:23.512Z"
   },
   {
     "id": "watchmode:1186053",
@@ -18746,7 +18838,7 @@
         "role": "Director, Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:54:03.542Z"
+    "checkedAt": "2026-10-26T08:27:25.269Z"
   },
   {
     "id": "watchmode:1183315",
@@ -18887,7 +18979,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:54:05.523Z"
+    "checkedAt": "2026-10-26T08:27:26.558Z"
   },
   {
     "id": "watchmode:1133771",
@@ -19138,7 +19230,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:05.183Z"
+    "checkedAt": "2026-10-26T08:26:52.940Z"
   },
   {
     "id": "watchmode:1359293",
@@ -19365,7 +19457,8 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:37.851Z"
+    "checkedAt": "2026-10-02T06:52:37.851Z",
+    "heldAt": "2026-10-26T08:26:35.491Z"
   },
   {
     "id": "watchmode:1579870",
@@ -19494,7 +19587,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:13.582Z"
+    "checkedAt": "2026-10-26T08:26:57.393Z"
   },
   {
     "id": "watchmode:1504520",
@@ -19636,7 +19729,8 @@
         "role": "Executive Producer, Unit Production Manager"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:20.047Z"
+    "checkedAt": "2026-10-02T06:53:20.047Z",
+    "heldAt": "2026-10-26T08:27:00.720Z"
   },
   {
     "id": "watchmode:1502569",
@@ -19667,15 +19761,15 @@
       "rent": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/now-you-see-me-now-you-dont/umc.cmc.5z3nsn27dd7g6o6247wfo0zz0?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1852429872",
+          "url": "https://tv.apple.com/in/movie/now-you-see-me-now-you-dont/umc.cmc.5z3nsn27dd7g6o6247wfo0zz0?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1852429872",
           "price": 99,
-          "format": "SD"
+          "format": "4K"
         }
       ],
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/now-you-see-me-now-you-dont/umc.cmc.5z3nsn27dd7g6o6247wfo0zz0?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1852429872",
+          "url": "https://tv.apple.com/in/movie/now-you-see-me-now-you-dont/umc.cmc.5z3nsn27dd7g6o6247wfo0zz0?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1852429872",
           "price": 699,
           "format": "4K"
         }
@@ -19765,7 +19859,7 @@
         "role": "Second Unit Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:56.686Z"
+    "checkedAt": "2026-10-26T08:26:48.088Z"
   },
   {
     "id": "watchmode:1481113",
@@ -19888,7 +19982,8 @@
         "role": "Associate Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:41.540Z"
+    "checkedAt": "2026-10-02T06:53:41.540Z",
+    "heldAt": "2026-10-26T08:27:12.668Z"
   },
   {
     "id": "watchmode:1156334",
@@ -20004,7 +20099,7 @@
         "role": "Second Unit Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:42.767Z"
+    "checkedAt": "2026-10-26T08:27:13.131Z"
   },
   {
     "id": "watchmode:1154249",
@@ -20120,7 +20215,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:36.402Z"
+    "checkedAt": "2026-10-02T06:53:36.402Z",
+    "heldAt": "2026-10-26T08:27:09.451Z"
   },
   {
     "id": "watchmode:1141228",
@@ -20237,7 +20333,8 @@
         "role": "Associate Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:55.978Z"
+    "checkedAt": "2026-10-02T06:53:55.978Z",
+    "heldAt": "2026-10-26T08:27:20.872Z"
   },
   {
     "id": "watchmode:1561260",
@@ -20373,7 +20470,8 @@
         "role": "Executive Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:14.504Z"
+    "checkedAt": "2026-10-02T06:53:14.504Z",
+    "heldAt": "2026-10-26T08:26:57.764Z"
   },
   {
     "id": "watchmode:1477459",
@@ -20501,7 +20599,7 @@
         "role": "Animation Director, Key Animation"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:43.697Z"
+    "checkedAt": "2026-10-26T08:27:13.561Z"
   },
   {
     "id": "watchmode:1451609",
@@ -20624,7 +20722,7 @@
         "role": "Lighting Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:54:06.422Z"
+    "checkedAt": "2026-10-26T08:27:26.911Z"
   },
   {
     "id": "watchmode:1168155",
@@ -20856,7 +20954,7 @@
         "role": "Writer, Creator"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:38.254Z"
+    "checkedAt": "2026-10-26T08:26:35.817Z"
   },
   {
     "id": "watchmode:1255878",
@@ -20942,7 +21040,8 @@
         "role": "Music Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:44.305Z"
+    "checkedAt": "2026-10-02T06:53:44.305Z",
+    "heldAt": "2026-10-26T08:27:13.909Z"
   },
   {
     "id": "watchmode:1840687",
@@ -20974,7 +21073,7 @@
         {
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2bcfdcd0-0738-465a-a24d-94f7af946b13",
-          "price": 149,
+          "price": 120,
           "format": "SD"
         },
         {
@@ -21077,7 +21176,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:38.856Z"
+    "checkedAt": "2026-10-26T08:26:36.305Z"
   },
   {
     "id": "watchmode:1491945",
@@ -21193,7 +21292,8 @@
         "role": "First Assistant Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:20.664Z"
+    "checkedAt": "2026-10-02T06:53:20.664Z",
+    "heldAt": "2026-10-26T08:27:01.090Z"
   },
   {
     "id": "watchmode:1581143",
@@ -21472,7 +21572,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:15.731Z"
+    "checkedAt": "2026-10-02T06:53:15.731Z",
+    "heldAt": "2026-10-26T08:26:58.202Z"
   },
   {
     "id": "watchmode:1195869",
@@ -21609,7 +21710,7 @@
         "role": "Second Unit Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:23.415Z"
+    "checkedAt": "2026-10-26T08:27:01.584Z"
   },
   {
     "id": "watchmode:1406902",
@@ -21726,7 +21827,8 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:52.906Z"
+    "checkedAt": "2026-10-02T06:53:52.906Z",
+    "heldAt": "2026-10-26T08:27:18.953Z"
   },
   {
     "id": "watchmode:1359310",
@@ -21842,7 +21944,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:36.945Z"
+    "checkedAt": "2026-10-02T06:53:36.945Z",
+    "heldAt": "2026-10-26T08:27:09.807Z"
   },
   {
     "id": "watchmode:194188",
@@ -21958,7 +22061,8 @@
         "role": "Aerial Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:33.552Z"
+    "checkedAt": "2026-10-02T06:53:33.552Z",
+    "heldAt": "2026-10-26T08:27:07.776Z"
   },
   {
     "id": "watchmode:1316707",
@@ -22320,7 +22424,7 @@
         "role": "Producer, Casting"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:37.550Z"
+    "checkedAt": "2026-10-26T08:27:10.170Z"
   },
   {
     "id": "watchmode:1334825",
@@ -22693,7 +22797,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:39.481Z"
+    "checkedAt": "2026-10-26T08:26:36.617Z"
   },
   {
     "id": "watchmode:1971964",
@@ -22937,7 +23041,7 @@
         "role": "Executive Co-Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:39.878Z"
+    "checkedAt": "2026-10-26T08:26:36.955Z"
   },
   {
     "id": "watchmode:1583724",
@@ -23053,7 +23157,7 @@
         "role": "Writer, Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:40.323Z"
+    "checkedAt": "2026-10-26T08:26:37.277Z"
   },
   {
     "id": "watchmode:1892952",
@@ -23188,7 +23292,7 @@
         "role": "Writer, Director, Producer, Original Music Composer, Musician"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:57.914Z"
+    "checkedAt": "2026-10-26T08:26:48.552Z"
   },
   {
     "id": "watchmode:1564661",
@@ -23311,7 +23415,7 @@
         "role": "Original Film Writer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:05.636Z"
+    "checkedAt": "2026-10-26T08:26:53.295Z"
   },
   {
     "id": "watchmode:1106885",
@@ -23427,7 +23531,8 @@
         "role": "Stunts, Second Unit Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:44.919Z"
+    "checkedAt": "2026-10-02T06:53:44.919Z",
+    "heldAt": "2026-10-26T08:27:14.322Z"
   },
   {
     "id": "watchmode:1187106",
@@ -23556,7 +23661,7 @@
         "role": "\"B\" Camera Operator, Second Unit Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:38.475Z"
+    "checkedAt": "2026-10-26T08:27:10.645Z"
   },
   {
     "id": "watchmode:1276287",
@@ -23875,7 +23980,7 @@
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/sonic-the-hedgehog-3/umc.cmc.1vqcpgao6czc6edcbmh61odoj?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1783359573",
-          "price": 149,
+          "price": 399,
           "format": "SD"
         }
       ]
@@ -23964,7 +24069,7 @@
         "role": "Second Unit Director, Second Unit Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:06.824Z"
+    "checkedAt": "2026-10-26T08:26:53.817Z"
   },
   {
     "id": "watchmode:1153877",
@@ -24104,7 +24209,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-10-02T06:54:04.275Z"
+    "checkedAt": "2026-10-26T08:27:25.719Z"
   },
   {
     "id": "watchmode:1314747",
@@ -24494,7 +24599,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:41.325Z"
+    "checkedAt": "2026-10-26T08:26:37.799Z"
   },
   {
     "id": "watchmode:1897521",
@@ -24609,7 +24714,7 @@
         "role": "Screenplay"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:58.385Z"
+    "checkedAt": "2026-10-26T08:26:48.879Z"
   },
   {
     "id": "watchmode:1998698",
@@ -24725,7 +24830,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:41.788Z"
+    "checkedAt": "2026-10-26T08:26:38.114Z"
   },
   {
     "id": "watchmode:1841518",
@@ -24860,7 +24965,7 @@
         "role": "Post Production Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:59.145Z"
+    "checkedAt": "2026-10-26T08:26:49.333Z"
   },
   {
     "id": "watchmode:1534152",
@@ -24976,7 +25081,8 @@
         "role": "Executive Producer, First Assistant Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:25.656Z"
+    "checkedAt": "2026-10-02T06:53:25.656Z",
+    "heldAt": "2026-10-26T08:27:03.550Z"
   },
   {
     "id": "watchmode:1496510",
@@ -25112,7 +25218,7 @@
         "role": "Co-Producer, First Assistant Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:26.793Z"
+    "checkedAt": "2026-10-26T08:27:04.082Z"
   },
   {
     "id": "watchmode:1195406",
@@ -25266,7 +25372,8 @@
         "role": "Director, Producer, Writer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:30.645Z"
+    "checkedAt": "2026-10-02T06:53:30.645Z",
+    "heldAt": "2026-10-26T08:27:06.126Z"
   },
   {
     "id": "watchmode:1565036",
@@ -25404,7 +25511,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:23.915Z"
+    "checkedAt": "2026-10-26T08:27:02.081Z"
   },
   {
     "id": "watchmode:1731656",
@@ -25438,13 +25545,13 @@
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ca2b77ec-3eae-489f-b28c-3dc98d189007",
           "price": 119,
-          "format": "SD"
+          "format": "4K"
         },
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/scream-7/umc.cmc.5ixcl8t6tpioajy76jxjh31ro?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1874255137",
           "price": 149,
-          "format": "SD"
+          "format": "4K"
         }
       ],
       "buy": [
@@ -25452,7 +25559,7 @@
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/scream-7/umc.cmc.5ixcl8t6tpioajy76jxjh31ro?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1874255137",
           "price": 499,
-          "format": "SD"
+          "format": "4K"
         }
       ]
     },
@@ -25540,7 +25647,7 @@
         "role": "Stunt Coordinator, Second Unit Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:42.350Z"
+    "checkedAt": "2026-10-26T08:26:38.615Z"
   },
   {
     "id": "watchmode:1567833",
@@ -25566,6 +25673,12 @@
           "url": "https://www.hotstar.com/in/movies/final-destination-bloodlines/1271460102",
           "price": null,
           "format": "HD"
+        },
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81789032",
+          "price": null,
+          "format": "HD"
         }
       ],
       "rent": [
@@ -25573,19 +25686,19 @@
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2bc6bcf1-f6d9-4b1d-9abe-a69410f393ab",
           "price": 119,
-          "format": "4K"
+          "format": "SD"
         },
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/final-destination-bloodlines/umc.cmc.5qfqpx54akwcmzwfwwwq43kb5?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1810633957",
+          "url": "https://tv.apple.com/in/movie/final-destination-bloodlines/umc.cmc.5qfqpx54akwcmzwfwwwq43kb5?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1810633957",
           "price": 149,
-          "format": "4K"
+          "format": "SD"
         }
       ],
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/final-destination-bloodlines/umc.cmc.5qfqpx54akwcmzwfwwwq43kb5?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1810633957",
+          "url": "https://tv.apple.com/in/movie/final-destination-bloodlines/umc.cmc.5qfqpx54akwcmzwfwwwq43kb5?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1810633957",
           "price": 499,
           "format": "SD"
         }
@@ -25675,7 +25788,7 @@
         "role": "Supervising Art Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:00.067Z"
+    "checkedAt": "2026-10-26T08:26:49.770Z"
   },
   {
     "id": "watchmode:1676852",
@@ -25804,7 +25917,7 @@
         "role": "Standby Art Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:07.439Z"
+    "checkedAt": "2026-10-26T08:26:54.215Z"
   },
   {
     "id": "watchmode:1398476",
@@ -25928,7 +26041,7 @@
         "role": "Second Unit Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:53.520Z"
+    "checkedAt": "2026-10-26T08:27:19.315Z"
   },
   {
     "id": "watchmode:1232710",
@@ -25949,7 +26062,14 @@
     "sourceId": "1232710",
     "options": {
       "free": [],
-      "stream": [],
+      "stream": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1770016994",
+          "price": null,
+          "format": "4K"
+        }
+      ],
       "rent": [],
       "buy": []
     },
@@ -26037,7 +26157,7 @@
         "role": "Director, Executive Producer, Screenplay, Story"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:38.904Z"
+    "checkedAt": "2026-10-26T08:27:11.035Z"
   },
   {
     "id": "watchmode:1106245",
@@ -26184,7 +26304,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:53:59.359Z"
+    "checkedAt": "2026-10-26T08:27:22.697Z"
   },
   {
     "id": "watchmode:11217223",
@@ -30534,9 +30654,9 @@
       "free": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271451013",
+          "url": "https://www.hotstar.com/in/movies/9-weeks/1271451013",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "stream": [],
@@ -30627,7 +30747,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:14.905Z"
+    "checkedAt": "2026-10-26T08:26:20.807Z"
   },
   {
     "id": "watchmode:1883029",
@@ -31725,7 +31845,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:11.491Z"
+    "checkedAt": "2026-10-02T06:52:11.491Z",
+    "heldAt": "2026-10-26T08:26:19.128Z"
   },
   {
     "id": "watchmode:1788711",
@@ -32387,9 +32508,36 @@
     "provider": "watchmode",
     "sourceId": "1190958",
     "options": {
-      "free": [],
-      "stream": [],
-      "rent": [],
+      "free": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/movies/jeepers-creepers-2/1971001557",
+          "price": null,
+          "format": "HD"
+        }
+      ],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ae6eb9c8-d005-4880-a021-8bb3c94f8ee4",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/jeepers-creepers-2",
+          "price": null,
+          "format": "SD"
+        }
+      ],
+      "rent": [
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ae6eb9c8-d005-4880-a021-8bb3c94f8ee4",
+          "price": 99,
+          "format": "SD"
+        }
+      ],
       "buy": []
     },
     "updatedAt": "2026-08-30T13:40:10.796Z",
@@ -32476,9 +32624,9 @@
         "role": "Executive Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:12.396Z",
-    "leftFreeAt": "2026-10-02T06:52:12.396Z",
-    "freeSince": null
+    "checkedAt": "2026-10-26T08:26:19.543Z",
+    "leftFreeAt": null,
+    "freeSince": "2026-10-26T08:26:19.543Z"
   },
   {
     "id": "watchmode:1632374",
@@ -42025,7 +42173,8 @@
         "role": "Executive Producer, Presenter"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:15.850Z"
+    "checkedAt": "2026-10-02T06:52:15.850Z",
+    "heldAt": "2026-10-26T08:26:21.544Z"
   },
   {
     "id": "watchmode:1622259",
@@ -42746,7 +42895,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:15.430Z"
+    "checkedAt": "2026-10-26T08:26:21.136Z"
   },
   {
     "id": "watchmode:1650458",
@@ -43475,7 +43624,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:13.014Z"
+    "checkedAt": "2026-10-02T06:52:13.014Z",
+    "heldAt": "2026-10-26T08:26:19.853Z"
   },
   {
     "id": "watchmode:1135287",
@@ -44535,7 +44685,8 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:13.441Z"
+    "checkedAt": "2026-10-02T06:52:13.441Z",
+    "heldAt": "2026-10-26T08:26:20.167Z"
   },
   {
     "id": "watchmode:144994",
@@ -44754,7 +44905,7 @@
         "role": "Associate Producer"
       }
     ],
-    "checkedAt": "2026-10-02T06:52:14.290Z",
+    "checkedAt": "2026-10-26T08:26:20.484Z",
     "leftFreeAt": "2026-10-02T06:52:14.290Z",
     "freeSince": null
   },
@@ -119136,7 +119287,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:30:32.765Z",
-    "trailerId": "5Z8oBbmkgXo"
+    "trailerId": "5Z8oBbmkgXo",
+    "checkedAt": "2026-10-26T08:27:27.716Z"
   },
   {
     "id": "watchmode:3316898",
@@ -119175,7 +119327,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:30:33.687Z",
-    "trailerId": "k_P_O1zAVug"
+    "trailerId": "k_P_O1zAVug",
+    "checkedAt": "2026-10-26T08:27:28.030Z"
   },
   {
     "id": "watchmode:11027644",
@@ -119214,7 +119367,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:30:35.226Z",
-    "trailerId": "lmRdcdz7WjU"
+    "trailerId": "lmRdcdz7WjU",
+    "checkedAt": "2026-10-26T08:27:28.347Z"
   },
   {
     "id": "watchmode:11001943",
@@ -119254,7 +119408,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:30:36.153Z",
-    "trailerId": "B3tR6qQjbgI"
+    "trailerId": "B3tR6qQjbgI",
+    "checkedAt": "2026-10-26T08:27:28.681Z"
   },
   {
     "id": "watchmode:3284517",
@@ -119293,7 +119448,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:30:37.865Z",
-    "trailerId": "W8jMEXwErvk"
+    "trailerId": "W8jMEXwErvk",
+    "checkedAt": "2026-10-26T08:27:29.026Z"
   },
   {
     "id": "watchmode:3260198",
@@ -119334,7 +119490,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:30:38.603Z",
-    "trailerId": "WPPcfRd-JzE"
+    "trailerId": "WPPcfRd-JzE",
+    "checkedAt": "2026-10-26T08:27:29.358Z"
   },
   {
     "id": "watchmode:3263663",
@@ -119373,7 +119530,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:30:39.995Z",
-    "trailerId": "kGVuOT6h11c"
+    "trailerId": "kGVuOT6h11c",
+    "checkedAt": "2026-10-26T08:27:29.697Z"
   },
   {
     "id": "watchmode:11042837",
@@ -119412,7 +119570,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:30:40.753Z",
-    "trailerId": "xwdamnfS6IM"
+    "trailerId": "xwdamnfS6IM",
+    "checkedAt": "2026-10-26T08:27:30.018Z"
   },
   {
     "id": "watchmode:3222167",
@@ -119456,7 +119615,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:30:41.980Z",
-    "trailerId": "fIKFnzIcfcA"
+    "trailerId": "fIKFnzIcfcA",
+    "checkedAt": "2026-10-26T08:27:30.363Z"
   },
   {
     "id": "watchmode:3312118",
@@ -119494,7 +119654,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:30:42.906Z",
-    "trailerId": "xEMniH7jzs4"
+    "trailerId": "xEMniH7jzs4",
+    "checkedAt": "2026-10-26T08:27:30.681Z"
   },
   {
     "id": "watchmode:11018528",
@@ -119532,7 +119693,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:30:44.305Z",
-    "trailerId": "PuNATO-6a9U"
+    "trailerId": "PuNATO-6a9U",
+    "checkedAt": "2026-10-26T08:27:30.992Z"
   },
   {
     "id": "watchmode:1988486",
@@ -119571,7 +119733,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:30:44.806Z",
-    "trailerId": "w7kGLfBUYzw"
+    "trailerId": "w7kGLfBUYzw",
+    "checkedAt": "2026-10-26T08:27:31.306Z"
   },
   {
     "id": "watchmode:3278782",
@@ -119611,7 +119774,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:30:45.976Z",
-    "trailerId": "gYTzF1vna40"
+    "trailerId": "gYTzF1vna40",
+    "checkedAt": "2026-10-26T08:27:31.638Z"
   },
   {
     "id": "watchmode:3317324",
@@ -119664,7 +119828,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:30:47.375Z",
-    "trailerId": "0o1BC2Cavxc"
+    "trailerId": "0o1BC2Cavxc",
+    "checkedAt": "2026-10-26T08:27:31.947Z"
   },
   {
     "id": "watchmode:3238586",
@@ -119706,7 +119871,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:14.564Z",
-    "trailerId": "e4R4guZS0WU"
+    "trailerId": "e4R4guZS0WU",
+    "checkedAt": "2026-10-26T08:27:32.288Z"
   },
   {
     "id": "watchmode:3316437",
@@ -119731,20 +119897,23 @@
     "provider": "watchmode",
     "sourceId": "3316437",
     "options": {
-      "free": [],
-      "stream": [
+      "free": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271675062",
+          "url": "https://www.hotstar.com/in/1271675061",
           "price": null,
           "format": "4K"
         }
       ],
+      "stream": [],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:15.355Z",
-    "trailerId": "JgAzXJo-q6g"
+    "trailerId": "JgAzXJo-q6g",
+    "checkedAt": "2026-10-26T08:27:32.601Z",
+    "freeSince": "2026-10-26T08:27:32.601Z",
+    "leftFreeAt": null
   },
   {
     "id": "watchmode:3221817",
@@ -119782,7 +119951,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:16.695Z",
-    "trailerId": "5HkDfG5BhCU"
+    "trailerId": "5HkDfG5BhCU",
+    "checkedAt": "2026-10-26T08:27:32.946Z"
   },
   {
     "id": "watchmode:555809",
@@ -119821,7 +119991,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:17.892Z",
-    "trailerId": "GIIu90DJQ1c"
+    "trailerId": "GIIu90DJQ1c",
+    "checkedAt": "2026-10-26T08:27:33.346Z"
   },
   {
     "id": "watchmode:3292502",
@@ -119859,7 +120030,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:19.013Z",
-    "trailerId": "69auJ1F1EsE"
+    "trailerId": "69auJ1F1EsE",
+    "checkedAt": "2026-10-26T08:27:33.707Z"
   },
   {
     "id": "watchmode:3279397",
@@ -119898,7 +120070,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:19.533Z",
-    "trailerId": "Xs5qsfqp-tA"
+    "trailerId": "Xs5qsfqp-tA",
+    "checkedAt": "2026-10-26T08:27:34.049Z"
   },
   {
     "id": "watchmode:3317470",
@@ -119935,7 +120108,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:31:20.383Z"
+    "updatedAt": "2026-10-02T07:31:20.383Z",
+    "checkedAt": "2026-10-26T08:27:34.357Z"
   },
   {
     "id": "watchmode:3230085",
@@ -119982,7 +120156,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:20.911Z",
-    "trailerId": "M8nHySkLb64"
+    "trailerId": "M8nHySkLb64",
+    "checkedAt": "2026-10-26T08:27:34.694Z"
   },
   {
     "id": "watchmode:3293799",
@@ -120021,7 +120196,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:21.743Z",
-    "trailerId": "utE1mDVY0cA"
+    "trailerId": "utE1mDVY0cA",
+    "checkedAt": "2026-10-26T08:27:35.028Z"
   },
   {
     "id": "watchmode:11229377",
@@ -120059,7 +120235,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:22.487Z",
-    "trailerId": "Txk5C-452ak"
+    "trailerId": "Txk5C-452ak",
+    "checkedAt": "2026-10-26T08:27:35.350Z"
   },
   {
     "id": "watchmode:11023491",
@@ -120099,7 +120276,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:23.147Z",
-    "trailerId": "VylsOZBYxQA"
+    "trailerId": "VylsOZBYxQA",
+    "checkedAt": "2026-10-26T08:27:35.670Z"
   },
   {
     "id": "watchmode:11229381",
@@ -120138,7 +120316,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:31:23.672Z"
+    "updatedAt": "2026-10-02T07:31:23.672Z",
+    "checkedAt": "2026-10-26T08:27:35.972Z"
   },
   {
     "id": "watchmode:3316982",
@@ -120178,7 +120357,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:24.171Z",
-    "trailerId": "YjDjaZ5-Ie4"
+    "trailerId": "YjDjaZ5-Ie4",
+    "checkedAt": "2026-10-26T08:27:36.298Z"
   },
   {
     "id": "watchmode:3315956",
@@ -120216,7 +120396,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:24.914Z",
-    "trailerId": "OaOYc2J_E_U"
+    "trailerId": "OaOYc2J_E_U",
+    "checkedAt": "2026-10-26T08:27:36.629Z"
   },
   {
     "id": "watchmode:1882684",
@@ -120255,7 +120436,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:26.524Z",
-    "trailerId": "zz4rsZLcauY"
+    "trailerId": "zz4rsZLcauY",
+    "checkedAt": "2026-10-26T08:27:36.942Z"
   },
   {
     "id": "watchmode:1860481",
@@ -120294,7 +120476,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:31:27.328Z"
+    "updatedAt": "2026-10-02T07:31:27.328Z",
+    "checkedAt": "2026-10-26T08:27:37.257Z"
   },
   {
     "id": "watchmode:1718191",
@@ -120339,7 +120522,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:27.844Z",
-    "trailerId": "om5Un9X720M"
+    "trailerId": "om5Un9X720M",
+    "checkedAt": "2026-10-26T08:27:37.576Z"
   },
   {
     "id": "watchmode:3316481",
@@ -120377,7 +120561,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:28.348Z",
-    "trailerId": "1epklvnxATo"
+    "trailerId": "1epklvnxATo",
+    "checkedAt": "2026-10-26T08:27:37.893Z"
   },
   {
     "id": "watchmode:555829",
@@ -120416,7 +120601,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:29.284Z",
-    "trailerId": "XUePlCSexlE"
+    "trailerId": "XUePlCSexlE",
+    "checkedAt": "2026-10-26T08:27:38.214Z"
   },
   {
     "id": "watchmode:11228054",
@@ -120454,7 +120640,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:29.906Z",
-    "trailerId": "OCZg5l9BfRg"
+    "trailerId": "OCZg5l9BfRg",
+    "checkedAt": "2026-10-26T08:27:38.539Z"
   },
   {
     "id": "watchmode:11114740",
@@ -120493,7 +120680,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:32.533Z",
-    "trailerId": "XXzW4rjidqg"
+    "trailerId": "XXzW4rjidqg",
+    "checkedAt": "2026-10-26T08:27:38.851Z"
   },
   {
     "id": "watchmode:3316685",
@@ -120532,7 +120720,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:33.986Z",
-    "trailerId": "8wgC1XVGolE"
+    "trailerId": "8wgC1XVGolE",
+    "checkedAt": "2026-10-26T08:27:39.176Z"
   },
   {
     "id": "watchmode:3312633",
@@ -120570,7 +120759,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:35.742Z",
-    "trailerId": "8nSAV8097Vg"
+    "trailerId": "8nSAV8097Vg",
+    "checkedAt": "2026-10-26T08:27:39.504Z"
   },
   {
     "id": "watchmode:11228395",
@@ -120608,7 +120798,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:36.830Z",
-    "trailerId": "exfVgH7WJtE"
+    "trailerId": "exfVgH7WJtE",
+    "checkedAt": "2026-10-26T08:27:39.813Z"
   },
   {
     "id": "watchmode:11230395",
@@ -120646,7 +120837,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:37.588Z",
-    "trailerId": "aVXvS3XzzHI"
+    "trailerId": "aVXvS3XzzHI",
+    "checkedAt": "2026-10-26T08:27:40.128Z"
   },
   {
     "id": "watchmode:4171850",
@@ -120684,7 +120876,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:38.108Z",
-    "trailerId": "d5ZOdheCRXw"
+    "trailerId": "d5ZOdheCRXw",
+    "checkedAt": "2026-10-26T08:27:40.456Z"
   },
   {
     "id": "watchmode:3316523",
@@ -120731,7 +120924,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:38.657Z",
-    "trailerId": "llpl-JJPEAI"
+    "trailerId": "llpl-JJPEAI",
+    "checkedAt": "2026-10-26T08:27:40.765Z"
   },
   {
     "id": "watchmode:3315985",
@@ -120769,7 +120963,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:39.178Z",
-    "trailerId": "jqKWEW-qU-Y"
+    "trailerId": "jqKWEW-qU-Y",
+    "checkedAt": "2026-10-26T08:27:41.088Z"
   },
   {
     "id": "watchmode:3272120",
@@ -120807,7 +121002,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:40.850Z",
-    "trailerId": "qygK7CQUe_o"
+    "trailerId": "qygK7CQUe_o",
+    "checkedAt": "2026-10-26T08:27:41.413Z"
   },
   {
     "id": "watchmode:11096117",
@@ -120845,7 +121041,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:41.580Z",
-    "trailerId": "UQaKzMuyjlE"
+    "trailerId": "UQaKzMuyjlE",
+    "checkedAt": "2026-10-26T08:27:41.722Z"
   },
   {
     "id": "watchmode:3308224",
@@ -120884,7 +121081,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:42.673Z",
-    "trailerId": "R5Xwcv5ov5s"
+    "trailerId": "R5Xwcv5ov5s",
+    "checkedAt": "2026-10-26T08:27:42.047Z"
   },
   {
     "id": "watchmode:3171309",
@@ -120926,7 +121124,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:43.640Z",
-    "trailerId": "7UIBOsuUwc4"
+    "trailerId": "7UIBOsuUwc4",
+    "checkedAt": "2026-10-26T08:27:42.386Z"
   },
   {
     "id": "watchmode:11225761",
@@ -120964,7 +121163,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:44.269Z",
-    "trailerId": "xF30YjpQd74"
+    "trailerId": "xF30YjpQd74",
+    "checkedAt": "2026-10-26T08:27:42.692Z"
   },
   {
     "id": "watchmode:3316383",
@@ -121008,7 +121208,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:31:44.772Z"
+    "updatedAt": "2026-10-02T07:31:44.772Z",
+    "checkedAt": "2026-10-26T08:27:43.000Z"
   },
   {
     "id": "watchmode:3316343",
@@ -121048,7 +121249,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:45.433Z",
-    "trailerId": "FSDLNYk1xKs"
+    "trailerId": "FSDLNYk1xKs",
+    "checkedAt": "2026-10-26T08:27:43.318Z"
   },
   {
     "id": "watchmode:11157225",
@@ -121086,7 +121288,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:31:46.722Z",
-    "trailerId": "7ZDSYBkcH2U"
+    "trailerId": "7ZDSYBkcH2U",
+    "checkedAt": "2026-10-26T08:27:43.633Z"
   },
   {
     "id": "watchmode:11014989",
@@ -121114,18 +121317,26 @@
     "sourceId": "11014989",
     "options": {
       "free": [],
-      "stream": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.247ef0c6-1963-4692-b09c-4c4d0a52fda0",
+          "price": null,
+          "format": "4K"
+        }
+      ],
       "rent": [
         {
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.247ef0c6-1963-4692-b09c-4c4d0a52fda0",
-          "price": 349,
-          "format": "SD"
+          "price": 279,
+          "format": "HD"
         }
       ],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:32:04.293Z"
+    "updatedAt": "2026-10-02T07:32:04.293Z",
+    "checkedAt": "2026-10-26T08:27:43.946Z"
   },
   {
     "id": "watchmode:3289201",
@@ -121165,7 +121376,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:05.437Z",
-    "trailerId": "WoPbcfUmMYw"
+    "trailerId": "WoPbcfUmMYw",
+    "checkedAt": "2026-10-26T08:27:44.399Z"
   },
   {
     "id": "watchmode:555453",
@@ -121204,7 +121416,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:06.259Z",
-    "trailerId": "7_LOFaPmVDg"
+    "trailerId": "7_LOFaPmVDg",
+    "checkedAt": "2026-10-26T08:27:44.723Z"
   },
   {
     "id": "watchmode:1882453",
@@ -121239,12 +121452,26 @@
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.44c05f67-8490-458a-9ce6-ddc17528574f",
           "price": 499,
           "format": "SD"
+        },
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-end-of-oak-street/umc.cmc.zgc43vpna42wfgfi645em0sm?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A6788867495",
+          "price": 499,
+          "format": "SD"
         }
       ],
-      "buy": []
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-end-of-oak-street/umc.cmc.zgc43vpna42wfgfi645em0sm?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A6788867495",
+          "price": 799,
+          "format": "SD"
+        }
+      ]
     },
     "updatedAt": "2026-10-02T07:32:07.545Z",
-    "trailerId": "3oB9AxspVow"
+    "trailerId": "3oB9AxspVow",
+    "checkedAt": "2026-10-26T08:27:45.142Z"
   },
   {
     "id": "watchmode:3315597",
@@ -121283,7 +121510,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:08.308Z",
-    "trailerId": "e26vQ3ddHRE"
+    "trailerId": "e26vQ3ddHRE",
+    "checkedAt": "2026-10-26T08:27:45.473Z"
   },
   {
     "id": "watchmode:3279380",
@@ -121322,7 +121550,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:08.892Z",
-    "trailerId": "aIkRFKsoOiM"
+    "trailerId": "aIkRFKsoOiM",
+    "checkedAt": "2026-10-26T08:27:45.794Z"
   },
   {
     "id": "watchmode:3259005",
@@ -121362,7 +121591,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:10.002Z",
-    "trailerId": "vqV3xfeb4SQ"
+    "trailerId": "vqV3xfeb4SQ",
+    "checkedAt": "2026-10-26T08:27:46.118Z"
   },
   {
     "id": "watchmode:550877",
@@ -121402,7 +121632,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:12.181Z",
-    "trailerId": "CuWyvBMj97s"
+    "trailerId": "CuWyvBMj97s",
+    "checkedAt": "2026-10-26T08:27:46.474Z"
   },
   {
     "id": "watchmode:3291035",
@@ -121442,7 +121673,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:12.717Z",
-    "trailerId": "NSclAzJortA"
+    "trailerId": "NSclAzJortA",
+    "checkedAt": "2026-10-26T08:27:46.801Z"
   },
   {
     "id": "watchmode:3313755",
@@ -121481,7 +121713,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:13.942Z",
-    "trailerId": "nsAuYuhHrYk"
+    "trailerId": "nsAuYuhHrYk",
+    "checkedAt": "2026-10-26T08:27:47.125Z"
   },
   {
     "id": "watchmode:3276875",
@@ -121522,7 +121755,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:14.931Z",
-    "trailerId": "Zpm9HUOrZIc"
+    "trailerId": "Zpm9HUOrZIc",
+    "checkedAt": "2026-10-26T08:27:47.452Z"
   },
   {
     "id": "watchmode:3257076",
@@ -121563,7 +121797,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:15.629Z",
-    "trailerId": "bwwF3TuJQME"
+    "trailerId": "bwwF3TuJQME",
+    "checkedAt": "2026-10-26T08:27:47.788Z"
   },
   {
     "id": "watchmode:11215113",
@@ -121601,7 +121836,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:16.294Z",
-    "trailerId": "7sGkQM6TyQU"
+    "trailerId": "7sGkQM6TyQU",
+    "checkedAt": "2026-10-26T08:27:48.097Z"
   },
   {
     "id": "watchmode:11220384",
@@ -121640,7 +121876,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:32:17.215Z"
+    "updatedAt": "2026-10-02T07:32:17.215Z",
+    "checkedAt": "2026-10-26T08:27:48.404Z"
   },
   {
     "id": "watchmode:3314904",
@@ -121679,7 +121916,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:18.347Z",
-    "trailerId": "OrUb7JYjAk8"
+    "trailerId": "OrUb7JYjAk8",
+    "checkedAt": "2026-10-26T08:28:49.318Z"
   },
   {
     "id": "watchmode:3264017",
@@ -121719,7 +121957,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:19.842Z",
-    "trailerId": "UBSqPDxmNZs"
+    "trailerId": "UBSqPDxmNZs",
+    "checkedAt": "2026-10-26T08:28:49.649Z"
   },
   {
     "id": "watchmode:3314495",
@@ -121758,7 +121997,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:20.452Z",
-    "trailerId": "9QDfABKdqe0"
+    "trailerId": "9QDfABKdqe0",
+    "checkedAt": "2026-10-26T08:28:49.996Z"
   },
   {
     "id": "watchmode:3292436",
@@ -121797,7 +122037,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:21.127Z",
-    "trailerId": "CY603P-PeQQ"
+    "trailerId": "CY603P-PeQQ",
+    "checkedAt": "2026-10-26T08:28:50.330Z"
   },
   {
     "id": "watchmode:3278067",
@@ -121836,7 +122077,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:22.131Z",
-    "trailerId": "c5Uv9XpOHuc"
+    "trailerId": "c5Uv9XpOHuc",
+    "checkedAt": "2026-10-26T08:28:50.651Z"
   },
   {
     "id": "watchmode:3264031",
@@ -121875,7 +122117,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:23.876Z",
-    "trailerId": "_blrWb1yZiY"
+    "trailerId": "_blrWb1yZiY",
+    "checkedAt": "2026-10-26T08:28:50.999Z"
   },
   {
     "id": "watchmode:1864757",
@@ -121919,7 +122162,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:24.852Z",
-    "trailerId": "YyVNFzx5Pl8"
+    "trailerId": "YyVNFzx5Pl8",
+    "checkedAt": "2026-10-26T08:28:51.325Z"
   },
   {
     "id": "watchmode:3244486",
@@ -121959,7 +122203,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:26.384Z",
-    "trailerId": "7k52aJRs3gA"
+    "trailerId": "7k52aJRs3gA",
+    "checkedAt": "2026-10-26T08:28:51.647Z"
   },
   {
     "id": "watchmode:11216255",
@@ -121997,7 +122242,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:26.896Z",
-    "trailerId": "fiLFIKW7LQI"
+    "trailerId": "fiLFIKW7LQI",
+    "checkedAt": "2026-10-26T08:28:52.502Z"
   },
   {
     "id": "watchmode:1693821",
@@ -122036,7 +122282,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:28.454Z",
-    "trailerId": "N-J-HR3quc4"
+    "trailerId": "N-J-HR3quc4",
+    "checkedAt": "2026-10-26T08:28:52.822Z"
   },
   {
     "id": "watchmode:3310957",
@@ -122074,7 +122321,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:29.410Z",
-    "trailerId": "1z_UcqJIfPo"
+    "trailerId": "1z_UcqJIfPo",
+    "checkedAt": "2026-10-26T08:28:53.127Z"
   },
   {
     "id": "watchmode:3308789",
@@ -122113,7 +122361,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:32:29.978Z"
+    "updatedAt": "2026-10-02T07:32:29.978Z",
+    "checkedAt": "2026-10-26T08:28:53.453Z"
   },
   {
     "id": "watchmode:3226406",
@@ -122152,7 +122401,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:32.883Z",
-    "trailerId": "sSRJ6PXHx88"
+    "trailerId": "sSRJ6PXHx88",
+    "checkedAt": "2026-10-26T08:28:53.789Z"
   },
   {
     "id": "watchmode:3213685",
@@ -122192,7 +122442,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:33.804Z",
-    "trailerId": "QFGAxkTRAG8"
+    "trailerId": "QFGAxkTRAG8",
+    "checkedAt": "2026-10-26T08:28:54.124Z"
   },
   {
     "id": "watchmode:3248514",
@@ -122239,7 +122490,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:34.538Z",
-    "trailerId": "GAbT5qCTXR8"
+    "trailerId": "GAbT5qCTXR8",
+    "checkedAt": "2026-10-26T08:28:54.472Z"
   },
   {
     "id": "watchmode:1996547",
@@ -122278,7 +122530,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:35.304Z",
-    "trailerId": "voDs4_q3vIg"
+    "trailerId": "voDs4_q3vIg",
+    "checkedAt": "2026-10-26T08:28:54.796Z"
   },
   {
     "id": "watchmode:11197307",
@@ -122315,7 +122568,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:32:38.503Z"
+    "updatedAt": "2026-10-02T07:32:38.503Z",
+    "checkedAt": "2026-10-26T08:28:55.110Z"
   },
   {
     "id": "watchmode:1996624",
@@ -122354,7 +122608,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:39.335Z",
-    "trailerId": "LEargi83ofQ"
+    "trailerId": "LEargi83ofQ",
+    "checkedAt": "2026-10-26T08:28:55.422Z"
   },
   {
     "id": "watchmode:1831678",
@@ -122391,7 +122646,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:32:40.256Z"
+    "updatedAt": "2026-10-02T07:32:40.256Z",
+    "checkedAt": "2026-10-26T08:28:55.737Z"
   },
   {
     "id": "watchmode:3293807",
@@ -122429,7 +122685,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:40.870Z",
-    "trailerId": "k2tQNysUMHI"
+    "trailerId": "k2tQNysUMHI",
+    "checkedAt": "2026-10-26T08:28:56.057Z"
   },
   {
     "id": "watchmode:3259444",
@@ -122467,7 +122724,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:42.535Z",
-    "trailerId": "8KYNnmsCTYc"
+    "trailerId": "8KYNnmsCTYc",
+    "checkedAt": "2026-10-26T08:28:56.396Z"
   },
   {
     "id": "watchmode:3257080",
@@ -122507,7 +122765,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:32:43.336Z",
-    "trailerId": "jSds4Oi83Eg"
+    "trailerId": "jSds4Oi83Eg",
+    "checkedAt": "2026-10-26T08:28:56.728Z"
   },
   {
     "id": "watchmode:1768658",
@@ -122533,32 +122792,40 @@
     "sourceId": "1768658",
     "options": {
       "free": [],
-      "stream": [],
+      "stream": [
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/82715255",
+          "price": null,
+          "format": "HD"
+        }
+      ],
       "rent": [
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/evil-dead-burn/umc.cmc.5jxgo2xoyac10ub0zhixx3y4k?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A6784863578",
-          "price": 399,
-          "format": "SD"
+          "price": 149,
+          "format": "4K"
         },
         {
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.0db24700-aeb1-4429-bbc0-d03187e2259f",
-          "price": 200,
-          "format": "SD"
+          "price": 119,
+          "format": "4K"
         }
       ],
       "buy": [
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/evil-dead-burn/umc.cmc.5jxgo2xoyac10ub0zhixx3y4k?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A6784863578",
-          "price": 599,
+          "price": 399,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:32:46.814Z",
-    "trailerId": "TnHby2cxJzs"
+    "trailerId": "TnHby2cxJzs",
+    "checkedAt": "2026-10-26T08:28:57.160Z"
   },
   {
     "id": "watchmode:3215083",
@@ -122599,7 +122866,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:12.514Z",
-    "trailerId": "nHfzIYiyTl0"
+    "trailerId": "nHfzIYiyTl0",
+    "checkedAt": "2026-10-26T08:28:57.467Z"
   },
   {
     "id": "watchmode:11210896",
@@ -122639,7 +122907,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:13.019Z",
-    "trailerId": "zHwpTZ2r-DM"
+    "trailerId": "zHwpTZ2r-DM",
+    "checkedAt": "2026-10-26T08:28:57.778Z"
   },
   {
     "id": "watchmode:11016395",
@@ -122680,7 +122949,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:13.840Z",
-    "trailerId": "2rQCZKoaEhc"
+    "trailerId": "2rQCZKoaEhc",
+    "checkedAt": "2026-10-26T08:28:58.090Z"
   },
   {
     "id": "watchmode:3310445",
@@ -122719,7 +122989,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:18.041Z",
-    "trailerId": "W20YAjAtDnc"
+    "trailerId": "W20YAjAtDnc",
+    "checkedAt": "2026-10-26T08:28:58.414Z"
   },
   {
     "id": "watchmode:3226471",
@@ -122758,7 +123029,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:18.903Z",
-    "trailerId": "M5Hy3BF3d4Y"
+    "trailerId": "M5Hy3BF3d4Y",
+    "checkedAt": "2026-10-26T08:28:58.752Z"
   },
   {
     "id": "watchmode:1761194",
@@ -122798,7 +123070,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:19.747Z",
-    "trailerId": "n_pEJjq-9xQ"
+    "trailerId": "n_pEJjq-9xQ",
+    "checkedAt": "2026-10-26T08:28:59.133Z"
   },
   {
     "id": "watchmode:3273537",
@@ -122836,7 +123109,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:20.913Z",
-    "trailerId": "Sp7P5JmKvLI"
+    "trailerId": "Sp7P5JmKvLI",
+    "checkedAt": "2026-10-26T08:28:59.490Z"
   },
   {
     "id": "watchmode:11086320",
@@ -122876,7 +123150,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:23.692Z",
-    "trailerId": "sNwzFhGwA94"
+    "trailerId": "sNwzFhGwA94",
+    "checkedAt": "2026-10-26T08:28:59.935Z"
   },
   {
     "id": "watchmode:1740385",
@@ -122903,20 +123178,23 @@
     "provider": "watchmode",
     "sourceId": "1740385",
     "options": {
-      "free": [],
-      "stream": [
+      "free": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271682117",
+          "url": "https://www.hotstar.com/in/movies/welcome-to-the-jungle/1271682117",
           "price": null,
           "format": "4K"
         }
       ],
+      "stream": [],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:24.493Z",
-    "trailerId": "25l9MXYWxww"
+    "trailerId": "25l9MXYWxww",
+    "checkedAt": "2026-10-26T08:29:00.242Z",
+    "freeSince": "2026-10-26T08:29:00.242Z",
+    "leftFreeAt": null
   },
   {
     "id": "watchmode:3306751",
@@ -122955,7 +123233,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:25.107Z",
-    "trailerId": "KM9XnXblZjk"
+    "trailerId": "KM9XnXblZjk",
+    "heldAt": "2026-10-26T08:29:00.563Z"
   },
   {
     "id": "watchmode:11051309",
@@ -123003,7 +123282,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:33:26.166Z",
-    "trailerId": "6z4QlS1d7YQ"
+    "trailerId": "6z4QlS1d7YQ",
+    "checkedAt": "2026-10-26T08:29:00.968Z"
   },
   {
     "id": "watchmode:1892093",
@@ -123042,7 +123322,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:29.101Z",
-    "trailerId": "XXxUqLHq1xg"
+    "trailerId": "XXxUqLHq1xg",
+    "checkedAt": "2026-10-26T08:29:01.279Z"
   },
   {
     "id": "watchmode:3246271",
@@ -123083,7 +123364,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:29.887Z",
-    "trailerId": "mObRUsA7dPY"
+    "trailerId": "mObRUsA7dPY",
+    "checkedAt": "2026-10-26T08:29:01.674Z"
   },
   {
     "id": "watchmode:1931997",
@@ -123121,7 +123403,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:30.830Z",
-    "trailerId": "bWtrFcerKE0"
+    "trailerId": "bWtrFcerKE0",
+    "checkedAt": "2026-10-26T08:29:01.999Z"
   },
   {
     "id": "watchmode:1676253",
@@ -123160,7 +123443,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:31.813Z",
-    "trailerId": "DT_i0aq-vPs"
+    "trailerId": "DT_i0aq-vPs",
+    "heldAt": "2026-10-26T08:29:02.401Z"
   },
   {
     "id": "watchmode:3307390",
@@ -123197,7 +123481,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:33:32.480Z"
+    "updatedAt": "2026-10-02T07:33:32.480Z",
+    "checkedAt": "2026-10-26T08:29:02.740Z"
   },
   {
     "id": "watchmode:1991188",
@@ -123236,7 +123521,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:33.096Z",
-    "trailerId": "PWP_agMvKVw"
+    "trailerId": "PWP_agMvKVw",
+    "heldAt": "2026-10-26T08:29:03.065Z"
   },
   {
     "id": "watchmode:3307523",
@@ -123281,7 +123567,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:33.883Z",
-    "trailerId": "agpEUW8NO0M"
+    "trailerId": "agpEUW8NO0M",
+    "checkedAt": "2026-10-26T08:29:03.408Z"
   },
   {
     "id": "watchmode:11166215",
@@ -123320,7 +123607,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:34.640Z",
-    "trailerId": "QOsVdlr0Q1I"
+    "trailerId": "QOsVdlr0Q1I",
+    "checkedAt": "2026-10-26T08:29:03.723Z"
   },
   {
     "id": "watchmode:3258821",
@@ -123361,7 +123649,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:35.828Z",
-    "trailerId": "MjkwLE4TEqU"
+    "trailerId": "MjkwLE4TEqU",
+    "checkedAt": "2026-10-26T08:29:04.314Z"
   },
   {
     "id": "watchmode:1990100",
@@ -123406,7 +123695,8 @@
       ],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:33:37.872Z"
+    "updatedAt": "2026-10-02T07:33:37.872Z",
+    "checkedAt": "2026-10-26T08:29:04.638Z"
   },
   {
     "id": "watchmode:1692157",
@@ -123446,7 +123736,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:38.392Z",
-    "trailerId": "cXA3Zgsky18"
+    "trailerId": "cXA3Zgsky18",
+    "heldAt": "2026-10-26T08:29:04.954Z"
   },
   {
     "id": "watchmode:11173187",
@@ -123485,7 +123776,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:39.732Z",
-    "trailerId": "9_xHs4jiNWY"
+    "trailerId": "9_xHs4jiNWY",
+    "checkedAt": "2026-10-26T08:29:05.274Z"
   },
   {
     "id": "watchmode:1945203",
@@ -123525,7 +123817,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:40.469Z",
-    "trailerId": "dvQgE-8noLs"
+    "trailerId": "dvQgE-8noLs",
+    "checkedAt": "2026-10-26T08:29:05.589Z"
   },
   {
     "id": "watchmode:3308352",
@@ -123563,7 +123856,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:41.083Z",
-    "trailerId": "0OaGiiL3G8I"
+    "trailerId": "0OaGiiL3G8I",
+    "checkedAt": "2026-10-26T08:29:06.150Z"
   },
   {
     "id": "watchmode:3307259",
@@ -123603,7 +123897,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:41.911Z",
-    "trailerId": "EnvBoDKSNKg"
+    "trailerId": "EnvBoDKSNKg",
+    "heldAt": "2026-10-26T08:29:06.469Z"
   },
   {
     "id": "watchmode:3232410",
@@ -123642,7 +123937,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:42.620Z",
-    "trailerId": "F5SpqQ8dNa8"
+    "trailerId": "F5SpqQ8dNa8",
+    "checkedAt": "2026-10-26T08:29:06.804Z"
   },
   {
     "id": "watchmode:11136951",
@@ -123680,7 +123976,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:43.233Z",
-    "trailerId": "dPlao_4vPqI"
+    "trailerId": "dPlao_4vPqI",
+    "heldAt": "2026-10-26T08:29:07.154Z"
   },
   {
     "id": "watchmode:3305661",
@@ -123721,7 +124018,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:45.393Z",
-    "trailerId": "qVeikhEKaY0"
+    "trailerId": "qVeikhEKaY0",
+    "heldAt": "2026-10-26T08:29:07.479Z"
   },
   {
     "id": "watchmode:11133940",
@@ -123759,7 +124057,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:45.953Z",
-    "trailerId": "QWl_IE5eN4I"
+    "trailerId": "QWl_IE5eN4I",
+    "checkedAt": "2026-10-26T08:29:07.787Z"
   },
   {
     "id": "watchmode:3297158",
@@ -123798,7 +124097,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:46.920Z",
-    "trailerId": "k_7EEeSvssQ"
+    "trailerId": "k_7EEeSvssQ",
+    "checkedAt": "2026-10-26T08:29:08.117Z"
   },
   {
     "id": "watchmode:11069238",
@@ -123837,7 +124137,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:33:47.498Z",
-    "trailerId": "sNrHvjH1gM8"
+    "trailerId": "sNrHvjH1gM8",
+    "checkedAt": "2026-10-26T08:29:08.429Z"
   },
   {
     "id": "watchmode:3307246",
@@ -123881,7 +124182,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:33:48.075Z"
+    "updatedAt": "2026-10-02T07:33:48.075Z",
+    "checkedAt": "2026-10-26T08:29:08.772Z"
   },
   {
     "id": "watchmode:3296226",
@@ -123920,7 +124222,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:06.274Z",
-    "trailerId": "D34hhcqyRMw"
+    "trailerId": "D34hhcqyRMw",
+    "heldAt": "2026-10-26T08:29:09.079Z"
   },
   {
     "id": "watchmode:3197111",
@@ -123960,7 +124263,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:07.126Z",
-    "trailerId": "prdjv5IWPWY"
+    "trailerId": "prdjv5IWPWY",
+    "checkedAt": "2026-10-26T08:29:09.388Z"
   },
   {
     "id": "watchmode:3309524",
@@ -123998,7 +124302,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:09.001Z",
-    "trailerId": "EQXts8FRdPc"
+    "trailerId": "EQXts8FRdPc",
+    "heldAt": "2026-10-26T08:29:09.694Z"
   },
   {
     "id": "watchmode:3251703",
@@ -124037,7 +124342,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:09.654Z",
-    "trailerId": "3iKFLt9gjAU"
+    "trailerId": "3iKFLt9gjAU",
+    "heldAt": "2026-10-26T08:29:10.161Z"
   },
   {
     "id": "watchmode:3244164",
@@ -124083,7 +124389,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:10.268Z",
-    "trailerId": "FZ3sN5E-mBU"
+    "trailerId": "FZ3sN5E-mBU",
+    "checkedAt": "2026-10-26T08:29:10.531Z"
   },
   {
     "id": "watchmode:11162600",
@@ -124122,7 +124429,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:11.496Z",
-    "trailerId": "ZDV092NTRHk"
+    "trailerId": "ZDV092NTRHk",
+    "heldAt": "2026-10-26T08:29:10.848Z"
   },
   {
     "id": "watchmode:11097580",
@@ -124162,7 +124470,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:12.201Z",
-    "trailerId": "rSTk9KgrJ3w"
+    "trailerId": "rSTk9KgrJ3w",
+    "heldAt": "2026-10-26T08:29:11.163Z"
   },
   {
     "id": "watchmode:1885276",
@@ -124200,7 +124509,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:12.721Z",
-    "trailerId": "4E0-K9F16r8"
+    "trailerId": "4E0-K9F16r8",
+    "checkedAt": "2026-10-26T08:29:11.472Z"
   },
   {
     "id": "watchmode:1862406",
@@ -124239,7 +124549,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:13.273Z",
-    "trailerId": "11gcNa-TBRA"
+    "trailerId": "11gcNa-TBRA",
+    "checkedAt": "2026-10-26T08:29:11.785Z"
   },
   {
     "id": "watchmode:1835446",
@@ -124278,7 +124589,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:13.824Z",
-    "trailerId": "QpASWEHlopA"
+    "trailerId": "QpASWEHlopA",
+    "checkedAt": "2026-10-26T08:29:12.096Z"
   },
   {
     "id": "watchmode:3307720",
@@ -124316,7 +124628,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:14.352Z",
-    "trailerId": "rcp-j0StBR0"
+    "trailerId": "rcp-j0StBR0",
+    "heldAt": "2026-10-26T08:29:12.415Z"
   },
   {
     "id": "watchmode:3258970",
@@ -124354,7 +124667,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:16.023Z",
-    "trailerId": "X0oFLuUR-qQ"
+    "trailerId": "X0oFLuUR-qQ",
+    "checkedAt": "2026-10-26T08:29:12.751Z"
   },
   {
     "id": "watchmode:3307556",
@@ -124392,7 +124706,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:16.720Z",
-    "trailerId": "nOrPJVBkHaw"
+    "trailerId": "nOrPJVBkHaw",
+    "heldAt": "2026-10-26T08:29:13.066Z"
   },
   {
     "id": "watchmode:11140739",
@@ -124429,7 +124744,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:34:17.336Z"
+    "updatedAt": "2026-10-02T07:34:17.336Z",
+    "heldAt": "2026-10-26T08:29:13.378Z"
   },
   {
     "id": "watchmode:3250797",
@@ -124461,14 +124777,15 @@
           "name": "Netflix",
           "url": "https://www.netflix.com/title/81785900",
           "price": null,
-          "format": "HD"
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:19.106Z",
-    "trailerId": "tQ31ScZSYFQ"
+    "trailerId": "tQ31ScZSYFQ",
+    "checkedAt": "2026-10-26T08:29:13.702Z"
   },
   {
     "id": "watchmode:1958738",
@@ -124520,7 +124837,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:34:20.405Z",
-    "trailerId": "19PLc6hpTvA"
+    "trailerId": "19PLc6hpTvA",
+    "checkedAt": "2026-10-26T08:29:14.133Z"
   },
   {
     "id": "watchmode:3224065",
@@ -124567,7 +124885,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:21.635Z",
-    "trailerId": "V-yAMs307W4"
+    "trailerId": "V-yAMs307W4",
+    "checkedAt": "2026-10-26T08:29:14.641Z"
   },
   {
     "id": "watchmode:11148906",
@@ -124606,7 +124925,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:24.093Z",
-    "trailerId": "cTW78JSBoyw"
+    "trailerId": "cTW78JSBoyw",
+    "heldAt": "2026-10-26T08:29:14.963Z"
   },
   {
     "id": "watchmode:3233477",
@@ -124647,7 +124967,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:24.706Z",
-    "trailerId": "9S84arStKj4"
+    "trailerId": "9S84arStKj4",
+    "checkedAt": "2026-10-26T08:29:15.318Z"
   },
   {
     "id": "watchmode:3226469",
@@ -124689,7 +125010,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:25.340Z",
-    "trailerId": "G03OPDz4pXg"
+    "trailerId": "G03OPDz4pXg",
+    "checkedAt": "2026-10-26T08:29:15.662Z"
   },
   {
     "id": "watchmode:3267199",
@@ -124729,7 +125051,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:26.175Z",
-    "trailerId": "bdmWZQY27EM"
+    "trailerId": "bdmWZQY27EM",
+    "heldAt": "2026-10-26T08:29:15.991Z"
   },
   {
     "id": "watchmode:1870870",
@@ -124768,7 +125091,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:27.643Z",
-    "trailerId": "rRQ8oKCoYrQ"
+    "trailerId": "rRQ8oKCoYrQ",
+    "checkedAt": "2026-10-26T08:29:16.299Z"
   },
   {
     "id": "watchmode:3241648",
@@ -124809,7 +125133,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:29.013Z",
-    "trailerId": "PsvUvqXoTpE"
+    "trailerId": "PsvUvqXoTpE",
+    "checkedAt": "2026-10-26T08:29:16.628Z"
   },
   {
     "id": "watchmode:1898038",
@@ -124848,7 +125173,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:30.427Z",
-    "trailerId": "yeetI2DfbaE"
+    "trailerId": "yeetI2DfbaE",
+    "heldAt": "2026-10-26T08:29:16.950Z"
   },
   {
     "id": "watchmode:3301141",
@@ -124886,7 +125212,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:31.465Z",
-    "trailerId": "mXCmJkKxJuo"
+    "trailerId": "mXCmJkKxJuo",
+    "checkedAt": "2026-10-26T08:29:17.272Z"
   },
   {
     "id": "watchmode:1884609",
@@ -124925,7 +125252,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:32.089Z",
-    "trailerId": "-4ZVFspRn3M"
+    "trailerId": "-4ZVFspRn3M",
+    "heldAt": "2026-10-26T08:29:17.678Z"
   },
   {
     "id": "watchmode:3261226",
@@ -124971,7 +125299,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:33.000Z",
-    "trailerId": "I28gOWOUpp8"
+    "trailerId": "I28gOWOUpp8",
+    "checkedAt": "2026-10-26T08:29:18.037Z"
   },
   {
     "id": "watchmode:3306875",
@@ -125008,7 +125337,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:34:34.229Z"
+    "updatedAt": "2026-10-02T07:34:34.229Z",
+    "checkedAt": "2026-10-26T08:29:18.383Z"
   },
   {
     "id": "watchmode:3305445",
@@ -125054,7 +125384,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:34:35.152Z"
+    "updatedAt": "2026-10-02T07:34:35.152Z",
+    "checkedAt": "2026-10-26T08:29:18.715Z"
   },
   {
     "id": "watchmode:3277969",
@@ -125093,7 +125424,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:36.554Z",
-    "trailerId": "19I5a1tRt98"
+    "trailerId": "19I5a1tRt98",
+    "checkedAt": "2026-10-26T08:29:19.077Z"
   },
   {
     "id": "watchmode:1880519",
@@ -125133,7 +125465,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:37.475Z",
-    "trailerId": "7M0j1oh2lOg"
+    "trailerId": "7M0j1oh2lOg",
+    "checkedAt": "2026-10-26T08:29:19.395Z"
   },
   {
     "id": "watchmode:3262087",
@@ -125174,7 +125507,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:38.226Z",
-    "trailerId": "M9nc3simqAE"
+    "trailerId": "M9nc3simqAE",
+    "heldAt": "2026-10-26T08:29:19.727Z"
   },
   {
     "id": "watchmode:11120094",
@@ -125213,7 +125547,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:39.006Z",
-    "trailerId": "-OIUNzgITiI"
+    "trailerId": "-OIUNzgITiI",
+    "checkedAt": "2026-10-26T08:29:20.039Z"
   },
   {
     "id": "watchmode:1910248",
@@ -125251,7 +125586,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:39.689Z",
-    "trailerId": "NTwuzdjmfTo"
+    "trailerId": "NTwuzdjmfTo",
+    "checkedAt": "2026-10-26T08:29:20.361Z"
   },
   {
     "id": "watchmode:1876975",
@@ -125290,7 +125626,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:40.209Z",
-    "trailerId": "pgtdkuNFoKk"
+    "trailerId": "pgtdkuNFoKk",
+    "checkedAt": "2026-10-26T08:29:20.770Z"
   },
   {
     "id": "watchmode:3238619",
@@ -125329,7 +125666,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:41.062Z",
-    "trailerId": "wAozjf2frxw"
+    "trailerId": "wAozjf2frxw",
+    "checkedAt": "2026-10-26T08:29:21.104Z"
   },
   {
     "id": "watchmode:3297386",
@@ -125367,7 +125705,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:41.603Z",
-    "trailerId": "e5ffLLR3dLg"
+    "trailerId": "e5ffLLR3dLg",
+    "heldAt": "2026-10-26T08:29:21.417Z"
   },
   {
     "id": "watchmode:11014451",
@@ -125407,7 +125746,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:43.753Z",
-    "trailerId": "vMYy2bNc9YU"
+    "trailerId": "vMYy2bNc9YU",
+    "heldAt": "2026-10-26T08:29:21.728Z"
   },
   {
     "id": "watchmode:1642314",
@@ -125452,7 +125792,8 @@
       ],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:34:44.536Z"
+    "updatedAt": "2026-10-02T07:34:44.536Z",
+    "heldAt": "2026-10-26T08:29:22.029Z"
   },
   {
     "id": "watchmode:3234134",
@@ -125492,7 +125833,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:45.293Z",
-    "trailerId": "6QZfHbpEUpI"
+    "trailerId": "6QZfHbpEUpI",
+    "checkedAt": "2026-10-26T08:29:22.382Z"
   },
   {
     "id": "watchmode:3234031",
@@ -125533,7 +125875,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:45.905Z",
-    "trailerId": "iwQqVNlhlcQ"
+    "trailerId": "iwQqVNlhlcQ",
+    "checkedAt": "2026-10-26T08:29:22.705Z"
   },
   {
     "id": "watchmode:11107093",
@@ -125585,7 +125928,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:34:47.444Z",
-    "trailerId": "pD_H2u79tp0"
+    "trailerId": "pD_H2u79tp0",
+    "heldAt": "2026-10-26T08:29:23.102Z"
   },
   {
     "id": "watchmode:1850369",
@@ -125624,7 +125968,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:34:48.271Z",
-    "trailerId": "b14IFe4an5k"
+    "trailerId": "b14IFe4an5k",
+    "checkedAt": "2026-10-26T08:29:23.427Z"
   },
   {
     "id": "watchmode:11024571",
@@ -125676,7 +126021,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:35:06.189Z",
-    "trailerId": "TYVHecBQ1I0"
+    "trailerId": "TYVHecBQ1I0",
+    "checkedAt": "2026-10-26T08:29:23.871Z"
   },
   {
     "id": "watchmode:3308862",
@@ -125711,7 +126057,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:35:07.716Z"
+    "updatedAt": "2026-10-02T07:35:07.716Z",
+    "checkedAt": "2026-10-26T08:29:24.179Z"
   },
   {
     "id": "watchmode:3257564",
@@ -125753,7 +126100,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:08.333Z",
-    "trailerId": "ADRMkz1vvrQ"
+    "trailerId": "ADRMkz1vvrQ",
+    "checkedAt": "2026-10-26T08:29:24.517Z"
   },
   {
     "id": "watchmode:1740908",
@@ -125792,7 +126140,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:09.149Z",
-    "trailerId": "RCmyr_d3Hi0"
+    "trailerId": "RCmyr_d3Hi0",
+    "checkedAt": "2026-10-26T08:29:24.826Z"
   },
   {
     "id": "watchmode:3291165",
@@ -125832,7 +126181,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:09.676Z",
-    "trailerId": "-dNbPQbTDYw"
+    "trailerId": "-dNbPQbTDYw",
+    "checkedAt": "2026-10-26T08:29:25.153Z"
   },
   {
     "id": "watchmode:3195524",
@@ -125873,7 +126223,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:10.480Z",
-    "trailerId": "YqpIKFUrLrk"
+    "trailerId": "YqpIKFUrLrk",
+    "checkedAt": "2026-10-26T08:29:25.482Z"
   },
   {
     "id": "watchmode:3297215",
@@ -125912,7 +126263,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:11.317Z",
-    "trailerId": "UTOgDYEZ-Mg"
+    "trailerId": "UTOgDYEZ-Mg",
+    "heldAt": "2026-10-26T08:29:25.799Z"
   },
   {
     "id": "watchmode:3231625",
@@ -125951,7 +126303,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:11.881Z",
-    "trailerId": "KaniPxYVbMU"
+    "trailerId": "KaniPxYVbMU",
+    "checkedAt": "2026-10-26T08:29:26.138Z"
   },
   {
     "id": "watchmode:1944511",
@@ -125978,19 +126331,27 @@
     "sourceId": "1944511",
     "options": {
       "free": [],
-      "stream": [],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ea9a2141-9147-4820-a3cf-39ce960a15a0",
+          "price": null,
+          "format": "HD"
+        }
+      ],
       "rent": [
         {
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ea9a2141-9147-4820-a3cf-39ce960a15a0",
           "price": 119,
-          "format": "SD"
+          "format": "4K"
         }
       ],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:12.435Z",
-    "trailerId": "jP2nDyQWBOU"
+    "trailerId": "jP2nDyQWBOU",
+    "checkedAt": "2026-10-26T08:29:26.568Z"
   },
   {
     "id": "watchmode:3304203",
@@ -126028,7 +126389,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:13.109Z",
-    "trailerId": "WHrsKSDqInI"
+    "trailerId": "WHrsKSDqInI",
+    "heldAt": "2026-10-26T08:29:26.881Z"
   },
   {
     "id": "watchmode:3235880",
@@ -126075,7 +126437,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:13.696Z",
-    "trailerId": "VcpYPxKeGAc"
+    "trailerId": "VcpYPxKeGAc",
+    "checkedAt": "2026-10-26T08:29:27.246Z"
   },
   {
     "id": "watchmode:1993885",
@@ -126122,7 +126485,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:16.088Z",
-    "trailerId": "8GYsnraCOrg"
+    "trailerId": "8GYsnraCOrg",
+    "heldAt": "2026-10-26T08:29:27.554Z"
   },
   {
     "id": "watchmode:3241647",
@@ -126164,7 +126528,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:16.931Z",
-    "trailerId": "kajCUhg36R0"
+    "trailerId": "kajCUhg36R0",
+    "checkedAt": "2026-10-26T08:29:27.906Z"
   },
   {
     "id": "watchmode:3234559",
@@ -126203,7 +126568,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:18.099Z",
-    "trailerId": "ahMnT9f2uDM"
+    "trailerId": "ahMnT9f2uDM",
+    "checkedAt": "2026-10-26T08:29:28.242Z"
   },
   {
     "id": "watchmode:3299281",
@@ -126241,7 +126607,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:18.776Z",
-    "trailerId": "WcJhE2jd_oY"
+    "trailerId": "WcJhE2jd_oY",
+    "heldAt": "2026-10-26T08:29:28.555Z"
   },
   {
     "id": "watchmode:3291323",
@@ -126280,7 +126647,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:19.336Z",
-    "trailerId": "D4JPjVN4gcg"
+    "trailerId": "D4JPjVN4gcg",
+    "heldAt": "2026-10-26T08:29:28.877Z"
   },
   {
     "id": "watchmode:3221721",
@@ -126319,7 +126687,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:21.125Z",
-    "trailerId": "9T1oy0y8-zY"
+    "trailerId": "9T1oy0y8-zY",
+    "checkedAt": "2026-10-26T08:29:29.239Z"
   },
   {
     "id": "watchmode:11117926",
@@ -126360,7 +126729,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:22.136Z",
-    "trailerId": "jHtGZS-TFOI"
+    "trailerId": "jHtGZS-TFOI",
+    "heldAt": "2026-10-26T08:29:29.550Z"
   },
   {
     "id": "watchmode:11116204",
@@ -126398,7 +126768,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:22.640Z",
-    "trailerId": "Jfjk3G9wano"
+    "trailerId": "Jfjk3G9wano",
+    "heldAt": "2026-10-26T08:29:30.315Z"
   },
   {
     "id": "watchmode:11093995",
@@ -126436,7 +126807,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:23.241Z",
-    "trailerId": "u6Qs4W0uwBw"
+    "trailerId": "u6Qs4W0uwBw",
+    "checkedAt": "2026-10-26T08:29:30.629Z"
   },
   {
     "id": "watchmode:1884823",
@@ -126477,13 +126849,14 @@
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.948bd696-d67c-4c23-a154-56046647bc67",
           "price": 119,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:23.858Z",
-    "trailerId": "5OndK0w1lYY"
+    "trailerId": "5OndK0w1lYY",
+    "checkedAt": "2026-10-26T08:29:31.039Z"
   },
   {
     "id": "watchmode:1787120",
@@ -126522,7 +126895,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:24.611Z",
-    "trailerId": "sL7V1INn6io"
+    "trailerId": "sL7V1INn6io",
+    "checkedAt": "2026-10-26T08:29:31.355Z"
   },
   {
     "id": "watchmode:1884637",
@@ -126562,7 +126936,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:25.120Z",
-    "trailerId": "zgzxY4RtxBg"
+    "trailerId": "zgzxY4RtxBg",
+    "checkedAt": "2026-10-26T08:29:31.679Z"
   },
   {
     "id": "watchmode:3217045",
@@ -126607,7 +126982,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:26.418Z",
-    "trailerId": "AjI52haEerU"
+    "trailerId": "AjI52haEerU",
+    "checkedAt": "2026-10-26T08:29:32.037Z"
   },
   {
     "id": "watchmode:11106562",
@@ -126645,7 +127021,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:27.070Z",
-    "trailerId": "7l3DK-5Vsmw"
+    "trailerId": "7l3DK-5Vsmw",
+    "heldAt": "2026-10-26T08:29:32.354Z"
   },
   {
     "id": "watchmode:3296878",
@@ -126691,7 +127068,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:28.913Z",
-    "trailerId": "Mdqk-sK7038"
+    "trailerId": "Mdqk-sK7038",
+    "heldAt": "2026-10-26T08:29:32.682Z"
   },
   {
     "id": "watchmode:11026371",
@@ -126729,7 +127107,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:29.526Z",
-    "trailerId": "PF3dDdeSIVc"
+    "trailerId": "PF3dDdeSIVc",
+    "checkedAt": "2026-10-26T08:29:33.009Z"
   },
   {
     "id": "watchmode:3268609",
@@ -126761,14 +127140,15 @@
           "name": "Netflix",
           "url": "https://www.netflix.com/title/81734605",
           "price": null,
-          "format": "HD"
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:34.326Z",
-    "trailerId": "tTGeLuCs97Q"
+    "trailerId": "tTGeLuCs97Q",
+    "checkedAt": "2026-10-26T08:29:33.338Z"
   },
   {
     "id": "watchmode:1822902",
@@ -126807,7 +127187,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:35.237Z",
-    "trailerId": "hzyOsNyDkbM"
+    "trailerId": "hzyOsNyDkbM",
+    "checkedAt": "2026-10-26T08:29:33.660Z"
   },
   {
     "id": "watchmode:3264325",
@@ -126846,7 +127227,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:37.208Z",
-    "trailerId": "KpWyxrPqkeA"
+    "trailerId": "KpWyxrPqkeA",
+    "checkedAt": "2026-10-26T08:29:34.006Z"
   },
   {
     "id": "watchmode:11107173",
@@ -126884,7 +127266,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:40.281Z",
-    "trailerId": "4k7lkMdZorE"
+    "trailerId": "4k7lkMdZorE",
+    "checkedAt": "2026-10-26T08:29:34.328Z"
   },
   {
     "id": "watchmode:3266108",
@@ -126924,7 +127307,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:41.200Z",
-    "trailerId": "oonACDq89BY"
+    "trailerId": "oonACDq89BY",
+    "checkedAt": "2026-10-26T08:29:35.550Z"
   },
   {
     "id": "watchmode:1880626",
@@ -126954,7 +127338,13 @@
       "stream": [
         {
           "name": "AppleTV+",
-          "url": "https://tv.apple.com/in/movie/outcome/umc.cmc.3uvjztuy2y8ve2rj6nvgyop89?at=1000l3V2&ct=app_tvplus&itscg=30200&itsct=",
+          "url": "https://tv.apple.com/in/movie/outcome/umc.cmc.3uvjztuy2y8ve2rj6nvgyop89?at=1000l3V2&ct=app_tvplus&itscg=30200",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "AppleTV+ Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.b8af0946-ac65-4346-bd51-878c04ab5c89",
           "price": null,
           "format": "4K"
         }
@@ -126963,7 +127353,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:43.049Z",
-    "trailerId": "NQQqInahTAM"
+    "trailerId": "NQQqInahTAM",
+    "checkedAt": "2026-10-26T08:29:35.873Z"
   },
   {
     "id": "watchmode:3267918",
@@ -127001,7 +127392,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:35:51.517Z",
-    "trailerId": "RGvozSbcLz8"
+    "trailerId": "RGvozSbcLz8",
+    "checkedAt": "2026-10-26T08:29:36.226Z"
   },
   {
     "id": "watchmode:550500",
@@ -127040,7 +127432,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:11.000Z",
-    "trailerId": "Mej2usrRCl0"
+    "trailerId": "Mej2usrRCl0",
+    "heldAt": "2026-10-26T08:29:36.535Z"
   },
   {
     "id": "watchmode:3295066",
@@ -127085,7 +127478,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:36:11.533Z"
+    "updatedAt": "2026-10-02T07:36:11.533Z",
+    "checkedAt": "2026-10-26T08:29:36.876Z"
   },
   {
     "id": "watchmode:11119193",
@@ -127122,7 +127516,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:36:12.228Z"
+    "updatedAt": "2026-10-02T07:36:12.228Z",
+    "checkedAt": "2026-10-26T08:29:37.186Z"
   },
   {
     "id": "watchmode:3295456",
@@ -127160,7 +127555,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:36:13.457Z"
+    "updatedAt": "2026-10-02T07:36:13.457Z",
+    "heldAt": "2026-10-26T08:29:37.498Z"
   },
   {
     "id": "watchmode:11075017",
@@ -127198,7 +127594,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:14.073Z",
-    "trailerId": "Hp2heiUFxXg"
+    "trailerId": "Hp2heiUFxXg",
+    "checkedAt": "2026-10-26T08:29:37.838Z"
   },
   {
     "id": "watchmode:3231141",
@@ -127239,7 +127636,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:15.680Z",
-    "trailerId": "vMc_pWm7G7o"
+    "trailerId": "vMc_pWm7G7o",
+    "checkedAt": "2026-10-26T08:29:38.171Z"
   },
   {
     "id": "watchmode:1824485",
@@ -127281,13 +127679,13 @@
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.6813aba6-7390-450f-85a5-07e2e2ec6fe8",
           "price": 149,
-          "format": "SD"
+          "format": "4K"
         },
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/they-will-kill-you/umc.cmc.4wiv3tjsi4kmk1p4ul2hu9hqw?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1880449791",
           "price": 149,
-          "format": "SD"
+          "format": "4K"
         }
       ],
       "buy": [
@@ -127295,12 +127693,13 @@
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/they-will-kill-you/umc.cmc.4wiv3tjsi4kmk1p4ul2hu9hqw?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1880449791",
           "price": 699,
-          "format": "SD"
+          "format": "4K"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:36:18.068Z",
-    "trailerId": "s0PGrtw0X1Q"
+    "trailerId": "s0PGrtw0X1Q",
+    "checkedAt": "2026-10-26T08:29:38.625Z"
   },
   {
     "id": "watchmode:3292031",
@@ -127338,7 +127737,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:19.461Z",
-    "trailerId": "K4q_0DtugOA"
+    "trailerId": "K4q_0DtugOA",
+    "heldAt": "2026-10-26T08:29:38.934Z"
   },
   {
     "id": "watchmode:1894001",
@@ -127383,7 +127783,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:36:21.004Z",
-    "trailerId": "jbbaNL6rfEc"
+    "trailerId": "jbbaNL6rfEc",
+    "checkedAt": "2026-10-26T08:29:39.334Z"
   },
   {
     "id": "watchmode:3250369",
@@ -127424,7 +127825,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:21.885Z",
-    "trailerId": "TKEPv8FBeSw"
+    "trailerId": "TKEPv8FBeSw",
+    "checkedAt": "2026-10-26T08:29:39.676Z"
   },
   {
     "id": "watchmode:1958737",
@@ -127475,7 +127877,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:36:22.828Z",
-    "trailerId": "GXcoJVCnxTg"
+    "trailerId": "GXcoJVCnxTg",
+    "heldAt": "2026-10-26T08:29:40.073Z"
   },
   {
     "id": "watchmode:11103392",
@@ -127513,7 +127916,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:23.351Z",
-    "trailerId": "oVOj6mWbDV4"
+    "trailerId": "oVOj6mWbDV4",
+    "heldAt": "2026-10-26T08:29:40.377Z"
   },
   {
     "id": "watchmode:3231742",
@@ -127578,7 +127982,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:24.214Z",
-    "trailerId": "pzPuxAcq81g"
+    "trailerId": "pzPuxAcq81g",
+    "checkedAt": "2026-10-26T08:29:40.740Z"
   },
   {
     "id": "watchmode:3243854",
@@ -127610,14 +128015,15 @@
           "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271608558",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:24.786Z",
-    "trailerId": "OSb-X_YkLg4"
+    "trailerId": "OSb-X_YkLg4",
+    "checkedAt": "2026-10-26T08:29:41.096Z"
   },
   {
     "id": "watchmode:1897872",
@@ -127657,7 +128063,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:25.313Z",
-    "trailerId": "pI-2t18TXqs"
+    "trailerId": "pI-2t18TXqs",
+    "checkedAt": "2026-10-26T08:29:41.409Z"
   },
   {
     "id": "watchmode:1889733",
@@ -127697,7 +128104,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:25.829Z",
-    "trailerId": "pGxKTIegUZ4"
+    "trailerId": "pGxKTIegUZ4",
+    "checkedAt": "2026-10-26T08:29:41.805Z"
   },
   {
     "id": "watchmode:3294439",
@@ -127735,7 +128143,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:26.670Z",
-    "trailerId": "a4BaDLZjE2c"
+    "trailerId": "a4BaDLZjE2c",
+    "checkedAt": "2026-10-26T08:29:42.121Z"
   },
   {
     "id": "watchmode:11106147",
@@ -127787,7 +128196,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:36:28.435Z",
-    "trailerId": "-smVu1cxPm8"
+    "trailerId": "-smVu1cxPm8",
+    "heldAt": "2026-10-26T08:29:42.522Z"
   },
   {
     "id": "watchmode:11002760",
@@ -127818,7 +128228,7 @@
       "stream": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271545652",
+          "url": "https://www.hotstar.com/in/movies/pizza-movie/1271545652",
           "price": null,
           "format": "HD"
         }
@@ -127827,7 +128237,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:28.987Z",
-    "trailerId": "fOzF87PFGnw"
+    "trailerId": "fOzF87PFGnw",
+    "checkedAt": "2026-10-26T08:29:42.867Z"
   },
   {
     "id": "watchmode:1994702",
@@ -127866,7 +128277,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:29.486Z",
-    "trailerId": "tBjUITQ4lqc"
+    "trailerId": "tBjUITQ4lqc",
+    "checkedAt": "2026-10-26T08:29:43.181Z"
   },
   {
     "id": "watchmode:1890366",
@@ -127906,7 +128318,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:30.521Z",
-    "trailerId": "MpNobYCw0mg"
+    "trailerId": "MpNobYCw0mg",
+    "heldAt": "2026-10-26T08:29:43.494Z"
   },
   {
     "id": "watchmode:1868141",
@@ -127957,7 +128370,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:36:31.583Z",
-    "trailerId": "rooCFaczeXQ"
+    "trailerId": "rooCFaczeXQ",
+    "checkedAt": "2026-10-26T08:29:43.900Z"
   },
   {
     "id": "watchmode:1993421",
@@ -128016,7 +128430,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:36:32.198Z",
-    "trailerId": "1_TRSEcMvR0"
+    "trailerId": "1_TRSEcMvR0",
+    "checkedAt": "2026-10-26T08:29:44.334Z"
   },
   {
     "id": "watchmode:3212494",
@@ -128057,7 +128472,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:32.729Z",
-    "trailerId": "RSpvGC0_XLM"
+    "trailerId": "RSpvGC0_XLM",
+    "checkedAt": "2026-10-26T08:29:44.664Z"
   },
   {
     "id": "watchmode:1868648",
@@ -128116,7 +128532,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:36:33.426Z",
-    "trailerId": "i36Zw32GfRQ"
+    "trailerId": "i36Zw32GfRQ",
+    "checkedAt": "2026-10-26T08:29:45.125Z"
   },
   {
     "id": "watchmode:11100897",
@@ -128154,7 +128571,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:33.938Z",
-    "trailerId": "Ms23FeJWvKU"
+    "trailerId": "Ms23FeJWvKU",
+    "checkedAt": "2026-10-26T08:29:45.440Z"
   },
   {
     "id": "watchmode:3226835",
@@ -128192,7 +128610,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:34.656Z",
-    "trailerId": "L00r5BGgP64"
+    "trailerId": "L00r5BGgP64",
+    "checkedAt": "2026-10-26T08:29:45.800Z"
   },
   {
     "id": "watchmode:553727",
@@ -128231,7 +128650,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:35.172Z",
-    "trailerId": "y4ZBSzYUTL0"
+    "trailerId": "y4ZBSzYUTL0",
+    "checkedAt": "2026-10-26T08:29:46.117Z"
   },
   {
     "id": "watchmode:1684702",
@@ -128270,7 +128690,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:37.593Z",
-    "trailerId": "lcvUGs3xaDM"
+    "trailerId": "lcvUGs3xaDM",
+    "heldAt": "2026-10-26T08:29:46.432Z"
   },
   {
     "id": "watchmode:3227542",
@@ -128310,7 +128731,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:38.353Z",
-    "trailerId": "rXMrTALO2ME"
+    "trailerId": "rXMrTALO2ME",
+    "checkedAt": "2026-10-26T08:29:46.773Z"
   },
   {
     "id": "watchmode:1733289",
@@ -128341,7 +128763,7 @@
       "stream": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271673161",
+          "url": "https://www.hotstar.com/in/movies/the-bride/1271673161",
           "price": null,
           "format": "4K"
         }
@@ -128350,7 +128772,7 @@
         {
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.95c2cce2-2c69-456b-9229-45df2b4f0039",
-          "price": 149,
+          "price": 120,
           "format": "SD"
         },
         {
@@ -128364,13 +128786,14 @@
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/the-bride/umc.cmc.43w9bx35mkjl3whdnia831ntt?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1876503680",
-          "price": 599,
+          "price": 499,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:36:39.571Z",
-    "trailerId": "IhgcUArO3Uo"
+    "trailerId": "IhgcUArO3Uo",
+    "checkedAt": "2026-10-26T08:30:47.745Z"
   },
   {
     "id": "watchmode:3267891",
@@ -128411,7 +128834,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:40.958Z",
-    "trailerId": "g0BmwQvmZ1E"
+    "trailerId": "g0BmwQvmZ1E",
+    "checkedAt": "2026-10-26T08:30:48.133Z"
   },
   {
     "id": "watchmode:3245032",
@@ -128452,7 +128876,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:41.721Z",
-    "trailerId": "u1XHd5rIvmY"
+    "trailerId": "u1XHd5rIvmY",
+    "checkedAt": "2026-10-26T08:30:48.494Z"
   },
   {
     "id": "watchmode:1973151",
@@ -128490,7 +128915,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:43.117Z",
-    "trailerId": "YoOD-2Wn7ik"
+    "trailerId": "YoOD-2Wn7ik",
+    "heldAt": "2026-10-26T08:30:48.799Z"
   },
   {
     "id": "watchmode:1889913",
@@ -128527,7 +128953,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:36:43.649Z"
+    "updatedAt": "2026-10-02T07:36:43.649Z",
+    "checkedAt": "2026-10-26T08:30:49.121Z"
   },
   {
     "id": "watchmode:1848682",
@@ -128579,7 +129006,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:36:44.209Z",
-    "trailerId": "868HlmpAhtQ"
+    "trailerId": "868HlmpAhtQ",
+    "checkedAt": "2026-10-26T08:30:49.531Z"
   },
   {
     "id": "watchmode:3292722",
@@ -128623,7 +129051,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:36:45.184Z"
+    "updatedAt": "2026-10-02T07:36:45.184Z",
+    "heldAt": "2026-10-26T08:30:49.839Z"
   },
   {
     "id": "watchmode:3273535",
@@ -128662,7 +129091,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:45.715Z",
-    "trailerId": "9scGpABYBMA"
+    "trailerId": "9scGpABYBMA",
+    "checkedAt": "2026-10-26T08:30:50.201Z"
   },
   {
     "id": "watchmode:3266447",
@@ -128701,7 +129131,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:46.252Z",
-    "trailerId": "PbfDOLvl3yA"
+    "trailerId": "PbfDOLvl3yA",
+    "checkedAt": "2026-10-26T08:30:50.544Z"
   },
   {
     "id": "watchmode:1910977",
@@ -128753,7 +129184,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:36:47.446Z",
-    "trailerId": "868HlmpAhtQ"
+    "trailerId": "868HlmpAhtQ",
+    "checkedAt": "2026-10-26T08:30:50.954Z"
   },
   {
     "id": "watchmode:1886540",
@@ -128793,7 +129225,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:47.948Z",
-    "trailerId": "rjtPZbBUawE"
+    "trailerId": "rjtPZbBUawE",
+    "heldAt": "2026-10-26T08:30:51.263Z"
   },
   {
     "id": "watchmode:1706216",
@@ -128833,7 +129266,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:48.655Z",
-    "trailerId": "pwq8gwdVxts"
+    "trailerId": "pwq8gwdVxts",
+    "heldAt": "2026-10-26T08:30:51.685Z"
   },
   {
     "id": "watchmode:3291865",
@@ -128872,7 +129306,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:36:49.402Z",
-    "trailerId": "IeBon_7qKpM"
+    "trailerId": "IeBon_7qKpM",
+    "checkedAt": "2026-10-26T08:30:51.994Z"
   },
   {
     "id": "watchmode:11104824",
@@ -128909,7 +129344,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:36:50.187Z"
+    "updatedAt": "2026-10-02T07:36:50.187Z",
+    "checkedAt": "2026-10-26T08:30:52.307Z"
   },
   {
     "id": "watchmode:1978002",
@@ -128968,7 +129404,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:36:51.091Z",
-    "trailerId": "8MLqWdUOZYQ"
+    "trailerId": "8MLqWdUOZYQ",
+    "heldAt": "2026-10-26T08:30:52.708Z"
   },
   {
     "id": "watchmode:3213156",
@@ -129009,7 +129446,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:09.687Z",
-    "trailerId": "P5EhHeF99wg"
+    "trailerId": "P5EhHeF99wg",
+    "checkedAt": "2026-10-26T08:30:53.074Z"
   },
   {
     "id": "watchmode:1967461",
@@ -129068,7 +129506,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:37:10.629Z",
-    "trailerId": "2s_dCvUgOBI"
+    "trailerId": "2s_dCvUgOBI",
+    "heldAt": "2026-10-26T08:30:53.477Z"
   },
   {
     "id": "watchmode:1704314",
@@ -129108,7 +129547,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:12.453Z",
-    "trailerId": "1x8siutLAdA"
+    "trailerId": "1x8siutLAdA",
+    "checkedAt": "2026-10-26T08:30:53.803Z"
   },
   {
     "id": "watchmode:3291930",
@@ -129146,7 +129586,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:14.287Z",
-    "trailerId": "tliQp7qJvkI"
+    "trailerId": "tliQp7qJvkI",
+    "heldAt": "2026-10-26T08:30:54.120Z"
   },
   {
     "id": "watchmode:3243098",
@@ -129178,14 +129619,15 @@
           "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271526684",
           "price": null,
-          "format": "HD"
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:14.899Z",
-    "trailerId": "Gw2RakWShdE"
+    "trailerId": "Gw2RakWShdE",
+    "checkedAt": "2026-10-26T08:30:54.552Z"
   },
   {
     "id": "watchmode:3204484",
@@ -129226,7 +129668,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:15.687Z",
-    "trailerId": "6flC0y-2iFw"
+    "trailerId": "6flC0y-2iFw",
+    "checkedAt": "2026-10-26T08:30:54.882Z"
   },
   {
     "id": "watchmode:1910857",
@@ -129264,7 +129707,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:16.436Z",
-    "trailerId": "wAFF7SwGY_k"
+    "trailerId": "wAFF7SwGY_k",
+    "heldAt": "2026-10-26T08:30:55.201Z"
   },
   {
     "id": "watchmode:1841782",
@@ -129303,7 +129747,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:17.360Z",
-    "trailerId": "eEyLVPyYdqk"
+    "trailerId": "eEyLVPyYdqk",
+    "heldAt": "2026-10-26T08:30:55.517Z"
   },
   {
     "id": "watchmode:1740944",
@@ -129342,7 +129787,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:19.007Z",
-    "trailerId": "KeEHsuZ4Ja4"
+    "trailerId": "KeEHsuZ4Ja4",
+    "checkedAt": "2026-10-26T08:30:55.980Z"
   },
   {
     "id": "watchmode:1823527",
@@ -129401,7 +129847,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:37:25.652Z",
-    "trailerId": "433MYSlERJo"
+    "trailerId": "433MYSlERJo",
+    "heldAt": "2026-10-26T08:30:56.309Z"
   },
   {
     "id": "watchmode:1758485",
@@ -129453,7 +129900,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:37:26.574Z",
-    "trailerId": "B2fZEIHamVs"
+    "trailerId": "B2fZEIHamVs",
+    "heldAt": "2026-10-26T08:30:56.715Z"
   },
   {
     "id": "watchmode:11092471",
@@ -129492,7 +129940,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:27.495Z",
-    "trailerId": "x93eZD1F4vs"
+    "trailerId": "x93eZD1F4vs",
+    "heldAt": "2026-10-26T08:30:57.022Z"
   },
   {
     "id": "watchmode:3287037",
@@ -129531,7 +129980,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:28.723Z",
-    "trailerId": "JFmlQad4_pw"
+    "trailerId": "JFmlQad4_pw",
+    "heldAt": "2026-10-26T08:30:57.331Z"
   },
   {
     "id": "watchmode:3234006",
@@ -129571,7 +130021,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:29.338Z",
-    "trailerId": "fxM1tv6bI3A"
+    "trailerId": "fxM1tv6bI3A",
+    "checkedAt": "2026-10-26T08:30:57.700Z"
   },
   {
     "id": "watchmode:11088058",
@@ -129610,7 +130061,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:30.567Z",
-    "trailerId": "7aa4K7gUEis"
+    "trailerId": "7aa4K7gUEis",
+    "heldAt": "2026-10-26T08:30:58.003Z"
   },
   {
     "id": "watchmode:1929988",
@@ -129648,7 +130100,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:31.350Z",
-    "trailerId": "dxXJAqOU00g"
+    "trailerId": "dxXJAqOU00g",
+    "heldAt": "2026-10-26T08:30:58.309Z"
   },
   {
     "id": "watchmode:544570",
@@ -129689,7 +130142,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:32.718Z",
-    "trailerId": "wHuWmjXsReU"
+    "trailerId": "wHuWmjXsReU",
+    "checkedAt": "2026-10-26T08:30:58.599Z"
   },
   {
     "id": "watchmode:11074987",
@@ -129727,7 +130181,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:33.640Z",
-    "trailerId": "8pmJgtLKBXg"
+    "trailerId": "8pmJgtLKBXg",
+    "checkedAt": "2026-10-26T08:30:58.931Z"
   },
   {
     "id": "watchmode:1695249",
@@ -129766,7 +130221,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:34.417Z",
-    "trailerId": "Gb5OC6TV8q0"
+    "trailerId": "Gb5OC6TV8q0",
+    "heldAt": "2026-10-26T08:30:59.248Z"
   },
   {
     "id": "watchmode:1855225",
@@ -129807,7 +130263,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:35.175Z",
-    "trailerId": "7bG6ymmZM7s"
+    "trailerId": "7bG6ymmZM7s",
+    "heldAt": "2026-10-26T08:30:59.642Z"
   },
   {
     "id": "watchmode:1769512",
@@ -129847,7 +130304,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:36.714Z",
-    "trailerId": "GrhxJTHU2uk"
+    "trailerId": "GrhxJTHU2uk",
+    "checkedAt": "2026-10-26T08:30:59.954Z"
   },
   {
     "id": "watchmode:3287426",
@@ -129886,7 +130344,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:37.651Z",
-    "trailerId": "eKo_urZAm9o"
+    "trailerId": "eKo_urZAm9o",
+    "heldAt": "2026-10-26T08:31:00.268Z"
   },
   {
     "id": "watchmode:3286712",
@@ -129924,7 +130383,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:38.416Z",
-    "trailerId": "Ei-bNnwnvB0"
+    "trailerId": "Ei-bNnwnvB0",
+    "heldAt": "2026-10-26T08:31:00.587Z"
   },
   {
     "id": "watchmode:11034080",
@@ -129962,7 +130422,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:39.168Z",
-    "trailerId": "PHli_VzlgsY"
+    "trailerId": "PHli_VzlgsY",
+    "heldAt": "2026-10-26T08:31:00.896Z"
   },
   {
     "id": "watchmode:1982545",
@@ -130020,7 +130481,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:37:40.396Z",
-    "trailerId": "EIhlE3lfu6w"
+    "trailerId": "EIhlE3lfu6w",
+    "checkedAt": "2026-10-26T08:31:01.327Z"
   },
   {
     "id": "watchmode:1981256",
@@ -130085,7 +130547,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:37:41.469Z",
-    "trailerId": "MonfrfdKzOc"
+    "trailerId": "MonfrfdKzOc",
+    "heldAt": "2026-10-26T08:31:01.723Z"
   },
   {
     "id": "watchmode:1759209",
@@ -130125,7 +130588,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:43.166Z",
-    "trailerId": "R4wiXj9NmEE"
+    "trailerId": "R4wiXj9NmEE",
+    "checkedAt": "2026-10-26T08:31:02.171Z"
   },
   {
     "id": "watchmode:3238534",
@@ -130159,14 +130623,15 @@
           "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271506633",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:43.701Z",
-    "trailerId": "5bDmmK15CNY"
+    "trailerId": "5bDmmK15CNY",
+    "checkedAt": "2026-10-26T08:31:02.513Z"
   },
   {
     "id": "watchmode:11075341",
@@ -130204,7 +130669,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:44.391Z",
-    "trailerId": "suZtQp5Vmo0"
+    "trailerId": "suZtQp5Vmo0",
+    "heldAt": "2026-10-26T08:31:02.854Z"
   },
   {
     "id": "watchmode:1755487",
@@ -130250,7 +130716,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:45.176Z",
-    "trailerId": "-O5DgGQJeks"
+    "trailerId": "-O5DgGQJeks",
+    "checkedAt": "2026-10-26T08:31:03.906Z"
   },
   {
     "id": "watchmode:1785068",
@@ -130311,7 +130778,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:37:45.982Z",
-    "trailerId": "7H7Djx17l8Y"
+    "trailerId": "7H7Djx17l8Y",
+    "checkedAt": "2026-10-26T08:31:04.427Z"
   },
   {
     "id": "watchmode:3268422",
@@ -130349,7 +130817,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:47.037Z",
-    "trailerId": "z_EqI_c8fAs"
+    "trailerId": "z_EqI_c8fAs",
+    "heldAt": "2026-10-26T08:31:04.788Z"
   },
   {
     "id": "watchmode:3229330",
@@ -130389,7 +130858,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:47.654Z",
-    "trailerId": "sItUCKJQLTU"
+    "trailerId": "sItUCKJQLTU",
+    "checkedAt": "2026-10-26T08:31:05.156Z"
   },
   {
     "id": "watchmode:1929698",
@@ -130429,7 +130899,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:49.256Z",
-    "trailerId": "lyfrcbIaTEE"
+    "trailerId": "lyfrcbIaTEE",
+    "checkedAt": "2026-10-26T08:31:05.567Z"
   },
   {
     "id": "watchmode:1885765",
@@ -130468,7 +130939,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:49.789Z",
-    "trailerId": "8J_pMGZScB8"
+    "trailerId": "8J_pMGZScB8",
+    "checkedAt": "2026-10-26T08:31:06.569Z"
   },
   {
     "id": "watchmode:3234500",
@@ -130508,7 +130980,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:53.300Z",
-    "trailerId": "-DlukUWtoCU"
+    "trailerId": "-DlukUWtoCU",
+    "checkedAt": "2026-10-26T08:31:06.927Z"
   },
   {
     "id": "watchmode:3222460",
@@ -130548,7 +131021,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:53.918Z",
-    "trailerId": "LD16F92LHIY"
+    "trailerId": "LD16F92LHIY",
+    "checkedAt": "2026-10-26T08:31:07.252Z"
   },
   {
     "id": "watchmode:3287816",
@@ -130588,7 +131062,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:54.464Z",
-    "trailerId": "u4it6ymhrLA"
+    "trailerId": "u4it6ymhrLA",
+    "checkedAt": "2026-10-26T08:31:07.585Z"
   },
   {
     "id": "watchmode:1810796",
@@ -130654,7 +131129,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:37:55.451Z",
-    "trailerId": "QlF68NIz8dg"
+    "trailerId": "QlF68NIz8dg",
+    "checkedAt": "2026-10-26T08:31:08.041Z"
   },
   {
     "id": "watchmode:3244084",
@@ -130694,7 +131170,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:55.990Z",
-    "trailerId": "-JDWGfL7EEY"
+    "trailerId": "-JDWGfL7EEY",
+    "heldAt": "2026-10-26T08:31:08.369Z"
   },
   {
     "id": "watchmode:11066533",
@@ -130751,7 +131228,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:37:56.681Z",
-    "trailerId": "uXRFha7MLTM"
+    "trailerId": "uXRFha7MLTM",
+    "heldAt": "2026-10-26T08:31:08.683Z"
   },
   {
     "id": "watchmode:1833821",
@@ -130791,7 +131269,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:57.193Z",
-    "trailerId": "yeR5bcbRPak"
+    "trailerId": "yeR5bcbRPak",
+    "checkedAt": "2026-10-26T08:31:09.007Z"
   },
   {
     "id": "watchmode:3274700",
@@ -130831,7 +131310,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:37:59.461Z",
-    "trailerId": "tKmLU_M6G4M"
+    "trailerId": "tKmLU_M6G4M",
+    "heldAt": "2026-10-26T08:31:09.344Z"
   },
   {
     "id": "watchmode:3231658",
@@ -130872,7 +131352,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:00.038Z",
-    "trailerId": "8_szlvBLll0"
+    "trailerId": "8_szlvBLll0",
+    "checkedAt": "2026-10-26T08:31:09.666Z"
   },
   {
     "id": "watchmode:3285220",
@@ -130910,7 +131391,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:38:04.361Z"
+    "updatedAt": "2026-10-02T07:38:04.361Z",
+    "checkedAt": "2026-10-26T08:31:09.978Z"
   },
   {
     "id": "watchmode:553367",
@@ -130955,7 +131437,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:05.283Z",
-    "trailerId": "YDuX10j9IaE"
+    "trailerId": "YDuX10j9IaE",
+    "heldAt": "2026-10-26T08:31:10.285Z"
   },
   {
     "id": "watchmode:3216181",
@@ -130995,7 +131478,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:10.811Z",
-    "trailerId": "-qSZJD2CrQY"
+    "trailerId": "-qSZJD2CrQY",
+    "checkedAt": "2026-10-26T08:31:10.614Z"
   },
   {
     "id": "watchmode:1898740",
@@ -131060,7 +131544,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:38:11.914Z",
-    "trailerId": "wo87F-va410"
+    "trailerId": "wo87F-va410",
+    "checkedAt": "2026-10-26T08:31:11.060Z"
   },
   {
     "id": "watchmode:11075339",
@@ -131098,7 +131583,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:12.656Z",
-    "trailerId": "eMjsVQIepZw"
+    "trailerId": "eMjsVQIepZw",
+    "heldAt": "2026-10-26T08:31:11.367Z"
   },
   {
     "id": "watchmode:3285740",
@@ -131136,7 +131622,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:13.156Z",
-    "trailerId": "TYvYSKMcuw0"
+    "trailerId": "TYvYSKMcuw0",
+    "checkedAt": "2026-10-26T08:31:11.673Z"
   },
   {
     "id": "watchmode:1855863",
@@ -131184,7 +131671,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:13.749Z",
-    "trailerId": "zxQrIEAavzI"
+    "trailerId": "zxQrIEAavzI",
+    "checkedAt": "2026-10-26T08:31:12.089Z"
   },
   {
     "id": "watchmode:3218257",
@@ -131218,14 +131706,15 @@
           "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271516655",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:14.498Z",
-    "trailerId": "cfTcNb104NI"
+    "trailerId": "cfTcNb104NI",
+    "checkedAt": "2026-10-26T08:31:12.447Z"
   },
   {
     "id": "watchmode:1915234",
@@ -131265,7 +131754,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:16.119Z",
-    "trailerId": "Rb0ZhiDD9J0"
+    "trailerId": "Rb0ZhiDD9J0",
+    "heldAt": "2026-10-26T08:31:12.845Z"
   },
   {
     "id": "watchmode:1921923",
@@ -131311,7 +131801,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:17.124Z",
-    "trailerId": "aAc6n1Ankxw"
+    "trailerId": "aAc6n1Ankxw",
+    "heldAt": "2026-10-26T08:31:13.161Z"
   },
   {
     "id": "watchmode:1785174",
@@ -131377,7 +131868,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:38:18.032Z",
-    "trailerId": "az8M5Mai0X4"
+    "trailerId": "az8M5Mai0X4",
+    "checkedAt": "2026-10-26T08:31:13.624Z"
   },
   {
     "id": "watchmode:11078393",
@@ -131415,7 +131907,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:18.798Z",
-    "trailerId": "sjdeprd13F4"
+    "trailerId": "sjdeprd13F4",
+    "heldAt": "2026-10-26T08:31:13.930Z"
   },
   {
     "id": "watchmode:11077632",
@@ -131454,7 +131947,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:19.523Z",
-    "trailerId": "qeKXwAs6o-g"
+    "trailerId": "qeKXwAs6o-g",
+    "heldAt": "2026-10-26T08:31:14.279Z"
   },
   {
     "id": "watchmode:11019675",
@@ -131493,7 +131987,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:20.029Z",
-    "trailerId": "9CxEnECKs9U"
+    "trailerId": "9CxEnECKs9U",
+    "heldAt": "2026-10-26T08:31:14.596Z"
   },
   {
     "id": "watchmode:1887091",
@@ -131533,7 +132028,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:20.756Z",
-    "trailerId": "x4jx0Xgc_Pc"
+    "trailerId": "x4jx0Xgc_Pc",
+    "checkedAt": "2026-10-26T08:31:15.033Z"
   },
   {
     "id": "watchmode:11066465",
@@ -131571,7 +132067,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:21.577Z",
-    "trailerId": "M35kWPGmI1M"
+    "trailerId": "M35kWPGmI1M",
+    "heldAt": "2026-10-26T08:31:15.348Z"
   },
   {
     "id": "watchmode:1894031",
@@ -131639,7 +132136,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:38:22.957Z",
-    "trailerId": "XdPt8QWTypI"
+    "trailerId": "XdPt8QWTypI",
+    "heldAt": "2026-10-26T08:31:15.765Z"
   },
   {
     "id": "watchmode:1870980",
@@ -131698,7 +132196,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:38:23.715Z",
-    "trailerId": "ZqU7iiHFCzw"
+    "trailerId": "ZqU7iiHFCzw",
+    "checkedAt": "2026-10-26T08:31:16.225Z"
   },
   {
     "id": "watchmode:1738271",
@@ -131740,7 +132239,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:24.314Z",
-    "trailerId": "uv9V3dk98PM"
+    "trailerId": "uv9V3dk98PM",
+    "checkedAt": "2026-10-26T08:31:16.556Z"
   },
   {
     "id": "watchmode:1697046",
@@ -131798,7 +132298,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:38:26.479Z",
-    "trailerId": "lQqmOjPDlWg"
+    "trailerId": "lQqmOjPDlWg",
+    "heldAt": "2026-10-26T08:31:16.987Z"
   },
   {
     "id": "watchmode:11074999",
@@ -131837,7 +132338,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:38:27.053Z"
+    "updatedAt": "2026-10-02T07:38:27.053Z",
+    "checkedAt": "2026-10-26T08:31:17.292Z"
   },
   {
     "id": "watchmode:1798796",
@@ -131876,7 +132378,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:28.322Z",
-    "trailerId": "MgZrTHcmsbk"
+    "trailerId": "MgZrTHcmsbk",
+    "heldAt": "2026-10-26T08:31:17.602Z"
   },
   {
     "id": "watchmode:1833841",
@@ -131934,7 +132437,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:38:32.184Z",
-    "trailerId": "Ams0ROhWX0w"
+    "trailerId": "Ams0ROhWX0w",
+    "checkedAt": "2026-10-26T08:31:18.050Z"
   },
   {
     "id": "watchmode:1803066",
@@ -131972,7 +132476,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:32.931Z",
-    "trailerId": "FRfj0OHlcvo"
+    "trailerId": "FRfj0OHlcvo",
+    "heldAt": "2026-10-26T08:31:18.373Z"
   },
   {
     "id": "watchmode:1779549",
@@ -132030,7 +132535,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:38:33.536Z",
-    "trailerId": "NQypHE9_Fm4"
+    "trailerId": "NQypHE9_Fm4",
+    "checkedAt": "2026-10-26T08:31:18.818Z"
   },
   {
     "id": "watchmode:1732884",
@@ -132076,7 +132582,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:34.075Z",
-    "trailerId": "PA07EmbZ0b0"
+    "trailerId": "PA07EmbZ0b0",
+    "heldAt": "2026-10-26T08:31:19.148Z"
   },
   {
     "id": "watchmode:11071295",
@@ -132114,7 +132621,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:34.908Z",
-    "trailerId": "oxNvWrT2-l4"
+    "trailerId": "oxNvWrT2-l4",
+    "checkedAt": "2026-10-26T08:31:19.452Z"
   },
   {
     "id": "watchmode:1721744",
@@ -132153,7 +132661,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:35.744Z",
-    "trailerId": "9AJsFRNJGZ8"
+    "trailerId": "9AJsFRNJGZ8",
+    "checkedAt": "2026-10-26T08:31:19.766Z"
   },
   {
     "id": "watchmode:3286170",
@@ -132191,7 +132700,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:38:36.265Z"
+    "updatedAt": "2026-10-02T07:38:36.265Z",
+    "checkedAt": "2026-10-26T08:31:20.064Z"
   },
   {
     "id": "watchmode:1932944",
@@ -132232,7 +132742,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:37.168Z",
-    "trailerId": "JRno64l5m6I"
+    "trailerId": "JRno64l5m6I",
+    "heldAt": "2026-10-26T08:31:20.378Z"
   },
   {
     "id": "watchmode:3283130",
@@ -132277,7 +132788,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:38.043Z",
-    "trailerId": "3cvnCVSeFv0"
+    "trailerId": "3cvnCVSeFv0",
+    "heldAt": "2026-10-26T08:31:20.686Z"
   },
   {
     "id": "watchmode:1915635",
@@ -132332,7 +132844,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:38:38.708Z",
-    "trailerId": "k_8YOQ0TMfM"
+    "trailerId": "k_8YOQ0TMfM",
+    "checkedAt": "2026-10-26T08:31:21.094Z"
   },
   {
     "id": "watchmode:1634288",
@@ -132372,7 +132885,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:39.244Z",
-    "trailerId": "0hc8yz5-d5Y"
+    "trailerId": "0hc8yz5-d5Y",
+    "checkedAt": "2026-10-26T08:31:21.414Z"
   },
   {
     "id": "watchmode:2767741",
@@ -132412,7 +132926,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:39.923Z",
-    "trailerId": "AAEzB2LzFfM"
+    "trailerId": "AAEzB2LzFfM",
+    "heldAt": "2026-10-26T08:31:21.820Z"
   },
   {
     "id": "watchmode:4168907",
@@ -132450,7 +132965,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:40.480Z",
-    "trailerId": "bJtFW5PQ7NU"
+    "trailerId": "bJtFW5PQ7NU",
+    "heldAt": "2026-10-26T08:31:22.144Z"
   },
   {
     "id": "watchmode:1937906",
@@ -132482,20 +132998,21 @@
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.9374bd10-5241-4890-ab52-fdc6b779eebf",
           "price": 149,
-          "format": "4K"
+          "format": "HD"
         }
       ],
       "buy": [
         {
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.9374bd10-5241-4890-ab52-fdc6b779eebf",
-          "price": 1416,
-          "format": "4K"
+          "price": 1440.99,
+          "format": "HD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:38:41.597Z",
-    "trailerId": "LnHXD8SvTNk"
+    "trailerId": "LnHXD8SvTNk",
+    "checkedAt": "2026-10-26T08:31:22.457Z"
   },
   {
     "id": "watchmode:313098",
@@ -132543,7 +133060,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:43.244Z",
-    "trailerId": "1Xj_kP5YuXk"
+    "trailerId": "1Xj_kP5YuXk",
+    "heldAt": "2026-10-26T08:31:22.827Z"
   },
   {
     "id": "watchmode:1888121",
@@ -132582,7 +133100,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:43.963Z",
-    "trailerId": "n0pqP6ClcE8"
+    "trailerId": "n0pqP6ClcE8",
+    "checkedAt": "2026-10-26T08:31:23.260Z"
   },
   {
     "id": "watchmode:3285296",
@@ -132620,7 +133139,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:38:44.535Z"
+    "updatedAt": "2026-10-02T07:38:44.535Z",
+    "checkedAt": "2026-10-26T08:31:23.626Z"
   },
   {
     "id": "watchmode:1970604",
@@ -132659,7 +133179,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:45.074Z",
-    "trailerId": "STb7jxqfo1c"
+    "trailerId": "STb7jxqfo1c",
+    "checkedAt": "2026-10-26T08:31:24.042Z"
   },
   {
     "id": "watchmode:1685674",
@@ -132718,7 +133239,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:38:46.231Z",
-    "trailerId": "vt98AlBDI9Y"
+    "trailerId": "vt98AlBDI9Y",
+    "checkedAt": "2026-10-26T08:31:24.524Z"
   },
   {
     "id": "watchmode:1845870",
@@ -132757,7 +133279,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:38:46.760Z",
-    "trailerId": "eba-EoMPBX8"
+    "trailerId": "eba-EoMPBX8",
+    "heldAt": "2026-10-26T08:31:24.846Z"
   },
   {
     "id": "watchmode:3285770",
@@ -132788,14 +133311,15 @@
           "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1641009115",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "stream": [],
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:39:20.548Z"
+    "updatedAt": "2026-10-02T07:39:20.548Z",
+    "checkedAt": "2026-10-26T08:31:25.181Z"
   },
   {
     "id": "watchmode:11023050",
@@ -132833,7 +133357,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:21.960Z",
-    "trailerId": "uYz5wNMoXWY"
+    "trailerId": "uYz5wNMoXWY",
+    "heldAt": "2026-10-26T08:31:25.488Z"
   },
   {
     "id": "watchmode:3241922",
@@ -132873,7 +133398,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:22.598Z",
-    "trailerId": "VV-xtXwLxys"
+    "trailerId": "VV-xtXwLxys",
+    "checkedAt": "2026-10-26T08:31:25.817Z"
   },
   {
     "id": "watchmode:1699585",
@@ -132911,7 +133437,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:25.328Z",
-    "trailerId": "34CCpyNUqOc"
+    "trailerId": "34CCpyNUqOc",
+    "checkedAt": "2026-10-26T08:31:26.247Z"
   },
   {
     "id": "watchmode:3222459",
