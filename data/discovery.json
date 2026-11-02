@@ -2652,7 +2652,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:58.776Z"
+    "checkedAt": "2026-11-02T10:32:04.335Z"
   },
   {
     "id": "watchmode:11033760",
@@ -3809,7 +3809,13 @@
         },
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271668105",
+          "url": "https://www.hotstar.com/in/movies/spider-man-2002/1271668105",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Sony Pictures Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.16a9f6fd-c82a-d83d-6bfc-0265e317f307",
           "price": null,
           "format": "HD"
         }
@@ -3927,7 +3933,7 @@
         "role": "First Assistant Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:46.819Z"
+    "checkedAt": "2026-11-02T10:30:56.690Z"
   },
   {
     "id": "watchmode:1972561",
@@ -4695,7 +4701,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:08.298Z"
+    "checkedAt": "2026-11-02T10:32:08.709Z"
   },
   {
     "id": "watchmode:1830382",
@@ -6297,7 +6303,7 @@
       "stream": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1971000620",
+          "url": "https://www.hotstar.com/in/movies/the-matrix/1971000620",
           "price": null,
           "format": "4K"
         },
@@ -6415,7 +6421,7 @@
         "role": "First Assistant Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:53.556Z"
+    "checkedAt": "2026-11-02T10:32:01.049Z"
   },
   {
     "id": "watchmode:1159480",
@@ -6544,7 +6550,7 @@
         "role": "Assistant Art Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:48.884Z"
+    "checkedAt": "2026-11-02T10:30:58.016Z"
   },
   {
     "id": "watchmode:11098919",
@@ -7727,7 +7733,7 @@
       "stream": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1971000532",
+          "url": "https://www.hotstar.com/in/movies/the-lord-of-the-rings-the-return-of-the-king/1971000532",
           "price": null,
           "format": "4K"
         },
@@ -7742,6 +7748,12 @@
           "url": "https://moviesandtv.myvi.in/movie/the-lord-of-the-rings-the-return-of-the-king",
           "price": null,
           "format": "SD"
+        },
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.096a714d-6da9-4205-a118-3fb77fbaa003",
+          "price": null,
+          "format": "HD"
         }
       ],
       "rent": [
@@ -7755,7 +7767,7 @@
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.91d91081-a2e1-4004-af7d-4efb31e99e27",
           "price": 119,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "buy": [
@@ -7763,7 +7775,7 @@
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/the-lord-of-the-rings-the-return-of-the-king/umc.cmc.57s6i23z9ry0zsgwwc2mxjqi6?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A297709333",
           "price": 499,
-          "format": "SD"
+          "format": "4K"
         }
       ]
     },
@@ -7851,7 +7863,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:45.227Z"
+    "checkedAt": "2026-11-02T10:30:55.941Z"
   },
   {
     "id": "watchmode:1357311",
@@ -7893,7 +7905,7 @@
         },
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271670452",
+          "url": "https://www.hotstar.com/in/movies/spider-man-3-2007/1271670452",
           "price": null,
           "format": "HD"
         },
@@ -7909,19 +7921,19 @@
           "name": "Zee5",
           "url": "https://www.zee5.com/movies/details/watch-spider-man-3-full-hd-movie-online-on-zee5/0-0-1z5206606",
           "price": null,
-          "format": "HD"
+          "format": "SD"
         },
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/spider-man-3/umc.cmc.6b5zczyf59sfnocdpbah8ve7t?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1274317735",
           "price": 129,
-          "format": "HD"
+          "format": "SD"
         },
         {
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1aa9f6b4-bc8f-9ae9-fedf-83fb7aa58c40",
           "price": 99,
-          "format": "4K"
+          "format": "SD"
         }
       ],
       "buy": [
@@ -8017,7 +8029,7 @@
         "role": "Screenplay, Screenstory"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:38.592Z"
+    "checkedAt": "2026-11-02T10:30:52.419Z"
   },
   {
     "id": "watchmode:138018",
@@ -9015,7 +9027,7 @@
         "role": "Director, Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-05T09:56:16.081Z"
+    "checkedAt": "2026-11-02T10:30:51.223Z"
   },
   {
     "id": "watchmode:1184167",
@@ -9304,7 +9316,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:49.605Z"
+    "checkedAt": "2026-11-02T10:31:58.825Z"
   },
   {
     "id": "watchmode:1184168",
@@ -10230,7 +10242,7 @@
         "role": "Visual Effects Technical Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:57.201Z"
+    "checkedAt": "2026-11-02T10:32:03.491Z"
   },
   {
     "id": "watchmode:1310542",
@@ -10254,7 +10266,13 @@
       "stream": [
         {
           "name": "Prime Video",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.a391bb9d-4315-4b8a-a835-2a3159eeac73",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.83b01a0c-8705-4747-9d71-8a8d633366a3",
+          "price": null,
+          "format": "HD"
+        },
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/1271672491",
           "price": null,
           "format": "HD"
         }
@@ -10264,13 +10282,13 @@
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/pulp-fiction/umc.cmc.1hfvw2p79f9qdeydow8nmrn7t?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1524319178",
           "price": 129,
-          "format": "SD"
+          "format": "4K"
         },
         {
           "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.a391bb9d-4315-4b8a-a835-2a3159eeac73",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.83b01a0c-8705-4747-9d71-8a8d633366a3",
           "price": 99,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "buy": [
@@ -10366,7 +10384,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:00.005Z"
+    "checkedAt": "2026-11-02T10:32:04.779Z"
   },
   {
     "id": "watchmode:1374079",
@@ -10489,7 +10507,7 @@
         "role": "Assistant Art Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:04.322Z"
+    "checkedAt": "2026-11-02T10:32:06.707Z"
   },
   {
     "id": "watchmode:1868996",
@@ -11317,8 +11335,22 @@
           "format": "HD"
         }
       ],
-      "rent": [],
-      "buy": []
+      "rent": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/troy/umc.cmc.7bm2k5rpbstbpoqknatgrp9ct?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A527046339",
+          "price": 129,
+          "format": "HD"
+        }
+      ],
+      "buy": [
+        {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/troy/umc.cmc.7bm2k5rpbstbpoqknatgrp9ct?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A527046339",
+          "price": 499,
+          "format": "HD"
+        }
+      ]
     },
     "updatedAt": "2026-08-30T13:47:00.731Z",
     "titleType": "movie",
@@ -11404,7 +11436,7 @@
         "role": "Supervising Art Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:43.767Z"
+    "checkedAt": "2026-11-02T10:30:55.094Z"
   },
   {
     "id": "watchmode:1398669",
@@ -11526,7 +11558,7 @@
         "role": "Associate Producer, First Assistant Director"
       }
     ],
-    "checkedAt": "2026-10-05T09:56:16.414Z"
+    "checkedAt": "2026-11-02T10:30:51.618Z"
   },
   {
     "id": "watchmode:1184166",
@@ -11802,7 +11834,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:47.514Z"
+    "checkedAt": "2026-11-02T10:30:57.160Z"
   },
   {
     "id": "watchmode:1434738",
@@ -11917,7 +11949,7 @@
         "role": "Supervising Art Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:56.666Z"
+    "checkedAt": "2026-11-02T10:32:03.116Z"
   },
   {
     "id": "watchmode:1335706",
@@ -12052,7 +12084,7 @@
         "role": "Director, Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:01.943Z"
+    "checkedAt": "2026-11-02T10:32:05.943Z"
   },
   {
     "id": "watchmode:1132806",
@@ -12167,7 +12199,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:54.068Z"
+    "checkedAt": "2026-11-02T10:32:01.393Z"
   },
   {
     "id": "watchmode:1422901",
@@ -12290,7 +12322,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:05.042Z"
+    "checkedAt": "2026-11-02T10:32:07.119Z"
   },
   {
     "id": "watchmode:1584304",
@@ -13168,7 +13200,7 @@
         "role": "Supervising Art Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:54.782Z"
+    "checkedAt": "2026-11-02T10:32:01.823Z"
   },
   {
     "id": "watchmode:1148809",
@@ -13192,7 +13224,7 @@
       "stream": [
         {
           "name": "Prime Video",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1eb7a861-a2d6-4ab1-8efd-81608b3a8dd7",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ddc039e3-a01f-4530-b91e-014a7846926b",
           "price": null,
           "format": "HD"
         }
@@ -13206,13 +13238,13 @@
         },
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/gladiator/umc.cmc.50lk1pxm803ym8vizumxitxd2?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A603113590",
+          "url": "https://tv.apple.com/in/movie/gladiator/umc.cmc.50lk1pxm803ym8vizumxitxd2?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A603113590",
           "price": 129,
           "format": "SD"
         },
         {
           "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ae049da9-3243-4715-af57-6708d040427f",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ddc039e3-a01f-4530-b91e-014a7846926b",
           "price": 99,
           "format": "4K"
         }
@@ -13220,7 +13252,7 @@
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/gladiator/umc.cmc.50lk1pxm803ym8vizumxitxd2?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A603113590",
+          "url": "https://tv.apple.com/in/movie/gladiator/umc.cmc.50lk1pxm803ym8vizumxitxd2?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A603113590",
           "price": 399,
           "format": "SD"
         }
@@ -13310,7 +13342,7 @@
         "role": "Supervising Art Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:52.098Z"
+    "checkedAt": "2026-11-02T10:32:00.334Z"
   },
   {
     "id": "watchmode:1138145",
@@ -13446,7 +13478,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:00.719Z"
+    "checkedAt": "2026-11-02T10:32:05.192Z"
   },
   {
     "id": "watchmode:1847379",
@@ -14479,7 +14511,7 @@
         "role": "Novel, Screenplay"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:07.454Z"
+    "checkedAt": "2026-11-02T10:32:08.296Z"
   },
   {
     "id": "watchmode:1687959",
@@ -14757,7 +14789,7 @@
         "role": "Digital Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:44.525Z"
+    "checkedAt": "2026-11-02T10:30:55.508Z"
   },
   {
     "id": "watchmode:1159476",
@@ -14891,7 +14923,7 @@
         "role": "Supervising Art Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:42.398Z"
+    "checkedAt": "2026-11-02T10:30:54.389Z"
   },
   {
     "id": "watchmode:1403455",
@@ -14914,8 +14946,8 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
-          "url": "https://www.hotstar.com/in/1660000046",
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/movies/the-lion-king/1660000046",
           "price": null,
           "format": "HD"
         }
@@ -15007,7 +15039,7 @@
         "role": "Screenplay"
       }
     ],
-    "heldAt": "2026-10-12T12:40:01.233Z"
+    "checkedAt": "2026-11-02T10:32:05.523Z"
   },
   {
     "id": "watchmode:1176752",
@@ -15807,7 +15839,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:50.131Z"
+    "checkedAt": "2026-11-02T10:31:59.240Z"
   },
   {
     "id": "watchmode:1787904",
@@ -16454,7 +16486,7 @@
         "role": "Screenplay"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:37.900Z"
+    "checkedAt": "2026-11-02T10:30:51.996Z"
   },
   {
     "id": "watchmode:1404364",
@@ -16602,7 +16634,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:48.049Z"
+    "checkedAt": "2026-11-02T10:30:57.577Z"
   },
   {
     "id": "watchmode:1387349",
@@ -16625,9 +16657,9 @@
       "stream": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1770000745",
+          "url": "https://www.hotstar.com/in/movies/the-devil-wears-prada/1770000745",
           "price": null,
-          "format": "4K"
+          "format": "HD"
         },
         {
           "name": "VI movies and tv",
@@ -16723,7 +16755,7 @@
         "role": "Additional Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:41.643Z"
+    "checkedAt": "2026-11-02T10:30:53.951Z"
   },
   {
     "id": "watchmode:1357583",
@@ -16839,7 +16871,7 @@
         "role": "Animation Director"
       }
     ],
-    "heldAt": "2026-10-12T12:39:50.594Z"
+    "checkedAt": "2026-11-02T10:31:59.554Z"
   },
   {
     "id": "watchmode:1336708",
@@ -16968,7 +17000,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:57.902Z"
+    "checkedAt": "2026-11-02T10:32:03.915Z"
   },
   {
     "id": "watchmode:1259801",
@@ -17085,7 +17117,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:51.402Z"
+    "checkedAt": "2026-11-02T10:31:59.934Z"
   },
   {
     "id": "watchmode:11014446",
@@ -19095,7 +19127,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:46.102Z"
+    "checkedAt": "2026-11-02T10:30:56.274Z"
   },
   {
     "id": "watchmode:1543519",
@@ -19254,9 +19286,15 @@
       "stream": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1260016021",
+          "url": "https://www.hotstar.com/in/movies/star-wars-a-new-hope/1260016021",
           "price": null,
-          "format": "4K"
+          "format": "HD"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/movie/star-wars-a-new-hope",
+          "price": null,
+          "format": "SD"
         }
       ],
       "rent": [],
@@ -19346,7 +19384,7 @@
         "role": "Assistant Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:06.314Z"
+    "checkedAt": "2026-11-02T10:32:07.877Z"
   },
   {
     "id": "watchmode:11087609",
@@ -20745,8 +20783,8 @@
       "free": [],
       "stream": [
         {
-          "name": "JioHotstar",
-          "url": "https://www.hotstar.com/in/1770000958",
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/movies/home-alone-2-lost-in-new-york/1770000958",
           "price": null,
           "format": "4K"
         }
@@ -20838,7 +20876,7 @@
         "role": "First Assistant Director"
       }
     ],
-    "heldAt": "2026-10-12T12:40:03.615Z"
+    "checkedAt": "2026-11-02T10:32:06.297Z"
   },
   {
     "id": "watchmode:1804308",
@@ -21436,7 +21474,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:31.770Z"
+    "checkedAt": "2026-11-02T10:32:21.109Z"
   },
   {
     "id": "watchmode:1583831",
@@ -22179,7 +22217,7 @@
         "role": "Associate Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:39.096Z"
+    "checkedAt": "2026-11-02T10:30:52.759Z"
   },
   {
     "id": "watchmode:1383529",
@@ -22301,7 +22339,7 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:43.110Z"
+    "checkedAt": "2026-11-02T10:30:54.726Z"
   },
   {
     "id": "watchmode:168105",
@@ -22566,7 +22604,7 @@
         "role": "Standby Art Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:56.130Z"
+    "checkedAt": "2026-11-02T10:32:02.702Z"
   },
   {
     "id": "watchmode:1438467",
@@ -22682,7 +22720,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:55.415Z"
+    "checkedAt": "2026-11-02T10:32:02.254Z"
   },
   {
     "id": "watchmode:1885274",
@@ -22926,7 +22964,7 @@
         "role": "First Assistant Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:08.848Z"
+    "checkedAt": "2026-11-02T10:32:08.995Z"
   },
   {
     "id": "watchmode:11011304",
@@ -23797,7 +23835,7 @@
         "role": "Director, Editor, Producer, Writer"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:40.043Z"
+    "checkedAt": "2026-11-02T10:30:53.164Z"
   },
   {
     "id": "watchmode:1159478",
@@ -23932,7 +23970,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:40.796Z"
+    "checkedAt": "2026-11-02T10:30:53.602Z"
   },
   {
     "id": "watchmode:1688039",
@@ -24344,7 +24382,7 @@
         "role": "Executive Producer, Story"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:05.743Z"
+    "checkedAt": "2026-11-02T10:32:07.555Z"
   },
   {
     "id": "watchmode:1243804",
@@ -24471,7 +24509,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:39:52.800Z"
+    "checkedAt": "2026-11-02T10:32:00.640Z"
   },
   {
     "id": "watchmode:1931010",
@@ -26420,7 +26458,7 @@
         "role": "Co-Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:09.350Z"
+    "checkedAt": "2026-11-02T10:32:09.279Z"
   },
   {
     "id": "watchmode:1438996",
@@ -26684,7 +26722,7 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:10.127Z"
+    "checkedAt": "2026-11-02T10:32:09.661Z"
   },
   {
     "id": "watchmode:1791953",
@@ -26707,9 +26745,9 @@
       "free": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271514863",
+          "url": "https://www.hotstar.com/in/movies/dracula-a-love-tale/1271514863",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "stream": [
@@ -26725,7 +26763,7 @@
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8136636a-bbe6-41da-bb4d-31770c892c51",
           "price": 119,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "buy": []
@@ -26814,7 +26852,7 @@
         "role": "Visual Effects Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:32.538Z"
+    "checkedAt": "2026-11-02T10:32:21.495Z"
   },
   {
     "id": "watchmode:1633813",
@@ -27754,9 +27792,9 @@
       "free": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271657015",
+          "url": "https://www.hotstar.com/in/movies/the-monkey/1271657015",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "stream": [
@@ -27854,7 +27892,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:33.318Z"
+    "checkedAt": "2026-11-02T10:32:21.868Z"
   },
   {
     "id": "watchmode:1156267",
@@ -28134,9 +28172,9 @@
       "free": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271650605",
+          "url": "https://www.hotstar.com/in/movies/together/1271650605",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "stream": [
@@ -28234,7 +28272,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:33.983Z"
+    "checkedAt": "2026-11-02T10:32:22.215Z"
   },
   {
     "id": "watchmode:1328101",
@@ -30870,7 +30908,8 @@
         "role": "Screenplay"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:34.605Z"
+    "checkedAt": "2026-10-12T12:40:34.605Z",
+    "heldAt": "2026-11-02T10:32:22.505Z"
   },
   {
     "id": "watchmode:1204150",
@@ -31969,7 +32008,8 @@
         "role": "Producer, Writer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:35.335Z"
+    "checkedAt": "2026-10-12T12:40:35.335Z",
+    "heldAt": "2026-11-02T10:32:22.849Z"
   },
   {
     "id": "watchmode:1107841",
@@ -33630,7 +33670,8 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:36.018Z"
+    "checkedAt": "2026-10-12T12:40:36.018Z",
+    "heldAt": "2026-11-02T10:32:23.141Z"
   },
   {
     "id": "watchmode:1648150",
@@ -33754,7 +33795,7 @@
       }
     ],
     "checkedAt": "2026-08-31T09:15:03.153Z",
-    "heldAt": "2026-10-12T12:40:36.562Z"
+    "heldAt": "2026-11-02T10:32:23.493Z"
   },
   {
     "id": "watchmode:1316713",
@@ -34238,7 +34279,8 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:37.045Z"
+    "checkedAt": "2026-10-12T12:40:37.045Z",
+    "heldAt": "2026-11-02T10:32:23.787Z"
   },
   {
     "id": "watchmode:1860191",
@@ -34368,7 +34410,7 @@
       }
     ],
     "checkedAt": "2026-08-31T09:15:03.865Z",
-    "heldAt": "2026-10-12T12:40:37.792Z"
+    "heldAt": "2026-11-02T10:32:24.140Z"
   },
   {
     "id": "watchmode:11023657",
@@ -34491,7 +34533,7 @@
       }
     ],
     "checkedAt": "2026-08-31T09:15:04.207Z",
-    "heldAt": "2026-10-12T12:40:38.406Z"
+    "heldAt": "2026-11-02T10:32:24.431Z"
   },
   {
     "id": "watchmode:1956009",
@@ -34603,7 +34645,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:39.061Z"
+    "checkedAt": "2026-11-02T10:32:24.785Z"
   },
   {
     "id": "watchmode:1829312",
@@ -34849,7 +34891,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:39.943Z"
+    "checkedAt": "2026-10-12T12:40:39.943Z",
+    "heldAt": "2026-11-02T10:32:25.147Z"
   },
   {
     "id": "watchmode:1854016",
@@ -34971,7 +35014,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:40.619Z"
+    "checkedAt": "2026-11-02T10:32:25.538Z"
   },
   {
     "id": "watchmode:189060",
@@ -35340,7 +35383,7 @@
       }
     ],
     "checkedAt": "2026-08-31T09:15:05.681Z",
-    "heldAt": "2026-10-12T12:40:41.483Z"
+    "heldAt": "2026-11-02T10:32:25.915Z"
   },
   {
     "id": "watchmode:1515086",
@@ -36808,7 +36851,7 @@
       }
     ],
     "checkedAt": "2026-08-31T09:15:06.281Z",
-    "heldAt": "2026-10-12T12:40:42.129Z"
+    "heldAt": "2026-11-02T10:32:26.256Z"
   },
   {
     "id": "watchmode:1764288",
@@ -37688,7 +37731,7 @@
       }
     ],
     "checkedAt": "2026-08-31T09:15:06.650Z",
-    "heldAt": "2026-10-12T12:40:42.770Z"
+    "heldAt": "2026-11-02T10:32:26.545Z"
   },
   {
     "id": "watchmode:1698144",
@@ -37791,7 +37834,7 @@
       }
     ],
     "checkedAt": "2026-08-31T09:15:07.025Z",
-    "heldAt": "2026-10-12T12:40:43.628Z"
+    "heldAt": "2026-11-02T10:32:26.894Z"
   },
   {
     "id": "watchmode:1866961",
@@ -38683,7 +38726,7 @@
       }
     ],
     "checkedAt": "2026-08-31T09:15:07.375Z",
-    "heldAt": "2026-10-12T12:40:44.098Z"
+    "heldAt": "2026-11-02T10:32:27.183Z"
   },
   {
     "id": "watchmode:1367720",
@@ -39051,7 +39094,7 @@
         "role": "Writer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:44.565Z"
+    "checkedAt": "2026-11-02T10:32:27.471Z"
   },
   {
     "id": "watchmode:1699795",
@@ -39286,7 +39329,8 @@
         "role": "Unit Production Manager, Line Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:45.472Z"
+    "checkedAt": "2026-10-12T12:40:45.472Z",
+    "heldAt": "2026-11-02T10:32:27.761Z"
   },
   {
     "id": "watchmode:11021970",
@@ -39393,7 +39437,7 @@
       }
     ],
     "checkedAt": "2026-08-31T09:15:08.358Z",
-    "heldAt": "2026-10-12T12:40:46.179Z"
+    "heldAt": "2026-11-02T10:32:28.104Z"
   },
   {
     "id": "watchmode:1886067",
@@ -39769,7 +39813,7 @@
       }
     ],
     "checkedAt": "2026-08-31T09:15:08.716Z",
-    "heldAt": "2026-10-12T12:40:47.005Z"
+    "heldAt": "2026-11-02T10:32:28.447Z"
   },
   {
     "id": "watchmode:1984926",
@@ -39868,7 +39912,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:47.620Z"
+    "checkedAt": "2026-11-02T10:32:28.742Z"
   },
   {
     "id": "watchmode:1850085",
@@ -40232,7 +40276,7 @@
       }
     ],
     "checkedAt": "2026-08-30T16:56:28.465Z",
-    "heldAt": "2026-10-12T12:40:10.572Z"
+    "heldAt": "2026-11-02T10:32:09.964Z"
   },
   {
     "id": "watchmode:1508104",
@@ -41037,7 +41081,8 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:11.209Z"
+    "checkedAt": "2026-10-12T12:40:11.209Z",
+    "heldAt": "2026-11-02T10:32:10.310Z"
   },
   {
     "id": "watchmode:1244254",
@@ -45225,7 +45270,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:11.678Z"
+    "checkedAt": "2026-11-02T10:32:10.587Z"
   },
   {
     "id": "watchmode:1822116",
@@ -45354,7 +45399,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:48.545Z"
+    "checkedAt": "2026-11-02T10:32:29.088Z"
   },
   {
     "id": "watchmode:1988813",
@@ -45464,7 +45509,8 @@
         "role": "Casting Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:12.334Z"
+    "checkedAt": "2026-10-12T12:40:12.334Z",
+    "heldAt": "2026-11-02T10:32:10.877Z"
   },
   {
     "id": "watchmode:1705224",
@@ -45654,7 +45700,7 @@
         "role": "Co-Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:13.468Z"
+    "checkedAt": "2026-11-02T10:32:11.162Z"
   },
   {
     "id": "watchmode:1833434",
@@ -45809,7 +45855,7 @@
     "cast": [],
     "crew": [],
     "checkedAt": "2026-08-30T16:56:29.916Z",
-    "heldAt": "2026-10-12T12:40:13.928Z"
+    "heldAt": "2026-11-02T10:32:11.440Z"
   },
   {
     "id": "watchmode:1832578",
@@ -45916,7 +45962,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:14.374Z"
+    "checkedAt": "2026-11-02T10:32:11.731Z"
   },
   {
     "id": "watchmode:11113791",
@@ -45982,7 +46028,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-10-12T12:40:14.820Z"
+    "checkedAt": "2026-11-02T10:32:12.014Z"
   },
   {
     "id": "watchmode:11066922",
@@ -46061,7 +46107,7 @@
       }
     ],
     "checkedAt": "2026-08-30T16:56:30.775Z",
-    "heldAt": "2026-10-12T12:40:15.365Z"
+    "heldAt": "2026-11-02T10:32:12.290Z"
   },
   {
     "id": "watchmode:1956446",
@@ -46166,7 +46212,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:15.810Z"
+    "checkedAt": "2026-11-02T10:32:12.564Z"
   },
   {
     "id": "watchmode:11022202",
@@ -46249,7 +46295,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:16.596Z"
+    "checkedAt": "2026-11-02T10:32:12.850Z"
   },
   {
     "id": "watchmode:11040865",
@@ -46349,7 +46395,7 @@
       }
     ],
     "checkedAt": "2026-08-31T09:15:09.669Z",
-    "heldAt": "2026-10-12T12:40:49.008Z"
+    "heldAt": "2026-11-02T10:32:29.373Z"
   },
   {
     "id": "watchmode:11133449",
@@ -46438,7 +46484,7 @@
       }
     ],
     "checkedAt": "2026-08-30T16:56:31.619Z",
-    "heldAt": "2026-10-12T12:40:17.035Z"
+    "heldAt": "2026-11-02T10:32:13.128Z"
   },
   {
     "id": "watchmode:11090468",
@@ -46492,7 +46538,7 @@
         "role": "Director, Writer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:49.617Z"
+    "checkedAt": "2026-11-02T10:32:29.658Z"
   },
   {
     "id": "watchmode:11048299",
@@ -46546,7 +46592,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:17.515Z"
+    "checkedAt": "2026-11-02T10:32:13.412Z"
   },
   {
     "id": "watchmode:11080606",
@@ -46592,7 +46638,7 @@
       }
     ],
     "checkedAt": "2026-08-30T16:56:32.178Z",
-    "heldAt": "2026-10-12T12:40:18.084Z"
+    "heldAt": "2026-11-02T10:32:13.688Z"
   },
   {
     "id": "watchmode:11094363",
@@ -46694,7 +46740,7 @@
         "role": "Writer, Editor"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:50.076Z"
+    "checkedAt": "2026-11-02T10:32:29.947Z"
   },
   {
     "id": "watchmode:11085290",
@@ -46761,7 +46807,7 @@
       }
     ],
     "checkedAt": "2026-08-30T16:56:32.471Z",
-    "heldAt": "2026-10-12T12:40:18.745Z"
+    "heldAt": "2026-11-02T10:32:13.973Z"
   },
   {
     "id": "watchmode:11159657",
@@ -50558,7 +50604,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:19.361Z"
+    "checkedAt": "2026-11-02T10:32:14.319Z"
   },
   {
     "id": "watchmode:1874753",
@@ -77916,7 +77962,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-10-12T12:40:19.816Z"
+    "checkedAt": "2026-11-02T10:32:14.600Z"
   },
   {
     "id": "watchmode:3291596",
@@ -78037,7 +78083,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:20.368Z"
+    "checkedAt": "2026-11-02T10:32:14.930Z"
   },
   {
     "id": "watchmode:3274329",
@@ -78162,7 +78208,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:20.951Z"
+    "checkedAt": "2026-11-02T10:32:15.258Z"
   },
   {
     "id": "watchmode:3310500",
@@ -78255,7 +78301,7 @@
         "role": "Series Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:21.444Z"
+    "checkedAt": "2026-11-02T10:32:15.543Z"
   },
   {
     "id": "watchmode:3279137",
@@ -78379,7 +78425,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:22.123Z"
+    "checkedAt": "2026-11-02T10:32:15.882Z"
   },
   {
     "id": "watchmode:3262458",
@@ -78512,7 +78558,7 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:22.637Z"
+    "checkedAt": "2026-11-02T10:32:16.228Z"
   },
   {
     "id": "watchmode:3236002",
@@ -78624,7 +78670,7 @@
         "role": "Sound Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:23.352Z"
+    "checkedAt": "2026-11-02T10:32:16.584Z"
   },
   {
     "id": "watchmode:3310939",
@@ -78728,7 +78774,7 @@
         "role": "Casting Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:23.879Z"
+    "checkedAt": "2026-11-02T10:32:16.867Z"
   },
   {
     "id": "watchmode:3275092",
@@ -78839,7 +78885,7 @@
         "role": "Director of Photography"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:24.364Z"
+    "checkedAt": "2026-11-02T10:32:17.737Z"
   },
   {
     "id": "watchmode:3299441",
@@ -78931,7 +78977,7 @@
       }
     ],
     "checkedAt": "2026-08-31T09:14:57.334Z",
-    "heldAt": "2026-10-12T12:40:24.883Z"
+    "heldAt": "2026-11-02T10:32:18.020Z"
   },
   {
     "id": "watchmode:3296060",
@@ -79027,7 +79073,7 @@
         "role": "Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:25.503Z"
+    "checkedAt": "2026-11-02T10:32:18.318Z"
   },
   {
     "id": "watchmode:3269274",
@@ -79130,7 +79176,7 @@
       }
     ],
     "checkedAt": "2026-08-31T09:14:57.977Z",
-    "heldAt": "2026-10-12T12:40:25.955Z"
+    "heldAt": "2026-11-02T10:32:18.606Z"
   },
   {
     "id": "watchmode:3296586",
@@ -79245,7 +79291,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:26.423Z"
+    "checkedAt": "2026-10-12T12:40:26.423Z",
+    "heldAt": "2026-11-02T10:32:18.915Z"
   },
   {
     "id": "watchmode:3297143",
@@ -79318,7 +79365,7 @@
       }
     ],
     "checkedAt": "2026-08-31T09:14:58.610Z",
-    "heldAt": "2026-10-12T12:40:26.897Z"
+    "heldAt": "2026-11-02T10:32:19.197Z"
   },
   {
     "id": "watchmode:3295575",
@@ -79392,7 +79439,7 @@
       }
     ],
     "crew": [],
-    "checkedAt": "2026-10-12T12:40:27.346Z"
+    "checkedAt": "2026-11-02T10:32:19.480Z"
   },
   {
     "id": "watchmode:3295435",
@@ -79419,13 +79466,20 @@
     "options": {
       "free": [
         {
-          "name": "Amazon MX Player",
-          "url": "https://www.mxplayer.in/",
+          "name": "Amazon Freevee",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.31747b62-ce19-496a-b659-cd62b542c0a1",
+          "price": null,
+          "format": "4K"
+        }
+      ],
+      "stream": [
+        {
+          "name": "Prime Video",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.31747b62-ce19-496a-b659-cd62b542c0a1",
           "price": null,
           "format": "HD"
         }
       ],
-      "stream": [],
       "rent": [],
       "buy": []
     },
@@ -79507,7 +79561,7 @@
         "role": "Writer, Creator"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:27.962Z"
+    "checkedAt": "2026-11-02T10:32:19.763Z"
   },
   {
     "id": "watchmode:3286780",
@@ -79608,7 +79662,7 @@
         "role": "Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:28.420Z"
+    "checkedAt": "2026-11-02T10:32:20.059Z"
   },
   {
     "id": "watchmode:3291573",
@@ -79724,7 +79778,8 @@
         "role": "Executive Producer"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:29.115Z"
+    "checkedAt": "2026-10-12T12:40:29.115Z",
+    "heldAt": "2026-11-02T10:32:20.344Z"
   },
   {
     "id": "watchmode:3258581",
@@ -79824,7 +79879,7 @@
         "role": "Sound Director"
       }
     ],
-    "checkedAt": "2026-10-12T12:40:30.771Z"
+    "checkedAt": "2026-11-02T10:32:20.729Z"
   },
   {
     "id": "watchmode:3260352",
@@ -133478,7 +133533,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:26.336Z",
-    "trailerId": "8iNHGKcP0cM"
+    "trailerId": "8iNHGKcP0cM",
+    "checkedAt": "2026-11-02T10:27:32.854Z"
   },
   {
     "id": "watchmode:1770189",
@@ -133518,7 +133574,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:27.613Z",
-    "trailerId": "MYL0B9rAxtU"
+    "trailerId": "MYL0B9rAxtU",
+    "heldAt": "2026-11-02T10:27:33.148Z"
   },
   {
     "id": "watchmode:1915264",
@@ -133550,14 +133607,15 @@
           "name": "Netflix",
           "url": "https://www.netflix.com/title/81735104",
           "price": null,
-          "format": "HD"
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:28.536Z",
-    "trailerId": "zLuOjCbDuwY"
+    "trailerId": "zLuOjCbDuwY",
+    "checkedAt": "2026-11-02T10:27:33.440Z"
   },
   {
     "id": "watchmode:1821332",
@@ -133596,7 +133654,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:29.364Z",
-    "trailerId": "cwpusY785l4"
+    "trailerId": "cwpusY785l4",
+    "heldAt": "2026-11-02T10:27:33.825Z"
   },
   {
     "id": "watchmode:1941497",
@@ -133634,7 +133693,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:29.980Z",
-    "trailerId": "98xUkIDUPVg"
+    "trailerId": "98xUkIDUPVg",
+    "checkedAt": "2026-11-02T10:27:34.115Z"
   },
   {
     "id": "watchmode:1639425",
@@ -133700,7 +133760,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:39:30.841Z",
-    "trailerId": "UsmiRIozzvw"
+    "trailerId": "UsmiRIozzvw",
+    "checkedAt": "2026-11-02T10:27:34.535Z"
   },
   {
     "id": "watchmode:3212467",
@@ -133740,7 +133801,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:32.205Z",
-    "trailerId": "k6sE5jYOFx0"
+    "trailerId": "k6sE5jYOFx0",
+    "heldAt": "2026-11-02T10:27:34.843Z"
   },
   {
     "id": "watchmode:1940274",
@@ -133779,7 +133841,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:32.840Z",
-    "trailerId": "oOOdswIJJYU"
+    "trailerId": "oOOdswIJJYU",
+    "heldAt": "2026-11-02T10:27:35.138Z"
   },
   {
     "id": "watchmode:1801108",
@@ -133832,7 +133895,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:39:33.631Z",
-    "trailerId": "irXTps1REHU"
+    "trailerId": "irXTps1REHU",
+    "checkedAt": "2026-11-02T10:27:35.517Z"
   },
   {
     "id": "watchmode:3274472",
@@ -133871,7 +133935,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:34.679Z",
-    "trailerId": "H9bs-6A5yAc"
+    "trailerId": "H9bs-6A5yAc",
+    "heldAt": "2026-11-02T10:27:35.837Z"
   },
   {
     "id": "watchmode:3218225",
@@ -133905,14 +133970,15 @@
           "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271503080",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:35.908Z",
-    "trailerId": "d1nz_vo7aok"
+    "trailerId": "d1nz_vo7aok",
+    "checkedAt": "2026-11-02T10:27:36.191Z"
   },
   {
     "id": "watchmode:1892154",
@@ -133954,7 +134020,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:36.428Z",
-    "trailerId": "Jjjcn4acAC8"
+    "trailerId": "Jjjcn4acAC8",
+    "checkedAt": "2026-11-02T10:27:36.485Z"
   },
   {
     "id": "watchmode:1803799",
@@ -134020,7 +134087,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:39:37.165Z",
-    "trailerId": "EYMIhLwiHVs"
+    "trailerId": "EYMIhLwiHVs",
+    "heldAt": "2026-11-02T10:27:36.853Z"
   },
   {
     "id": "watchmode:3216928",
@@ -134060,7 +134128,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:38.673Z",
-    "trailerId": "6jopqrSojQE"
+    "trailerId": "6jopqrSojQE",
+    "checkedAt": "2026-11-02T10:27:37.153Z"
   },
   {
     "id": "watchmode:3200623",
@@ -134106,7 +134175,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:39.287Z",
-    "trailerId": "cR41iZx07O8"
+    "trailerId": "cR41iZx07O8",
+    "checkedAt": "2026-11-02T10:27:37.487Z"
   },
   {
     "id": "watchmode:11060771",
@@ -134144,7 +134214,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:40.210Z",
-    "trailerId": "8aulMPhE12g"
+    "trailerId": "8aulMPhE12g",
+    "heldAt": "2026-11-02T10:27:37.781Z"
   },
   {
     "id": "watchmode:11050184",
@@ -134181,7 +134252,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:39:41.064Z"
+    "updatedAt": "2026-10-02T07:39:41.064Z",
+    "heldAt": "2026-11-02T10:27:38.068Z"
   },
   {
     "id": "watchmode:1847340",
@@ -134219,7 +134291,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:41.943Z",
-    "trailerId": "lcEOKJm_aLY"
+    "trailerId": "lcEOKJm_aLY",
+    "heldAt": "2026-11-02T10:27:38.361Z"
   },
   {
     "id": "watchmode:1770252",
@@ -134278,7 +134351,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:39:42.974Z",
-    "trailerId": "WvAy9C-bipY"
+    "trailerId": "WvAy9C-bipY",
+    "checkedAt": "2026-11-02T10:27:38.747Z"
   },
   {
     "id": "watchmode:1793473",
@@ -134317,7 +134391,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:44.511Z",
-    "trailerId": "xGTq0blCPVQ"
+    "trailerId": "xGTq0blCPVQ",
+    "checkedAt": "2026-11-02T10:27:39.157Z"
   },
   {
     "id": "watchmode:11042220",
@@ -134356,7 +134431,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:47.462Z",
-    "trailerId": "cN0PebFoXyw"
+    "trailerId": "cN0PebFoXyw",
+    "checkedAt": "2026-11-02T10:27:39.444Z"
   },
   {
     "id": "watchmode:1710384",
@@ -134415,7 +134491,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:39:48.658Z",
-    "trailerId": "Uk6LhwvTYrE"
+    "trailerId": "Uk6LhwvTYrE",
+    "checkedAt": "2026-11-02T10:27:39.821Z"
   },
   {
     "id": "watchmode:1820868",
@@ -134441,7 +134518,14 @@
     "provider": "watchmode",
     "sourceId": "1820868",
     "options": {
-      "free": [],
+      "free": [
+        {
+          "name": "Hotstar",
+          "url": "https://www.hotstar.com/in/movies/christy/1271719030",
+          "price": null,
+          "format": "HD"
+        }
+      ],
       "stream": [
         {
           "name": "Prime Video",
@@ -134455,13 +134539,16 @@
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.0fd8a049-b526-430e-a152-3eb67ecbf2f8",
           "price": 119,
-          "format": "HD"
+          "format": "SD"
         }
       ],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:50.346Z",
-    "trailerId": "C0INuLgyljI"
+    "trailerId": "C0INuLgyljI",
+    "checkedAt": "2026-11-02T10:27:40.204Z",
+    "freeSince": "2026-11-02T10:27:40.204Z",
+    "leftFreeAt": null
   },
   {
     "id": "watchmode:3184877",
@@ -134501,7 +134588,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:51.269Z",
-    "trailerId": "oKa6u7LT0qE"
+    "trailerId": "oKa6u7LT0qE",
+    "checkedAt": "2026-11-02T10:27:40.547Z"
   },
   {
     "id": "watchmode:1615865",
@@ -134547,7 +134635,7 @@
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/bugonia/umc.cmc.405pbn0ajtqwj3ycjapyd0i9x?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1856397096",
-          "price": 149,
+          "price": 129,
           "format": "SD"
         },
         {
@@ -134567,7 +134655,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:39:52.804Z",
-    "trailerId": "bd_5HcTujfc"
+    "trailerId": "bd_5HcTujfc",
+    "checkedAt": "2026-11-02T10:27:40.950Z"
   },
   {
     "id": "watchmode:3217577",
@@ -134607,7 +134696,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:53.426Z",
-    "trailerId": "MjP-63ZG74I"
+    "trailerId": "MjP-63ZG74I",
+    "heldAt": "2026-11-02T10:27:41.248Z"
   },
   {
     "id": "watchmode:1880755",
@@ -134647,7 +134737,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:54.955Z",
-    "trailerId": "m3lgD59KrTw"
+    "trailerId": "m3lgD59KrTw",
+    "heldAt": "2026-11-02T10:27:41.544Z"
   },
   {
     "id": "watchmode:1848793",
@@ -134712,7 +134803,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:39:56.185Z",
-    "trailerId": "qub8lZlVlho"
+    "trailerId": "qub8lZlVlho",
+    "checkedAt": "2026-11-02T10:27:41.976Z"
   },
   {
     "id": "watchmode:1780986",
@@ -134751,7 +134843,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:57.656Z",
-    "trailerId": "OuRX3n2LTlc"
+    "trailerId": "OuRX3n2LTlc",
+    "checkedAt": "2026-11-02T10:27:42.326Z"
   },
   {
     "id": "watchmode:3267920",
@@ -134788,7 +134881,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:39:58.291Z"
+    "updatedAt": "2026-10-02T07:39:58.291Z",
+    "heldAt": "2026-11-02T10:27:42.607Z"
   },
   {
     "id": "watchmode:1948160",
@@ -134828,7 +134922,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:39:59.168Z",
-    "trailerId": "WL4LQj-Ri80"
+    "trailerId": "WL4LQj-Ri80",
+    "checkedAt": "2026-11-02T10:27:42.887Z"
   },
   {
     "id": "watchmode:1985575",
@@ -134886,7 +134981,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:39:59.872Z",
-    "trailerId": "LxFtLNpQhYM"
+    "trailerId": "LxFtLNpQhYM",
+    "heldAt": "2026-11-02T10:27:43.241Z"
   },
   {
     "id": "watchmode:3258980",
@@ -134916,7 +135012,7 @@
       "stream": [
         {
           "name": "Prime Video",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.36f86efc-9eac-44c4-aa04-f7fbff37e92d",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.fd63ea70-8890-47d2-8d1f-e7a16f776cd0",
           "price": null,
           "format": "HD"
         }
@@ -134925,7 +135021,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:00.740Z",
-    "trailerId": "IRqvCbZu9cY"
+    "trailerId": "IRqvCbZu9cY",
+    "checkedAt": "2026-11-02T10:27:43.607Z"
   },
   {
     "id": "watchmode:11043531",
@@ -134963,7 +135060,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:01.299Z",
-    "trailerId": "W0Bs0wE2hig"
+    "trailerId": "W0Bs0wE2hig",
+    "checkedAt": "2026-11-02T10:27:43.893Z"
   },
   {
     "id": "watchmode:11020610",
@@ -135001,7 +135099,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:01.806Z",
-    "trailerId": "mxLBXJpSn5A"
+    "trailerId": "mxLBXJpSn5A",
+    "checkedAt": "2026-11-02T10:27:44.187Z"
   },
   {
     "id": "watchmode:1901595",
@@ -135042,7 +135141,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:02.327Z",
-    "trailerId": "dMZI0FkYLEs"
+    "trailerId": "dMZI0FkYLEs",
+    "heldAt": "2026-11-02T10:27:44.471Z"
   },
   {
     "id": "watchmode:1829199",
@@ -135102,7 +135202,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:40:03.244Z",
-    "trailerId": "qo7gRHip0lI"
+    "trailerId": "qo7gRHip0lI",
+    "heldAt": "2026-11-02T10:27:44.848Z"
   },
   {
     "id": "watchmode:1700166",
@@ -135142,7 +135243,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:04.090Z",
-    "trailerId": "8aulMPhE12g"
+    "trailerId": "8aulMPhE12g",
+    "checkedAt": "2026-11-02T10:27:45.144Z"
   },
   {
     "id": "watchmode:3229362",
@@ -135175,14 +135277,15 @@
           "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271497791",
           "price": null,
-          "format": "SD"
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:04.652Z",
-    "trailerId": "0GN0aALClVA"
+    "trailerId": "0GN0aALClVA",
+    "checkedAt": "2026-11-02T10:27:45.477Z"
   },
   {
     "id": "watchmode:1865113",
@@ -135221,7 +135324,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:05.506Z",
-    "trailerId": "XVodEZoT7dQ"
+    "trailerId": "XVodEZoT7dQ",
+    "checkedAt": "2026-11-02T10:27:45.776Z"
   },
   {
     "id": "watchmode:1858650",
@@ -135267,7 +135371,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:06.323Z",
-    "trailerId": "AWokrf6yeEU"
+    "trailerId": "AWokrf6yeEU",
+    "heldAt": "2026-11-02T10:27:46.129Z"
   },
   {
     "id": "watchmode:3236144",
@@ -135299,14 +135404,15 @@
           "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271444529",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:06.853Z",
-    "trailerId": "qBpesasGWL8"
+    "trailerId": "qBpesasGWL8",
+    "checkedAt": "2026-11-02T10:27:46.433Z"
   },
   {
     "id": "watchmode:1886536",
@@ -135345,7 +135451,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:07.367Z",
-    "trailerId": "z1B5W55TFyo"
+    "trailerId": "z1B5W55TFyo",
+    "checkedAt": "2026-11-02T10:27:46.725Z"
   },
   {
     "id": "watchmode:1757952",
@@ -135395,22 +135502,23 @@
         },
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/black-phone-2/umc.cmc.1n35pvxqz732y8b7iqx1g26h9?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1857005450",
-          "price": 149,
+          "url": "https://tv.apple.com/in/movie/black-phone-2/umc.cmc.1n35pvxqz732y8b7iqx1g26h9?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1857005450",
+          "price": 129,
           "format": "SD"
         }
       ],
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/black-phone-2/umc.cmc.1n35pvxqz732y8b7iqx1g26h9?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1857005450",
-          "price": 499,
+          "url": "https://tv.apple.com/in/movie/black-phone-2/umc.cmc.1n35pvxqz732y8b7iqx1g26h9?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1857005450",
+          "price": 449,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:40:07.932Z",
-    "trailerId": "pWNucAcRoBY"
+    "trailerId": "pWNucAcRoBY",
+    "checkedAt": "2026-11-02T10:27:47.127Z"
   },
   {
     "id": "watchmode:3189914",
@@ -135450,7 +135558,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:08.950Z",
-    "trailerId": "4A9iFjaKeMk"
+    "trailerId": "4A9iFjaKeMk",
+    "heldAt": "2026-11-02T10:27:47.432Z"
   },
   {
     "id": "watchmode:1901467",
@@ -135509,7 +135618,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:40:10.245Z",
-    "trailerId": "ZKWndx83RwQ"
+    "trailerId": "ZKWndx83RwQ",
+    "checkedAt": "2026-11-02T10:27:47.844Z"
   },
   {
     "id": "watchmode:3236696",
@@ -135549,7 +135659,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:10.810Z",
-    "trailerId": "b0lDMHAGDnU"
+    "trailerId": "b0lDMHAGDnU",
+    "checkedAt": "2026-11-02T10:27:48.202Z"
   },
   {
     "id": "watchmode:3279840",
@@ -135589,7 +135700,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:40:11.365Z"
+    "updatedAt": "2026-10-02T07:40:11.365Z",
+    "checkedAt": "2026-11-02T10:27:48.515Z"
   },
   {
     "id": "watchmode:3268446",
@@ -135634,7 +135746,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:12.033Z",
-    "trailerId": "X23W_8uJHjk"
+    "trailerId": "X23W_8uJHjk",
+    "checkedAt": "2026-11-02T10:27:48.922Z"
   },
   {
     "id": "watchmode:1757706",
@@ -135691,7 +135804,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:40:13.696Z",
-    "trailerId": "rn15ADtPAu0"
+    "trailerId": "rn15ADtPAu0",
+    "heldAt": "2026-11-02T10:27:49.270Z"
   },
   {
     "id": "watchmode:3234032",
@@ -135729,7 +135843,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:14.626Z",
-    "trailerId": "iUfvOBu7vow"
+    "trailerId": "iUfvOBu7vow",
+    "heldAt": "2026-11-02T10:27:49.560Z"
   },
   {
     "id": "watchmode:3194922",
@@ -135759,7 +135874,7 @@
       "stream": [
         {
           "name": "AppleTV+",
-          "url": "https://tv.apple.com/in/episode/blue-skies/umc.cmc.755f41f3p1s86w44q3ehu5zk7?at=1000l3V2&ct=app_tvplus&itscg=30200&itsct=&playableId=tvs.sbd.4000%3AA0074001001&showId=umc.cmc.6kmzwhcm9cj30piuuiymr4u7m",
+          "url": "https://tv.apple.com/in/episode/blue-skies/umc.cmc.755f41f3p1s86w44q3ehu5zk7?at=1000l3V2&ct=app_tvplus&itscg=30200&playableId=tvs.sbd.4000%3AA0074001001&showId=umc.cmc.6kmzwhcm9cj30piuuiymr4u7m",
           "price": null,
           "format": "4K"
         },
@@ -135774,7 +135889,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:15.230Z",
-    "trailerId": "Y_O7puXja-E"
+    "trailerId": "Y_O7puXja-E",
+    "checkedAt": "2026-11-02T10:27:49.887Z"
   },
   {
     "id": "watchmode:1847526",
@@ -135838,7 +135954,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:40:16.460Z",
-    "trailerId": "oD569HEsQL8"
+    "trailerId": "oD569HEsQL8",
+    "heldAt": "2026-11-02T10:27:50.224Z"
   },
   {
     "id": "watchmode:1823218",
@@ -135878,7 +135995,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:16.983Z",
-    "trailerId": "1QbfJzTPY4w"
+    "trailerId": "1QbfJzTPY4w",
+    "checkedAt": "2026-11-02T10:27:50.520Z"
   },
   {
     "id": "watchmode:1805335",
@@ -135907,7 +136025,7 @@
       "stream": [
         {
           "name": "Prime Video",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.b9f75b23-1a79-4f91-9298-9bd74c113090",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f4564354-ceed-4136-a050-37d366c5e0f1",
           "price": null,
           "format": "4K"
         }
@@ -135916,7 +136034,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:17.908Z",
-    "trailerId": "A8R6DMlDtxk"
+    "trailerId": "A8R6DMlDtxk",
+    "checkedAt": "2026-11-02T10:27:50.823Z"
   },
   {
     "id": "watchmode:1568212",
@@ -135956,7 +136075,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:19.240Z",
-    "trailerId": "YShVEXb7-ic"
+    "trailerId": "YShVEXb7-ic",
+    "heldAt": "2026-11-02T10:27:51.222Z"
   },
   {
     "id": "watchmode:1882904",
@@ -135995,7 +136115,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:20.760Z",
-    "trailerId": "mX9tJC5Mteg"
+    "trailerId": "mX9tJC5Mteg",
+    "heldAt": "2026-11-02T10:27:51.518Z"
   },
   {
     "id": "watchmode:3269036",
@@ -136043,7 +136164,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:21.954Z",
-    "trailerId": "KKoY9eIx6Qw"
+    "trailerId": "KKoY9eIx6Qw",
+    "checkedAt": "2026-11-02T10:27:51.956Z"
   },
   {
     "id": "watchmode:1696964",
@@ -136088,7 +136210,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:22.606Z",
-    "trailerId": "2jzXHW6Qe70"
+    "trailerId": "2jzXHW6Qe70",
+    "checkedAt": "2026-11-02T10:27:52.349Z"
   },
   {
     "id": "watchmode:3263559",
@@ -136127,7 +136250,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:24.754Z",
-    "trailerId": "EDBmpfbnLGk"
+    "trailerId": "EDBmpfbnLGk",
+    "checkedAt": "2026-11-02T10:27:52.655Z"
   },
   {
     "id": "watchmode:1866666",
@@ -136165,7 +136289,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:27.519Z",
-    "trailerId": "HVqoyMi98OI"
+    "trailerId": "HVqoyMi98OI",
+    "heldAt": "2026-11-02T10:27:53.018Z"
   },
   {
     "id": "watchmode:1822732",
@@ -136204,7 +136329,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:28.256Z",
-    "trailerId": "_wpw2QHJNco"
+    "trailerId": "_wpw2QHJNco",
+    "checkedAt": "2026-11-02T10:27:53.309Z"
   },
   {
     "id": "watchmode:3280101",
@@ -136249,7 +136375,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:29.055Z",
-    "trailerId": "e9HBWRxt7ro"
+    "trailerId": "e9HBWRxt7ro",
+    "heldAt": "2026-11-02T10:27:53.618Z"
   },
   {
     "id": "watchmode:1938968",
@@ -136294,7 +136421,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:40:30.899Z",
-    "trailerId": "q4-CRkd_74g"
+    "trailerId": "q4-CRkd_74g",
+    "heldAt": "2026-11-02T10:27:53.986Z"
   },
   {
     "id": "watchmode:1620824",
@@ -136341,7 +136469,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:31.999Z",
-    "trailerId": "21OUFEZGXIk"
+    "trailerId": "21OUFEZGXIk",
+    "checkedAt": "2026-11-02T10:27:54.377Z"
   },
   {
     "id": "watchmode:3219018",
@@ -136380,7 +136509,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:32.746Z",
-    "trailerId": "7apSVNerbfg"
+    "trailerId": "7apSVNerbfg",
+    "checkedAt": "2026-11-02T10:27:54.703Z"
   },
   {
     "id": "watchmode:1684871",
@@ -136419,7 +136549,7 @@
       "rent": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/play-dirty-with-bsl/umc.cmc.6hdggodtt7xqxprwg68zx4xbb?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1846963197",
+          "url": "https://tv.apple.com/in/movie/play-dirty/umc.cmc.6hdggodtt7xqxprwg68zx4xbb?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1846963197",
           "price": 99,
           "format": "SD"
         },
@@ -136433,14 +136563,15 @@
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/play-dirty-with-bsl/umc.cmc.6hdggodtt7xqxprwg68zx4xbb?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1846963197",
+          "url": "https://tv.apple.com/in/movie/play-dirty/umc.cmc.6hdggodtt7xqxprwg68zx4xbb?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1846963197",
           "price": 349,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:40:33.665Z",
-    "trailerId": "6paP2-ry-QY"
+    "trailerId": "6paP2-ry-QY",
+    "checkedAt": "2026-11-02T10:27:55.120Z"
   },
   {
     "id": "watchmode:3280518",
@@ -136480,7 +136611,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:34.891Z",
-    "trailerId": "MCX6HaiF7ws"
+    "trailerId": "MCX6HaiF7ws",
+    "checkedAt": "2026-11-02T10:27:55.408Z"
   },
   {
     "id": "watchmode:1843417",
@@ -136513,13 +136645,20 @@
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.90520bfa-1e13-4fa5-bc29-a477da17802b",
           "price": null,
           "format": "4K"
+        },
+        {
+          "name": "AppleTV+",
+          "url": "https://tv.apple.com/in/movie/all-of-you/umc.cmc.3hac5oqhh3gxiu35spyu8fanf?at=1000l3V2&ct=app_tvplus&itscg=30200",
+          "price": null,
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:35.410Z",
-    "trailerId": "RnYEi3bDCcc"
+    "trailerId": "RnYEi3bDCcc",
+    "checkedAt": "2026-11-02T10:27:55.705Z"
   },
   {
     "id": "watchmode:1704058",
@@ -136559,7 +136698,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:36.121Z",
-    "trailerId": "cF3gdVOT6gQ"
+    "trailerId": "cF3gdVOT6gQ",
+    "checkedAt": "2026-11-02T10:27:56.082Z"
   },
   {
     "id": "watchmode:550712",
@@ -136599,7 +136739,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:36.740Z",
-    "trailerId": "2kSNuohhKyc"
+    "trailerId": "2kSNuohhKyc",
+    "checkedAt": "2026-11-02T10:27:56.407Z"
   },
   {
     "id": "watchmode:3222955",
@@ -136638,7 +136779,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:37.350Z",
-    "trailerId": "2mH396WCN0U"
+    "trailerId": "2mH396WCN0U",
+    "checkedAt": "2026-11-02T10:27:56.728Z"
   },
   {
     "id": "watchmode:1891374",
@@ -136697,7 +136839,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:40:38.304Z",
-    "trailerId": "_d55K72DoKg"
+    "trailerId": "_d55K72DoKg",
+    "checkedAt": "2026-11-02T10:27:57.135Z"
   },
   {
     "id": "watchmode:3227633",
@@ -136737,7 +136880,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:40.413Z",
-    "trailerId": "UxEza8wLcS0"
+    "trailerId": "UxEza8wLcS0",
+    "checkedAt": "2026-11-02T10:27:57.449Z"
   },
   {
     "id": "watchmode:1946652",
@@ -136775,7 +136919,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:41.424Z",
-    "trailerId": "50ICTaEuQxg"
+    "trailerId": "50ICTaEuQxg",
+    "heldAt": "2026-11-02T10:27:57.791Z"
   },
   {
     "id": "watchmode:1785293",
@@ -136805,7 +136950,13 @@
       "stream": [
         {
           "name": "AppleTV+",
-          "url": "https://tv.apple.com/in/movie/the-lost-bus/umc.cmc.4p7gv4trt1rt0kuiwzmitibiv?at=1000l3V2&ct=app_tvplus&itscg=30200&itsct=",
+          "url": "https://tv.apple.com/in/movie/the-lost-bus/umc.cmc.4p7gv4trt1rt0kuiwzmitibiv?at=1000l3V2&ct=app_tvplus&itscg=30200",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "AppleTV+ Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.5bea304f-dcbe-406c-a2d4-39d698bb6902",
           "price": null,
           "format": "4K"
         }
@@ -136814,7 +136965,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:43.186Z",
-    "trailerId": "kQFiO88d_gk"
+    "trailerId": "kQFiO88d_gk",
+    "checkedAt": "2026-11-02T10:27:58.250Z"
   },
   {
     "id": "watchmode:1717436",
@@ -136854,7 +137006,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:43.803Z",
-    "trailerId": "rutRDICG2oE"
+    "trailerId": "rutRDICG2oE",
+    "heldAt": "2026-11-02T10:27:58.541Z"
   },
   {
     "id": "watchmode:3220991",
@@ -136894,7 +137047,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:44.453Z",
-    "trailerId": "ueNsPJgWNAg"
+    "trailerId": "ueNsPJgWNAg",
+    "checkedAt": "2026-11-02T10:27:58.857Z"
   },
   {
     "id": "watchmode:1887452",
@@ -136953,7 +137107,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:40:46.105Z",
-    "trailerId": "hpEy0iOixb4"
+    "trailerId": "hpEy0iOixb4",
+    "heldAt": "2026-11-02T10:27:59.235Z"
   },
   {
     "id": "watchmode:1716421",
@@ -136991,7 +137146,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:47.180Z",
-    "trailerId": "BqufdXirirU"
+    "trailerId": "BqufdXirirU",
+    "heldAt": "2026-11-02T10:27:59.526Z"
   },
   {
     "id": "watchmode:3234030",
@@ -137030,7 +137186,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:40:48.581Z",
-    "trailerId": "iLFm7nRiX7s"
+    "trailerId": "iLFm7nRiX7s",
+    "heldAt": "2026-11-02T10:27:59.804Z"
   },
   {
     "id": "watchmode:1893058",
@@ -137089,7 +137246,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:06.536Z",
-    "trailerId": "7t9cPtA9St0"
+    "trailerId": "7t9cPtA9St0",
+    "heldAt": "2026-11-02T10:28:00.189Z"
   },
   {
     "id": "watchmode:1816109",
@@ -137157,7 +137315,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:41:07.300Z",
-    "trailerId": "S-GFCPEWqe4"
+    "trailerId": "S-GFCPEWqe4",
+    "heldAt": "2026-11-02T10:28:00.547Z"
   },
   {
     "id": "watchmode:1898106",
@@ -137187,29 +137346,30 @@
       "stream": [],
       "rent": [
         {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/spinal-tap-ii-the-end-continues/umc.cmc.2ekv47beio4duo806nhq652bv?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1838846024",
+          "price": 149,
+          "format": "4K"
+        },
+        {
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.227b509b-a14d-40d2-a4a4-cdb3ce7cf91c",
           "price": 119,
-          "format": "SD"
-        },
-        {
-          "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/spinal-tap-ii-the-end-continues/umc.cmc.2ekv47beio4duo806nhq652bv?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1838846024",
-          "price": 149,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/spinal-tap-ii-the-end-continues/umc.cmc.2ekv47beio4duo806nhq652bv?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1838846024",
+          "url": "https://tv.apple.com/in/movie/spinal-tap-ii-the-end-continues/umc.cmc.2ekv47beio4duo806nhq652bv?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1838846024",
           "price": 299,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:41:09.300Z",
-    "trailerId": "PbExf2qbmEo"
+    "trailerId": "PbExf2qbmEo",
+    "checkedAt": "2026-11-02T10:28:00.940Z"
   },
   {
     "id": "watchmode:1703328",
@@ -137268,7 +137428,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:41:09.943Z",
-    "trailerId": "YfEYUoefwb8"
+    "trailerId": "YfEYUoefwb8",
+    "checkedAt": "2026-11-02T10:28:01.359Z"
   },
   {
     "id": "watchmode:1697048",
@@ -137308,7 +137469,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:10.491Z",
-    "trailerId": "huAZhZ1oHw8"
+    "trailerId": "huAZhZ1oHw8",
+    "heldAt": "2026-11-02T10:28:01.669Z"
   },
   {
     "id": "watchmode:1844437",
@@ -137347,7 +137509,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:11.143Z",
-    "trailerId": "SgKpEeduwh0"
+    "trailerId": "SgKpEeduwh0",
+    "heldAt": "2026-11-02T10:28:01.973Z"
   },
   {
     "id": "watchmode:1822595",
@@ -137405,7 +137568,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:41:12.832Z",
-    "trailerId": "P_30wFRxlnA"
+    "trailerId": "P_30wFRxlnA",
+    "checkedAt": "2026-11-02T10:28:02.414Z"
   },
   {
     "id": "watchmode:1587852",
@@ -137465,7 +137629,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:41:13.600Z",
-    "trailerId": "vAtUHeMQ1F8"
+    "trailerId": "vAtUHeMQ1F8",
+    "checkedAt": "2026-11-02T10:28:02.893Z"
   },
   {
     "id": "watchmode:1805498",
@@ -137504,7 +137669,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:14.411Z",
-    "trailerId": "8seUGDLZRIo"
+    "trailerId": "8seUGDLZRIo",
+    "heldAt": "2026-11-02T10:28:03.184Z"
   },
   {
     "id": "watchmode:3199142",
@@ -137543,7 +137709,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:15.117Z",
-    "trailerId": "Er3kmwGenP8"
+    "trailerId": "Er3kmwGenP8",
+    "checkedAt": "2026-11-02T10:28:03.549Z"
   },
   {
     "id": "watchmode:1953364",
@@ -137590,7 +137757,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:16.674Z",
-    "trailerId": "xgumqXFyQ-g"
+    "trailerId": "xgumqXFyQ-g",
+    "heldAt": "2026-11-02T10:28:03.839Z"
   },
   {
     "id": "watchmode:3225835",
@@ -137621,14 +137789,15 @@
           "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271445691",
           "price": null,
-          "format": "4K"
+          "format": "HD"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:18.210Z",
-    "trailerId": "c5v4LJJkvUU"
+    "trailerId": "c5v4LJJkvUU",
+    "checkedAt": "2026-11-02T10:28:04.217Z"
   },
   {
     "id": "watchmode:3219646",
@@ -137668,7 +137837,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:18.823Z",
-    "trailerId": "L_-kIKjfjIc"
+    "trailerId": "L_-kIKjfjIc",
+    "heldAt": "2026-11-02T10:28:04.536Z"
   },
   {
     "id": "watchmode:1791466",
@@ -137726,7 +137896,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:41:20.231Z",
-    "trailerId": "pxseQQkGvb8"
+    "trailerId": "pxseQQkGvb8",
+    "checkedAt": "2026-11-02T10:28:04.933Z"
   },
   {
     "id": "watchmode:1770890",
@@ -137764,7 +137935,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:20.770Z",
-    "trailerId": "pJjPBTC0ypU"
+    "trailerId": "pJjPBTC0ypU",
+    "checkedAt": "2026-11-02T10:28:05.266Z"
   },
   {
     "id": "watchmode:1768315",
@@ -137793,14 +137965,8 @@
       "stream": [],
       "rent": [
         {
-          "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.b6f917e1-e990-423a-9151-0a6799346769",
-          "price": 119,
-          "format": "SD"
-        },
-        {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/eleanor-the-great/umc.cmc.1yzpycnh4g1of3vv79ybktme0?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1846729771",
+          "url": "https://tv.apple.com/in/movie/eleanor-the-great/umc.cmc.1yzpycnh4g1of3vv79ybktme0?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1846729771",
           "price": 149,
           "format": "SD"
         },
@@ -137809,19 +137975,26 @@
           "url": "https://www.zee5.com/movies/details/eleanor-the-great/0-0-1z5865373",
           "price": null,
           "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.b6f917e1-e990-423a-9151-0a6799346769",
+          "price": 119,
+          "format": "SD"
         }
       ],
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/eleanor-the-great/umc.cmc.1yzpycnh4g1of3vv79ybktme0?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1846729771",
+          "url": "https://tv.apple.com/in/movie/eleanor-the-great/umc.cmc.1yzpycnh4g1of3vv79ybktme0?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1846729771",
           "price": 299,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:41:21.630Z",
-    "trailerId": "wZ6l2ue--KA"
+    "trailerId": "wZ6l2ue--KA",
+    "checkedAt": "2026-11-02T10:28:05.713Z"
   },
   {
     "id": "watchmode:1696244",
@@ -137879,7 +138052,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:41:22.536Z",
-    "trailerId": "bMgfsdYoEEo"
+    "trailerId": "bMgfsdYoEEo",
+    "checkedAt": "2026-11-02T10:28:06.134Z"
   },
   {
     "id": "watchmode:3220782",
@@ -137919,7 +138093,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:23.430Z",
-    "trailerId": "-CWi5_hU_-o"
+    "trailerId": "-CWi5_hU_-o",
+    "checkedAt": "2026-11-02T10:28:06.459Z"
   },
   {
     "id": "watchmode:11050548",
@@ -137963,7 +138138,8 @@
         }
       ]
     },
-    "updatedAt": "2026-10-02T07:41:24.352Z"
+    "updatedAt": "2026-10-02T07:41:24.352Z",
+    "checkedAt": "2026-11-02T10:28:06.795Z"
   },
   {
     "id": "watchmode:11032697",
@@ -138001,7 +138177,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:25.457Z",
-    "trailerId": "6Ot95uGgEQg"
+    "trailerId": "6Ot95uGgEQg",
+    "heldAt": "2026-11-02T10:28:07.073Z"
   },
   {
     "id": "watchmode:1953784",
@@ -138039,7 +138216,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:26.196Z",
-    "trailerId": "8m-R4vcx9MI"
+    "trailerId": "8m-R4vcx9MI",
+    "heldAt": "2026-11-02T10:28:07.360Z"
   },
   {
     "id": "watchmode:1778205",
@@ -138085,7 +138263,8 @@
       ],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:41:26.729Z"
+    "updatedAt": "2026-10-02T07:41:26.729Z",
+    "heldAt": "2026-11-02T10:28:07.645Z"
   },
   {
     "id": "watchmode:11020618",
@@ -138123,7 +138302,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:27.232Z",
-    "trailerId": "m9gNXyfTK80"
+    "trailerId": "m9gNXyfTK80",
+    "checkedAt": "2026-11-02T10:28:07.931Z"
   },
   {
     "id": "watchmode:1569622",
@@ -138161,29 +138341,30 @@
       ],
       "rent": [
         {
-          "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.7c83f608-a9fe-40dc-81ff-f584f2897fc6",
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-toxic-avenger/umc.cmc.qoixk414cotwhmc98zhdzitl?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1849801771",
           "price": 149,
-          "format": "HD"
+          "format": "SD"
         },
         {
-          "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/the-toxic-avenger/umc.cmc.qoixk414cotwhmc98zhdzitl?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1849801771",
-          "price": 149,
-          "format": "4K"
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.7c83f608-a9fe-40dc-81ff-f584f2897fc6",
+          "price": 119,
+          "format": "SD"
         }
       ],
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/the-toxic-avenger/umc.cmc.qoixk414cotwhmc98zhdzitl?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1849801771",
+          "url": "https://tv.apple.com/in/movie/the-toxic-avenger/umc.cmc.qoixk414cotwhmc98zhdzitl?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1849801771",
           "price": 699,
-          "format": "4K"
+          "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:41:28.739Z",
-    "trailerId": "HKe0pep35gQ"
+    "trailerId": "HKe0pep35gQ",
+    "checkedAt": "2026-11-02T10:28:08.293Z"
   },
   {
     "id": "watchmode:1807312",
@@ -138223,7 +138404,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:30.195Z",
-    "trailerId": "XkgMaS5gbaA"
+    "trailerId": "XkgMaS5gbaA",
+    "heldAt": "2026-11-02T10:28:08.690Z"
   },
   {
     "id": "watchmode:1791912",
@@ -138289,7 +138471,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:41:30.792Z",
-    "trailerId": "6mIvD-GN-p4"
+    "trailerId": "6mIvD-GN-p4",
+    "heldAt": "2026-11-02T10:28:09.050Z"
   },
   {
     "id": "watchmode:3212298",
@@ -138331,7 +138514,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:31.426Z",
-    "trailerId": "Gu2zQUPSBgk"
+    "trailerId": "Gu2zQUPSBgk",
+    "heldAt": "2026-11-02T10:28:09.357Z"
   },
   {
     "id": "watchmode:3234121",
@@ -138370,7 +138554,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:32.516Z",
-    "trailerId": "wWziW_vQ_L4"
+    "trailerId": "wWziW_vQ_L4",
+    "checkedAt": "2026-11-02T10:28:09.685Z"
   },
   {
     "id": "watchmode:11007062",
@@ -138408,7 +138593,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:33.116Z",
-    "trailerId": "1ssNi5j32cU"
+    "trailerId": "1ssNi5j32cU",
+    "heldAt": "2026-11-02T10:28:09.968Z"
   },
   {
     "id": "watchmode:1909767",
@@ -138454,7 +138640,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:33.745Z",
-    "trailerId": "Gbdv4AEqn9E"
+    "trailerId": "Gbdv4AEqn9E",
+    "heldAt": "2026-11-02T10:28:10.313Z"
   },
   {
     "id": "watchmode:1700766",
@@ -138494,7 +138681,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:34.260Z",
-    "trailerId": "Ue_QJDkoTyw"
+    "trailerId": "Ue_QJDkoTyw",
+    "checkedAt": "2026-11-02T10:28:10.616Z"
   },
   {
     "id": "watchmode:3220884",
@@ -138533,7 +138721,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:34.785Z",
-    "trailerId": "q20_wbeiVG8"
+    "trailerId": "q20_wbeiVG8",
+    "checkedAt": "2026-11-02T10:28:10.928Z"
   },
   {
     "id": "watchmode:1858949",
@@ -138566,14 +138755,15 @@
         {
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.b5066f4e-977a-4a0e-8027-b538ce73f4a3",
-          "price": 119,
+          "price": 99,
           "format": "HD"
         }
       ],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:35.741Z",
-    "trailerId": "ywC__z5VgZM"
+    "trailerId": "ywC__z5VgZM",
+    "checkedAt": "2026-11-02T10:28:11.318Z"
   },
   {
     "id": "watchmode:3220352",
@@ -138605,14 +138795,15 @@
           "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271422453",
           "price": null,
-          "format": "SD"
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:36.272Z",
-    "trailerId": "TmSs3mG8JVw"
+    "trailerId": "TmSs3mG8JVw",
+    "checkedAt": "2026-11-02T10:28:11.637Z"
   },
   {
     "id": "watchmode:1514233",
@@ -138665,7 +138856,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:41:38.037Z",
-    "trailerId": "-44nQPX34D0"
+    "trailerId": "-44nQPX34D0",
+    "checkedAt": "2026-11-02T10:28:12.023Z"
   },
   {
     "id": "watchmode:3250904",
@@ -138704,7 +138896,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:38.664Z",
-    "trailerId": "fPV0JsAnA6s"
+    "trailerId": "fPV0JsAnA6s",
+    "heldAt": "2026-11-02T10:28:12.320Z"
   },
   {
     "id": "watchmode:1838489",
@@ -138743,7 +138936,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:39.423Z",
-    "trailerId": "FK9BQm471c0"
+    "trailerId": "FK9BQm471c0",
+    "checkedAt": "2026-11-02T10:28:12.617Z"
   },
   {
     "id": "watchmode:3274405",
@@ -138782,7 +138976,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:39.940Z",
-    "trailerId": "51E2C84kAgk"
+    "trailerId": "51E2C84kAgk",
+    "heldAt": "2026-11-02T10:28:12.901Z"
   },
   {
     "id": "watchmode:1929853",
@@ -138820,7 +139015,8 @@
       ],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:41:40.653Z"
+    "updatedAt": "2026-10-02T07:41:40.653Z",
+    "checkedAt": "2026-11-02T10:28:13.201Z"
   },
   {
     "id": "watchmode:1912277",
@@ -138878,7 +139074,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:41:41.484Z",
-    "trailerId": "NwGEF8B6Bcw"
+    "trailerId": "NwGEF8B6Bcw",
+    "heldAt": "2026-11-02T10:28:13.547Z"
   },
   {
     "id": "watchmode:1847558",
@@ -138916,7 +139113,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:41.983Z",
-    "trailerId": "rCyxXOSiRyY"
+    "trailerId": "rCyxXOSiRyY",
+    "heldAt": "2026-11-02T10:28:13.833Z"
   },
   {
     "id": "watchmode:1677987",
@@ -138976,7 +139174,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:41:42.957Z",
-    "trailerId": "ulZoLec80fs"
+    "trailerId": "ulZoLec80fs",
+    "heldAt": "2026-11-02T10:28:14.190Z"
   },
   {
     "id": "watchmode:1789402",
@@ -139010,13 +139209,20 @@
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.523742b7-ec22-4a30-8557-8fbb51f8cb30",
           "price": null,
           "format": "4K"
+        },
+        {
+          "name": "AppleTV+",
+          "url": "https://tv.apple.com/in/movie/highest-2-lowest/umc.cmc.3rbg43tt2brl2cp5wwacfrmhx?at=1000l3V2&ct=app_tvplus&itscg=30200",
+          "price": null,
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:43.768Z",
-    "trailerId": "Sh8yqcozfn8"
+    "trailerId": "Sh8yqcozfn8",
+    "checkedAt": "2026-11-02T10:28:14.499Z"
   },
   {
     "id": "watchmode:3197770",
@@ -139056,7 +139262,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:44.341Z",
-    "trailerId": "RBmyiyZba3s"
+    "trailerId": "RBmyiyZba3s",
+    "checkedAt": "2026-11-02T10:28:14.820Z"
   },
   {
     "id": "watchmode:1891402",
@@ -139109,7 +139316,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:41:45.264Z",
-    "trailerId": "-5X2pt95cIo"
+    "trailerId": "-5X2pt95cIo",
+    "checkedAt": "2026-11-02T10:28:15.221Z"
   },
   {
     "id": "watchmode:1812152",
@@ -139149,7 +139357,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:46.047Z",
-    "trailerId": "6Wy-Du0iHHU"
+    "trailerId": "6Wy-Du0iHHU",
+    "heldAt": "2026-11-02T10:28:15.512Z"
   },
   {
     "id": "watchmode:1688230",
@@ -139188,7 +139397,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:46.803Z",
-    "trailerId": "Gucw6ZNYPIA"
+    "trailerId": "Gucw6ZNYPIA",
+    "heldAt": "2026-11-02T10:28:15.802Z"
   },
   {
     "id": "watchmode:3182322",
@@ -139222,14 +139432,15 @@
           "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271381986",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:47.724Z",
-    "trailerId": "ZbsiKjVAV28"
+    "trailerId": "ZbsiKjVAV28",
+    "checkedAt": "2026-11-02T10:28:16.126Z"
   },
   {
     "id": "watchmode:3239778",
@@ -139271,7 +139482,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:41:48.541Z",
-    "trailerId": "JYLQcnHxBBs"
+    "trailerId": "JYLQcnHxBBs",
+    "heldAt": "2026-11-02T10:28:16.439Z"
   },
   {
     "id": "watchmode:11027202",
@@ -139317,7 +139529,8 @@
       ],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:41:49.116Z"
+    "updatedAt": "2026-10-02T07:41:49.116Z",
+    "heldAt": "2026-11-02T10:28:16.720Z"
   },
   {
     "id": "watchmode:1850692",
@@ -139357,14 +139570,15 @@
         {
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.e507cd59-17ed-453a-ab2c-b88c67ced237",
-          "price": 119,
-          "format": "HD"
+          "price": 99,
+          "format": "SD"
         }
       ],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:08.928Z",
-    "trailerId": "tYyTpuk8Zuk"
+    "trailerId": "tYyTpuk8Zuk",
+    "checkedAt": "2026-11-02T10:28:17.076Z"
   },
   {
     "id": "watchmode:11017585",
@@ -139403,7 +139617,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:09.432Z",
-    "trailerId": "2PKzPJ0eoi0"
+    "trailerId": "2PKzPJ0eoi0",
+    "heldAt": "2026-11-02T10:28:17.362Z"
   },
   {
     "id": "watchmode:1795942",
@@ -139442,7 +139657,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:10.157Z",
-    "trailerId": "tSx8ubSBFN8"
+    "trailerId": "tSx8ubSBFN8",
+    "heldAt": "2026-11-02T10:28:17.704Z"
   },
   {
     "id": "watchmode:3275126",
@@ -139481,7 +139697,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:42:11.474Z"
+    "updatedAt": "2026-10-02T07:42:11.474Z",
+    "checkedAt": "2026-11-02T10:28:17.987Z"
   },
   {
     "id": "watchmode:3213173",
@@ -139522,7 +139739,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:12.184Z",
-    "trailerId": "ODHh6oe4MlE"
+    "trailerId": "ODHh6oe4MlE",
+    "heldAt": "2026-11-02T10:28:18.282Z"
   },
   {
     "id": "watchmode:3224711",
@@ -139560,7 +139778,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:13.144Z",
-    "trailerId": "XHFFXU8-q7g"
+    "trailerId": "XHFFXU8-q7g",
+    "checkedAt": "2026-11-02T10:28:18.667Z"
   },
   {
     "id": "watchmode:3184152",
@@ -139594,13 +139813,20 @@
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f00269d9-36a2-4e6d-b61f-426b6020cd32",
           "price": null,
           "format": "4K"
+        },
+        {
+          "name": "AppleTV+",
+          "url": "https://tv.apple.com/in/episode/the-chief-of-war/umc.cmc.68rn5d4o8966y7wyrx93pm5i1?at=1000l3V2&ct=app_tvplus&itscg=30200&playableId=tvs.sbd.4000%3AA0049201001&showId=umc.cmc.6ag0zq020ielwv7m83v8r4dkw",
+          "price": null,
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:13.842Z",
-    "trailerId": "owdGcwufWK8"
+    "trailerId": "owdGcwufWK8",
+    "checkedAt": "2026-11-02T10:28:19.030Z"
   },
   {
     "id": "watchmode:1834355",
@@ -139640,7 +139866,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:14.540Z",
-    "trailerId": "EKQPCiUSRAo"
+    "trailerId": "EKQPCiUSRAo",
+    "checkedAt": "2026-11-02T10:28:19.323Z"
   },
   {
     "id": "watchmode:1757577",
@@ -139680,7 +139907,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:15.382Z",
-    "trailerId": "U9OkHjOnQPg"
+    "trailerId": "U9OkHjOnQPg",
+    "checkedAt": "2026-11-02T10:28:19.664Z"
   },
   {
     "id": "watchmode:1536764",
@@ -139727,7 +139955,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:42:15.929Z",
-    "trailerId": "-Oqql6RErHc"
+    "trailerId": "-Oqql6RErHc",
+    "heldAt": "2026-11-02T10:28:20.019Z"
   },
   {
     "id": "watchmode:554542",
@@ -139766,7 +139995,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:16.443Z",
-    "trailerId": "mLENEDZK3h4"
+    "trailerId": "mLENEDZK3h4",
+    "checkedAt": "2026-11-02T10:28:20.314Z"
   },
   {
     "id": "watchmode:1695539",
@@ -139832,7 +140062,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:42:18.264Z",
-    "trailerId": "uLguU7WLreA"
+    "trailerId": "uLguU7WLreA",
+    "checkedAt": "2026-11-02T10:28:20.736Z"
   },
   {
     "id": "watchmode:3266376",
@@ -139872,7 +140103,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:18.807Z",
-    "trailerId": "FfE8LC_FVLA"
+    "trailerId": "FfE8LC_FVLA",
+    "checkedAt": "2026-11-02T10:28:21.074Z"
   },
   {
     "id": "watchmode:1855542",
@@ -139925,7 +140157,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:42:20.835Z",
-    "trailerId": "s_IEVF0GQPk"
+    "trailerId": "s_IEVF0GQPk",
+    "heldAt": "2026-11-02T10:28:21.424Z"
   },
   {
     "id": "watchmode:1804101",
@@ -139963,7 +140196,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:21.370Z",
-    "trailerId": "YKzRPFvky9Y"
+    "trailerId": "YKzRPFvky9Y",
+    "checkedAt": "2026-11-02T10:28:21.725Z"
   },
   {
     "id": "watchmode:1744261",
@@ -140003,29 +140237,30 @@
       ],
       "rent": [
         {
-          "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.bffbff57-878e-4298-bb06-0a4510b883f3",
-          "price": 119,
-          "format": "4K"
-        },
-        {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/the-bad-guys-2/umc.cmc.2ewfnaq853ueokr49pv4brr1d?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1836496431",
+          "url": "https://tv.apple.com/in/movie/the-bad-guys-2/umc.cmc.2ewfnaq853ueokr49pv4brr1d?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1836496431",
           "price": 129,
           "format": "HD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.bffbff57-878e-4298-bb06-0a4510b883f3",
+          "price": 99,
+          "format": "4K"
         }
       ],
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/the-bad-guys-2/umc.cmc.2ewfnaq853ueokr49pv4brr1d?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1836496431",
+          "url": "https://tv.apple.com/in/movie/the-bad-guys-2/umc.cmc.2ewfnaq853ueokr49pv4brr1d?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1836496431",
           "price": 449,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:42:22.108Z",
-    "trailerId": "HvLHYox_Vq8"
+    "trailerId": "HvLHYox_Vq8",
+    "checkedAt": "2026-11-02T10:28:22.132Z"
   },
   {
     "id": "watchmode:543810",
@@ -140065,7 +140300,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:22.640Z",
-    "trailerId": "0ImlSbn43MU"
+    "trailerId": "0ImlSbn43MU",
+    "heldAt": "2026-11-02T10:28:22.438Z"
   },
   {
     "id": "watchmode:3231085",
@@ -140103,7 +140339,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:23.162Z",
-    "trailerId": "HwNwnqFXg3k"
+    "trailerId": "HwNwnqFXg3k",
+    "heldAt": "2026-11-02T10:28:22.734Z"
   },
   {
     "id": "watchmode:3216307",
@@ -140143,7 +140380,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:24.822Z",
-    "trailerId": "uZvZfqiAhdQ"
+    "trailerId": "uZvZfqiAhdQ",
+    "heldAt": "2026-11-02T10:28:23.031Z"
   },
   {
     "id": "watchmode:3204242",
@@ -140184,7 +140422,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:25.368Z",
-    "trailerId": "DvsVIfXcK48"
+    "trailerId": "DvsVIfXcK48",
+    "checkedAt": "2026-11-02T10:28:23.405Z"
   },
   {
     "id": "watchmode:3264764",
@@ -140223,7 +140462,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:25.884Z",
-    "trailerId": "BJ30mWAcABk"
+    "trailerId": "BJ30mWAcABk",
+    "heldAt": "2026-11-02T10:28:23.696Z"
   },
   {
     "id": "watchmode:1824840",
@@ -140262,7 +140502,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:27.984Z",
-    "trailerId": "Jg7lWUovA2g"
+    "trailerId": "Jg7lWUovA2g",
+    "heldAt": "2026-11-02T10:28:24.038Z"
   },
   {
     "id": "watchmode:1788824",
@@ -140316,7 +140557,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:42:28.590Z",
-    "trailerId": "nF31d_f4n_A"
+    "trailerId": "nF31d_f4n_A",
+    "checkedAt": "2026-11-02T10:28:24.335Z"
   },
   {
     "id": "watchmode:3220803",
@@ -140350,14 +140592,15 @@
           "name": "Netflix",
           "url": "https://www.netflix.com/title/81575641",
           "price": null,
-          "format": "HD"
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:29.512Z",
-    "trailerId": "eRwV1k-abZo"
+    "trailerId": "eRwV1k-abZo",
+    "checkedAt": "2026-11-02T10:28:24.652Z"
   },
   {
     "id": "watchmode:3272124",
@@ -140397,7 +140640,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:30.657Z",
-    "trailerId": "8gKRbFpJRhQ"
+    "trailerId": "8gKRbFpJRhQ",
+    "heldAt": "2026-11-02T10:28:24.942Z"
   },
   {
     "id": "watchmode:1880459",
@@ -140437,7 +140681,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:31.280Z",
-    "trailerId": "q-yUOB-ZFXc"
+    "trailerId": "q-yUOB-ZFXc",
+    "checkedAt": "2026-11-02T10:28:25.343Z"
   },
   {
     "id": "watchmode:1703643",
@@ -140503,7 +140748,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:42:32.177Z",
-    "trailerId": "I5ItW3buelY"
+    "trailerId": "I5ItW3buelY",
+    "checkedAt": "2026-11-02T10:28:25.763Z"
   },
   {
     "id": "watchmode:3274069",
@@ -140547,7 +140793,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:42:32.755Z"
+    "updatedAt": "2026-10-02T07:42:32.755Z",
+    "checkedAt": "2026-11-02T10:28:26.088Z"
   },
   {
     "id": "watchmode:3272846",
@@ -140586,7 +140833,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:33.506Z",
-    "trailerId": "1TMOv8HHXbU"
+    "trailerId": "1TMOv8HHXbU",
+    "checkedAt": "2026-11-02T10:28:26.374Z"
   },
   {
     "id": "watchmode:3271587",
@@ -140631,7 +140879,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:34.355Z",
-    "trailerId": "FMH111LpT9g"
+    "trailerId": "FMH111LpT9g",
+    "checkedAt": "2026-11-02T10:28:26.691Z"
   },
   {
     "id": "watchmode:1991384",
@@ -140669,7 +140918,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:34.869Z",
-    "trailerId": "FFzy3qlkIAM"
+    "trailerId": "FFzy3qlkIAM",
+    "heldAt": "2026-11-02T10:28:26.970Z"
   },
   {
     "id": "watchmode:3231844",
@@ -140709,7 +140959,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:35.660Z",
-    "trailerId": "84o1Q6fB20k"
+    "trailerId": "84o1Q6fB20k",
+    "checkedAt": "2026-11-02T10:28:27.315Z"
   },
   {
     "id": "watchmode:3270957",
@@ -140748,7 +140999,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:36.271Z",
-    "trailerId": "Ro_qTgaXCPk"
+    "trailerId": "Ro_qTgaXCPk",
+    "checkedAt": "2026-11-02T10:28:27.616Z"
   },
   {
     "id": "watchmode:1890329",
@@ -140787,7 +141039,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:37.210Z",
-    "trailerId": "IC_2jSsWpZk"
+    "trailerId": "IC_2jSsWpZk",
+    "heldAt": "2026-11-02T10:28:27.904Z"
   },
   {
     "id": "watchmode:1843422",
@@ -140838,7 +141091,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:42:37.910Z",
-    "trailerId": "WoDuyG6jLyA"
+    "trailerId": "WoDuyG6jLyA",
+    "heldAt": "2026-11-02T10:28:28.251Z"
   },
   {
     "id": "watchmode:3213147",
@@ -140878,7 +141132,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:38.832Z",
-    "trailerId": "TqpBoThuWzY"
+    "trailerId": "TqpBoThuWzY",
+    "heldAt": "2026-11-02T10:28:28.558Z"
   },
   {
     "id": "watchmode:1792128",
@@ -140917,7 +141172,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:39.817Z",
-    "trailerId": "WdAYvmk4QjA"
+    "trailerId": "WdAYvmk4QjA",
+    "heldAt": "2026-11-02T10:28:28.850Z"
   },
   {
     "id": "watchmode:3211539",
@@ -140956,7 +141212,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:40.571Z",
-    "trailerId": "9nKRJGXgK0Q"
+    "trailerId": "9nKRJGXgK0Q",
+    "checkedAt": "2026-11-02T10:28:29.511Z"
   },
   {
     "id": "watchmode:11133499",
@@ -141008,7 +141265,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:43.645Z",
-    "trailerId": "_5hJz8-PYxo"
+    "trailerId": "_5hJz8-PYxo",
+    "checkedAt": "2026-11-02T10:28:29.796Z"
   },
   {
     "id": "watchmode:1898385",
@@ -141048,7 +141306,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:44.146Z",
-    "trailerId": "8dvVoaJ3YRQ"
+    "trailerId": "8dvVoaJ3YRQ",
+    "heldAt": "2026-11-02T10:28:30.090Z"
   },
   {
     "id": "watchmode:1821008",
@@ -141088,7 +141347,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:45.730Z",
-    "trailerId": "92nh9E3B0do"
+    "trailerId": "92nh9E3B0do",
+    "heldAt": "2026-11-02T10:28:30.439Z"
   },
   {
     "id": "watchmode:1642466",
@@ -141127,7 +141387,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:46.271Z",
-    "trailerId": "lyivgZ074PY"
+    "trailerId": "lyivgZ074PY",
+    "checkedAt": "2026-11-02T10:28:30.749Z"
   },
   {
     "id": "watchmode:1675925",
@@ -141193,7 +141454,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:42:47.332Z",
-    "trailerId": "108UjvIzE64"
+    "trailerId": "108UjvIzE64",
+    "heldAt": "2026-11-02T10:28:31.112Z"
   },
   {
     "id": "watchmode:1886471",
@@ -141233,7 +141495,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:48.561Z",
-    "trailerId": "K6lJh9ADfbQ"
+    "trailerId": "K6lJh9ADfbQ",
+    "checkedAt": "2026-11-02T10:28:31.409Z"
   },
   {
     "id": "watchmode:1763456",
@@ -141265,14 +141528,15 @@
         {
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2550ea89-4f3e-4a1f-a1a0-45cd82b88a82",
-          "price": 119,
+          "price": 99,
           "format": "SD"
         }
       ],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:49.174Z",
-    "trailerId": "Rc0jgWoZo9w"
+    "trailerId": "Rc0jgWoZo9w",
+    "checkedAt": "2026-11-02T10:28:31.781Z"
   },
   {
     "id": "watchmode:3251563",
@@ -141305,13 +141569,20 @@
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ee2d20af-3dbd-4cfe-a0d8-c1c0adb5f92b",
           "price": null,
           "format": "4K"
+        },
+        {
+          "name": "AppleTV+",
+          "url": "https://tv.apple.com/in/episode/pilot/umc.cmc.44kc2nc64ckomzkj8fl100the?at=1000l3V2&ct=app_tvplus&itscg=30200&playableId=tvs.sbd.4000%3AA0106201001&showId=umc.cmc.4lplbt076d3um4tenis7k58e3",
+          "price": null,
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:42:49.744Z",
-    "trailerId": "bdX456spjeA"
+    "trailerId": "bdX456spjeA",
+    "checkedAt": "2026-11-02T10:28:32.147Z"
   },
   {
     "id": "watchmode:3228172",
@@ -141351,7 +141622,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:07.922Z",
-    "trailerId": "t72R6wZ0zQ8"
+    "trailerId": "t72R6wZ0zQ8",
+    "checkedAt": "2026-11-02T10:28:32.503Z"
   },
   {
     "id": "watchmode:3182068",
@@ -141391,7 +141663,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:09.097Z",
-    "trailerId": "r6j-wSIqJJ0"
+    "trailerId": "r6j-wSIqJJ0",
+    "checkedAt": "2026-11-02T10:28:32.819Z"
   },
   {
     "id": "watchmode:1620941",
@@ -141451,7 +141724,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:43:09.906Z",
-    "trailerId": "f70LlXPC7VI"
+    "trailerId": "f70LlXPC7VI",
+    "checkedAt": "2026-11-02T10:28:33.282Z"
   },
   {
     "id": "watchmode:552191",
@@ -141490,7 +141764,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:10.416Z",
-    "trailerId": "p81PafZ2d_8"
+    "trailerId": "p81PafZ2d_8",
+    "heldAt": "2026-11-02T10:28:33.562Z"
   },
   {
     "id": "watchmode:1888351",
@@ -141549,7 +141824,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:43:11.604Z",
-    "trailerId": "jGS4VKMQE_I"
+    "trailerId": "jGS4VKMQE_I",
+    "heldAt": "2026-11-02T10:28:34.210Z"
   },
   {
     "id": "watchmode:1980197",
@@ -141578,7 +141854,7 @@
       "stream": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271428385",
+          "url": "https://www.hotstar.com/in/movies/my-mom-jayne/1271428385",
           "price": null,
           "format": "HD"
         }
@@ -141587,7 +141863,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:12.522Z",
-    "trailerId": "fZM6m_GJhr8"
+    "trailerId": "fZM6m_GJhr8",
+    "checkedAt": "2026-11-02T10:28:34.510Z"
   },
   {
     "id": "watchmode:1887850",
@@ -141625,7 +141902,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:13.443Z",
-    "trailerId": "V84G01PIwGM"
+    "trailerId": "V84G01PIwGM",
+    "heldAt": "2026-11-02T10:28:34.796Z"
   },
   {
     "id": "watchmode:1885293",
@@ -141684,7 +141962,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:43:14.567Z",
-    "trailerId": "8GXAtdg-MYU"
+    "trailerId": "8GXAtdg-MYU",
+    "heldAt": "2026-11-02T10:28:35.182Z"
   },
   {
     "id": "watchmode:3226419",
@@ -141723,7 +142002,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:15.159Z",
-    "trailerId": "vE-oYo1hIEs"
+    "trailerId": "vE-oYo1hIEs",
+    "checkedAt": "2026-11-02T10:28:35.506Z"
   },
   {
     "id": "watchmode:1780773",
@@ -141789,7 +142069,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:43:16.517Z",
-    "trailerId": "mcvLKldPM08"
+    "trailerId": "mcvLKldPM08",
+    "checkedAt": "2026-11-02T10:28:35.911Z"
   },
   {
     "id": "watchmode:3236923",
@@ -141827,7 +142108,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:17.129Z",
-    "trailerId": "3XYFVSRLbpg"
+    "trailerId": "3XYFVSRLbpg",
+    "checkedAt": "2026-11-02T10:28:36.203Z"
   },
   {
     "id": "watchmode:1787159",
@@ -141867,7 +142149,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:17.682Z",
-    "trailerId": "1x--MaHsbEc"
+    "trailerId": "1x--MaHsbEc",
+    "checkedAt": "2026-11-02T10:28:36.497Z"
   },
   {
     "id": "watchmode:1717507",
@@ -141932,7 +142215,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:43:18.668Z",
-    "trailerId": "9gjeXsTsxqY"
+    "trailerId": "9gjeXsTsxqY",
+    "heldAt": "2026-11-02T10:28:36.889Z"
   },
   {
     "id": "watchmode:1986928",
@@ -141969,7 +142253,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:43:19.161Z"
+    "updatedAt": "2026-10-02T07:43:19.161Z",
+    "heldAt": "2026-11-02T10:28:37.164Z"
   },
   {
     "id": "watchmode:1958619",
@@ -142015,7 +142300,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:43:19.895Z",
-    "trailerId": "WPOdTwvSlUE"
+    "trailerId": "WPOdTwvSlUE",
+    "heldAt": "2026-11-02T10:28:37.447Z"
   },
   {
     "id": "watchmode:1884708",
@@ -142066,7 +142352,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:20.817Z",
-    "trailerId": "kzgsb7zUEZE"
+    "trailerId": "kzgsb7zUEZE",
+    "heldAt": "2026-11-02T10:28:37.793Z"
   },
   {
     "id": "watchmode:1991277",
@@ -142104,7 +142391,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:21.491Z",
-    "trailerId": "I6h2NrQIGQs"
+    "trailerId": "I6h2NrQIGQs",
+    "heldAt": "2026-11-02T10:28:38.087Z"
   },
   {
     "id": "watchmode:1780686",
@@ -142144,7 +142432,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:22.660Z",
-    "trailerId": "ldQcCcpr9tY"
+    "trailerId": "ldQcCcpr9tY",
+    "heldAt": "2026-11-02T10:28:38.374Z"
   },
   {
     "id": "watchmode:1786618",
@@ -142197,7 +142486,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:43:23.889Z",
-    "trailerId": "Xxam9-OQWzU"
+    "trailerId": "Xxam9-OQWzU",
+    "heldAt": "2026-11-02T10:28:38.720Z"
   },
   {
     "id": "watchmode:551499",
@@ -142237,7 +142527,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:24.513Z",
-    "trailerId": "c69c1P-EURg"
+    "trailerId": "c69c1P-EURg",
+    "heldAt": "2026-11-02T10:28:39.016Z"
   },
   {
     "id": "watchmode:3262790",
@@ -142268,7 +142559,7 @@
       "stream": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271646477",
+          "url": "https://www.hotstar.com/in/1271693672",
           "price": null,
           "format": "HD"
         }
@@ -142276,7 +142567,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:43:25.306Z"
+    "updatedAt": "2026-10-02T07:43:25.306Z",
+    "checkedAt": "2026-11-02T10:28:39.467Z"
   },
   {
     "id": "watchmode:1724024",
@@ -142323,7 +142615,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:26.654Z",
-    "trailerId": "e2eX1HGeBFE"
+    "trailerId": "e2eX1HGeBFE",
+    "heldAt": "2026-11-02T10:28:39.751Z"
   },
   {
     "id": "watchmode:1538533",
@@ -142383,7 +142676,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:43:27.885Z",
-    "trailerId": "0FSwsrFpkbw"
+    "trailerId": "0FSwsrFpkbw",
+    "checkedAt": "2026-11-02T10:28:40.151Z"
   },
   {
     "id": "watchmode:3269065",
@@ -142426,7 +142720,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:43:29.018Z"
+    "updatedAt": "2026-10-02T07:43:29.018Z",
+    "checkedAt": "2026-11-02T10:28:40.485Z"
   },
   {
     "id": "watchmode:3220779",
@@ -142466,7 +142761,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:29.726Z",
-    "trailerId": "72oB_zVF_6o"
+    "trailerId": "72oB_zVF_6o",
+    "checkedAt": "2026-11-02T10:28:40.793Z"
   },
   {
     "id": "watchmode:1858229",
@@ -142525,7 +142821,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:43:30.956Z",
-    "trailerId": "dOyXdwXt8d4"
+    "trailerId": "dOyXdwXt8d4",
+    "checkedAt": "2026-11-02T10:28:41.168Z"
   },
   {
     "id": "watchmode:11229161",
@@ -142569,7 +142866,8 @@
         }
       ]
     },
-    "updatedAt": "2026-10-02T07:43:31.495Z"
+    "updatedAt": "2026-10-02T07:43:31.495Z",
+    "checkedAt": "2026-11-02T10:28:41.449Z"
   },
   {
     "id": "watchmode:3225241",
@@ -142609,7 +142907,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:32.185Z",
-    "trailerId": "N4BGj6tCF6A"
+    "trailerId": "N4BGj6tCF6A",
+    "checkedAt": "2026-11-02T10:28:41.769Z"
   },
   {
     "id": "watchmode:3217460",
@@ -142650,7 +142949,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:32.713Z",
-    "trailerId": "72hK6FUmm8o"
+    "trailerId": "72hK6FUmm8o",
+    "checkedAt": "2026-11-02T10:28:42.098Z"
   },
   {
     "id": "watchmode:3232256",
@@ -142688,7 +142988,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:33.351Z",
-    "trailerId": "YZgDTseb5fQ"
+    "trailerId": "YZgDTseb5fQ",
+    "checkedAt": "2026-11-02T10:28:42.417Z"
   },
   {
     "id": "watchmode:1695149",
@@ -142733,7 +143034,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:34.336Z",
-    "trailerId": "4w-fBOq9wzo"
+    "trailerId": "4w-fBOq9wzo",
+    "heldAt": "2026-11-02T10:28:42.768Z"
   },
   {
     "id": "watchmode:3266377",
@@ -142772,7 +143074,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:35.257Z",
-    "trailerId": "2W7r1O1ch74"
+    "trailerId": "2W7r1O1ch74",
+    "heldAt": "2026-11-02T10:28:43.057Z"
   },
   {
     "id": "watchmode:3244529",
@@ -142810,7 +143113,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:36.185Z",
-    "trailerId": "jVx74C-RGDw"
+    "trailerId": "jVx74C-RGDw",
+    "heldAt": "2026-11-02T10:29:43.806Z"
   },
   {
     "id": "watchmode:1717839",
@@ -142870,7 +143174,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:43:37.395Z",
-    "trailerId": "GEuMnPl2WI4"
+    "trailerId": "GEuMnPl2WI4",
+    "checkedAt": "2026-11-02T10:29:44.225Z"
   },
   {
     "id": "watchmode:1700132",
@@ -142902,14 +143207,15 @@
           "name": "Netflix",
           "url": "https://www.netflix.com/title/81512194",
           "price": null,
-          "format": "HD"
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:38.021Z",
-    "trailerId": "gYbnjaK5nsI"
+    "trailerId": "gYbnjaK5nsI",
+    "checkedAt": "2026-11-02T10:29:44.522Z"
   },
   {
     "id": "watchmode:3263064",
@@ -142948,7 +143254,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:38.690Z",
-    "trailerId": "BUg_ZtREY5M"
+    "trailerId": "BUg_ZtREY5M",
+    "checkedAt": "2026-11-02T10:29:44.825Z"
   },
   {
     "id": "watchmode:1977213",
@@ -142986,7 +143293,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:39.234Z",
-    "trailerId": "0-BjU97fvPM"
+    "trailerId": "0-BjU97fvPM",
+    "heldAt": "2026-11-02T10:29:45.107Z"
   },
   {
     "id": "watchmode:1933755",
@@ -143026,7 +143334,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:40.029Z",
-    "trailerId": "27cN2_k0JF0"
+    "trailerId": "27cN2_k0JF0",
+    "checkedAt": "2026-11-02T10:29:45.399Z"
   },
   {
     "id": "watchmode:3215871",
@@ -143065,7 +143374,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:40.785Z",
-    "trailerId": "kW-hafmct8Y"
+    "trailerId": "kW-hafmct8Y",
+    "checkedAt": "2026-11-02T10:29:45.733Z"
   },
   {
     "id": "watchmode:1781104",
@@ -143096,7 +143406,13 @@
       "stream": [
         {
           "name": "AppleTV+",
-          "url": "https://tv.apple.com/in/movie/fountain-of-youth/umc.cmc.z5xrwbjg3gergiowhrzg61tq?at=1000l3V2&ct=app_tvplus&itscg=30200&itsct=",
+          "url": "https://tv.apple.com/in/movie/fountain-of-youth/umc.cmc.z5xrwbjg3gergiowhrzg61tq?at=1000l3V2&ct=app_tvplus&itscg=30200",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "AppleTV+ Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f9c8fe98-2d64-4d61-b1e7-1ba11d66fc5c",
           "price": null,
           "format": "4K"
         }
@@ -143105,7 +143421,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:41.401Z",
-    "trailerId": "1gB9h0ELEf0"
+    "trailerId": "1gB9h0ELEf0",
+    "checkedAt": "2026-11-02T10:29:46.032Z"
   },
   {
     "id": "watchmode:1727260",
@@ -143143,27 +143460,28 @@
         {
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.e87e4553-b27c-4f6b-b1ea-25e4e1ec670d",
-          "price": 119,
-          "format": "SD"
+          "price": 100,
+          "format": "HD"
         },
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/bring-her-back/umc.cmc.52b1ec1pwrmpr6cdp8hx5i73h?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1817761727",
           "price": 149,
-          "format": "SD"
+          "format": "4K"
         }
       ],
       "buy": [
         {
           "name": "AppleTV",
           "url": "https://tv.apple.com/in/movie/bring-her-back/umc.cmc.52b1ec1pwrmpr6cdp8hx5i73h?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1817761727",
-          "price": 299,
+          "price": 199,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:43:42.451Z",
-    "trailerId": "kBskrYZfhw8"
+    "trailerId": "kBskrYZfhw8",
+    "checkedAt": "2026-11-02T10:29:46.442Z"
   },
   {
     "id": "watchmode:3220158",
@@ -143203,7 +143521,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:43.241Z",
-    "trailerId": "5fYWCkoDSeU"
+    "trailerId": "5fYWCkoDSeU",
+    "checkedAt": "2026-11-02T10:29:46.744Z"
   },
   {
     "id": "watchmode:3213360",
@@ -143244,7 +143563,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:43.857Z",
-    "trailerId": "fODWRpQE_V0"
+    "trailerId": "fODWRpQE_V0",
+    "checkedAt": "2026-11-02T10:29:47.082Z"
   },
   {
     "id": "watchmode:1598630",
@@ -143284,7 +143604,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:44.780Z",
-    "trailerId": "m5fMyIImwEY"
+    "trailerId": "m5fMyIImwEY",
+    "checkedAt": "2026-11-02T10:29:47.477Z"
   },
   {
     "id": "watchmode:3219510",
@@ -143322,7 +143643,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:46.218Z",
-    "trailerId": "LSli17bsonk"
+    "trailerId": "LSli17bsonk",
+    "checkedAt": "2026-11-02T10:29:47.803Z"
   },
   {
     "id": "watchmode:554461",
@@ -143361,7 +143683,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:47.040Z",
-    "trailerId": "QX18_KDHddg"
+    "trailerId": "QX18_KDHddg",
+    "heldAt": "2026-11-02T10:29:48.087Z"
   },
   {
     "id": "watchmode:3257215",
@@ -143399,7 +143722,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:47.851Z",
-    "trailerId": "ZzjwcujKvho"
+    "trailerId": "ZzjwcujKvho",
+    "checkedAt": "2026-11-02T10:29:48.386Z"
   },
   {
     "id": "watchmode:1880105",
@@ -143439,7 +143763,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:48.615Z",
-    "trailerId": "NsIOX5dQrbY"
+    "trailerId": "NsIOX5dQrbY",
+    "heldAt": "2026-11-02T10:29:48.739Z"
   },
   {
     "id": "watchmode:3223570",
@@ -143477,7 +143802,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:49.534Z",
-    "trailerId": "rrCciU8nD98"
+    "trailerId": "rrCciU8nD98",
+    "checkedAt": "2026-11-02T10:29:49.079Z"
   },
   {
     "id": "watchmode:3267023",
@@ -143516,7 +143842,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:50.104Z",
-    "trailerId": "6YkxIy5QkwA"
+    "trailerId": "6YkxIy5QkwA",
+    "checkedAt": "2026-11-02T10:29:49.408Z"
   },
   {
     "id": "watchmode:3234294",
@@ -143556,7 +143883,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:50.721Z",
-    "trailerId": "gyu1UAtbwAo"
+    "trailerId": "gyu1UAtbwAo",
+    "heldAt": "2026-11-02T10:29:49.736Z"
   },
   {
     "id": "watchmode:1984004",
@@ -143588,14 +143916,15 @@
           "name": "Netflix",
           "url": "https://www.netflix.com/title/81588273",
           "price": null,
-          "format": "HD"
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:43:51.230Z",
-    "trailerId": "0PPSFCWO_cA"
+    "trailerId": "0PPSFCWO_cA",
+    "checkedAt": "2026-11-02T10:29:50.023Z"
   },
   {
     "id": "watchmode:1787457",
@@ -143632,29 +143961,30 @@
       ],
       "rent": [
         {
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/friendship/umc.cmc.2zamk6x1n48oueuib94fqkl8x?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1828918542",
+          "price": 149,
+          "format": "SD"
+        },
+        {
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.36dfb52e-0823-4aa9-8ddf-df35d168f35b",
           "price": 119,
-          "format": "4K"
-        },
-        {
-          "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/friendship/umc.cmc.2zamk6x1n48oueuib94fqkl8x?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1828918542",
-          "price": 149,
-          "format": "4K"
+          "format": "SD"
         }
       ],
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/friendship/umc.cmc.2zamk6x1n48oueuib94fqkl8x?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1828918542",
-          "price": 499,
-          "format": "4K"
+          "url": "https://tv.apple.com/in/movie/friendship/umc.cmc.2zamk6x1n48oueuib94fqkl8x?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1828918542",
+          "price": 399,
+          "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:43:51.935Z",
-    "trailerId": "cmSPwZIZu6Y"
+    "trailerId": "cmSPwZIZu6Y",
+    "checkedAt": "2026-11-02T10:29:50.412Z"
   },
   {
     "id": "watchmode:1765851",
@@ -143713,7 +144043,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:43:52.646Z",
-    "trailerId": "LhRXf-yEQqA"
+    "trailerId": "LhRXf-yEQqA",
+    "checkedAt": "2026-11-02T10:29:50.825Z"
   },
   {
     "id": "watchmode:3266085",
@@ -143753,7 +144084,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:10.892Z",
-    "trailerId": "hsPzY3bgrrg"
+    "trailerId": "hsPzY3bgrrg",
+    "checkedAt": "2026-11-02T10:29:51.158Z"
   },
   {
     "id": "watchmode:3264869",
@@ -143788,14 +144120,15 @@
           "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271402749",
           "price": null,
-          "format": "4K"
+          "format": "HD"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:11.678Z",
-    "trailerId": "vjgVJxZifi0"
+    "trailerId": "vjgVJxZifi0",
+    "checkedAt": "2026-11-02T10:29:51.460Z"
   },
   {
     "id": "watchmode:1819235",
@@ -143833,7 +144166,8 @@
       ],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:44:12.735Z"
+    "updatedAt": "2026-10-02T07:44:12.735Z",
+    "checkedAt": "2026-11-02T10:29:51.822Z"
   },
   {
     "id": "watchmode:1696767",
@@ -143861,17 +144195,18 @@
     "sourceId": "1696767",
     "options": {
       "free": [],
-      "stream": [],
+      "stream": [
+        {
+          "name": "Sony Pictures Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.6355feac-5b94-4e40-a79f-3bd9f22214f5",
+          "price": null,
+          "format": "HD"
+        }
+      ],
       "rent": [
         {
-          "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.6355feac-5b94-4e40-a79f-3bd9f22214f5",
-          "price": 119,
-          "format": "SD"
-        },
-        {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/clown-in-a-cornfield/umc.cmc.3knem2n9bxcg1pto4ux2a5euv?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1816094878",
+          "url": "https://tv.apple.com/in/movie/clown-in-a-cornfield/umc.cmc.3knem2n9bxcg1pto4ux2a5euv?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1816094878",
           "price": 149,
           "format": "SD"
         },
@@ -143880,19 +144215,26 @@
           "url": "https://www.zee5.com/movies/details/clown-in-a-corn-field/0-0-1z5782194",
           "price": null,
           "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.6355feac-5b94-4e40-a79f-3bd9f22214f5",
+          "price": 100,
+          "format": "SD"
         }
       ],
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/clown-in-a-cornfield/umc.cmc.3knem2n9bxcg1pto4ux2a5euv?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1816094878",
+          "url": "https://tv.apple.com/in/movie/clown-in-a-cornfield/umc.cmc.3knem2n9bxcg1pto4ux2a5euv?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1816094878",
           "price": 199,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:44:13.558Z",
-    "trailerId": "8tBSOKyyZT8"
+    "trailerId": "8tBSOKyyZT8",
+    "checkedAt": "2026-11-02T10:29:52.224Z"
   },
   {
     "id": "watchmode:3215196",
@@ -143930,7 +144272,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:14.273Z",
-    "trailerId": "WKTwtIL4xyk"
+    "trailerId": "WKTwtIL4xyk",
+    "checkedAt": "2026-11-02T10:29:52.567Z"
   },
   {
     "id": "watchmode:1620394",
@@ -143989,7 +144332,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:44:15.787Z",
-    "trailerId": "M7LhGytiHFM"
+    "trailerId": "M7LhGytiHFM",
+    "heldAt": "2026-11-02T10:29:52.915Z"
   },
   {
     "id": "watchmode:3263546",
@@ -144030,7 +144374,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:16.423Z",
-    "trailerId": "G7LounlxPdA"
+    "trailerId": "G7LounlxPdA",
+    "heldAt": "2026-11-02T10:29:53.205Z"
   },
   {
     "id": "watchmode:3265701",
@@ -144073,7 +144418,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:44:18.824Z"
+    "updatedAt": "2026-10-02T07:44:18.824Z",
+    "checkedAt": "2026-11-02T10:29:53.533Z"
   },
   {
     "id": "watchmode:1632821",
@@ -144107,14 +144453,15 @@
           "name": "Netflix",
           "url": "https://www.netflix.com/title/81330790",
           "price": null,
-          "format": "HD"
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:19.970Z",
-    "trailerId": "6txjTWLoSc8"
+    "trailerId": "6txjTWLoSc8",
+    "checkedAt": "2026-11-02T10:29:53.825Z"
   },
   {
     "id": "watchmode:3245339",
@@ -144153,7 +144500,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:20.722Z",
-    "trailerId": "t-5eZ2Dfqdo"
+    "trailerId": "t-5eZ2Dfqdo",
+    "checkedAt": "2026-11-02T10:29:54.149Z"
   },
   {
     "id": "watchmode:3214712",
@@ -144192,7 +144540,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:21.512Z",
-    "trailerId": "gzN46jvgTck"
+    "trailerId": "gzN46jvgTck",
+    "heldAt": "2026-11-02T10:29:54.433Z"
   },
   {
     "id": "watchmode:1782532",
@@ -144257,7 +144606,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:44:22.874Z",
-    "trailerId": "rZfwvLe961k"
+    "trailerId": "rZfwvLe961k",
+    "checkedAt": "2026-11-02T10:29:54.841Z"
   },
   {
     "id": "watchmode:1588223",
@@ -144317,7 +144667,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:44:23.979Z",
-    "trailerId": "3wRCOqyDI6E"
+    "trailerId": "3wRCOqyDI6E",
+    "checkedAt": "2026-11-02T10:29:55.249Z"
   },
   {
     "id": "watchmode:1958115",
@@ -144355,7 +144706,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:25.157Z",
-    "trailerId": "4s0uSmECs50"
+    "trailerId": "4s0uSmECs50",
+    "heldAt": "2026-11-02T10:29:55.530Z"
   },
   {
     "id": "watchmode:1704999",
@@ -144413,7 +144765,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:44:25.963Z",
-    "trailerId": "2MW146Iezoo"
+    "trailerId": "2MW146Iezoo",
+    "heldAt": "2026-11-02T10:29:55.882Z"
   },
   {
     "id": "watchmode:3210030",
@@ -144454,7 +144807,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:26.871Z",
-    "trailerId": "I30yq3lc-H8"
+    "trailerId": "I30yq3lc-H8",
+    "checkedAt": "2026-11-02T10:29:56.186Z"
   },
   {
     "id": "watchmode:3212759",
@@ -144494,7 +144848,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:29.018Z",
-    "trailerId": "xbRmjVSrSpY"
+    "trailerId": "xbRmjVSrSpY",
+    "checkedAt": "2026-11-02T10:29:56.537Z"
   },
   {
     "id": "watchmode:3193685",
@@ -144533,7 +144888,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:29.938Z",
-    "trailerId": "MkyT1BOOcmk"
+    "trailerId": "MkyT1BOOcmk",
+    "heldAt": "2026-11-02T10:29:56.843Z"
   },
   {
     "id": "watchmode:1976001",
@@ -144572,7 +144928,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:30.553Z",
-    "trailerId": "Q9EFda4HaUQ"
+    "trailerId": "Q9EFda4HaUQ",
+    "heldAt": "2026-11-02T10:29:57.123Z"
   },
   {
     "id": "watchmode:548318",
@@ -144612,7 +144969,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:31.785Z",
-    "trailerId": "ehYichzjqqo"
+    "trailerId": "ehYichzjqqo",
+    "checkedAt": "2026-11-02T10:29:57.434Z"
   },
   {
     "id": "watchmode:3213403",
@@ -144657,7 +145015,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:33.406Z",
-    "trailerId": "iVRFMd6dEOE"
+    "trailerId": "iVRFMd6dEOE",
+    "checkedAt": "2026-11-02T10:29:57.858Z"
   },
   {
     "id": "watchmode:1834176",
@@ -144697,7 +145056,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:34.111Z",
-    "trailerId": "-I5kX9b9rGc"
+    "trailerId": "-I5kX9b9rGc",
+    "heldAt": "2026-11-02T10:29:58.148Z"
   },
   {
     "id": "watchmode:1697489",
@@ -144736,7 +145096,7 @@
       "rent": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/g20-with-asl/umc.cmc.23jx31ja3tgorstkv1lc7y4ov?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1812518645",
+          "url": "https://tv.apple.com/in/movie/g20/umc.cmc.23jx31ja3tgorstkv1lc7y4ov?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1812518645",
           "price": 99,
           "format": "SD"
         },
@@ -144750,14 +145110,15 @@
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/g20-with-asl/umc.cmc.23jx31ja3tgorstkv1lc7y4ov?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1812518645",
+          "url": "https://tv.apple.com/in/movie/g20/umc.cmc.23jx31ja3tgorstkv1lc7y4ov?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1812518645",
           "price": 349,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:44:34.854Z",
-    "trailerId": "mhQcpvKHis4"
+    "trailerId": "mhQcpvKHis4",
+    "checkedAt": "2026-11-02T10:29:58.566Z"
   },
   {
     "id": "watchmode:1788689",
@@ -144803,7 +145164,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:35.932Z",
-    "trailerId": "JER0Fkyy3tw"
+    "trailerId": "JER0Fkyy3tw",
+    "checkedAt": "2026-11-02T10:29:58.963Z"
   },
   {
     "id": "watchmode:1704323",
@@ -144842,7 +145204,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:36.524Z",
-    "trailerId": "DCWcK4c-F8Q"
+    "trailerId": "DCWcK4c-F8Q",
+    "checkedAt": "2026-11-02T10:29:59.329Z"
   },
   {
     "id": "watchmode:3264884",
@@ -144886,7 +145249,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:44:37.108Z"
+    "updatedAt": "2026-10-02T07:44:37.108Z",
+    "heldAt": "2026-11-02T10:29:59.616Z"
   },
   {
     "id": "watchmode:1794137",
@@ -144957,7 +145321,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:44:38.522Z",
-    "trailerId": "bs_nFwh5eJw"
+    "trailerId": "bs_nFwh5eJw",
+    "checkedAt": "2026-11-02T10:30:00.037Z"
   },
   {
     "id": "watchmode:1868608",
@@ -145015,7 +145380,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:44:39.627Z",
-    "trailerId": "H3nT838DEno"
+    "trailerId": "H3nT838DEno",
+    "heldAt": "2026-11-02T10:30:00.387Z"
   },
   {
     "id": "watchmode:3213198",
@@ -145047,14 +145413,15 @@
           "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271390361",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:40.252Z",
-    "trailerId": "wN9-JCGtRMo"
+    "trailerId": "wN9-JCGtRMo",
+    "checkedAt": "2026-11-02T10:30:00.710Z"
   },
   {
     "id": "watchmode:1782405",
@@ -145092,7 +145459,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:40.998Z",
-    "trailerId": "fueVFsgXJ-s"
+    "trailerId": "fueVFsgXJ-s",
+    "checkedAt": "2026-11-02T10:30:00.994Z"
   },
   {
     "id": "watchmode:3219702",
@@ -145123,14 +145491,15 @@
           "name": "Netflix",
           "url": "https://www.netflix.com/title/81498229",
           "price": null,
-          "format": "HD"
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:41.796Z",
-    "trailerId": "WyB3G6u89es"
+    "trailerId": "WyB3G6u89es",
+    "checkedAt": "2026-11-02T10:30:01.321Z"
   },
   {
     "id": "watchmode:1696913",
@@ -145169,7 +145538,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:42.353Z",
-    "trailerId": "w860o1CceTk"
+    "trailerId": "w860o1CceTk",
+    "checkedAt": "2026-11-02T10:30:01.639Z"
   },
   {
     "id": "watchmode:1687763",
@@ -145228,7 +145598,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:44:43.142Z",
-    "trailerId": "LTmzw6zG4ww"
+    "trailerId": "LTmzw6zG4ww",
+    "checkedAt": "2026-11-02T10:30:02.160Z"
   },
   {
     "id": "watchmode:3219633",
@@ -145258,16 +145629,17 @@
       "stream": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271402501",
+          "url": "https://www.hotstar.com/in/shows/mobland/1271397631",
           "price": null,
-          "format": "4K"
+          "format": "HD"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:44.689Z",
-    "trailerId": "Y-7Lb-E7fYM"
+    "trailerId": "Y-7Lb-E7fYM",
+    "checkedAt": "2026-11-02T10:30:02.582Z"
   },
   {
     "id": "watchmode:1800327",
@@ -145305,7 +145677,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:44:45.188Z"
+    "updatedAt": "2026-10-02T07:44:45.188Z",
+    "heldAt": "2026-11-02T10:30:02.899Z"
   },
   {
     "id": "watchmode:1930954",
@@ -145357,7 +145730,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:44:46.448Z",
-    "trailerId": "tZaje_sh97A"
+    "trailerId": "tZaje_sh97A",
+    "heldAt": "2026-11-02T10:30:03.208Z"
   },
   {
     "id": "watchmode:1856742",
@@ -145396,7 +145770,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:47.052Z",
-    "trailerId": "Qonpy0Z47aY"
+    "trailerId": "Qonpy0Z47aY",
+    "heldAt": "2026-11-02T10:30:03.877Z"
   },
   {
     "id": "watchmode:1802887",
@@ -145442,7 +145817,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:47.638Z",
-    "trailerId": "HTi-e20yVNs"
+    "trailerId": "HTi-e20yVNs",
+    "checkedAt": "2026-11-02T10:30:04.408Z"
   },
   {
     "id": "watchmode:1858232",
@@ -145471,10 +145847,10 @@
       "stream": [],
       "rent": [
         {
-          "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.efafb6d3-bb02-4e63-99a3-c36437c8235d",
-          "price": 119,
-          "format": "4K"
+          "name": "AppleTV",
+          "url": "https://tv.apple.com/in/movie/the-penguin-lessons/umc.cmc.5xo3cskjfj6y9u37e8kvg3qtu?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1806314959",
+          "price": 149,
+          "format": "SD"
         },
         {
           "name": "Zee5",
@@ -145483,23 +145859,24 @@
           "format": "SD"
         },
         {
-          "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/the-penguin-lessons/umc.cmc.5xo3cskjfj6y9u37e8kvg3qtu?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1806314959",
-          "price": 149,
-          "format": "4K"
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.efafb6d3-bb02-4e63-99a3-c36437c8235d",
+          "price": 119,
+          "format": "SD"
         }
       ],
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/the-penguin-lessons/umc.cmc.5xo3cskjfj6y9u37e8kvg3qtu?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1806314959",
+          "url": "https://tv.apple.com/in/movie/the-penguin-lessons/umc.cmc.5xo3cskjfj6y9u37e8kvg3qtu?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1806314959",
           "price": 199,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:44:48.351Z",
-    "trailerId": "0A_C3MT3uyA"
+    "trailerId": "0A_C3MT3uyA",
+    "checkedAt": "2026-11-02T10:30:05.115Z"
   },
   {
     "id": "watchmode:1798128",
@@ -145539,7 +145916,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:48.860Z",
-    "trailerId": "nldAfgJrBr8"
+    "trailerId": "nldAfgJrBr8",
+    "checkedAt": "2026-11-02T10:30:05.549Z"
   },
   {
     "id": "watchmode:1791181",
@@ -145578,7 +145956,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:49.432Z",
-    "trailerId": "1s-Ko4J3mWs"
+    "trailerId": "1s-Ko4J3mWs",
+    "checkedAt": "2026-11-02T10:30:06.018Z"
   },
   {
     "id": "watchmode:3260522",
@@ -145618,7 +145997,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:50.216Z",
-    "trailerId": "daeL3XxrS-c"
+    "trailerId": "daeL3XxrS-c",
+    "checkedAt": "2026-11-02T10:30:06.358Z"
   },
   {
     "id": "watchmode:1758068",
@@ -145658,7 +146038,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:51.487Z",
-    "trailerId": "zTbgNC42Ops"
+    "trailerId": "zTbgNC42Ops",
+    "checkedAt": "2026-11-02T10:30:06.798Z"
   },
   {
     "id": "watchmode:3219686",
@@ -145691,13 +146072,20 @@
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.c759a32c-96db-45e4-9b56-97331ba9f884",
           "price": null,
           "format": "4K"
+        },
+        {
+          "name": "AppleTV+",
+          "url": "https://tv.apple.com/in/episode/the-promotion/umc.cmc.4bbsfho86xgztc6to6vhma3ny?at=1000l3V2&ct=app_tvplus&itscg=30200&playableId=tvs.sbd.4000%3AA0131501001&showId=umc.cmc.7518algxc4lsoobtsx30dqb52",
+          "price": null,
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:52.543Z",
-    "trailerId": "EIQuE7JGXU8"
+    "trailerId": "EIQuE7JGXU8",
+    "checkedAt": "2026-11-02T10:30:07.236Z"
   },
   {
     "id": "watchmode:1965612",
@@ -145742,7 +146130,8 @@
         }
       ]
     },
-    "updatedAt": "2026-10-02T07:44:53.049Z"
+    "updatedAt": "2026-10-02T07:44:53.049Z",
+    "checkedAt": "2026-11-02T10:30:07.539Z"
   },
   {
     "id": "watchmode:3262905",
@@ -145787,7 +146176,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:44:53.636Z",
-    "trailerId": "4_pp998F0mY"
+    "trailerId": "4_pp998F0mY",
+    "checkedAt": "2026-11-02T10:30:07.932Z"
   },
   {
     "id": "watchmode:3245238",
@@ -145829,7 +146219,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:12.670Z",
-    "trailerId": "LM2RPLSDjdQ"
+    "trailerId": "LM2RPLSDjdQ",
+    "heldAt": "2026-11-02T10:30:08.285Z"
   },
   {
     "id": "watchmode:3227451",
@@ -145868,7 +146259,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:13.258Z",
-    "trailerId": "5dkOdC5wPwo"
+    "trailerId": "5dkOdC5wPwo",
+    "checkedAt": "2026-11-02T10:30:08.604Z"
   },
   {
     "id": "watchmode:1973819",
@@ -145908,7 +146300,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:14.073Z",
-    "trailerId": "QZZMn0UDZBU"
+    "trailerId": "QZZMn0UDZBU",
+    "checkedAt": "2026-11-02T10:30:08.897Z"
   },
   {
     "id": "watchmode:3234525",
@@ -145939,7 +146332,7 @@
       "stream": [
         {
           "name": "Prime Video",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.46163e31-5b76-4242-a4ef-ff87bf5c03ef",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4e0ef498-2faa-4697-8b55-a795d70c95ba",
           "price": null,
           "format": "HD"
         }
@@ -145948,7 +146341,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:14.792Z",
-    "trailerId": "pn-yCmpElv8"
+    "trailerId": "pn-yCmpElv8",
+    "checkedAt": "2026-11-02T10:30:09.279Z"
   },
   {
     "id": "watchmode:3215094",
@@ -145988,7 +146382,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:15.418Z",
-    "trailerId": "1e2bUS9ROrw"
+    "trailerId": "1e2bUS9ROrw",
+    "heldAt": "2026-11-02T10:30:09.672Z"
   },
   {
     "id": "watchmode:550526",
@@ -146021,14 +146416,15 @@
           "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271381748",
           "price": null,
-          "format": "SD"
+          "format": "HD"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:16.290Z",
-    "trailerId": "3_QlAf1rRGE"
+    "trailerId": "3_QlAf1rRGE",
+    "checkedAt": "2026-11-02T10:30:10.074Z"
   },
   {
     "id": "watchmode:1690925",
@@ -146088,7 +146484,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:45:17.097Z",
-    "trailerId": "1aayuOp0AnE"
+    "trailerId": "1aayuOp0AnE",
+    "checkedAt": "2026-11-02T10:30:10.643Z"
   },
   {
     "id": "watchmode:1508465",
@@ -146118,7 +146515,7 @@
       "stream": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271421844",
+          "url": "https://www.hotstar.com/in/movies/snow-white/1271325602",
           "price": null,
           "format": "HD"
         }
@@ -146127,7 +146524,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:18.052Z",
-    "trailerId": "iV46TJKL8cU"
+    "trailerId": "iV46TJKL8cU",
+    "checkedAt": "2026-11-02T10:30:11.249Z"
   },
   {
     "id": "watchmode:1951919",
@@ -146165,7 +146563,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:18.786Z",
-    "trailerId": "DbdlxgisJ4o"
+    "trailerId": "DbdlxgisJ4o",
+    "heldAt": "2026-11-02T10:30:11.578Z"
   },
   {
     "id": "watchmode:1729160",
@@ -146205,7 +146604,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:20.322Z",
-    "trailerId": "9cMIarrxLGs"
+    "trailerId": "9cMIarrxLGs",
+    "checkedAt": "2026-11-02T10:30:12.270Z"
   },
   {
     "id": "watchmode:1963190",
@@ -146244,7 +146644,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:45:21.556Z"
+    "updatedAt": "2026-10-02T07:45:21.556Z",
+    "checkedAt": "2026-11-02T10:30:12.693Z"
   },
   {
     "id": "watchmode:3188991",
@@ -146274,7 +146675,13 @@
       "stream": [
         {
           "name": "AppleTV+",
-          "url": "https://tv.apple.com/in/episode/jolly-ranchers/umc.cmc.1h5ka2e04rfuibkvsexa3povh?at=1000l3V2&ct=app_tvplus&itscg=30200&itsct=&playableId=tvs.sbd.4000%3AA0044001001&showId=umc.cmc.2prcvu6fnh4bue7d9iaswpsw7",
+          "url": "https://tv.apple.com/in/episode/jolly-ranchers/umc.cmc.1h5ka2e04rfuibkvsexa3povh?at=1000l3V2&ct=app_tvplus&itscg=30200&playableId=tvs.sbd.4000%3AA0044001001&showId=umc.cmc.2prcvu6fnh4bue7d9iaswpsw7",
+          "price": null,
+          "format": "4K"
+        },
+        {
+          "name": "AppleTV+ Amazon Channel",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.55d456b7-5fb4-4a8a-bbb6-4d8238bb2621",
           "price": null,
           "format": "4K"
         }
@@ -146283,7 +146690,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:23.086Z",
-    "trailerId": "RePjWY4ESyQ"
+    "trailerId": "RePjWY4ESyQ",
+    "checkedAt": "2026-11-02T10:30:13.110Z"
   },
   {
     "id": "watchmode:1783225",
@@ -146349,7 +146757,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:45:24.007Z",
-    "trailerId": "Du0Xp8WX_7I"
+    "trailerId": "Du0Xp8WX_7I",
+    "checkedAt": "2026-11-02T10:30:13.519Z"
   },
   {
     "id": "watchmode:3263720",
@@ -146388,7 +146797,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:45:24.624Z"
+    "updatedAt": "2026-10-02T07:45:24.624Z",
+    "checkedAt": "2026-11-02T10:30:13.839Z"
   },
   {
     "id": "watchmode:1530676",
@@ -146418,7 +146828,7 @@
       "stream": [
         {
           "name": "Prime Video",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.67d5eb0f-bacf-4de3-a6ee-b77b3577c15b",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.57b0892c-c85e-4694-8495-84be84aeffd5",
           "price": null,
           "format": "4K"
         }
@@ -146427,7 +146837,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:25.410Z",
-    "trailerId": "IJm3LHoqdA4"
+    "trailerId": "IJm3LHoqdA4",
+    "checkedAt": "2026-11-02T10:30:14.170Z"
   },
   {
     "id": "watchmode:1866605",
@@ -146469,7 +146880,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:25.935Z",
-    "trailerId": "IHRScjhllsQ"
+    "trailerId": "IHRScjhllsQ",
+    "heldAt": "2026-11-02T10:30:14.488Z"
   },
   {
     "id": "watchmode:3221712",
@@ -146508,7 +146920,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:27.081Z",
-    "trailerId": "YZ1S3Jvegz4"
+    "trailerId": "YZ1S3Jvegz4",
+    "checkedAt": "2026-11-02T10:30:14.855Z"
   },
   {
     "id": "watchmode:1768642",
@@ -146554,7 +146967,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:29.385Z",
-    "trailerId": "msFtdWr5Kqs"
+    "trailerId": "msFtdWr5Kqs",
+    "heldAt": "2026-11-02T10:30:15.224Z"
   },
   {
     "id": "watchmode:1724960",
@@ -146593,7 +147007,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:30.017Z",
-    "trailerId": "CnEOLuCojY0"
+    "trailerId": "CnEOLuCojY0",
+    "heldAt": "2026-11-02T10:30:15.528Z"
   },
   {
     "id": "watchmode:1685399",
@@ -146632,7 +147047,7 @@
       "rent": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/another-simple-favour/umc.cmc.8imxaepy7zvv0qmlop4s3ic8?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1814715714",
+          "url": "https://tv.apple.com/in/movie/another-simple-favour/umc.cmc.8imxaepy7zvv0qmlop4s3ic8?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1814715714",
           "price": 99,
           "format": "SD"
         },
@@ -146646,14 +147061,15 @@
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/another-simple-favour/umc.cmc.8imxaepy7zvv0qmlop4s3ic8?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1814715714",
+          "url": "https://tv.apple.com/in/movie/another-simple-favour/umc.cmc.8imxaepy7zvv0qmlop4s3ic8?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1814715714",
           "price": 349,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:45:31.073Z",
-    "trailerId": "QWajCwdC_TM"
+    "trailerId": "QWajCwdC_TM",
+    "checkedAt": "2026-11-02T10:30:15.985Z"
   },
   {
     "id": "watchmode:3196820",
@@ -146693,7 +147109,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:31.694Z",
-    "trailerId": "0G_38cfaHk8"
+    "trailerId": "0G_38cfaHk8",
+    "checkedAt": "2026-11-02T10:30:16.370Z"
   },
   {
     "id": "watchmode:1760406",
@@ -146746,7 +147163,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:45:32.800Z",
-    "trailerId": "9hxuNfoWNs0"
+    "trailerId": "9hxuNfoWNs0",
+    "heldAt": "2026-11-02T10:30:16.721Z"
   },
   {
     "id": "watchmode:1845616",
@@ -146785,7 +147203,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:34.147Z",
-    "trailerId": "7wWkGWXIshA"
+    "trailerId": "7wWkGWXIshA",
+    "heldAt": "2026-11-02T10:30:17.033Z"
   },
   {
     "id": "watchmode:3261759",
@@ -146830,7 +147249,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:34.761Z",
-    "trailerId": "khnaGbaX0Iw"
+    "trailerId": "khnaGbaX0Iw",
+    "checkedAt": "2026-11-02T10:30:17.377Z"
   },
   {
     "id": "watchmode:3253880",
@@ -146869,7 +147289,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:35.546Z",
-    "trailerId": "Vdro1p53LYQ"
+    "trailerId": "Vdro1p53LYQ",
+    "heldAt": "2026-11-02T10:30:17.707Z"
   },
   {
     "id": "watchmode:3186375",
@@ -146910,7 +147331,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:36.299Z",
-    "trailerId": "7xALolZzhSM"
+    "trailerId": "7xALolZzhSM",
+    "checkedAt": "2026-11-02T10:30:18.076Z"
   },
   {
     "id": "watchmode:1884650",
@@ -146976,7 +147398,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:45:37.219Z",
-    "trailerId": "-PyOIlJEdqA"
+    "trailerId": "-PyOIlJEdqA",
+    "heldAt": "2026-11-02T10:30:18.531Z"
   },
   {
     "id": "watchmode:3220269",
@@ -147016,7 +147439,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:37.734Z",
-    "trailerId": "_zHQMyNC_VY"
+    "trailerId": "_zHQMyNC_VY",
+    "heldAt": "2026-11-02T10:30:18.858Z"
   },
   {
     "id": "watchmode:1771618",
@@ -147056,7 +147480,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:38.620Z",
-    "trailerId": "bXTsJKcx_fc"
+    "trailerId": "bXTsJKcx_fc",
+    "heldAt": "2026-11-02T10:30:19.144Z"
   },
   {
     "id": "watchmode:1953366",
@@ -147100,7 +147525,8 @@
       ],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:45:39.554Z"
+    "updatedAt": "2026-10-02T07:45:39.554Z",
+    "heldAt": "2026-11-02T10:30:19.439Z"
   },
   {
     "id": "watchmode:1726818",
@@ -147138,7 +147564,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:40.291Z",
-    "trailerId": "BKaNbSdHJAo"
+    "trailerId": "BKaNbSdHJAo",
+    "heldAt": "2026-11-02T10:30:19.782Z"
   },
   {
     "id": "watchmode:1699552",
@@ -147197,7 +147624,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:45:40.864Z",
-    "trailerId": "Obc1XOFz6jQ"
+    "trailerId": "Obc1XOFz6jQ",
+    "heldAt": "2026-11-02T10:30:20.144Z"
   },
   {
     "id": "watchmode:1653388",
@@ -147257,7 +147685,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:45:41.521Z",
-    "trailerId": "tA1s65o_kYM"
+    "trailerId": "tA1s65o_kYM",
+    "checkedAt": "2026-11-02T10:30:20.761Z"
   },
   {
     "id": "watchmode:3254473",
@@ -147289,14 +147718,15 @@
           "name": "Hotstar",
           "url": "https://www.hotstar.com/in/1271388886",
           "price": null,
-          "format": "SD"
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:42.138Z",
-    "trailerId": "TdshoT-K7nQ"
+    "trailerId": "TdshoT-K7nQ",
+    "checkedAt": "2026-11-02T10:30:21.081Z"
   },
   {
     "id": "watchmode:3243070",
@@ -147328,14 +147758,15 @@
           "name": "Netflix",
           "url": "https://www.netflix.com/title/81483318",
           "price": null,
-          "format": "HD"
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:43.644Z",
-    "trailerId": "thA5bHMjOI4"
+    "trailerId": "thA5bHMjOI4",
+    "checkedAt": "2026-11-02T10:30:21.669Z"
   },
   {
     "id": "watchmode:3215797",
@@ -147364,7 +147795,7 @@
       "stream": [
         {
           "name": "Prime Video",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.52642760-94cf-4cdf-9e57-61b5740cc1b6",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.14725564-f60f-4313-b248-9794e4b364e8",
           "price": null,
           "format": "HD"
         }
@@ -147373,7 +147804,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:44.290Z",
-    "trailerId": "GrGfIHBIVL4"
+    "trailerId": "GrGfIHBIVL4",
+    "checkedAt": "2026-11-02T10:30:22.090Z"
   },
   {
     "id": "watchmode:1629460",
@@ -147407,7 +147839,7 @@
       "rent": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/in-the-lost-lands/umc.cmc.2cnlg34ih3jyxiauhcjprbike?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1820641663",
+          "url": "https://tv.apple.com/in/movie/in-the-lost-lands/umc.cmc.2cnlg34ih3jyxiauhcjprbike?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1820641663",
           "price": 129,
           "format": "SD"
         }
@@ -147415,14 +147847,15 @@
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/in-the-lost-lands/umc.cmc.2cnlg34ih3jyxiauhcjprbike?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1820641663",
+          "url": "https://tv.apple.com/in/movie/in-the-lost-lands/umc.cmc.2cnlg34ih3jyxiauhcjprbike?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1820641663",
           "price": 199,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:45:46.436Z",
-    "trailerId": "CMyrp5Vk3mU"
+    "trailerId": "CMyrp5Vk3mU",
+    "checkedAt": "2026-11-02T10:30:22.485Z"
   },
   {
     "id": "watchmode:1623694",
@@ -147462,7 +147895,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:47.953Z",
-    "trailerId": "QIw6ITiwgBU"
+    "trailerId": "QIw6ITiwgBU",
+    "checkedAt": "2026-11-02T10:30:22.794Z"
   },
   {
     "id": "watchmode:3218014",
@@ -147507,7 +147941,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:48.767Z",
-    "trailerId": "YgPVfsQTskc"
+    "trailerId": "YgPVfsQTskc",
+    "heldAt": "2026-11-02T10:30:23.110Z"
   },
   {
     "id": "watchmode:3192899",
@@ -147537,7 +147972,7 @@
       "stream": [
         {
           "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/1271339635",
+          "url": "https://www.hotstar.com/in/1271391806",
           "price": null,
           "format": "4K"
         }
@@ -147546,7 +147981,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:49.329Z",
-    "trailerId": "KAx_ARl_6tc"
+    "trailerId": "KAx_ARl_6tc",
+    "checkedAt": "2026-11-02T10:30:23.458Z"
   },
   {
     "id": "watchmode:1621951",
@@ -147598,7 +148034,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:45:50.055Z",
-    "trailerId": "pGbLX3__m60"
+    "trailerId": "pGbLX3__m60",
+    "heldAt": "2026-11-02T10:30:23.817Z"
   },
   {
     "id": "watchmode:3189054",
@@ -147640,7 +148077,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:50.990Z",
-    "trailerId": "AhxGObicnPs"
+    "trailerId": "AhxGObicnPs",
+    "checkedAt": "2026-11-02T10:30:24.140Z"
   },
   {
     "id": "watchmode:551368",
@@ -147679,7 +148117,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:52.993Z",
-    "trailerId": "oGA8VYSdjZk"
+    "trailerId": "oGA8VYSdjZk",
+    "heldAt": "2026-11-02T10:30:24.478Z"
   },
   {
     "id": "watchmode:3261061",
@@ -147724,7 +148163,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:45:53.517Z"
+    "updatedAt": "2026-10-02T07:45:53.517Z",
+    "checkedAt": "2026-11-02T10:30:26.530Z"
   },
   {
     "id": "watchmode:3257048",
@@ -147763,7 +148203,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:54.036Z",
-    "trailerId": "WnFl99T6IoQ"
+    "trailerId": "WnFl99T6IoQ",
+    "heldAt": "2026-11-02T10:30:26.820Z"
   },
   {
     "id": "watchmode:3259234",
@@ -147795,14 +148236,15 @@
           "name": "Netflix",
           "url": "https://www.netflix.com/title/81733793",
           "price": null,
-          "format": "HD"
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:45:57.007Z",
-    "trailerId": "Cj6N5aK2qzI"
+    "trailerId": "Cj6N5aK2qzI",
+    "checkedAt": "2026-11-02T10:30:27.146Z"
   },
   {
     "id": "watchmode:1757825",
@@ -147841,7 +148283,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:45:57.999Z"
+    "updatedAt": "2026-10-02T07:45:57.999Z",
+    "heldAt": "2026-11-02T10:30:27.440Z"
   },
   {
     "id": "watchmode:1760548",
@@ -147879,7 +148322,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:07.107Z",
-    "trailerId": "6RT3cB3T74w"
+    "trailerId": "6RT3cB3T74w",
+    "heldAt": "2026-11-02T10:30:27.756Z"
   },
   {
     "id": "watchmode:1684916",
@@ -147925,7 +148369,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:08.118Z",
-    "trailerId": "rUSdnuOLebE"
+    "trailerId": "rUSdnuOLebE",
+    "checkedAt": "2026-11-02T10:30:28.092Z"
   },
   {
     "id": "watchmode:1825474",
@@ -147964,7 +148409,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:09.128Z",
-    "trailerId": "14z9L_MwH5s"
+    "trailerId": "14z9L_MwH5s",
+    "heldAt": "2026-11-02T10:30:28.408Z"
   },
   {
     "id": "watchmode:1796397",
@@ -148003,7 +148449,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:09.646Z",
-    "trailerId": "zBFSEbZNvhc"
+    "trailerId": "zBFSEbZNvhc",
+    "heldAt": "2026-11-02T10:30:28.699Z"
   },
   {
     "id": "watchmode:3255670",
@@ -148044,7 +148491,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:11.177Z",
-    "trailerId": "Jq-WbXY9K3E"
+    "trailerId": "Jq-WbXY9K3E",
+    "heldAt": "2026-11-02T10:30:29.003Z"
   },
   {
     "id": "watchmode:1762467",
@@ -148084,7 +148532,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:11.934Z",
-    "trailerId": "3fDPqZ5gXx4"
+    "trailerId": "3fDPqZ5gXx4",
+    "heldAt": "2026-11-02T10:30:29.307Z"
   },
   {
     "id": "watchmode:3213288",
@@ -148123,7 +148572,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:13.470Z",
-    "trailerId": "u2Yj_rmCzhE"
+    "trailerId": "u2Yj_rmCzhE",
+    "checkedAt": "2026-11-02T10:30:29.655Z"
   },
   {
     "id": "watchmode:1831430",
@@ -148183,7 +148633,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:46:15.770Z",
-    "trailerId": "1cRzZcMlJh8"
+    "trailerId": "1cRzZcMlJh8",
+    "checkedAt": "2026-11-02T10:30:30.054Z"
   },
   {
     "id": "watchmode:1642750",
@@ -148210,45 +148661,39 @@
     "sourceId": "1642750",
     "options": {
       "free": [],
-      "stream": [
-        {
-          "name": "Netflix",
-          "url": "https://www.netflix.com/title/82018943",
-          "price": null,
-          "format": "HD"
-        }
-      ],
+      "stream": [],
       "rent": [
         {
-          "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.901b1339-0cd0-4d54-8b4c-22ae29877f85",
-          "price": 100,
-          "format": "HD"
-        },
-        {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/becoming-led-zeppelin/umc.cmc.75y87tlm8m52uod4oauiqahzd?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1793821686",
+          "url": "https://tv.apple.com/in/movie/becoming-led-zeppelin/umc.cmc.75y87tlm8m52uod4oauiqahzd?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1793821686",
           "price": 149,
-          "format": "4K"
+          "format": "SD"
         },
         {
           "name": "Zee5",
           "url": "https://www.zee5.com/movies/details/becoming-led-zeppelin/0-0-1z5742160",
           "price": null,
           "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.901b1339-0cd0-4d54-8b4c-22ae29877f85",
+          "price": 99,
+          "format": "SD"
         }
       ],
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/becoming-led-zeppelin/umc.cmc.75y87tlm8m52uod4oauiqahzd?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1793821686",
+          "url": "https://tv.apple.com/in/movie/becoming-led-zeppelin/umc.cmc.75y87tlm8m52uod4oauiqahzd?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1793821686",
           "price": 199,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:46:16.848Z",
-    "trailerId": "EDKC77QS8WM"
+    "trailerId": "EDKC77QS8WM",
+    "checkedAt": "2026-11-02T10:30:30.447Z"
   },
   {
     "id": "watchmode:1768232",
@@ -148287,7 +148732,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:17.463Z",
-    "trailerId": "OAj2VFETzoM"
+    "trailerId": "OAj2VFETzoM",
+    "checkedAt": "2026-11-02T10:30:30.765Z"
   },
   {
     "id": "watchmode:1756757",
@@ -148328,7 +148774,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:18.036Z",
-    "trailerId": "3x77q40hATw"
+    "trailerId": "3x77q40hATw",
+    "heldAt": "2026-11-02T10:30:31.049Z"
   },
   {
     "id": "watchmode:3255931",
@@ -148367,7 +148814,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:18.999Z",
-    "trailerId": "0CIcPQucoIw"
+    "trailerId": "0CIcPQucoIw",
+    "heldAt": "2026-11-02T10:30:31.342Z"
   },
   {
     "id": "watchmode:3180212",
@@ -148401,13 +148849,20 @@
           "url": "https://www.hotstar.com/in/1271340193",
           "price": null,
           "format": "4K"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/tvshow/play/hs-1271340193",
+          "price": null,
+          "format": "SD"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:19.614Z",
-    "trailerId": "nyueI8bdIhE"
+    "trailerId": "nyueI8bdIhE",
+    "checkedAt": "2026-11-02T10:30:31.661Z"
   },
   {
     "id": "watchmode:1914742",
@@ -148445,7 +148900,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:20.843Z",
-    "trailerId": "QyV0pqwjJXk"
+    "trailerId": "QyV0pqwjJXk",
+    "heldAt": "2026-11-02T10:30:31.961Z"
   },
   {
     "id": "watchmode:3255703",
@@ -148482,7 +148938,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:46:21.432Z"
+    "updatedAt": "2026-10-02T07:46:21.432Z",
+    "checkedAt": "2026-11-02T10:30:32.261Z"
   },
   {
     "id": "watchmode:3217677",
@@ -148528,7 +148985,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:22.371Z",
-    "trailerId": "QsjSIwQr7yw"
+    "trailerId": "QsjSIwQr7yw",
+    "checkedAt": "2026-11-02T10:30:32.599Z"
   },
   {
     "id": "watchmode:1914755",
@@ -148567,7 +149025,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:23.301Z",
-    "trailerId": "tNIbJywaCq0"
+    "trailerId": "tNIbJywaCq0",
+    "heldAt": "2026-11-02T10:30:32.882Z"
   },
   {
     "id": "watchmode:1886664",
@@ -148614,7 +149073,8 @@
       ],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:46:24.836Z"
+    "updatedAt": "2026-10-02T07:46:24.836Z",
+    "checkedAt": "2026-11-02T10:30:33.184Z"
   },
   {
     "id": "watchmode:1861966",
@@ -148682,7 +149142,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:46:26.065Z",
-    "trailerId": "QaJbAennB_Q"
+    "trailerId": "QaJbAennB_Q",
+    "checkedAt": "2026-11-02T10:30:33.760Z"
   },
   {
     "id": "watchmode:1901384",
@@ -148720,7 +149181,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:46:27.218Z"
+    "updatedAt": "2026-10-02T07:46:27.218Z",
+    "heldAt": "2026-11-02T10:30:34.146Z"
   },
   {
     "id": "watchmode:3226527",
@@ -148761,7 +149223,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:27.771Z",
-    "trailerId": "lp98X-9x144"
+    "trailerId": "lp98X-9x144",
+    "checkedAt": "2026-11-02T10:30:34.523Z"
   },
   {
     "id": "watchmode:1890462",
@@ -148791,12 +149254,6 @@
       "free": [],
       "stream": [
         {
-          "name": "Hotstar",
-          "url": "https://www.hotstar.com/in/movies/companion/1271427402?search_query=Companion+2025",
-          "price": null,
-          "format": "HD"
-        },
-        {
           "name": "Netflix",
           "url": "https://www.netflix.com/title/81957177",
           "price": null,
@@ -148808,26 +149265,27 @@
           "name": "Amazon",
           "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.dfa23777-c65f-4bf0-967b-24208c35324b",
           "price": 119,
-          "format": "HD"
+          "format": "SD"
         },
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/companion/umc.cmc.4ucrwm6dvaf3z2e9alwmfyo2x?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1788517494",
-          "price": 149,
+          "url": "https://tv.apple.com/in/movie/companion/umc.cmc.4ucrwm6dvaf3z2e9alwmfyo2x?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1788517494",
+          "price": 129,
           "format": "SD"
         }
       ],
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/companion/umc.cmc.4ucrwm6dvaf3z2e9alwmfyo2x?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1788517494",
+          "url": "https://tv.apple.com/in/movie/companion/umc.cmc.4ucrwm6dvaf3z2e9alwmfyo2x?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1788517494",
           "price": 499,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:46:28.581Z",
-    "trailerId": "Qr_kX0D3DNA"
+    "trailerId": "Qr_kX0D3DNA",
+    "checkedAt": "2026-11-02T10:30:35.272Z"
   },
   {
     "id": "watchmode:1710250",
@@ -148879,7 +149337,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:46:29.386Z",
-    "trailerId": "ojC9JBuccJA"
+    "trailerId": "ojC9JBuccJA",
+    "heldAt": "2026-11-02T10:30:35.658Z"
   },
   {
     "id": "watchmode:3219638",
@@ -148919,7 +149378,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:29.935Z",
-    "trailerId": "0e5CZY6qaGw"
+    "trailerId": "0e5CZY6qaGw",
+    "checkedAt": "2026-11-02T10:30:36.048Z"
   },
   {
     "id": "watchmode:3250864",
@@ -148956,7 +149416,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:46:30.675Z"
+    "updatedAt": "2026-10-02T07:46:30.675Z",
+    "checkedAt": "2026-11-02T10:30:36.336Z"
   },
   {
     "id": "watchmode:3199601",
@@ -148998,7 +149459,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:31.247Z",
-    "trailerId": "jWTUUiX6pBQ"
+    "trailerId": "jWTUUiX6pBQ",
+    "checkedAt": "2026-11-02T10:30:36.701Z"
   },
   {
     "id": "watchmode:1885139",
@@ -149056,7 +149518,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:46:32.116Z",
-    "trailerId": "pr_nVsfoUm8"
+    "trailerId": "pr_nVsfoUm8",
+    "heldAt": "2026-11-02T10:30:37.061Z"
   },
   {
     "id": "watchmode:1816389",
@@ -149113,7 +149576,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:46:33.282Z",
-    "trailerId": "-5xzjw_0d_0"
+    "trailerId": "-5xzjw_0d_0",
+    "checkedAt": "2026-11-02T10:30:37.486Z"
   },
   {
     "id": "watchmode:3245328",
@@ -149153,7 +149617,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:34.359Z",
-    "trailerId": "kYfXhCp2UVY"
+    "trailerId": "kYfXhCp2UVY",
+    "checkedAt": "2026-11-02T10:30:37.884Z"
   },
   {
     "id": "watchmode:3224132",
@@ -149191,7 +149656,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:35.010Z",
-    "trailerId": "Q-sbt3TN6L4"
+    "trailerId": "Q-sbt3TN6L4",
+    "heldAt": "2026-11-02T10:30:38.167Z"
   },
   {
     "id": "watchmode:1698888",
@@ -149230,7 +149696,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:35.756Z",
-    "trailerId": "MV2nYw6gL_w"
+    "trailerId": "MV2nYw6gL_w",
+    "checkedAt": "2026-11-02T10:30:38.463Z"
   },
   {
     "id": "watchmode:1639358",
@@ -149267,21 +149734,9 @@
       ],
       "rent": [
         {
-          "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.65721a72-4101-4c88-b03f-8ccdb9324a89",
-          "price": 99,
-          "format": "SD"
-        },
-        {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/wolf-man/umc.cmc.3rhygg13gk9fig66rk6675u2m?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1795845145",
+          "url": "https://tv.apple.com/in/movie/wolf-man/umc.cmc.3rhygg13gk9fig66rk6675u2m?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1795845145",
           "price": 129,
-          "format": "SD"
-        },
-        {
-          "name": "Hungama Play",
-          "url": "https://www.hungama.com/movie/wolf-man/124269774/",
-          "price": 175,
           "format": "SD"
         },
         {
@@ -149289,19 +149744,26 @@
           "url": "https://www.zee5.com/movies/details/wolf-man/0-0-1z5711563",
           "price": null,
           "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.65721a72-4101-4c88-b03f-8ccdb9324a89",
+          "price": 99,
+          "format": "SD"
         }
       ],
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/wolf-man/umc.cmc.3rhygg13gk9fig66rk6675u2m?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1795845145",
-          "price": 449,
+          "url": "https://tv.apple.com/in/movie/wolf-man/umc.cmc.3rhygg13gk9fig66rk6675u2m?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1795845145",
+          "price": 399,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:46:36.661Z",
-    "trailerId": "kAw4PH2IQgo"
+    "trailerId": "kAw4PH2IQgo",
+    "checkedAt": "2026-11-02T10:30:38.872Z"
   },
   {
     "id": "watchmode:3250451",
@@ -149345,7 +149807,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:37.476Z",
-    "trailerId": "FuExDSa5-fw"
+    "trailerId": "FuExDSa5-fw",
+    "checkedAt": "2026-11-02T10:30:39.357Z"
   },
   {
     "id": "watchmode:3250053",
@@ -149390,7 +149853,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:38.353Z",
-    "trailerId": "R6e5vZpHNQQ"
+    "trailerId": "R6e5vZpHNQQ",
+    "heldAt": "2026-11-02T10:30:39.686Z"
   },
   {
     "id": "watchmode:3212199",
@@ -149430,7 +149894,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:38.884Z",
-    "trailerId": "q8Sbka8cIm0"
+    "trailerId": "q8Sbka8cIm0",
+    "checkedAt": "2026-11-02T10:30:40.006Z"
   },
   {
     "id": "watchmode:546939",
@@ -149463,14 +149928,15 @@
           "name": "Netflix",
           "url": "https://www.netflix.com/title/81457507",
           "price": null,
-          "format": "HD"
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:39.776Z",
-    "trailerId": "U8WMvCrywYg"
+    "trailerId": "U8WMvCrywYg",
+    "checkedAt": "2026-11-02T10:30:40.361Z"
   },
   {
     "id": "watchmode:3222269",
@@ -149514,7 +149980,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:40.353Z",
-    "trailerId": "ufR_08V38sQ"
+    "trailerId": "ufR_08V38sQ",
+    "checkedAt": "2026-11-02T10:30:40.778Z"
   },
   {
     "id": "watchmode:3208128",
@@ -149554,7 +150021,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:41.262Z",
-    "trailerId": "6vuppLrUGoU"
+    "trailerId": "6vuppLrUGoU",
+    "checkedAt": "2026-11-02T10:30:41.112Z"
   },
   {
     "id": "watchmode:1579811",
@@ -149594,7 +150062,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:46:42.834Z",
-    "trailerId": "1kmjAnvFw3I"
+    "trailerId": "1kmjAnvFw3I",
+    "checkedAt": "2026-11-02T10:30:41.576Z"
   },
   {
     "id": "watchmode:1700915",
@@ -149659,7 +150128,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:47:23.516Z",
-    "trailerId": "84-KAOf4OPM"
+    "trailerId": "84-KAOf4OPM",
+    "heldAt": "2026-11-02T10:30:41.937Z"
   },
   {
     "id": "watchmode:1855746",
@@ -149718,7 +150188,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:47:25.234Z",
-    "trailerId": "-8Sx6U6Ou0Q"
+    "trailerId": "-8Sx6U6Ou0Q",
+    "checkedAt": "2026-11-02T10:30:42.291Z"
   },
   {
     "id": "watchmode:1498670",
@@ -149789,7 +150260,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:47:25.972Z",
-    "trailerId": "nulvWqYUM8k"
+    "trailerId": "nulvWqYUM8k",
+    "checkedAt": "2026-11-02T10:30:42.716Z"
   },
   {
     "id": "watchmode:3221473",
@@ -149819,7 +150291,7 @@
       "stream": [
         {
           "name": "Prime Video",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1d5a46f3-3bec-4f42-b86f-ea6ae2b8e99b",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.a0affb6c-8ae7-4f56-bac0-cba12fc44409",
           "price": null,
           "format": "HD"
         }
@@ -149828,7 +150300,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:26.899Z",
-    "trailerId": "37ZG9lddxto"
+    "trailerId": "37ZG9lddxto",
+    "checkedAt": "2026-11-02T10:30:43.100Z"
   },
   {
     "id": "watchmode:1690558",
@@ -149870,7 +150343,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:27.977Z",
-    "trailerId": "lOZ7BB37c48"
+    "trailerId": "lOZ7BB37c48",
+    "checkedAt": "2026-11-02T10:30:43.401Z"
   },
   {
     "id": "watchmode:3232044",
@@ -149910,7 +150384,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:28.737Z",
-    "trailerId": "Bw8ZdQpVtdU"
+    "trailerId": "Bw8ZdQpVtdU",
+    "checkedAt": "2026-11-02T10:30:44.420Z"
   },
   {
     "id": "watchmode:1784601",
@@ -149939,35 +150414,36 @@
       "stream": [],
       "rent": [
         {
-          "name": "Amazon",
-          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2ce15fdf-ff26-4d07-84ee-16c21c27bd16",
-          "price": 99,
-          "format": "SD"
-        },
-        {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/the-last-showgirl/umc.cmc.620ug23x9rfbqczoeqscs10vg?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1794669359",
-          "price": 149,
-          "format": "SD"
+          "url": "https://tv.apple.com/in/movie/the-last-showgirl/umc.cmc.620ug23x9rfbqczoeqscs10vg?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1794669359",
+          "price": 129,
+          "format": "4K"
         },
         {
           "name": "Zee5",
           "url": "https://www.zee5.com/movies/details/the-last-showgirl/0-0-1z5727775",
           "price": null,
           "format": "SD"
+        },
+        {
+          "name": "Amazon",
+          "url": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2ce15fdf-ff26-4d07-84ee-16c21c27bd16",
+          "price": 99,
+          "format": "4K"
         }
       ],
       "buy": [
         {
           "name": "AppleTV",
-          "url": "https://tv.apple.com/in/movie/the-last-showgirl/umc.cmc.620ug23x9rfbqczoeqscs10vg?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1794669359",
+          "url": "https://tv.apple.com/in/movie/the-last-showgirl/umc.cmc.620ug23x9rfbqczoeqscs10vg?at=1000l3V2&ct=app_tv&itscg=30200&playableId=tvs.sbd.9001%3A1794669359",
           "price": 199,
           "format": "SD"
         }
       ]
     },
     "updatedAt": "2026-10-02T07:47:29.301Z",
-    "trailerId": "hZDs_lLGrTU"
+    "trailerId": "hZDs_lLGrTU",
+    "checkedAt": "2026-11-02T10:30:44.823Z"
   },
   {
     "id": "watchmode:550160",
@@ -150006,7 +150482,8 @@
       "rent": [],
       "buy": []
     },
-    "updatedAt": "2026-10-02T07:47:29.957Z"
+    "updatedAt": "2026-10-02T07:47:29.957Z",
+    "checkedAt": "2026-11-02T10:30:45.162Z"
   },
   {
     "id": "watchmode:3212902",
@@ -150039,14 +150516,15 @@
           "name": "Netflix",
           "url": "https://www.netflix.com/title/81557196",
           "price": null,
-          "format": "HD"
+          "format": "4K"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:30.889Z",
-    "trailerId": "JKufPJ-JHvA"
+    "trailerId": "JKufPJ-JHvA",
+    "checkedAt": "2026-11-02T10:30:45.663Z"
   },
   {
     "id": "watchmode:1790058",
@@ -150086,7 +150564,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:31.501Z",
-    "trailerId": "d74vHvsACSs"
+    "trailerId": "d74vHvsACSs",
+    "heldAt": "2026-11-02T10:30:45.957Z"
   },
   {
     "id": "watchmode:3227742",
@@ -150121,13 +150600,20 @@
           "url": "https://www.hotstar.com/in/1271334610",
           "price": null,
           "format": "4K"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/tvshow/play/hs-1271334610",
+          "price": null,
+          "format": "SD"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:32.090Z",
-    "trailerId": "y7FvxlnRbPM"
+    "trailerId": "y7FvxlnRbPM",
+    "checkedAt": "2026-11-02T10:30:46.251Z"
   },
   {
     "id": "watchmode:1879695",
@@ -150174,7 +150660,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:47:33.199Z",
-    "trailerId": "YBwoSa3n8Yc"
+    "trailerId": "YBwoSa3n8Yc",
+    "heldAt": "2026-11-02T10:30:46.601Z"
   },
   {
     "id": "watchmode:3245634",
@@ -150213,7 +150700,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:33.959Z",
-    "trailerId": "CWv9ojmZmos"
+    "trailerId": "CWv9ojmZmos",
+    "checkedAt": "2026-11-02T10:30:46.884Z"
   },
   {
     "id": "watchmode:3192827",
@@ -150252,7 +150740,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:34.496Z",
-    "trailerId": "hvjIKMb5oSc"
+    "trailerId": "hvjIKMb5oSc",
+    "heldAt": "2026-11-02T10:30:47.192Z"
   },
   {
     "id": "watchmode:1798692",
@@ -150292,7 +150781,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:35.057Z",
-    "trailerId": "P4f9gCTLhYs"
+    "trailerId": "P4f9gCTLhYs",
+    "checkedAt": "2026-11-02T10:30:47.579Z"
   },
   {
     "id": "watchmode:1786478",
@@ -150338,7 +150828,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:35.593Z",
-    "trailerId": "yd-okasEx7M"
+    "trailerId": "yd-okasEx7M",
+    "heldAt": "2026-11-02T10:30:47.866Z"
   },
   {
     "id": "watchmode:1716823",
@@ -150377,7 +150868,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:36.102Z",
-    "trailerId": "fxEEdR2ZTDw"
+    "trailerId": "fxEEdR2ZTDw",
+    "heldAt": "2026-11-02T10:30:48.159Z"
   },
   {
     "id": "watchmode:1620791",
@@ -150416,7 +150908,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:36.642Z",
-    "trailerId": "918prRymA-U"
+    "trailerId": "918prRymA-U",
+    "checkedAt": "2026-11-02T10:30:48.457Z"
   },
   {
     "id": "watchmode:3222433",
@@ -150458,7 +150951,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:37.226Z",
-    "trailerId": "EHYcymIQ7xo"
+    "trailerId": "EHYcymIQ7xo",
+    "heldAt": "2026-11-02T10:30:48.751Z"
   },
   {
     "id": "watchmode:2776631",
@@ -150498,7 +150992,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:37.786Z",
-    "trailerId": "pPZaOB4ea-0"
+    "trailerId": "pPZaOB4ea-0",
+    "checkedAt": "2026-11-02T10:30:49.053Z"
   },
   {
     "id": "watchmode:1637073",
@@ -150559,7 +151054,8 @@
       ]
     },
     "updatedAt": "2026-10-02T07:47:38.949Z",
-    "trailerId": "gCUg6Td5fgQ"
+    "trailerId": "gCUg6Td5fgQ",
+    "heldAt": "2026-11-02T10:30:49.459Z"
   },
   {
     "id": "watchmode:3185899",
@@ -150594,13 +151090,20 @@
           "url": "https://www.hotstar.com/in/1271325182",
           "price": null,
           "format": "4K"
+        },
+        {
+          "name": "VI movies and tv",
+          "url": "https://moviesandtv.myvi.in/tvshow/play/hs-1271325182",
+          "price": null,
+          "format": "SD"
         }
       ],
       "rent": [],
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:40.283Z",
-    "trailerId": "a6voXgBlmpk"
+    "trailerId": "a6voXgBlmpk",
+    "checkedAt": "2026-11-02T10:30:49.777Z"
   },
   {
     "id": "watchmode:3221130",
@@ -150640,7 +151143,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:41.027Z",
-    "trailerId": "pAxMy31nffA"
+    "trailerId": "pAxMy31nffA",
+    "checkedAt": "2026-11-02T10:30:50.203Z"
   },
   {
     "id": "watchmode:3248103",
@@ -150686,7 +151190,8 @@
       "buy": []
     },
     "updatedAt": "2026-10-02T07:47:42.219Z",
-    "trailerId": "qC5do3V0ulU"
+    "trailerId": "qC5do3V0ulU",
+    "checkedAt": "2026-11-02T10:30:50.492Z"
   },
   {
     "id": "watchmode:1645698",
@@ -150746,6 +151251,7 @@
       ]
     },
     "updatedAt": "2026-10-02T07:47:43.495Z",
-    "trailerId": "f2i5ku0ENMs"
+    "trailerId": "f2i5ku0ENMs",
+    "checkedAt": "2026-11-02T10:30:50.804Z"
   }
 ]
